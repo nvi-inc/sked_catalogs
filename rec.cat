@@ -1,0 +1,436 @@
+* REC.CAT - recording modes 
+*
+* This catalog specifies all the details of the recording mode used
+* by each station: head positions, track assignments, recording 
+* format, and barrel roll.
+*
+* 051014 nrv Revised version with only the in-use modes.
+* 051015 nrv Add documentation of fields. Add 14-channel modes.
+* 051201 nrv Change 14-channel modes to use Mode C head positions.
+* 060117 JMG Added Seshan to 28-14 (for R4)
+* 060501 JMG Added 32-8-2-2 for DBE testing
+* 060504 JMG Name of "PARKES" was changed to PARKES64
+* 061031 JMG Boo! Happy halloween! Added SYOWA to 32-16-2-1 mode.
+*            Put in 14 channel intensive
+* 061220 JMG Added Svetloe to new intensive
+* 070215 JMG Added Matera, Medicina, Metshaovi to R&D Mode 64-16-2-2
+*            Made Matera have two headstacks
+* 070220 JMG Added BADARY to R4 mode
+* 070723 JMG Added 32-16-2-2 for 512MB R&D mode.
+* 071018 JMG Added Zelen to 32-16-2-2
+* 2008May12  JMG. Added Zelen to 64-16-2-2 
+* 2008Jun09 JMG.  Added AIRA, CHICHI10 SINTOTU3
+* 2008Jun09 JMG. updated PARKES since now Mark5
+* 2008Jun20 JMG. Removed YEBES, added YEBES40M 
+* 2008Sep26 JMG. Added Ohigins , Parkes, Syowa SESHAN25 to 32-16-2-2 
+* 2009Sep09 JMG. Added new RDV mode for 2 -bit sampling.
+* 2009Sep14 JMG. Got rid of barrel rolling for RDV modes
+* 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
+*
+*******************************************************************
+* Fields:
+* group name - Name of the recording mode, as referenced in modes.cat.
+*              Max 16 characters. Group name is generally of the form: 
+*              tracks-channels-fanout-bits or tracks=chan x fan x bits. 
+*              Every station that can record within this group is listed. 
+* Notes:
+* 1-bit and 2-bit modes require different groups because
+* the track assignment references will be different.
+*
+* Station lines begin with "-" to indicate a continuation of this group.
+* station name - antenna name as found in antenna.cat, max 8 char.
+* head pos - name of head position group as found in hdpos.cat.
+*            This is largely unused now, but is needed for stations
+*            that are still recording on tape.
+* track assg - name of track assignment group as found in tracks.cat.
+*              Track assignment group names include the channels, 
+*              fanout, and bits. The track assignment group name is 
+*              the MkIII mode (e.g. mode C) for stations that have 
+*              MkIIIA tape recorders. (Mk4 tape recorders can record 
+*              fanout modes.)
+* rec. format - recording format for this station. Choices are:
+*                 VLBA - the non-data replacement (NDR) format
+*                 Mk34 - the data replacement format
+*               Generally, use VLBA for stations with VLBA formatters,
+*               use Mk34 for stations with Mk4 and VLBA4 formatters 
+*               [check with Ed].
+* barrel roll - type of barrel roll to use for this station. Choices are:
+*                 none - default. Use none for MkIII tape stations.
+*                 16   - for stations recording in Mk34 format
+*                 16:1 - for stations recording in VLBA format
+*                 8:1  - for stations recording in VLBA format that do
+*                     not have a certain formatter board (only GILCREEK) 
+*             Barrel roll is not used in disk recording, but is
+*             necessary for stations recording on tape with Mk4 or
+*             VLBA or VLBA4 recorders. Barrel roll for disk recording
+*             is ignored by drudg, so it is safe practice to include
+*             it on this line.
+* max bw - Maximum channel bandwidth for this station. Default is to 
+*          use the bandwidth specified in modes.cat. If the station's
+*          maximum bandwidth is smaller than the modes.cat value, use
+*          the station max for all channels. If the station's maximum
+*          bandwidth is larger than the modes.cat value, use the
+*          modes.cat value. In all cases for all stations, the channel 
+*          sample rate in modes.cat is used.
+* 
+*******************************************************************
+*Group name is MAX 8 characters!
+*Group   Station    head pos     track assg  rec.    barrel  max bw
+*name    name       hdpos.cat    tracks.cat format   roll 
+*        max 8 char max 8 char  max 4 char  default  default  default in
+*                                            Mk34     none  modes.cat
+*******************************************************************
+*
+* 32 tracks, 8 USB channels fanned out 1:4, 1-bit sampling. 
+* Used for RDV sessions. 
+ 32-8-4-1
+ -       ALGOPARK   MK3V-A       8U-4-1   Mk34 
+ -       BADARY     MK3V-A       8U-4-1   Mk34 
+ -       GILCREEK   MK3A-A       8U-4-1   VLBA 
+ -       HARTRAO    MK3V-A       8U-4-1   Mk34 
+ -       HOBART26   MK3V-A       8U-4-1   Mk34 
+ -       KASHIM34   MK3V-A       8U-4-1   Mk34 
+ -       KOKEE      MK3V-A       8U-4-1   Mk34 
+ -       ORION_5M   MK3V-A       8U-4-1   Mk34 
+ -       ONSALA60   MK3V-A       8U-4-1   Mk34 
+ -       MATERA     MK3V-A       8U-4-1   Mk34 
+ -       MEDICINA   MK3V-A       8U-4-1   Mk34 
+ -       NOTO       MK3V-A       8U-4-1   Mk34 
+ -       NRAO20     MK3V-A       8U-4-1   VLBA 
+ -       GBT_VLBA   MK3V-A       8U-4-1   VLBA 
+ -       NYALES20   MK3V-A       8U-4-1   Mk34 
+ -       PARKES64   MK3V-A       8U-4-1   Mk34 
+*-       SESHAN25   MK3V-A       8U-4-1   VLBA 
+ -       SVETLOE    MK3V-A       8U-4-1   Mk34 
+ -       TIGO       MK3V-A       8U-4-1   Mk34 
+ -       TSUKUB32   MK3V-A       8U-4-1   Mk34 
+ -       URUMQI     MK3V-A       8U-4-1   Mk34 
+ -       YEBES40M   MK3V-A       8U-4-1   Mk34 
+ -       WESTFORD   MK3V-A       8U-4-1   Mk34 
+ -       WETTZELL   MK3V-A       8U-4-1   Mk34 
+ -       ZELENCHK   MK3V-A       8U-4-1   Mk34 
+ -       BR-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       FD-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       HN-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       KP-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       LA-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       MK-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       NL-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       OV-VLBA    MK3V-A       8U-4-1   VLBA 
+ -       PIETOWN    MK3V-A       8U-4-1   VLBA 
+ -       SC-VLBA    MK3V-A       8U-4-1   VLBA
+
+* 32 tracks, 8 USB channels fanned out 1:2, 2-bit sampling.
+* Used for RDV sessions. 
+ 32-8U-2-2
+ -       ALGOPARK   MK3V-A       8U-2-2   Mk34 
+ -       BADARY     MK3V-A       8U-2-2   Mk34
+ -       GILCREEK   MK3A-A       8U-2-2   VLBA  
+ -       HARTRAO    MK3V-A       8U-2-2   Mk34 
+ -       HOBART26   MK3V-A       8U-2-2   Mk34
+ -       KASHIM34   MK3V-A       8U-2-2   Mk34 
+ -       KOKEE      MK3V-A       8U-2-2   Mk34 
+ -       ORION_5M   MK3V-A       8U-2-2   Mk34
+ -       ONSALA60   MK3V-A       8U-2-2   Mk34 
+ -       MATERA     MK3V-A       8U-2-2   Mk34 
+ -       MEDICINA   MK3V-A       8U-2-2   Mk34 
+ -       NOTO       MK3V-A       8U-2-2   Mk34 
+ -       NRAO20     MK3V-A       8U-2-2   VLBA 
+ -       GBT_VLBA   MK3V-A       8U-2-2   VLBA 
+ -       NYALES20   MK3V-A       8U-2-2   Mk34 
+ -       PARKES64   MK3V-A       8U-2-2   Mk34 
+*-       SESHAN25   MK3V-A       8U-2-2   VLBA 
+ -       SVETLOE    MK3V-A       8U-2-2   Mk34
+ -       TIGO       MK3V-A       8U-2-2   Mk34 
+ -       TSUKUB32   MK3V-A       8U-2-2   Mk34 
+ -       URUMQI     MK3V-A       8U-2-2   Mk34 
+ -       YEBES40M   MK3V-A       8U-2-2   Mk34 
+ -       WESTFORD   MK3V-A       8U-2-2   Mk34 
+ -       WETTZELL   MK3V-A       8U-2-2   Mk34 
+ -       ZELENCHK   MK3V-A       8U-2-2   Mk34
+ -       BR-VLBA    MK3V-A       8U-2-2   VLBA
+ -       FD-VLBA    MK3V-A       8U-2-2   VLBA
+ -       HN-VLBA    MK3V-A       8U-2-2   VLBA
+ -       KP-VLBA    MK3V-A       8U-2-2   VLBA
+ -       LA-VLBA    MK3V-A       8U-2-2   VLBA
+ -       MK-VLBA    MK3V-A       8U-2-2   VLBA
+ -       NL-VLBA    MK3V-A       8U-2-2   VLBA
+ -       OV-VLBA    MK3V-A       8U-2-2   VLBA
+ -       PIETOWN    MK3V-A       8U-2-2   VLBA
+ -       SC-VLBA    MK3V-A       8U-2-2   VLBA
+*******************************************************************
+* 32 tracks, 16 channels fanned out 1:2, 1-bit sampling. 
+* Use Mode C for MkIII stations, recording 14 channels. 
+* Used for R1 (256), R4 (56 or 112) that record wideband and have 
+* Seshan recording 9 channels. (See 32-16-2-1-S8 for narrowband.)
+ 32-16-2-1
+ -       AIRA       MK3V-A      14U2L-2-1  Mk34
+ -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
+ -       BADARY     MK3V-A      14U2L-2-1  Mk34  16
+ -       ARIES_9M   MK3A-C         C       Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-2-1  Mk34
+ -       CRIMEA     MK3A-C         C       Mk34  none   4
+ -       CTVA       MK3V-A      14U2L-2-1  Mk34
+ -       DSS45      MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS65A     MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS15      MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS13      MK3V-A      14U2L-2-1  Mk34  16
+ -       EFLSBERG   MK3V-A      14U2L-2-1  Mk34  16  
+ -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
+ -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
+ -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
+ -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  16
+ -       HOBART26   MK3V-A      14U2L-2-1  Mk34
+ -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
+ -       KOKEE      MK3V-A      14U2L-2-1  Mk34 16
+ -       MATERA     MK3V-A      14U2L-2-1  Mk34  16
+ -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  16
+ -       NOTO       MK3V-A      14U2L-2-1  Mk34  16
+ -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
+ -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NYALES20   MK3V-A      14U2L-2-1  Mk34  16
+ -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  16
+ -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  16
+ -       PARKES64   MK3V-A      14U2L-2-1  Mk34  16
+ -       SESHAN25   MK3V-A      14U2L-2-1  Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1  Mk34
+ -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  16
+ -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  16
+ -       TIGO       MK3V-A      14U2L-2-1  Mk34  16
+ -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
+ -       URUMQI     MK3V-A      14U2L-2-1  Mk34  16
+ -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
+ -       VERAMZSW   MK3V-A      14U2L-2-1  Mk34
+ -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  16
+ -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  16
+ -       YEBES40M   MK3V-A      14U2L-2-1  Mk34  16
+ -       ZELENCHK   MK3V-A      14U2L-2-1  Mk34  16
+ -       ATCA       MK3V-A      14U2L-2-1  Mk34  16
+ -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  16
+ -       MOPRA      MK3V-A      14U2L-2-1  Mk34  16
+*******************************************************************
+* 16 tracks, 16 channels fanned out 1:1, 1-bit sampling.
+* Use Mode C for MkIII stations, recording 14 channels. 
+* Used for R1 (256), R4 (56 or 112) that record wideband and have 
+* Seshan recording 9 channels. (See 32-16-2-1-S8 for narrowband.)
+ 16-16-1-1
+ -       ALGOPARK   MK3V-A      14U2L-1-1  Mk34
+ -       BADARY     MK3V-A      14U2L-1-1  Mk34  16
+ -       CTVA       MK3V-A      14U2L-1-1  Mk34
+ -       ARIES_9M   MK3A-C         C       Mk34  none   4
+ -       CRIMEA     MK3A-C         C       Mk34  none   4
+ -       DSS65A     MK3V-A      14U2L-1-1  Mk34  16
+ -       DSS45      MK3V-A      14U2L-1-1  Mk34  16
+ -       TIDBIN64   MK3V-A      14U2L-1-1  Mk34  16
+ -       DSS15      MK3V-A      14U2L-1-1  Mk34  16
+ -       DSS13      MK3V-A      14U2L-1-1  Mk34  16
+ -       EFLSBERG   MK3V-A      14U2L-1-1  Mk34  16  
+ -       FORTLEZA   MK3V-A      14U2L-1-1  Mk34  none  
+ -       GILCREEK   MK3A-A      14U2L-1-1  VLBA   8:1
+ -       GOLDVENU   MK3V-A      14U2L-1-1  Mk34
+ -       HARTRAO    MK3V-A      14U2L-1-1  Mk34  16
+ -       HOBART26   MK3V-A      14U2L-1-1  Mk34
+ -       KASHIM34   MK3A-A      14U2L-1-1  Mk34
+ -       KOKEE      MK3V-A      14U2L-1-1  Mk34 16
+ -       MATERA     MK3V-A      14U2L-1-1  Mk34  16
+ -       MEDICINA   MK3V-A      14U2L-1-1  Mk34  16
+ -       NOTO       MK3V-A      14U2L-1-1  Mk34  16
+ -       METSAHOV   MK3V-A      14U2L-1-1  VLBA 
+ -       NRAO20     MK3V-A      14U2L-1-1  VLBA 16:1
+ -       NYALES20   MK3V-A      14U2L-1-1  Mk34  16
+ -       OHIGGINS   MK3V-A      14U2L-1-1  Mk34
+ -       ONSALA60   MK3V-A      14U2L-1-1  Mk34  16
+ -       ORION_5M   MK3V-A      14U2L-1-1  Mk34  16
+ -       PARKES64   MK3A-C         C       Mk34   none  4
+ -       SESHAN25   MK3V-A      14U2L-1-1  Mk34
+ -       SYOWA      MK3V-A      14U2L-1-1  Mk34
+ -       SVETLOE    MK3V-A      14U2L-1-1  Mk34  16
+ -       TIGO       MK3V-A      14U2L-1-1  Mk34  16
+ -       TSUKUB32   MK3V-A      14U2L-1-1  Mk34
+ -       URUMQI     MK3V-A      14U2L-1-1  Mk34  16
+ -       WESTFORD   MK3V-A      14U2L-1-1  Mk34  16
+ -       WETTZELL   MK3V-A      14U2L-1-1  Mk34  16
+ -       YEBES40M   MK3V-A      14U2L-1-1  Mk34  16
+ -       ZELENCHK   MK3V-A      14U2L-1-1  Mk34  16
+*
+*******************************************************************
+* 32 tracks, 16 channels fanned out 1:2, 1-bit sampling. 
+* Use Mode C for MkIII stations, recording 14 channels. 
+* Used for T2 (128) or session that record narrowband and have 
+* Seshan recording 8 channels. (See 32-16-2-1 for wideband.)
+ 32-16-2-1-S8
+ -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
+ -       CTVA       MK3V-A      14U2L-2-1  Mk34
+ -       ARIES_9M   MK3A-C         C       Mk34  none   4
+ -       CRIMEA     MK3A-C         C       Mk34  none   4
+ -       DSS65A     MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS45      MK3V-A      14U2L-2-1  Mk34  16
+ -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS15      MK3V-A      14U2L-2-1  Mk34  16
+ -       DSS13      MK3V-A      14U2L-2-1  Mk34  16
+ -       EFLSBERG   MK3V-A      14U2L-2-1  Mk34  16 
+ -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none  
+ -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
+ -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
+ -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  16
+ -       HOBART26   MK3V-A      14U2L-2-1  Mk34
+ -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
+ -       KOKEE      MK3V-A      14U2L-2-1  Mk34  16
+ -       MATERA     MK3V-A      14U2L-2-1  Mk34  16
+ -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  16
+ -       NOTO       MK3V-A      14U2L-2-1  Mk34  16
+ -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
+ -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NYALES20   MK3V-A      14U2L-2-1  Mk34  16
+ -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  16
+ -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  16
+ -       PARKES64   MK3A-C         C       Mk34   none  4
+ -       SESHAN25   MK3V-A      8U-1-1S    Mk34  none
+ -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  16
+ -       TIGO       MK3V-A      14U2L-2-1  Mk34  16
+ -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
+ -       URUMQI     MK3V-A      14U2L-2-1  Mk34  16
+ -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  16
+ -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  16
+ -       YEBES40M   MK3V-A      14U2L-2-1  Mk34  16
+ -       ZELENCHK   MK3V-A      14U2L-2-1  Mk34  16
+*******************************************************************
+* 28 tracks 14 channels for the intensives.
+* Put in so that when we selectect intenstives are consistent with
+* pre 2006Oct31 schedules.
+28-14I
+-       KOKEE      MK3V-A      14U-2-1  Mk34 
+-       WETTZELL   MK3V-A      14U-2-1  Mk34 
+-       NYALES20   MK3V-A      14U-2-1  Mk34 
+-       SVETLOE    MK3V-A      14U-2-1  Mk34 
+*******************************************************************
+* 28 tracks, 14 channels recorded using Mode C. 
+* Used for R4 (56 or 112).
+ 28-14-2-1
+ -       ALGOPARK   MK3V-C         C        Mk34
+ -       ARIES_9M   MK3A-C         C        Mk34
+ -       CRIMEA     MK3A-C         C        Mk34
+ -       DSS15      MK3V-C         C        Mk34
+ -       FORTLEZA   MK3V-C         C        Mk34
+ -       GILCREEK   MK3A-C         C        VLBA
+ -       HARTRAO    MK3V-C         C        Mk34
+ -       HOBART26   MK3V-C         C        Mk34
+ -       KASHIM34   MK3A-C         C        Mk34
+ -       KOKEE      MK3V-C         C        Mk34
+ -       MATERA     MK3V-C         C        Mk34
+ -       MEDICINA   MK3V-C         C        Mk34
+ -       NOTO       MK3V-C         C        Mk34
+ -       NYALES20   MK3V-C         C        Mk34
+ -       OHIGGINS   MK3V-C         C        Mk34
+ -       ONSALA60   MK3V-C         C        Mk34
+ -       PARKES64   MK3A-C         C        Mk34
+ -       SESHAN25   MK3V-A      14U-2-1     Mk34
+* -       SESHAN25   MK3V-A      8U-1-1S-R4  MK34
+ -       SVETLOE    MK3V-C         C        Mk34
+ -       TIGO       MK3V-C         C        Mk34
+ -       TSUKUB32   MK3V-C         C        Mk34
+ -       URUMQI     MK3V-C         C        Mk34
+ -       WESTFORD   MK3V-C         C        Mk34
+ -       WETTZELL   MK3V-C         C        Mk34
+ -       ZELENCHK   MK3V-C         C        Mk34
+*******************************************************************
+* Gbit mode, 2 headstacks, 2-bit sampling, 16 USB channels.
+* Used for R&D.
+ 64-16-2-2
+ -       ALGOPARK   MK4-A      14U2L-2-2 Mk34
+ -       FORTLEZA   MK4-A      14U2L-2-2 Mk34
+ -       GILCREEK   MK4-A      14U2L-2-2 Mk34 
+ -       HOBART26   MK4-A      14U2L-2-2 Mk34
+ -       HARTRAO    MK4-A      14U2L-2-2 Mk34
+ -       KOKEE      MK4-A      14U2L-2-2 Mk34 
+ -       ONSALA60   MK4-A      14U2L-2-2 Mk34
+ -       ORION_5M   MK4-A      14U2L-2-2 Mk34
+ -       MATERA     MK4-A      14U2L-2-2 Mk34 
+ -       MEDICINA   MK4-A      14U2L-2-2 Mk34 
+ -       METSAHOV   MK4-A      14U2L-2-2 VLBA 
+ -       NYALES20   MK4-A      14U2L-2-2 Mk34
+ -       SVETLOE    MK4-A      14U2L-2-2 Mk34
+ -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
+ -       TIGO       MK4-A      14U2L-2-2 Mk34
+ -       ZELENCHK   MK4-A      14U2L-2-2 Mk34 
+ -       WESTFORD   MK4-A      14U2L-2-2 Mk34
+ -       WETTZELL   MK4-A      14U2L-2-2 Mk34
+*******************************************************************
+* 512Mbit  mode, 2 headstacks, 2-bit sampling, 16 USB channels.
+* Used for R&D.
+ 32-16-2-2
+ -       ALGOPARK   MK4-A      14U2L-2-2 Mk34
+ -       BADARY     MK4-A      14U2L-2-2 Mk34
+ -       FORTLEZA   MK4-A      14U2L-2-2 Mk34
+ -       GILCREEK   MK4-A      14U2L-2-2 Mk34
+ -       HOBART26   MK4-A      14U2L-2-2 Mk34
+ -       HARTRAO    MK4-A      14U2L-2-2 Mk34
+ -       KOKEE      MK4-A      14U2L-2-2 Mk34
+ -       MATERA     MK4-A      14U2L-2-2 Mk34
+ -       MEDICINA   MK4-A      14U2L-2-2 Mk34
+ -       METSAHOV   MK4-A      14U2L-2-2 VLBA
+ -       OHIGGINS   MK4-A      14U2L-2-2 Mk34
+ -       ONSALA60   MK4-A      14U2L-2-2 Mk34
+ -       ORION_5M   MK4-A      14U2L-2-2 Mk34
+ -       NYALES20   MK4-A      14U2L-2-2 Mk34
+ -       PARKES64   MK4-A      14U2L-2-2 Mk34
+ -       SESHAN25   MK4-A      14U2L-2-2 Mk34
+ -       SVETLOE    MK4-A      14U2L-2-2 Mk34
+ -       SYOWA      MK4-A      14U2L-2-2 Mk34
+ -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
+ -       TIGO       MK4-A      14U2L-2-2 Mk34
+ -       WESTFORD   MK4-A      14U2L-2-2 Mk34
+ -       WETTZELL   MK4-A      14U2L-2-2 Mk34
+ -       ZELENCHK   MK4-A      14U2L-2-2 Mk34
+*******************************************************************
+* 2-bit sampling, 8 USB and LSB channels, 1:1 fanout, 32 tracks.
+* Used for iGRID real-time demo.
+* Also for patrick Charlot
+*                   HeadPos     Tracks    Rec_format
+ 32-16-1-2
+ -       WESTFORD   MK3V-A      8U8L-1-2    Mk34
+ -       WSTRBORK   MK3V-A      8U8L-1-2    Mk34
+ -       ORION_5M   MK3V-A      8U8L-1-2    Mk34
+ -       ONSALA60   MK3V-A      8U8L-1-2    Mk34
+ -       KASHIM34   MK3V-A      8U8L-1-2    Mk34
+ * New
+ -       MEDICINA   MK3V-A      8U8L-1-2    Mk34
+ -       NOTO       MK3V-A      8U8L-1-2    Mk34
+ -       EFLSBERG   MK3V-A      8U8L-1-2    Mk34
+ -       HARTRAO    MK3V-A      8U8L-1-2    Mk34
+ -       DSS65A     MK3V-A      8U8L-1-2    Mk34
+ * VLBA
+ -       BR-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       FD-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       HN-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       KP-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       LA-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       MK-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       NL-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       OV-VLBA    MK3V-A      8U8L-1-2  VLBA
+ -       PIETOWN    MK3V-A      8U8L-1-2  VLBA
+ -       SC-VLBA    MK3V-A      8U8L-1-2  VLBA 
+******************************************************************
+* DBE test. 
+* 4 channels, 4USB and 4LSB,  2 bit sampling, 2:1 fanout
+32-4U+4L-2-2
+ -       WESTFORD   MK3V-A      4U4L-2-2    Mk34
+ -       ORION_5M   MK3V-A      4U4L-2-2    Mk34
+ *****************************************************************
+ * Australian K-band fringe test
+*Group   Station    head pos     track assg  rec.    barrel  max bw
+*name    name       hdpos.cat    tracks.cat format   roll 
+ 32-2-1-1
+ -       ATCA       MK3V-A      2U-1-1    Mk34
+ -       CEDUNA     MK3V-A      2U-1-1    Mk34
+ -       MOPRA      MK3V-A      2U-1-1    Mk34
+ -       HOBART26   MK3V-A      2U-1-1    Mk34
+ -       PARKES64   MK3V-A      2U-1-1    Mk34
+
+
+
+
+
