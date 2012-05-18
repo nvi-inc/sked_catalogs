@@ -1,29 +1,18 @@
-* VERSION 2019Sep26_iGSFC
+* VERSION 2012MAY18
+* CATALOG freq.cat 
 * FREQ.CAT - frequency sequences
-*
-* Changes now with most recent at the top.
-* 2019Sep26 JMG. Modified GEOSX Channel 7 8912.99-->8892.99. Reason is when using 16MHZ BW, Last two channels had overlap
-* 2019Jun04 JMG. Changed RDV S-band frequency sequences to 2232.75 2262.75 2372.75 2392.75 (from 2232.75 2262.75 2352.75 2372.75)
-* 2018Aug10 JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
-* 2018Jul10 JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
-* 2018Jan03 KLB. Added new sequence for narrowband 8MHz bw - CDP- XXN
-* 2015 Mar15 Lucia: DVP- XX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
-* 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
-* 2014Feb05 JMG  Changed LOIF sequence for RDV from VG_STD to VLBA_RV
-* 2014Jan16 JMG  Changed RDV frequency per email David Gordon 2014Jan15
-* 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
 *
 * 050709 nrv Add alternate BBC assignments for Zc in VG.
 * 050709 nrv Remove duplicate GEOSX sequences.
 * 050802 nrv Add 8-channel Seshan to wideband.
-* 050811 nrv Add 8-channel Seshan to CDP- XX.
+* 050811 nrv Add 8-channel Seshan to CDP-SX.
 * 050916 nrv Add 8-chan X-band for IGRID RT demo, per M. Titus.
 * 050925 nrv Update 8-channel Seshan sequences.
 * 051004 nrv Update 8-channel Seshan sequences.
 * 051007 nrv Change 8-chan Seshan sequences to use BBC 1-8.
 * 051011 nrv Add non-recording BBCs to RDV sequence VGEOSX.
 * 051129 nrv Change SESHAN reference to SX_WIDE and SX_STD.
-* 060501 jmg Added DBE- S4 for Digital Back End Test
+* 060501 jmg Added DBE-X4 for Digital Back End Test
 * 060511 JMG ADDED K-ATNF for Australian Frequency test.
 * 061016 JMG Changed to make R1 S-band sequence same as R&D
 * 2006Oct31 JMG  GEOSXR4 modified for Seshan.
@@ -61,7 +50,7 @@
 ********************************************************
 * Standard CDP narrow-band sequence.
 * X 360 MHz, S 85 MHz.
- CDP- XX SX STD  SX_STD   
+ CDP-SX SX STD  SX_STD   
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -76,26 +65,9 @@
 - S    R   2267.99  U   CH12    12   10000.0
 - S    R   2292.99  U   CH13    13   10000.0
 - S    R   2302.99  U   CH14    14   10000.0
-* 2018Jan03
-* New narrowband sequence suitable for 8 MHz bw
- CDP- XXN SX STD SX_WIDE
-- X    R   8210.99  U   CH1     1    10000.0
-- X    R   8220.99  U   CH2     2    10000.0
-- X    R   8250.99  U   CH3     3    10000.0
-- X    R   8310.99  U   CH4     4    10000.0
-- X    R   8420.99  U   CH5     5    10000.0
-- X    R   8500.99  U   CH6     6    10000.0
-- X    R   8550.99  U   CH7     7    10000.0
-- X    R   8570.99  U   CH8     8    10000.0
-- S    R   2225.99  U   CH9     9    10000.0
-- S    R   2245.99  U   CH10    10   10000.0
-- S    R   2265.99  U   CH11    11   10000.0
-- S    R   2295.99  U   CH12    12   10000.0
-- S    R   2345.99  U   CH13    13   10000.0
-- S    R   2365.99  U   CH14    14   10000.0
 * 8-Chan subset for Seshan, per B. Corey and JMG/DSM 10/05. 
 ! Commented out cause we don't need. 
-* CDP- XX SX SESH SX_SE8N  
+* CDP-SX SX SESH SX_SE8N  
 *- X    R   8220.99  U   CH2     1    10000.0
 *- X    R   8250.99  U   CH3     2    10000.0
 *- X    R   8310.99  U   CH4     3    10000.0
@@ -106,7 +78,7 @@
 & S    R   2292.99  U   CH13    8    10000.0
 * Switched set of standard CDP narrow-band 
 * sequence for VLBA.
-* CDP- XX SX SW  VLBA_STD
+* CDP-SX SX SW  VLBA_STD
 *- X    R   8210.99  U   CH1     1    10000.0  1,2
 *- X    R   8220.99  U   CH2     2    10000.0  1
 *- X    R   8250.99  U   CH3     1    10000.0  0
@@ -123,7 +95,7 @@
 *- S    R   2302.99  U   CH14    8    10000.0  1,2
 * Standard CDP narrow-band sequence, subset of 
 * 12 BBCs for Noto, 7 at X and 5 at S.
-*CDP- XX SX NOTO  NOTO_STD   
+*CDP-SX SX NOTO  NOTO_STD   
 * X    R   8210.99  U   CH1     1    10000.0
 * X    R   8220.99  U   CH2     2    10000.0
 * X    R   8250.99  U   CH3     3    10000.0
@@ -137,7 +109,7 @@
 * S    R   2292.99  U   CH13    13   10000.0
 * S    R   2302.99  U   CH14    14   10000.0
 ********************************************************
-* Standard CDP wide-band S- S sequence. Wide X (720 MHz), 
+* Standard CDP wide-band S-X sequence. Wide X (720 MHz), 
 * wide S (125 MHz).
  CDPSX-WB WB STD  SX_WIDE   
 - X    R   8212.99  U   CH1     1    10000.0
@@ -186,7 +158,7 @@
 *- S    R   2340.99  U   CH13    7    10000.0  1
 *- S    R   2345.99  U   CH14    8    10000.0  1,2
 *********************************************************
-* Modified CDP wide-band S- S sequence. Wide X (720 MHz),
+* Modified CDP wide-band S-X sequence. Wide X (720 MHz),
 * wide S (125 MHz), shifted to avoid RFI at Matera
  CDP-WBCA WB STD  SX_WIDE   
 - X    R   8212.99  U   CH1     1    10000.0
@@ -353,7 +325,7 @@
 ********************************************************
 * Europe second sequence, narrow-band SX with different
 * S-band to avoid interference at Matera.
- EUR2-SX SX STD  SX_STD
+ EUR2-SX SX STD  SX_STD   
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -370,7 +342,7 @@
 - S    R   2292.99  U   CH14    14   10000.0
 * 8-chan subset for Seshan per B. Corey, 9/05
 * and JMG/DSM 10/05
- EUR2- XXo SX SESH  SX_SE8E  
+ EUR2-SXo SX SESH  SX_SE8E  
 - X    R   8220.99  U   CH2     1    10000.0
 - X    R   8250.99  U   CH3     2    10000.0
 - X    R   8310.99  U   CH4     3    10000.0
@@ -382,7 +354,7 @@
 * 8-chan subset for Seshan per B.Corey, unused channels indicated with
 * negative sky frequencies
 * Commented out by adding x at end of name
- EUR2- XXx SX SESH  SX_SE8  
+ EUR2-SXx SX SESH  SX_SE8  
 - X    R   -8210.99  U   CH1     9    10000.0
 - X    R    8220.99  U   CH2     1    10000.0
 - X    R    8250.99  U   CH3     2    10000.0
@@ -400,7 +372,7 @@
 ********************************************************
 * Europe sequence, narrow-band SX with shifted 
 * S-band to avoid interference.
- EUR-XX SX STD  SX_STD   
+ EUR-SX SX STD  SX_STD   
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -416,7 +388,7 @@
 - S    R   2292.99  U   CH13    13   10000.0
 - S    R   2297.99  U   CH14    14   10000.0
 * European SX Noto, 6 at X and 6 at S.
-*EUR- XX SX NOTO  NOTO_STD   
+*EUR-SX SX NOTO  NOTO_STD   
 * X    R   8210.99  U   CH1     1    10000.0
 * X    R   8220.99  U   CH2     2    10000.0
 * X    R   8310.99  U   CH4     4    10000.0
@@ -485,6 +457,7 @@
 - S    R   2220.99  U   CH5     5    10000.0
 - S    R   2240.99  U   CH6     6    10000.0
 - S    R   2330.99  U   CH7     7    10000.0
+- S    R   2360.99  U   CH8     8    10000.0
 
 ********************************************************
 * 8-channel sequence for geodetic VLBA experiments.
@@ -533,72 +506,52 @@
 * Raise S-band by 5 MHz to avoid RFI in 2320-2345 band.
 * JMG 2002Nov20. Raised 7MHz again
 * Added set-up values for non-recorded BBCs
- VGEOSX SX STD  VLBA_RV
-- X    R   8365.75  U   CH1     1    10000.0
-- X    R   8445.75  U   CH2     2    10000.0
-- X    R   8805.75  U   CH3     3    10000.0
-- X    R   8925.75  U   CH4     4    10000.0
-- S    R   2232.75  U   CH5     5    10000.0
-- S    R   2262.75  U   CH6     6    10000.0
-- S    R   2372.75  U   CH7     7    10000.0
-- S    R   2392.75  U   CH8     8    10000.0
-* S    R   2225.75  U   CH5     5    10000.0
-* S    R   2255.75  U   CH6     6    10000.0
-* S    R   2345.75  U   CH7     7    10000.0
-* S    R   2365.75  U   CH8     8    10000.0
+ VGEOSX SX STD VG_STD
+- X    R   8405.99  U   CH1     1    10000.0
+- X    R   8475.99  U   CH2     2    10000.0
+- X    R   8790.99  U   CH3     3    10000.0
+- X    R   8895.99  U   CH4     4    10000.0
+- S    R   2232.99  U   CH5     5    10000.0
+- S    R   2262.99  U   CH6     6    10000.0
+- S    R   2352.99  U   CH7     7    10000.0
+- S    R   2372.99  U   CH8     8    10000.0
+* S    R   2225.99  U   CH5     5    10000.0
+* S    R   2255.99  U   CH6     6    10000.0
+* S    R   2345.99  U   CH7     7    10000.0
+* S    R   2365.99  U   CH8     8    10000.0
 * VC assignments for non-VLBA stations
 * includes setups for non-recorded VCs
  VGEOSX SX STD VG_MK4
-- X    R   8365.75  U   CHX   101    10000.0
-- X    R   8365.75  U   CHX   102    10000.0
-- X    R   8365.75  U   CH1     3    10000.0
-- X    R   8445.75  U   CH2     4    10000.0
-- X    R   8805.75  U   CH3     5    10000.0
-- X    R   8925.75  U   CH4     6    10000.0
-- X    R   8925.75  U   CHX   107    10000.0
-- X    R   8925.75  U   CHX   108    10000.0
-- S    R   2232.75  U   CH5     9    10000.0
-- S    R   2262.75  U   CH6    10    10000.0
-- S    R   2262.75  U   CHX   111    10000.0
-- S    R   2262.75  U   CHX   112    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
+- X    R   8405.99  U   CHX   101    10000.0
+- X    R   8405.99  U   CHX   102    10000.0
+- X    R   8405.99  U   CH1     3    10000.0
+- X    R   8475.99  U   CH2     4    10000.0
+- X    R   8790.99  U   CH3     5    10000.0
+- X    R   8895.99  U   CH4     6    10000.0
+- X    R   8895.99  U   CHX   107    10000.0
+- X    R   8895.99  U   CHX   108    10000.0
+- S    R   2232.99  U   CH5     9    10000.0
+- S    R   2262.99  U   CH6    10    10000.0
+- S    R   2262.99  U   CHX   111    10000.0
+- S    R   2262.99  U   CHX   112    10000.0
+- S    R   2352.99  U   CH7    13    10000.0
+- S    R   2372.99  U   CH8    14    10000.0
 * VC assignments for ZELENCHK
  VGEOSX SX STD VG_ZC 
-- X    R   8365.75  U   CHX   101    10000.0
-- X    R   8365.75  U   CHX   102    10000.0
-- X    R   8365.75  U   CH1     3    10000.0
-- X    R   8445.75  U   CH2     4    10000.0
-- X    R   8805.75  U   CH3     5    10000.0
-- X    R   8925.75  U   CH4     6    10000.0
-- X    R   8925.75  U   CHX   107    10000.0
-- X    R   8925.75  U   CHX   108    10000.0
-- S    R   2232.75  U   CH5     9    10000.0
-- S    R   2262.75  U   CHX   110    10000.0
-- S    R   2262.75  U   CHX   111    10000.0
-- S    R   2262.75  U   CH6    12    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
-* 
-* 16-Channel 2GB VGOS Mode
-*
- 2GB-VLBA SX 2GBV VG_2GB
- - S   R 2220.00 U   CH01  1  10000.0
- - S   R 2252.00 U   CH02  2  10000.0
- - S   R 2284.00 U   CH03  3  10000.0
- - S   R 2348.00 U   CH04  4  10000.0
- - X   R 8460.00 L   CH05  5  10000.0
- - X   R 8492.00 L   CH06  6  10000.0
- - X   R 8524.00 L   CH07  7  10000.0
- - X   R 8556.00 L   CH08  8  10000.0
- - X   R 8620.00 L   CH09  9  10000.0
- - X   R 8652.00 L   CH10 10  10000.0
- - X   R 8716.00 L   CH11 11  10000.0
- - X   R 8748.00 L   CH12 12  10000.0
- - X   R 8812.00 L   CH13 13  10000.0
- - X   R 8844.00 L   CH14 14  10000.0
- - X   R 8876.00 L   CH15 15  10000.0
- - X   R 8908.00 L   CH16 16  10000.0
+- X    R   8405.99  U   CHX   101    10000.0
+- X    R   8405.99  U   CHX   102    10000.0
+- X    R   8405.99  U   CH1     3    10000.0
+- X    R   8475.99  U   CH2     4    10000.0
+- X    R   8790.99  U   CH3     5    10000.0
+- X    R   8895.99  U   CH4     6    10000.0
+- X    R   8895.99  U   CHX   107    10000.0
+- X    R   8895.99  U   CHX   108    10000.0
+- S    R   2232.99  U   CH5     9    10000.0
+- S    R   2262.99  U   CHX   110    10000.0
+- S    R   2262.99  U   CHX   111    10000.0
+- S    R   2262.99  U   CH6    12    10000.0
+- S    R   2352.99  U   CH7    13    10000.0
+- S    R   2372.99  U   CH8    14    10000.0
 ******************************************************
 * 8-channel sequence for Patrick Charlot.
 * Based on VGEOSX.
@@ -720,7 +673,6 @@
 - S    R   2344.99  U   CH13    13   10000.0
 - S    R   2352.99  U   CH14    14   10000.0
 * New (16Oct2006) S-band sequence
-* New 2019Sep26. Channel 7 8912.99-->8892.99 
  GEOSX   SX STD SX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
 - X    R   8252.99  U   CH2     2    10000.0
@@ -728,7 +680,7 @@
 - X    R   8512.99  U   CH4     4    10000.0
 - X    R   8732.99  U   CH5     5    10000.0
 - X    R   8852.99  U   CH6     6    10000.0
-- X    R   8892.99  U   CH7     7    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
 - X    R   8932.99  U   CH8     8    10000.0
 - S    R   2225.99  U   CH9     9    10000.0
 - S    R   2245.99  U   CH10    10   10000.0
@@ -736,25 +688,7 @@
 - S    R   2295.99  U   CH12    12   10000.0
 - S    R   2345.99  U   CH13    13   10000.0
 - S    R   2365.99  U   CH14    14   10000.0
-* K5-16KSP mode from JADE schedules  2015Feb23
- K5-16KSP   SX STD SX_STD
-- X    R   8204.99  U   CH1     1    10000.0
-- X    R   8214.99  U   CH2     2    10000.0
-- X    R   8244.99  U   CH3     3    10000.0
-- X    R   8304.99  U   CH4     4    10000.0
-- X    R   8414.99  U   CH5     5    10000.0
-- X    R   8494.99  U   CH6     6    10000.0
-- X    R   8544.99  U   CH7     7    10000.0
-- X    R   8864.99  U   CH8     8    10000.0
-- S    R   2229.99  U   CH9     9    10000.0
-- S    R   2234.99  U   CH10    10   10000.0
-- S    R   2249.99  U   CH11    11   10000.0
-- S    R   2279.99  U   CH12    12   10000.0
-- S    R   2304.99  U   CH13    13   10000.0
-- S    R   2314.99  U   CH14    14   10000.0
-
 * New sequence  at Arnos Request (07May31)
-* Modifed 2013Nov13.  2312.99 was previously 2212.99
  GEOSX4F   SX STD SX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
 - X    R   8252.99  U   CH2     2    10000.0
@@ -767,7 +701,7 @@
 - S    R   2232.99  U   CH9     9    10000.0
 - S    R   2240.99  U   CH10    10   10000.0
 - S    R   2256.99  U   CH11    11   10000.0
-- S    R   2312.99  U   CH12    12   10000.0
+- S    R   2212.99  U   CH12    12   10000.0
 - S    R   2344.99  U   CH13    13   10000.0
 - S    R   2352.99  U   CH14    14   10000.0
 * 8-channel series for Seshan 8/05. Lower 4 X-band,
@@ -870,7 +804,7 @@
 - S    L   2267.99  U   CH6     6    10000.0
 - S    R   2302.99  U   CH7     7    10000.0
 - S    L   2302.99  U   CH8     8    10000.0
-* Standard CDP wide-band S- S sequence. Subset for W1 polarization
+* Standard CDP wide-band S-X sequence. Subset for W1 polarization
 * experiment 7/96.  Wide X (720 MHz), wide S (125 MHz).
  CDP-W1   W1 STD  VLBA_PW    
 - X    R   8732.99  U   CH1     1    10000.0
@@ -881,7 +815,7 @@
 - S    L   2228.99  U   CH6     6    10000.0
 - S    R   2316.99  U   CH7     7    10000.0
 - S    L   2316.99  U   CH8     8    10000.0
-* Standard CDP wide-band S- S sequence. Subset for W2 polarization
+* Standard CDP wide-band S-X sequence. Subset for W2 polarization
 * experiment 7/96.  Wide X (720 MHz), wide S (125 MHz).
  CDP-W2   W2 STD  VLBA_PW    
 - X    R   8852.99  U   CH1     1    10000.0
@@ -892,7 +826,7 @@
 - S    L   2292.99  U   CH6     6    10000.0
 - S    R   2345.99  U   CH7     7    10000.0
 - S    L   2345.99  U   CH8     8    10000.0
-* Standard CDP S- S sequence. Subset for G1 polarization
+* Standard CDP S-X sequence. Subset for G1 polarization
 * experiment 7/96.  
  CDP-G1   G1 STD  VLBA_PN    
 - X    R   8210.99  U   CH1     1    10000.0
@@ -903,7 +837,7 @@
 - S    L   2220.99  U   CH6     6    10000.0
 - S    R   2292.99  U   CH7     7    10000.0
 - S    L   2292.99  U   CH8     8    10000.0
-* Standard CDP S- S sequence. Subset for G2 polarization
+* Standard CDP S-X sequence. Subset for G2 polarization
 * experiment 7/96.  
  CDP-G2   G2 STD  VLBA_PN    
 - X    R   8540.99  U   CH1     1    10000.0
@@ -915,7 +849,7 @@
 - S    R   2316.99  U   CH7     7    10000.0
 - S    L   2316.99  U   CH8     8    10000.0
 ********************************************************
-* Test CDP wide-band S- S sequence. Wide X (720 MHz), wide
+* Test CDP wide-band S-X sequence. Wide X (720 MHz), wide
 * S (125 MHz). Simulations with ALL stations wideband.
  CDPTS-WB WB STD  SX_WALL   
 - X    R   8212.99  U   CH1     1    10000.0
@@ -1014,7 +948,7 @@
 - X    R   8404.99  U   CH14    14   10000.0
 *********************************************
 * DSN sequence for CRF experiments
- DSN- XX SX STD  SX_DSN   
+ DSN-SX SX STD  SX_DSN   
 - X    R   8215.24  U   CH1     1    10000.0
 - X    R   8226.76  U   CH2     2    10000.0
 - X    R   8237.77  U   CH3     3    10000.0
@@ -1030,7 +964,7 @@
 - S    R   2280.23  U   CH13    13   10000.0
 - S    R   2297.76  U   CH14    14   10000.0
 ****************************************************
- MARS3- XX SX STD SX_STD
+ MARS3-SX SX STD SX_STD
 - X R  8212.99  U    CH1  1  10000.0 
 - X R  8222.99  U    CH2   2  10000.0
 - X R  8416.99  U    CH3   3  10000.0
@@ -1106,7 +1040,7 @@
 - S R 2304.99  U  CH16 16       1000.000 
 ********************************************************
 * K4 16-channel sequence taken from K4TIE2
- K4- XX K4 STD K4_STD
+ K4-SX K4 STD K4_STD
 - X R 8124.99  U   CH1 1        1000.000 
 - X R 8214.99  U   CH2 2        1000.000 
 - X R 8224.99  U   CH3 3        1000.000 
@@ -1135,7 +1069,7 @@
 - C    R   5260.99  U   CH8     8    10000.0
 ********************************************************
 * 8-channel X-only sequence for geodetic GBT ties experiments.
- VGEO- S8  XX STD XX_WIDE
+ VGEO-X8  XX STD XX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
 - X    R   8252.99  U   CH2     2    10000.0
 - X    R   8352.99  U   CH3     3    10000.0
@@ -1157,7 +1091,7 @@
 - K    R  22460.99  U   CH8     8    10000.0
 ********************************************************
 * 8-channel X-only sequence for RT IGRID demo.
- VIGR- S8  XX STD XX_STD
+ VIGR-X8  XX STD XX_STD
 - X    R   8279.99  U   CH1     1    10000.0
 - X    R   8295.99  U   CH2     2    10000.0
 - X    R   8311.99  U   CH3     3    10000.0
@@ -1168,7 +1102,7 @@
 - X    R   8391.99  U   CH8     8    10000.0
 ********************************************************
 * 4-channel X-only sequence for RT IGRID demo.
- DBE- S4  XX STD XX_DBE
+ DBE-X4  XX STD XX_DBE
 - X    R   8848.  U   CH1     1    10000.0
 - X    R   8880.  U   CH2     2    10000.0
 - X    R   8912.  U   CH3     3    10000.0
@@ -1179,38 +1113,3 @@
  K_ATNF KK    STD      KK_AT
 - K    R  22200.  U   CH1     1    10000.0
 - K    R  22328.  U   CH2     2    10000.0
-***********************************************************
-* added for DSS45 to contribute in AUSTRALs 1Gbps 
-  DVP- XX SX STD  SX_STD
-- X    R   8210.99  U   CH1     1    10000.0
-- X    R   8230.99  U   CH2     2    10000.0
-- X    R   8250.99  U   CH3     3    10000.0
-- X    R   8310.99  U   CH4     4    10000.0
-- X    R   8420.99  U   CH5     5    10000.0
-- X    R   8500.99  U   CH6     6    10000.0
-- X    R   8550.99  U   CH7     7    10000.0
-- X    R   8570.99  U   CH8     8    10000.0
-- S    R   2216.99  U   CH9     9    10000.0
-- S    R   2232.99  U   CH10    10   10000.0
-- S    R   2248.99  U   CH11    11   10000.0
-- S    R   2264.99  U   CH12    12   10000.0
-- S    R   2280.99  U   CH13    13   10000.0
-- S    R   2296.99  U   CH14    14   10000.0
-********************************************************
-* AOV for narrow-band
- AOVSX8N SX STD  SX_STD
-- X    R   8208.99  U   CH1     1    10000.000 
-- X    R   8218.99  U   CH2     2    10000.000 
-- X    R   8248.99  U   CH3     3    10000.000 
-- X    R   8308.99  U   CH4     4    10000.000 
-- X    R   8418.99  U   CH5     5    10000.000 
-- X    R   8498.99  U   CH6     6    10000.000 
-- X    R   8548.99  U   CH7     7    10000.000 
-- X    R   8568.99  U   CH8     8    10000.000 
-- S    R   2213.99  U   CH9     9    10000.000 
-- S    R   2228.99  U   CH10    10   10000.000 
-- S    R   2238.99  U   CH11    11   10000.000 
-- S    R   2268.99  U   CH12    12   10000.000 
-- S    R   2288.99  U   CH13    13   10000.000 
-- S    R   2293.99  U   CH14    14   10000.000 
-********************************************************
