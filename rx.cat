@@ -1,13 +1,11 @@
-* VERSION 2012Nov16
+*
+* VERSION 2012Oct09
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+*
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
-
-* Updates now in descending order
-* 12Nov16  JMG.  Changed point for LOs for URUMQI
-*
 *
 * 960117 nrv Change to CDP_STD_N for stations that are still narrowband
 *            Now CDP_STD means a wideband receiver.
@@ -148,7 +146,7 @@
  -       WARK12M     CDP_STD
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
- -       YARRA12M    CDP_STD
+ -       YARRA12M    CDP_STDe e
  -       YEBES40M    YEB_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
@@ -255,7 +253,7 @@
  -       TIGO        CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
- -       URUMQI      CDP_STDU
+ -       URUMQI      CDP_WIDE
  -       VERAISGK    TSU_WIDE
  -       VERAMZSW    TSU_WIDE
  -       WARK12M     DBBC_AU
