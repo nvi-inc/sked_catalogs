@@ -1,4 +1,4 @@
-* VERSION 2012OCT04
+* VERSION 2012OCT26
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
 *
@@ -253,6 +253,7 @@
 * 120510 JMG Updated a bucnch of stations based on email from Rich and Ed.
 * 120907 JMG updated all stations that we know are Mark5B.
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
+* 121026 JMG Added terminal info to SYOWA. Somehow this disappeared.
 *
 *
 * NOTE: Multiple equipment lines may appear for the same antenna name,
@@ -445,8 +446,8 @@
  SVETLOE    SV  S2-SVET    SLP      361   X   400   S   600 none S2
 *SYOWA10    SY  SYOWA-K4 1x56000  99999   X 11230   S  5300
 *SYOWA      SY  SYOWA-K4 1x56000  99999   X 11230   S  5300
-*SYOWA      SY  SYOWA-K4 1x56000  99999   X 11230   S  7500
- SYOWA      SY  SYOWA-K4    2     99999   X 11230   S  7500 
+*SYOWA      SY  SYOWA-K4 1x56000  99999   X 11230   S  7500 
+ SYOWA      SY  SYOWA-K4    2     99999   X 11230   S  7500 K4-1 K5 
  TAHITI     TH  TAHITI   1x56000  17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723
  TATEYAMA   Ty  K4-TATEY    1       200   X  4500   S  4500 K4-2 K5 
 *TIGO       70  TIGO      1x56000 17640   X  7000   S 30000 VLBA4 MARK5A
