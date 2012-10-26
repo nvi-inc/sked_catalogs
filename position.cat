@@ -1,9 +1,12 @@
-* VERSION 2012SEP25
+* VERSION 2012Oct26
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  Dirk.Behrend@nasa.gov   *
 ***************************************************************
+* Changed the order so that most recent changes are at the top
+* 2012Oct26  JMG.  Put in position of HART15M for R4554.
+*
 *
 * Last update: 
 * 940126 NRV New positions from GLB914F1
@@ -296,7 +299,7 @@
  Zc ZELENCHK  3451207.6799   3060375.3155   4391914.9687    73810000 318.43   43.79 from Zinovy
  Bd BADARY    -838200.7285   3865751.5823   4987670.9615    00000000 257.76   51.77 From Andre Mikhalov
  Hh HARTRAO   5085442.77838  2668263.49215 -2768697.04037   72326201 332.31  -25.89 GLB1069
- Ht HART15M   5085490.9293   2668161.4407  -2768692.788     73780000 332.32  -25.89 Other
+ Ht HART15M   5085489.540    2668160.834   -2768691.933     73780000 332.32  -25.89 R4554 position
 *Mv METSHOVI  2890652.74831  1310295.33876  5513958.69724   76015301 335.62   60.24 GLB1069
 *Mh METSAHOV  2892583.770    1311715.590    5512630.070     76015301 335.62   60.24 JIVE
  Mh METSAHOV  2892584.962    1311715.513    5512640.084     76015301 335.62   60.24 GSF2006D
