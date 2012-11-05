@@ -1,7 +1,10 @@
-* VERSION 2012SEP25
+* VERSION 2012Nov05
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
+
+* 2012Nov05 JMG. Added Axis offset for HART15M using information from first solve solutions
+*
 *
 * NOTE: Use this file for schedules to be created for observations
 *       after March 1, 1990.  The nomenclature for XY antennas has
@@ -209,7 +212,7 @@
  Q GOLDVENU AZEL 0.92520 120.0  0  270.0  810.0 120.0  0    6.0   88.0  26.0 GV 16    
 *J HARTRAO  HADC 6.69220  22.0  0  -88.0   88.0  28.0  0  -89.0   45.0  26.0 Hh 34 HT
  J HARTRAO  HADC 6.69220  24.0 45  -88.0   88.0  22.2 45  -89.0   45.0  26.0 Hh 34 HT
- J HART15M  AZEL 0.00000 120.0  0 -185.0  275.0  60.0  0    2.0  105.0  15.0 Ht Ht Ht
+ J HART15M  AZEL 1.47000 120.0  0 -185.0  275.0  60.0  0    2.0  105.0  15.0 Ht Ht Ht
  H HATCREEK HADC 0.00000  13.0 40  -80.9   80.9  12.0 40  -38.0   85.0  26.0 Hc 03 HC
  K HAYSTACK AZEL 0.00000 120.0  0    0.0  360.0 120.0  0    3.0   88.0  37.0 Hs 00    
  H HN-VLBA  AZEL 2.13030  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Hn HN HN 
