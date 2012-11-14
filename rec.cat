@@ -1,4 +1,11 @@
-* VERSION 2012OCT04
+* VERSION 2012Nov14
+* Put in updates in reverse order, newest at top.
+*
+* 12Nov14 JMG. Changed Westford 00-8U-02 mode to Mark5B. 
+* 12Oct04 JMG. Many changes to support Mark5B.
+* 120518 JMG Added EFLSBERG to  32-8-4-1 (RDV mode) 
+* 120118 dbb Add JAXA station UCHINOUR.
+*
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
@@ -34,8 +41,7 @@
 * 2011Mar07  JMG Added FORTLEZA, HOBART12 to 32-8U-2-2
 * 110518 dbb Add KASHIM11 to 32-16-2-1 mode.
 * 110711 dbb Add KUNMING to 32-16-2-1 mode.
-* 120118 dbb Add JAXA station UCHINOUR.
-* 120518 JMG Added EFLSBERG to  32-8-4-1 (RDV mode) 
+
 *
 *******************************************************************
 * Fields:
@@ -203,7 +209,7 @@
  -       URUMQI     MK3V-A       8U-1-2-b   Mk34 
  -       YEBES40M   MK3V-A       8U-1-2-b   Mk34 
  -       WARK12M    MK3V-A       8U-1-2-b   Mk34
- -       WESTFORD   MK3V-A       8U-2-2   Mk34 
+ -       WESTFORD   MK3V-A       8U-1-2-b   Mk34 
  -       WETTZELL   MK3V-A       8U-2-2   Mk34 
  -       YARRA12M   MK3V-A       8U-1-2-b   Mk34
  -       ZELENCHK   MK3V-A       8U-1-2-b   Mk34
