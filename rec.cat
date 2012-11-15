@@ -1,6 +1,8 @@
-* VERSION 2012Nov14
+* VERSION 2012Nov15
 * Put in updates in reverse order, newest at top.
 *
+* 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
+*                in group name 00-16-0-1 
 * 12Nov14 JMG. Changed Westford 00-8U-02 mode to Mark5B. 
 * 12Oct04 JMG. Many changes to support Mark5B.
 * 120518 JMG Added EFLSBERG to  32-8-4-1 (RDV mode) 
@@ -294,7 +296,7 @@
  -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
  -       BADARY     MK3V-A      14U2L-1-1-B  Mk34  
  -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CHICHI10   MK3V-A      14U2L-2-1  Mk34
+ -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
  -       CRIMEA     MK3V-A      14U2L-1-1-B  Mk34  
  -       CTVA       MK3V-A      14U2L-2-1  Mk34
  -       DSS45      MK3V-A      14U2L-2-1  Mk34  
@@ -309,10 +311,10 @@
  -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
  -       HOBART26   MK3V-A      14U2L-2-1  Mk34
- -       KASHIM11   MK3A-A      14U2L-2-1  Mk34 
+ -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
  -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
  -       KATH12M    MK3V-A      14U2L-1-1-B  Mk34
- -       KOGANEI    MK3A-A      14U2L-2-1  Mk34 
+ -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
  -       KOKEE      MK3V-A      14U2L-1-1-B  Mk34 
  -       KUNMING    MK3V-A      14U2L-1-1-B  Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B  Mk34  
@@ -331,11 +333,11 @@
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
  -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
+ -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
  -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
  -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
- -       VERAMZSW   MK3V-A      14U2L-2-1  Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
  -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  
  -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
