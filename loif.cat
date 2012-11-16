@@ -1,7 +1,9 @@
-*
-* VERSION 2012OCT04
+* VERSION 2012Nov16
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
+* Updates now in reverse time order with newest at top.
+* 12Nov16 JMG Updated Urumqi LOs CDP_STDU to 8100 X, 2000 S
+*
 *
 * 970117 nrv Add CDP_STDN for narrow-band receivers
 * 980326 nrv Add TSU_STD and TSU_WIDE for Tsukuba
@@ -81,12 +83,12 @@
  -   6  1N    X   8100  U
  -   7  1N    X   8100  U
  -   8  1N    X   8100  U
- -   9  2N    S   2020  U
- -   10 2N    S   2020  U
- -   11 2N    S   2020  U
- -   12 2N    S   2020  U
- -   13 2N    S   2020  U
- -   14 2N    S   2020  U
+ -   9  2N    S   2000  U
+ -   10 2N    S   2000  U
+ -   11 2N    S   2000  U
+ -   12 2N    S   2000  U
+ -   13 2N    S   2000  U
+ -   14 2N    S   2000  U
  CDP_CRF
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
