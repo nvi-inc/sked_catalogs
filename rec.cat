@@ -1,6 +1,7 @@
-* VERSION 2012Nov15
+* VERSION 2012Nov20
 * Put in updates in reverse order, newest at top.
 *
+* 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
 * 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
 *                in group name 00-16-0-1 
 * 12Nov14 JMG. Changed Westford 00-8U-02 mode to Mark5B. 
@@ -339,7 +340,7 @@
  -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
  -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
- -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  
+ -       WESTFORD   MK3V-A      14U2L-1-1-B  Mk34  
  -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
