@@ -1,4 +1,4 @@
-* VERSION 2012SEP25
+* VERSION 2013JAN18
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
 * 930330 NRV New Kauai mask for 20-m obstruction
@@ -100,6 +100,8 @@
 * Gilcreek mask from graph of terrain and prelimits
  H GILCREEK AL 0 17  20 10  50 5  90 5  140 10  150 12  160 12
  - 180 17  205 8  225 5  290 5  340 11 360 17
+* GORF12M Mask.
+ H GORF7102 Gs 0 6 15 5.5 58 3.5 90 4.5 130 3 154 28 162 33 167 36 172 40 212 36 222. 33 227 28 232 6 290  6 360
 * HartRAO mask is fixed
  H HARTRAO  HT 0     7     360    7                                  
  H HART15M  HT 0     7     360    7                                  
