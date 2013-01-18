@@ -1,6 +1,9 @@
-* VERSION 2012Nov14
+* VERSION 2013Jan18
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
+*
+* 2012Jan18 JMGipson. Added GORF7102=GGAO 12m
+*
 *
 **************************************************************
 * Note: this file will be updated frequently as equipment    *
@@ -340,6 +343,7 @@
 *GILCREEK   36  TVDS-3      1      8820   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263 VLBA MARK5A
 *GILCREEK  101  MOJ-VLBA    1      8820   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263
  GILCREEK  101  MOJ-VLBA 1x56000  17640   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263 VLBA4 MARK5A
+ GORF7102   Gs  GORF7102   2x56000  17640  X  7500   S  5000 Mark5 MARK5B
  GOLDVENU   16  DSS13       1      8820   X   500   S   350
 *HARTRAO    34  TDVS-VX1    1      8820   X  2000   S  1300
 *HARTRAO    34  TDVS-VX1 2x56000 17640   X  2000   S  1300 Mark4 MARK5A
