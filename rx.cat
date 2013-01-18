@@ -1,11 +1,18 @@
-*
-* VERSION 2012Oct09
+* VERSION 2013Jan18
+
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
-*
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
+
+* Updates now in descending order
+* 13Mar27  JMG.  Added SEJONG
+* 13Mar20  JMG.  Changed LO setting for WARK12M, HOBART12, and KATH12M  
+*                to DBBC_AU for all modes. Previously only for some. 
+* 13Jan18  JMG.  Added GORF7102 to SX_WIDE
+* 12Nov16  JMG.  Changed point for LOs for URUMQI
+*
 *
 * 960117 nrv Change to CDP_STD_N for stations that are still narrowband
 *            Now CDP_STD means a wideband receiver.
@@ -101,11 +108,11 @@
  -       HARTRAO     CDP_STD
  -       HART15M     DBBC_H15M
  -       HAYSTACK    CDP_STD
- -       HOBART12    CDP_STD
+ -       HOBART12    DBBC_AU
  -       HOBART26    CDP_STD
  -       KASHIM34    KAS_STD
  -       KASHIM11    K4_WIDE
- -       KATH12M     CDP_STD
+ -       KATH12M     DBBC_AU
  -       KOGANEI     K4_WIDE
  -       KOKEE       NRAO_STD
  -       KUNMING     CDP_STDU
@@ -143,10 +150,10 @@
  -       URUMQI      CDP_STDU
  -       VERAISGK    TSU_STD
  -       VERAMZSW    TSU_STD
- -       WARK12M     CDP_STD
+ -       WARK12M     DBBC_AU
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
- -       YARRA12M    CDP_STDe e
+ -       YARRA12M    CDP_STD
  -       YEBES40M    YEB_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
@@ -217,6 +224,7 @@
  -       EFLSBERG    CDP_WIDE
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
+ -       GORF7102    CDP_WIDE
  -       HARTRAO     CDP_WIDE
  -       HART15M     DBBC_H15M
  -       HAYSTACK    CDP_WIDE
@@ -253,7 +261,7 @@
  -       TIGO        CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
- -       URUMQI      CDP_WIDE
+ -       URUMQI      CDP_STDU
  -       VERAISGK    TSU_WIDE
  -       VERAMZSW    TSU_WIDE
  -       WARK12M     DBBC_AU
@@ -365,7 +373,7 @@
  -       HARTRAO     CDP_WID8 
  -       KOKEE       NRAO_VG2
  -       HOBART26    CDP_WID8 
- -       HOBART12    CDP_WID8
+ -       HOBART12    DBBC_AU
  -       KASHIM34    KAS_WID8
  -       MATERA      CDP_WID8
  -       NRAO20      NRAO_VG2
@@ -423,7 +431,7 @@
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
  -       HARTRAO     CDP_WIDE
- -       HOBART12    CDP_WIDE
+ -       HOBART12    DBBC_AU
  -       HOBART26    CDP_WIDE
  -       KASHIMA     KAS_STD
  -       KATH12M     CDP_WIDE
@@ -437,10 +445,10 @@
  -       ONSALA60    CDP_WIDE
  -       SANTIA12    CDP_WIDE
 *-       SESHAN25    CDPS_WID
- -       WARK12M     CDP_WIDE
+ -       WARK12M     DBBC_AU
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
- -       YARRA12M    CDP_WIDE
+ -       YARRA12M    DBBC_AU
  -       YEBES40M    CDP_WIDE
  X-M4TEST
  -       ORION_5M    CDP_WBX
