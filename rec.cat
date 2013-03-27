@@ -1,6 +1,7 @@
-* VERSION 2012Nov20
+* VERSION 2013Mar27
 * Put in updates in reverse order, newest at top.
 *
+* 13MAR27 JMG. Added SEJONG to 32-8-4-1
 * 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
 * 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
 *                in group name 00-16-0-1 
@@ -120,6 +121,7 @@
  -       GBT_VLBA   MK3V-A       8U-4-1   VLBA 
  -       NYALES20   MK3V-A       8U-4-1   Mk34 
  -       PARKES64   MK3V-A       8U-4-1   Mk34 
+ -       SEJONG     MK3V-A       8U-4-1   Mk34 
 *-       SESHAN25   MK3V-A       8U-4-1   VLBA 
  -       SVETLOE    MK3V-A       8U-4-1   Mk34 
  -       TIGO       MK3V-A       8U-4-1   Mk34 
@@ -247,6 +249,7 @@
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
  -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
+ -       GORF7102   MK3V-A      14U2L-2-1  Mk34  
  -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  
  -       HOBART12   MK3V-A      14U2L-2-1  Mk34
  -       HOBART26   MK3V-A      14U2L-2-1  Mk34
@@ -266,6 +269,7 @@
  -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
  -       PARKES64   MK3V-A      14U2L-2-1  Mk34  
+ -       SEJONG     MK3V-A      14U2L-2-1  Mk34
  -       SESHAN25   MK3V-A      14U2L-2-1  Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
  -       SYOWA      MK3V-A      14U2L-2-1  Mk34
@@ -308,6 +312,7 @@
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
  -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
+ -       GORF7102   MK3V-A      14U2L-1-1-B  Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-1-B  Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
