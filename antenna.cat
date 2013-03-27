@@ -1,10 +1,10 @@
-* VERSION 2013Jan18
+* VERSION 2013Mar27
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
 *
-
+* 2013Mar27 JMG. Added in Sejong
 * 2013Jan17 JMG. Added GGAO12M=GORF7102
 * 2012Nov05 JMG. Added Axis offset for HART15M using information from first solve solutions
 * 
@@ -295,6 +295,7 @@
  S SANTIA12 XYNS 0.00000  60.0  0  -82.5   82.8  60.0  0  -81.5   81.9  12.0 St 70  ST
  C SC-VLBA  AZEL 2.13370  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Sc SC  SC
  J SINTOTU3 AZEL 0.00000  60.0  0   20.0  700.0  60.0  0    5.0   88.0   3.8 S3 S3   S3
+ S SEJONG   AZEL 0.00000 300.0  0   10.0  710.0 300.0  0    5.0   89.0  22.0 Kv Kv
 *C SESHAN25 AZEL 0.00000  30.0  0  280.0  800.0  18.0  0    5.0   88.0  25.0 Sh 104    
 *C SESHAN25 AZEL 0.00000  30.0  0  282.0  785.0  18.0  0    5.0   87.0  25.0 Sh 104    
  C SESHAN25 AZEL 0.00000  60.0  0  282.0  785.0  30.0  0    5.0   87.0  25.0 Sh 104    
