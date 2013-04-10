@@ -1,6 +1,7 @@
-* VERSION 2013Mar27
+* VERSION 2013Apr10
 * Put in updates in reverse order, newest at top.
 *
+* 14APR10 JMG. Added SEJONG to 00-16-0-1
 * 13MAR27 JMG. Added SEJONG to 32-8-4-1
 * 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
 * 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
@@ -333,6 +334,7 @@
  -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
  -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
+ -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
  -       SYOWA      MK3V-A      14U2L-2-1  Mk34
