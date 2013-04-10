@@ -1,7 +1,11 @@
-* VERSION 2013Jan18
+* VERSION 2013Apr10
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+*  2013Apr10 Added Sejong to SX_STD
+
+
+
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
@@ -137,6 +141,7 @@
  -       OVRO_130    CDP_STD
  -       PARKES64    CDP_STDN
  -       SANTIA12    CDP_STD
+ -       SEJONG      CDP_STDN
  -       SEST        CDP_STD
  -       SESHAN25    CDPV_SEN
  -       SINTOTU3    CDP_STDN
