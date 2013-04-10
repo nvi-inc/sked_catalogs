@@ -1,7 +1,8 @@
-* VERSION 2013Mar21
+* VERSION 2013Apr10
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
 *
+* 2013Apr10 JMGipson. Modified Sejong equiptment per email from Yi.
 * 2013Mar27 JMGipson. Added Sejong
 * 2013Mar20 JMGipson. Changed Effelsberg to none. 
 * 2012Jan18 JMGipson. Added GORF7102=GGAO 12m
@@ -448,7 +449,7 @@
 *SESHAN25  104  SESHAN25 1x56000  17640   X  2000   S  2700 VLBA4 MARK5A
  SESHAN25  104  SESHAN25 2x56000  17640   X   700   S  1100 VLBA5 MARK5B 
 * SESHAN25  104  SESHAN25 1x56000  17640   C   520   C   520 
-SEJONG     Kv  SEJONG    2x56000 17640   X   900   S  1200 K4-2 K5
+ SEJONG     Kv  SEJONG    1x56000 17640   X   900   S  1200 Mark4 Mark5A
  SEST       70  TVDS-VX2    1      8820   X  8000   S 12000
  SINTOTU3   S3  SINTOTU3  1x56000 80000   X 70900   S 77700 none K4-1 
 *SVETLOE   116  TVDS-1      1      8820   X   400   S   600 Mark3A Mark3A
