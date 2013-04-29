@@ -1,9 +1,10 @@
-* VERSION 2013Mar27
+* VERSION 2013Apr29
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
 *
+* 2013Apr29 JMG. Added 5 seconds to both axis for Kokee due to repair
 * 2013Mar27 JMG. Added in Sejong
 * 2013Jan17 JMG. Added GGAO12M=GORF7102
 * 2012Nov05 JMG. Added Axis offset for HART15M using information from first solve solutions
@@ -233,7 +234,8 @@
  R KASHIM11 AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    6.0   88.0  11.0 K1  K1  
  K KATH12M  AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Ke Ke
  K KAUAI    XYNS 2.43440  60.0  0  -87.6   86.6  60.0  0  -80.8   81.0   9.0 Ku 35 KU
- K KOKEE    AZEL 0.5181  117.0  9  270.0  810.0 117.0  9    0.0   89.7  20.0 Kk 102 
+ K KOKEE    AZEL 0.5181  117.0  15  270.0  810.0 117.0  15    0.0   89.7  20.0 Kk 102
+* K KOKEE    AZEL 0.5181  117.0  9  270.0  810.0 117.0  9    0.0   89.7  20.0 Kk 102 
  K KITTPEAK AZEL 0.00000  14.0  0  270.0  690.0  14.0  0   12.0   88.0  12.0 Kt --    
  K KUNMING  AZEL 0.00000  60.0  0  280.0  800.0  30.0  0    6.0   86.0  40.0 Km 103
  K KP-VLBA  AZEL 2.13130  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Kp KV KV
