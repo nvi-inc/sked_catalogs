@@ -1,6 +1,8 @@
-* VERSION 2013Apr10
+* VERSION 2013May06
 * Put in updates in reverse order, newest at top.
 *
+* 13Jun20 JMG. Added HART15M and GGAO12M to 32-16-1-2
+* 13May06 JMG. Changd name of GORF7102 to GGAO12M
 * 14APR10 JMG. Added SEJONG to 00-16-0-1
 * 13MAR27 JMG. Added SEJONG to 32-8-4-1
 * 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
@@ -250,7 +252,7 @@
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
  -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       GORF7102   MK3V-A      14U2L-2-1  Mk34  
+ -       GGAO12M    MK3V-A      14U2L-2-1  Mk34  
  -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  
  -       HOBART12   MK3V-A      14U2L-2-1  Mk34
  -       HOBART26   MK3V-A      14U2L-2-1  Mk34
@@ -296,7 +298,7 @@
 *  16 channels, 1-bit sampling.
 *  This is identical to 32-16-2-1
 * Used for R1 (256), R4 (56 or 112) that record wideband and have 
-* Seshan recording 9 channels. (See 32-16-2-1-S8 for narrowband.)
+* 
  00-16-0-1
  -       AIRA       MK3V-A      14U2L-1-1-BJ  Mk34
  -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
@@ -313,7 +315,7 @@
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
  -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       GORF7102   MK3V-A      14U2L-1-1-B  Mk34  
+ -       GGAO12M    MK3V-A      14U2L-1-1-B  Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-1-B  Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
@@ -336,6 +338,70 @@
  -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1  Mk34
+ -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
+ -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
+ -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
+ -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
+ -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-1-B  Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
+ -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-1-B  Mk34  
+ -       ATCA       MK3V-A      14U2L-2-1  Mk34  
+ -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  
+ -       MOPRA      MK3V-A      14U2L-2-1  Mk34  
+*******************************************************************
+* Mixed mode:  Some stations have fanout, others don't.  
+*  16 channels, 1-bit sampling.
+*  This is close to 00-16-0-1T EXCEPT for SESHAN?
+* 
+* 
+ 01-16-0-1
+ -       AIRA       MK3V-A      14U2L-1-1-BJ  Mk34
+ -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
+ -       BADARY     MK3V-A      14U2L-1-1-B  Mk34  
+ -       ARIES_9M   MK3A-C         C       Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
+ -       CRIMEA     MK3V-A      14U2L-1-1-B  Mk34  
+ -       CTVA       MK3V-A      14U2L-2-1  Mk34
+ -       DSS45      MK3V-A      14U2L-2-1  Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
+ -       DSS15      MK3V-A      14U2L-2-1  Mk34  
+ -       DSS13      MK3V-A      14U2L-2-1  Mk34  
+ -       EFLSBERG   MK3V-A      14U2L-1-1-B  Mk34    
+ -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
+ -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
+ -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
+ -       GGAO12M    MK3V-A      14U2L-1-1-B  Mk34  
+ -       HARTRAO    MK3V-A      14U2L-1-1-B  Mk34  
+ -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1  Mk34
+ -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
+ -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
+ -       KATH12M    MK3V-A      14U2L-1-1-B  Mk34
+ -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
+ -       KOKEE      MK3V-A      14U2L-1-1-B  Mk34 
+ -       KUNMING    MK3V-A      14U2L-1-1-B  Mk34
+ -       MATERA     MK3V-A      14U2L-1-1-B  Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  
+ -       NOTO       MK3V-A      14U2L-2-1  Mk34  
+ -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
+ -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NYALES20   MK3V-A      14U2L-1-1-B  Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
+ -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
+ -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
+ -       SESHAN25   MK3V-A      8L6U-1-1-BS  Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
  -       SYOWA      MK3V-A      14U2L-2-1  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
@@ -553,7 +619,9 @@
  32-16-1-2
  -       BADARY     MK3V-A      14U2L-1-2  Mk34  
  -       FORTLEZA   MK3V-A      14U2L-1-2  Mk34  
+ -       GGAO12M    MK3V-A      14U2L-1-2  Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-2  Mk34  
+ -       HART15M    MK3V-A      14U2L-1-2  Mk34  
  -       HOBART12   MK3V-A      14U2L-1-2  Mk34
  -       HOBART26   MK3V-A      14U2L-1-2  Mk34
  -       KATH12M    MK3V-A      14U2L-1-2  Mk34
