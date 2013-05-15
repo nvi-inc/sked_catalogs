@@ -109,6 +109,7 @@
 * 120507 JMG. Updated UCHINOUR position per email from Shinobu Kurihari 
 * 120706 JMG. Added Wettzell twin telescopes
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
+* 130705 dbb Add Occ.Code for SEJONG per Carey Noll.
 *
 * Positions marked as GLB1069 are from global solution 1069, with
 * X, Y, Z computed as of January 1.5, 1997.
@@ -117,7 +118,7 @@
 *
 *ID Name           X (m)          Y (m)          Z (m)    Occ.Code    Lon    Lat   Source
 *
- Kv SEJONG    -3110079.708    4082066.845   3775076.889     00000000 -127.30   36.52 NGII 
+ Kv SEJONG    -3110079.708    4082066.845   3775076.889     73680501 -127.30   36.52 NGII 
  Ch CHLBOLTN  4008310.06658  -100650.75574  4943794.77179   72156301   1.44   51.15 GLB1069
 *Jb JODRELL2  3822842.66000  -153800.13000  5086287.22000   00000000   2.30   53.23 Other
  Jb JODRELL2  3822846.79    -153802.28       5086285.92     00000000   2.30   53.23 JIVE 
