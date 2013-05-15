@@ -1,6 +1,10 @@
-* VERSION 2013JAN18
+* VERSION 2013MAY15
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
+* Now put in comments in reverse order
+*
+* 2013May15  Changed name of GORF7102 to GGAO12M
+*
 * 930330 NRV New Kauai mask for 20-m obstruction
 * 930603 nrv Changed Kauai mask per TME
 * 930603 nrv Kludged extra blanks temporarily
