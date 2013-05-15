@@ -1,7 +1,8 @@
-* VERSION 2013Apr10
+* VERSION 2013May15
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
 *
+* 2013May15 JMGipson. Changed name of GOR7102 to GGAO12M
 * 2013Apr10 JMGipson. Modified Sejong equiptment per email from Yi.
 * 2013Mar27 JMGipson. Added Sejong
 * 2013Mar20 JMGipson. Changed Effelsberg to none. 
@@ -346,7 +347,7 @@
 *GILCREEK   36  TVDS-3      1      8820   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263 VLBA MARK5A
 *GILCREEK  101  MOJ-VLBA    1      8820   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263
  GILCREEK  101  MOJ-VLBA 1x56000  17640   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263 VLBA4 MARK5A
- GORF7102   Gs  GORF7102   2x56000  17640  X  7500   S  5000 Mark5 MARK5B
+ GGAO12M    Gs  GGAO12M   2x56000  17640  X  7500   S  5000 Mark5 MARK5B
  GOLDVENU   16  DSS13       1      8820   X   500   S   350
 *HARTRAO    34  TDVS-VX1    1      8820   X  2000   S  1300
 *HARTRAO    34  TDVS-VX1 2x56000 17640   X  2000   S  1300 Mark4 MARK5A
