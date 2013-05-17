@@ -1,7 +1,11 @@
-* VERSION 2012Nov16
+* VERSION 2013MAY17_iGSFC
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+*
+* 130917 dbb Add AIRA_WIDE for R1s per R. Kawabata.
+* 2013May17 JMG. Added new entries for Kashim11 (K4_KAS11) and Koganei (K4_KOG) for T2 and APSG
+*
 * 12Nov16 JMG Updated Urumqi LOs CDP_STDU to 8100 X, 2000 S
 *
 *
@@ -164,7 +168,7 @@
  -   12 B     S   1530  U
  -   13 B     S   1530  U
  -   14 B     S   1530  U
-YEB_WIDE
+ YEB_WIDE
  -   1  A     X   7650  U
  -   2  A     X   7650  U
  -   3  A     X   7650  U
@@ -179,6 +183,21 @@ YEB_WIDE
  -   12 B     S   1530  U
  -   13 B     S   1530  U
  -   14 B     S   1530  U
+ AIRA_WIDE
+ -   1  1N    X   8080  U
+ -   2  1N    X   8080  U
+ -   3  1N    X   8080  U
+ -   4  1N    X   8080  U
+ -   5  3N    X   8480  U
+ -   6  3N    X   8480  U
+ -   7  3N    X   8480  U
+ -   8  3N    X   8480  U
+ -   9  2N    S   2020  U
+ -   10 2N    S   2020  U
+ -   11 2N    S   2020  U
+ -   12 2N    S   2020  U
+ -   13 2N    S   2020  U
+ -   14 2N    S   2020  U
  EFL_STD
  -   1  1N    X   8110  U
  -   2  1N    X   8110  U
@@ -880,6 +899,36 @@ CDPV_SEX
  -   6  1N    X   7600  U
  -   7  1N    X   7600  U
  -   8  1N    X   7600  U
+ -   9  1N    S   3000  U
+ -  10  1N    S   3000  U
+ -  11  1N    S   3000  U
+ -  12  1N    S   3000  U
+ -  13  1N    S   3000  U
+ -  14  1N    S   3000  U
+ K4_KAS11
+ -   1  1N    X   7600  U
+ -   2  1N    X   7600  U
+ -   3  1N    X   7600  U
+ -   4  1N    X   7600  U
+ -   5  1N    X   7600  U
+ -   6  1N    X   7600  U
+ -   7  1N    X   7600  U
+ -   8  1N    X   7600  U
+ -   9  1N    S   3000  U
+ -  10  1N    S   3000  U
+ -  11  1N    S   3000  U
+ -  12  1N    S   3000  U
+ -  13  1N    S   3000  U
+ -  14  1N    S   3000  U
+ K4_KOG
+ -   1  1N    X   7680  U
+ -   2  1N    X   7680  U
+ -   3  1N    X   7680  U
+ -   4  1N    X   7680  U
+ -   5  1N    X   7680  U
+ -   6  1N    X   7680  U
+ -   7  1N    X   7680  U
+ -   8  1N    X   7680  U
  -   9  1N    S   3000  U
  -  10  1N    S   3000  U
  -  11  1N    S   3000  U
