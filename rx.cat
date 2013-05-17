@@ -1,7 +1,8 @@
-* VERSION 2013May06
+* VERSION 2013May17
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
 * 2013May06. Changed name of GORF7102 to GGAO12M
 *  2013Apr10 Added Sejong to SX_STD
 
@@ -115,9 +116,9 @@
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_STD
  -       KASHIM34    KAS_STD
- -       KASHIM11    K4_WIDE
+ -       KASHIM11    K4_KAS11
  -       KATH12M     DBBC_AU
- -       KOGANEI     K4_WIDE
+ -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_STD
  -       KUNMING     CDP_STDU
  -       KWAJAL26    CDP_STDN
@@ -236,9 +237,9 @@
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_WIDE
  -       KASHIM34    KAS_WIDE
- -       KASHIM11    K4_WIDE
+ -       KASHIM11    K4_KAS11
  -       KATH12M     DBBC_AU
- -       KOGANEI     K4_WIDE
+ -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_WIDE
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
