@@ -1,9 +1,10 @@
-* VERSION 2013May17B
+* VERSION 2013Jul02_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
 *
+* 2013Jul02 JMG. Fixed Yaragadees limits
 * 2012May01 JMG. Changed name of Goddard 12M from GORF7102 to GGAO12M
 * 2013Apr29 JMG. Added 5 seconds to both axis for Kokee due to repair
 * 2013Mar27 JMG. Added in Sejong
@@ -172,6 +173,7 @@
 * 120215 JMG Chaged limits of Effelsberg from 30-480 to 34-490 per email Uwe Bach (11/21/2011)
 * 120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
+* 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
 *    
 *             
 *
@@ -313,6 +315,7 @@
 *T TIDBIN64 AZEL 0.00000  12.0  0  230.0  760.0  12.0  0    6.0   88.0  64.0 Ti 69    
  T TIDBIN64 AZEL 0.00000  15.0 12  230.0  759.8  15.0 12    6.0   86.0  64.0 Ti 39    
  O TIGO     AZEL 0.00000 360.0  0  276.0  774.0 180.0  0    0.0   90.0   6.0 Tc 70 TG
+ O TIGOPLTA AZEL 0.00000 360.0  0  276.0  774.0 180.0  0    0.0   90.0   6.0 Tp 70 TG
 *Z TORUN    AZEL 0.00000  60.0  0    0.0  360.0  60.0  0    5.0   88.0  14.0 Tr --    
  Z TORUN    AZEL 0.00000  22.0 15  280.0  800.0  12.5 15    3.0   88.0  14.0 Tr Tr
 *T TSUKUB32 AZEL 0.00000 180.0  0   25.0  695.0 180.0  0    5.0   88.0  32.0 Ts TS    
@@ -336,7 +339,7 @@
 *V WETTZELL AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
 *V WETTZELL AZEL 0.00000 180.0  0  245.0  833.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
  V WETTZELL AZEL 0.00000 180.0  0  251.5  831.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
- Y YARRA12M AZEL 0.00000 300.0  3   90.0  530.0  75.0  3    5.0   88.0  12.0 Yg Yg
+ Y YARRA12M AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Yg Yg
 *Y YEBES    AZEL 0.0      60.0 10    5.0  715.0  60.0 10   10.0   89.0  13.7 Yb 105
  Y YEBES40M AZEL 2.00980  60.0 10  300.0  780.0  60.0 10    5.0   89.0  40.0 Ys 105
 *Z ZELENCHK AZEL 0.00000  72.0 60  270.0  810.0  48.0 60   12.0   80.0  32.0 Zc 118
