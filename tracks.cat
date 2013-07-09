@@ -1,8 +1,9 @@
-* VERSION 2013Jul08
+* VERSION 2013Jul09_iGSFC
 * CATALOG tracks.cat 
 * TRACKS.CAT - track assignments
 *
 * This catalog includes track assignments.
+* 2013Jul09    JMGipson. Added
 * 2013Jul08    JMGipson. Modified track assignhment 14U2L-1-1-BS for SESHAN
 *
 * 051030 nrv   New version
@@ -260,6 +261,23 @@
  -    6 1(5) 
  -    7 1(11) 
  -    8 1(12,13) 
+ -    9 1(2)  
+ -   10 1(3)
+ -   11 1(10)
+ -   12 1(6) 
+ -   13 1(7) 
+ -   14 1(14) 
+* For Seshan. This is for Narrow band.  
+* 14 USB, 2 LSB, fanout 1:1, 1-bit = 16 tracks
+   8L6U-1-1-BS   1   1
+ -    1 1(0,-1) 
+ -    2 1(1)  
+ -    3 1(8)
+ -    4 1(9) 
+ -    5 1(4) 
+ -    6 1(5) 
+ -    7 1(12) 
+ -    8 1(13,11) 
  -    9 1(2)  
  -   10 1(3)
  -   11 1(10)
