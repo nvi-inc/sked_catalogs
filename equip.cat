@@ -1,8 +1,9 @@
-* VERSION 2013Jul08
+* VERSION 2013Jul10
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
-*
-* 2013Jul09 JMGipson. Changed S-SEFD of NyAlesund: 1500-->2500
+* 2013Jul10 JMGipson. Changed SEFD at Sv, BD, Zc:  X: 400-->1200, S: 600-->1500. 
+!                     This reflects fact that will run warm for half of August
+* 2013Jul08 JMGipson. Changed S-SEFD of NyAlesund: 1500-->2500
 * 2013Jun19 JMGipson. Changed SEDF of Kokee
 * 2013May15 JMGipson. Changed name of GOR7102 to GGAO12M
 * 2013Apr10 JMGipson. Modified Sejong equiptment per email from Yi.
@@ -316,7 +317,8 @@
  ARIES_9M   36  TVDS-3      1      8820   X  7600   S  6500 Mark3A Mark3A
  ARIES_9M   YL  S2-YLOW    SLP      361   X  7600   S  6500 none S2
  ATCA       At  ATCA        1       200   K  1500   K  1500 Mark4 MARK5A
- BADARY     BD  BADARY    1x56000 17640   X   400   S   600 none MARK5B
+* BADARY     BD  BADARY    1x56000 17640   X   400   S   600 none MARK5B
+  BADARY     BD  BADARY    1x56000 17640   X   1200   S 1500 none MARK5B
 *MOJAVE12   01  OVRO_130    1      8820   X  2750   S  3100
  BR-VLBA    BR  BR-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
  CAMBG32M   CM  CAMBG32M 1x56000  17640   C   136   C   136 VLBA MARK5A
@@ -456,8 +458,9 @@
  SEST       70  TVDS-VX2    1      8820   X  8000   S 12000
  SINTOTU3   S3  SINTOTU3  1x56000 80000   X 70900   S 77700 none K4-1 
 *SVETLOE   116  TVDS-1      1      8820   X   400   S   600 Mark3A Mark3A
- SVETLOE   116  TVDS-1   2x56000  17640   X   400   S   600 none   MARK5B
- SVETLOE    SV  S2-SVET    SLP      361   X   400   S   600 none S2
+* SVETLOE   116  TVDS-1   2x56000  17640   X   400   S   600 none   MARK5B
+ SVETLOE   116  TVDS-1   2x56000  17640   X   1200   S  1500 none   MARK5B
+* SVETLOE    SV  S2-SVET    SLP      361   X   400   S   600 none S2
 *SYOWA10    SY  SYOWA-K4 1x56000  99999   X 11230   S  5300
 *SYOWA      SY  SYOWA-K4 1x56000  99999   X 11230   S  5300
 *SYOWA      SY  SYOWA-K4 1x56000  99999   X 11230   S  7500 
@@ -501,5 +504,5 @@
 *YEBES40M  105  YEBES     1x56000 17640   X   420   S   420 VLBA4 MARK5A
  YEBES40M  105  YEBES     1x56000 17640   X   250   S  1500 VLBA5 MARK5B
 * ZELENCHK  118  ZELENCHK  2x56000 17640   X   400   S   600 VLBA4 MARK5B
- ZELENCHK  118  ZELENCHK  2x56000 17640   X   400   S   600  none MARK5B
+ ZELENCHK  118  ZELENCHK  2x56000 17640   X   1200   S  1500  none MARK5B
 * ZELENCHK   ZC  S2-ZELEN   SLP      361   X   400   S   600 none S2
