@@ -1,8 +1,9 @@
-* VERSION 2013Jul10
+* VERSION 2013Jul10_iGSFC 
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
+* 2013Jul11 JMGipson. Changed equipment at Sejong to K4-1 K5
 * 2013Jul10 JMGipson. Changed SEFD at Sv, BD, Zc:  X: 400-->1200, S: 600-->1500. 
-!                     This reflects fact that will run warm for half of August
+*                     This reflects fact that will run warm for half of August
 * 2013Jul08 JMGipson. Changed S-SEFD of NyAlesund: 1500-->2500
 * 2013Jun19 JMGipson. Changed SEDF of Kokee
 * 2013May15 JMGipson. Changed name of GOR7102 to GGAO12M
@@ -267,6 +268,7 @@
 * 120907 JMG updated all stations that we know are Mark5B.
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
 * 121026 JMG Added terminal info to SYOWA. Somehow this disappeared.
+* 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
 *
 *
 * NOTE: Multiple equipment lines may appear for the same antenna name,
@@ -454,7 +456,7 @@
 *SESHAN25  104  SESHAN25 1x56000  17640   X  2000   S  2700 VLBA4 MARK5A
  SESHAN25  104  SESHAN25 2x56000  17640   X   700   S  1100 VLBA5 MARK5B 
 * SESHAN25  104  SESHAN25 1x56000  17640   C   520   C   520 
- SEJONG     Kv  SEJONG    1x56000 17640   X   900   S  1200 Mark4 Mark5A
+ SEJONG     Kv  SEJONG    1x56000 17640   X   900   S  1200 K4-1  K5
  SEST       70  TVDS-VX2    1      8820   X  8000   S 12000
  SINTOTU3   S3  SINTOTU3  1x56000 80000   X 70900   S 77700 none K4-1 
 *SVETLOE   116  TVDS-1      1      8820   X   400   S   600 Mark3A Mark3A
@@ -471,6 +473,7 @@
 *TIGO       70  TIGO      1x56000 17640   X  8500   S 15000 VLBA4 MARK5A
  TIGO       70  TIGO      2x56000 17640   X 20000   S 15000 VLBA5 MARK5B
 *TIGO       70  S2-TIGO     SLP     361   X 12000   S 15000 none S2
+ TIGOPLTA   70  TIGO      2x56000 17640   X 20000   S 15000 VLBA5 MARK5B
  TORUN     113  TORUN     1x56000 17640   C   250   C   250 VLBA MARK5A
 *TSUKUB32   TS  TSUKUB32  1x56000 17640   X   300   S   300
  TSUKUB32  108  TSUKUB32  2x56000 17640   X   320   S   360 K4-2/M4   K5 
