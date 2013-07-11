@@ -1,7 +1,8 @@
-* VERSION 2013May17
+* VERSION 2013Jul11_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2013Jul11 JMGipson. Added Sejong to SX_WIDE
 * 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
 * 2013May06. Changed name of GORF7102 to GGAO12M
 *  2013Apr10 Added Sejong to SX_STD
@@ -12,6 +13,7 @@
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
 
 * Updates now in descending order
+* 130917 dbb Add AIRA to SX_WIDE.
 * 13Mar27  JMG.  Added SEJONG
 * 13Mar20  JMG.  Changed LO setting for WARK12M, HOBART12, and KATH12M  
 *                to DBBC_AU for all modes. Previously only for some. 
@@ -151,6 +153,7 @@
  -       TAHITI      CDP_STD
  -       TATEYAMA    CDP_STD
  -       TIGO        CDPV_STD
+ -       TIGOPLTA    CDPV_STD
  -       TSUKUB32    TSU_STD
  -       UCHINOUR    TSU_STD
  -       URUMQI      CDP_STDU
@@ -218,7 +221,7 @@
  -       GILCREEK    CDP_WIDE
  -       ONSALA60    CDP_WIDE
  SX_WIDE
- -       AIRA        CDP_STDN 
+ -       AIRA        AIRA_WIDE
  -       ALGOPARK    CDPV_WIDE
  -       BADARY      CDP_STDN
  -       ARIES_4M    CDP_WIDE
@@ -259,12 +262,14 @@
  -       PARKES64    CDP_WIDE
  -       SANTIA12    CDP_WIDE
  -       SEST        CDP_WIDE
+ -       SEJONG      TSU_WIDE
  -       SESHAN25    CDPV_SE
  -       SINTOTU3    CDP_STDN 
  -       SYOWA       TSU_WIDE
  -       SVETLOE     CDP_STDN
  -       TAHITI      CDP_WIDE
  -       TIGO        CDPV_WIDE
+ -       TIGOPLTA    CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
  -       URUMQI      CDP_STDU
@@ -391,6 +396,7 @@
  -       PARKES64    CDP_WID8 
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
+ -       TIGOPLTA    CDPV_VG2
 *-       SESHAN25    CDPS_VG2
 * Added 2010Dec23
  -       SESHAN25    CDPV_SEX 
