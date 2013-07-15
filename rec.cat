@@ -1,6 +1,8 @@
-* VERSION 2013May06
+* VERSION 2013Jul15_iGSFC
+
 * Put in updates in reverse order, newest at top.
-*
+* 2013Oct11 JMG. Put in new  mode 32-16-1-2
+* 13Jul16 JMG. Added MEDICINA to 32-16-1-2
 * 13Jun20 JMG. Added HART15M and GGAO12M to 32-16-1-2
 * 13May06 JMG. Changd name of GORF7102 to GGAO12M
 * 14APR10 JMG. Added SEJONG to 00-16-0-1
@@ -128,6 +130,7 @@
 *-       SESHAN25   MK3V-A       8U-4-1   VLBA 
  -       SVETLOE    MK3V-A       8U-4-1   Mk34 
  -       TIGO       MK3V-A       8U-4-1   Mk34 
+ -       TIGOPLTA   MK3V-A       8U-4-1   Mk34 
  -       TSUKUB32   MK3V-A       8U-4-1   Mk34 
  -       URUMQI     MK3V-A       8U-4-1   Mk34 
  -       YEBES40M   MK3V-A       8U-4-1   Mk34 
@@ -169,6 +172,7 @@
  -       SESHAN25   MK3V-A       8U-2-2   VLBA 
  -       SVETLOE    MK3V-A       8U-2-2   Mk34
  -       TIGO       MK3V-A       8U-2-2   Mk34 
+ -       TIGOPLTA   MK3V-A       8U-2-2   Mk34 
  -       TSUKUB32   MK3V-A       8U-2-2   Mk34 
  -       URUMQI     MK3V-A       8U-2-2   Mk34 
  -       YEBES40M   MK3V-A       8U-2-2   Mk34 
@@ -213,6 +217,7 @@
  -       SESHAN25   MK3V-A       8U-2-2   VLBA 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
  -       TIGO       MK3V-A       8U-1-2-b   Mk34 
+ -       TIGOPLTA   MK3V-A       8U-1-2-b   Mk34 
  -       TSUKUB32   MK3V-A       8U-2-2   Mk34 
  -       URUMQI     MK3V-A       8U-1-2-b   Mk34 
  -       YEBES40M   MK3V-A       8U-1-2-b   Mk34 
@@ -279,6 +284,7 @@
  -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
  -       TIGO       MK3V-A      14U2L-2-1  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-2-1  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
  -       URUMQI     MK3V-A      14U2L-2-1  Mk34  
@@ -343,6 +349,7 @@
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
  -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1-B  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
  -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
@@ -407,6 +414,7 @@
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
  -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1-B  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
  -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
@@ -461,6 +469,7 @@
  -       SYOWA      MK3V-A      14U2L-1-1  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1  Mk34  
  -       TIGO       MK3V-A      14U2L-1-1  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-1  Mk34
  -       URUMQI     MK3V-A      14U2L-1-1  Mk34  
  -       WARK12M    MK3V-A      14U2L-1-1  Mk34
@@ -510,6 +519,7 @@
  -       SESHAN25   MK3V-A      8U-1-1S    Mk34  none
  -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  
  -       TIGO       MK3V-A      14U2L-2-1  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-2-1  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
  -       URUMQI     MK3V-A      14U2L-2-1  Mk34  
@@ -553,6 +563,7 @@
 * -       SESHAN25   MK3V-A      8U-1-1S-R4  MK34
  -       SVETLOE    MK3V-C         C        Mk34
  -       TIGO       MK3V-C         C        Mk34
+ -       TIGOPLTA   MK3V-C         C        Mk34
  -       TSUKUB32   MK3V-C         C        Mk34
  -       URUMQI     MK3V-C         C        Mk34
  -       WESTFORD   MK3V-C         C        Mk34
@@ -577,6 +588,7 @@
  -       SVETLOE    MK4-A      14U2L-2-2 Mk34
  -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
  -       TIGO       MK4-A      14U2L-2-2 Mk34
+ -       TIGOPLTA   MK4-A      14U2L-2-2 Mk34
  -       ZELENCHK   MK4-A      14U2L-2-2 Mk34 
  -       WESTFORD   MK4-A      14U2L-2-2 Mk34
  -       WETTZELL   MK4-A      14U2L-2-2 Mk34
@@ -606,6 +618,7 @@
  -       SYOWA      MK4-A      14U2L-2-2 Mk34
  -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
  -       TIGO       MK4-A      14U2L-2-2 Mk34
+ -       TIGOPLTA   MK4-A      14U2L-2-2 Mk34
  -       WARK12M    MK4-A      14U2L-2-2 Mk34
  -       WESTFORD   MK4-A      14U2L-2-2 Mk34
  -       WETTZELL   MK4-A      14U2L-2-2 Mk34
@@ -627,10 +640,13 @@
  -       KATH12M    MK3V-A      14U2L-1-2  Mk34
  -       KOKEE      MK3V-A      14U2L-1-2  Mk34 
  -       MATERA     MK3V-A      14U2L-1-2  Mk34 
+ -       MEDICINA   MK3V-A      14U2L-1-2  Mk34 
  -       NYALES20   MK3V-A      14U2L-1-2  Mk34  
  -       ONSALA60   MK3V-A      14U2L-1-2  Mk34  
+ -       PARKES64   MK3V-A      14U2L-1-2  Mk34  
  -       SESHAN25   MK3V-A      14U2L-1-2  Mk34  
  -       TIGO       MK3V-A      14U2L-1-2  Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-2  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2  Mk34
  -       WARK12M    MK3V-A      14U2L-1-2  Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2  Mk34  
