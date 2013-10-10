@@ -1,8 +1,10 @@
-* VERSION 2013MAY15
+* VERSION 2013OCT10_iGSFC
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
-* Now put in comments in reverse order
 *
+* Now put in comments in reverse order
+* 2013OCT10  Added in Warkworth mask. From Stuart Weston email 2013Aug01
+* 2013Sep13  Changed HART15M mask code from HT to Ht
 * 2013May15  Changed name of GORF7102 to GGAO12M
 *
 * 930330 NRV New Kauai mask for 20-m obstruction
@@ -108,7 +110,7 @@
  H GGAO12M Gs 0 6 15 5.5 58 3.5 90 4.5 130 3 154 28 162 33 167 36 172 40 212 36 222. 33 227 28 232 6 290  6 360
 * HartRAO mask is fixed
  H HARTRAO  HT 0     7     360    7                                  
- H HART15M  HT 0     7     360    7                                  
+ H HART15M  Ht 0     7     360    7                                  
  C HATCREEK HC -38.0 21.0  -35.0 28.4  -30.0 40.9  -25.0 51.8  -20.0
  - 60.8  -15.0 68.0  -10.0 73.5  -5.0  77.1  2.0   80.0  59.0 
  - 76.3  65.0  72.4  70.0  68.6  75.0  64.8  80.0  61.0  85.0 
@@ -117,6 +119,9 @@
  - 87.87 4.5 183.67 4.5 186.28 5.3 190.78 5.0 195.47 4.5 221.45 4.5 
  - 226.09 4.9 232.98 6.2 242.11 7.8 245.91 7.9 253.90 7.3 262.70 6.5 
  - 266.60 5.7 281.25 4.5 360 4.5
+* HOBART mask per  Stuart Weston email 
+ H WARK12M  Ww 0 5.0 139 5.9 145 5.2 147 5.0 151 5.5 164 6.0 169 7.2 
+ - 171 6.5 174 5.9 179 5.5 190 5.0 360
 * Kauai no change in mask -- this is the old format
  H  KAUAI    KU 0     13    8     22    16 
  - 17    20    5      60   2     100   3     110   2     120  
