@@ -1,8 +1,9 @@
-* VERSION 2013MAY17_iGSFC
+* VERSION 2013OCT10_iGSFC
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
 *
+* 2013Oct10 JMG. Modified LO settings for AUSCope
 * 130917 dbb Add AIRA_WIDE for R1s per R. Kawabata.
 * 2013May17 JMG. Added new entries for Kashim11 (K4_KAS11) and Koganei (K4_KOG) for T2 and APSG
 *
@@ -389,16 +390,16 @@ DBBC_AU
  -   2   A1    X   7600    U
  -   3   A1    X   7600    U
  -   4   A1    X   7600    U
- -   5   B2    X   7600    U
- -   6   B2    X   7600    U
- -   7   B2    X   7600    U
- -   8   B2    X   7600    U
- -   9   C3    S   1900    U
- -   10  C3    S   1900    U
- -   11  C3    S   1900    U
- -   12  C3    S   1900    U
- -   13  D4    S   1900    U
- -   14  D4    S   1900    U
+ -   5   B4    X   7600    U
+ -   6   B4    X   7600    U
+ -   7   B4    X   7600    U
+ -   8   B4    X   7600    U
+ -   9   C2    S   1900    U
+ -   10  C2    S   1900    U
+ -   11  C2    S   1900    U
+ -   12  C2    S   1900    U
+ -   13  D2    S   1900    U
+ -   14  D2    S   1900    U
 * New sequence for HARTRAO15M .
 DBBC_H15M
  -   1   A1    X   8080    U
