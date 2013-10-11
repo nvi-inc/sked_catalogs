@@ -1,8 +1,9 @@
-* VERSION 2013OCT10_iGSFC
+* VERSION 2013OCT11_iGSFC
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
 *
+* 2013Oct11 JMG. Added LO settings for Warkworth (previously used AUscope) and modified LO settings HART15M
 * 2013Oct10 JMG. Modified LO settings for AUSCope
 * 130917 dbb Add AIRA_WIDE for R1s per R. Kawabata.
 * 2013May17 JMG. Added new entries for Kashim11 (K4_KAS11) and Koganei (K4_KOG) for T2 and APSG
@@ -368,23 +369,7 @@ ZC_WIDE
  -   6   B    S   1540.1  U
  -   7   B    S   1540.1  U
  -   8   B    S   1540.1  U
-* New sequence for Auscope and Warkworth.
-CDP_AU
- -   1   A     X   7600    U
- -   2   A     X   7600    U
- -   3   A     X   7600    U
- -   4   A     X   7600    U
- -   5   B     X   7600    U
- -   6   B     X   7600    U
- -   7   B     X   7600    U
- -   8   B     X   7600    U
- -   9   C     S   1900    U
- -   10  C     S   1900    U
- -   11  C     S   1900    U
- -   12  C     S   1900    U
- -   13  D     S   1900    U
- -   14  D     S   1900    U
-* New sequence for Auscope and Warkworth. Same as CDP_AU but uses DBBC IF names.
+* New sequence for Auscope 
 DBBC_AU
  -   1   A1    X   7600    U
  -   2   A1    X   7600    U
@@ -400,6 +385,24 @@ DBBC_AU
  -   12  C2    S   1900    U
  -   13  D2    S   1900    U
  -   14  D2    S   1900    U
+*
+* New sequence for Warkworth
+DBBC_WW
+ -   1   A1    X   7600    U
+ -   2   A1    X   7600    U
+ -   3   A1    X   7600    U
+ -   4   A1    X   7600    U
+ -   5   B1    X   7600    U
+ -   6   B1    X   7600    U
+ -   7   B1    X   7600    U
+ -   8   B1    X   7600    U
+ -   9   C1    S   1900    U
+ -   10  C1    S   1900    U
+ -   11  C1    S   1900    U
+ -   12  C1    S   1900    U
+ -   13  D1    S   1900    U
+ -   14  D1    S   1900    U
+* 
 * New sequence for HARTRAO15M .
 DBBC_H15M
  -   1   A1    X   8080    U
@@ -414,8 +417,8 @@ DBBC_H15M
  -   10  C1    S   2020    U
  -   11  C1    S   2020    U
  -   12  C1    S   2020    U
- -   13  C2    S   2020    U
- -   14  C2    S   2020    U
+ -   13  C1    S   2020    U
+ -   14  C1    S   2020    U
 * New RDV sequence for Kokee. Unused channel indicated  by "L" in sideband.
  NRAO_VG2
  -   1   A    X   7600    L
