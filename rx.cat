@@ -1,11 +1,12 @@
-* VERSION 2013Jul11_iGSFC
+* VERSION 2013Oct11_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2013Oct11 JMGipson. Cahnged  WARK12M to use DBBC_WW
 * 2013Jul11 JMGipson. Added Sejong to SX_WIDE
 * 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
 * 2013May06. Changed name of GORF7102 to GGAO12M
-*  2013Apr10 Added Sejong to SX_STD
+* 2013Apr10 Added Sejong to SX_STD
 
 
 * RXname   = referenced from the freq.cat file
@@ -159,7 +160,7 @@
  -       URUMQI      CDP_STDU
  -       VERAISGK    TSU_STD
  -       VERAMZSW    TSU_STD
- -       WARK12M     DBBC_AU
+ -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
  -       YARRA12M    CDP_STD
@@ -275,7 +276,7 @@
  -       URUMQI      CDP_STDU
  -       VERAISGK    TSU_WIDE
  -       VERAMZSW    TSU_WIDE
- -       WARK12M     DBBC_AU
+ -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
  -       YARRA12M    DBBC_AU
@@ -457,7 +458,7 @@
  -       ONSALA60    CDP_WIDE
  -       SANTIA12    CDP_WIDE
 *-       SESHAN25    CDPS_WID
- -       WARK12M     DBBC_AU
+ -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
  -       YARRA12M    DBBC_AU
