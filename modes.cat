@@ -1,8 +1,9 @@
-* VERSION 2013Jul09_iGSFC
+* VERSION 2013OCT11_iGSFC
 *
 * Updates now in decreaseing order, most recent first. 
-* 2013Jul09 JMG.  Changed T2 mode because Seshan has a different track layout
-* 12Sep07. JMG Changed 32-16-2-1 to mm-16-m-1. The later is 16 channel 1 bit. 
+* 2013OCT11 JMG  Added 1GB Aust mode
+* 2013Jul09 JMG  Changed T2 mode because Seshan has a different track layout
+* 2012Sep07 JMG  Changed 32-16-2-1 to mm-16-m-1. The later is 16 channel 1 bit. 
 * CATALOG modes.cat 
 * MODES.CAT - observing modes
 *
@@ -64,6 +65,7 @@
 *112-14(INT)     NEOS-WB      4.0   8.0    28-14-2-1
 128-16(INT)      NEOS-WB      4.0   8.0    32-16-2-1 
 256-16(INT2)     GEOSX4F      8.0   16.0   32-16-2-1
+1024-16(AU)      GEOSX       16.0   32.0   32-16-1-2
 *56-14(R4)       GEOSXR4      2.0   4.0    28-14-2-1
 *112-14(R4)      GEOSXR4      4.0   8.0    28-14-2-1
 *112-14(R4)      GEOSXOLD     4.0   8.0    28-14-2-1
