@@ -1,6 +1,10 @@
-* VERSION 2012MAY18_iGSFC
+* VERSION 2013NOV13_iGSFC
 * CATALOG freq.cat 
 * FREQ.CAT - frequency sequences
+*
+* Changes now with most recent at the top.
+*
+* 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
 *
 * 050709 nrv Add alternate BBC assignments for Zc in VG.
 * 050709 nrv Remove duplicate GEOSX sequences.
@@ -689,6 +693,7 @@
 - S    R   2345.99  U   CH13    13   10000.0
 - S    R   2365.99  U   CH14    14   10000.0
 * New sequence  at Arnos Request (07May31)
+* Modifed 2013Nov13.  2312.99 was previously 2212.99
  GEOSX4F   SX STD SX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
 - X    R   8252.99  U   CH2     2    10000.0
@@ -701,7 +706,7 @@
 - S    R   2232.99  U   CH9     9    10000.0
 - S    R   2240.99  U   CH10    10   10000.0
 - S    R   2256.99  U   CH11    11   10000.0
-- S    R   2212.99  U   CH12    12   10000.0
+- S    R   2312.99  U   CH12    12   10000.0
 - S    R   2344.99  U   CH13    13   10000.0
 - S    R   2352.99  U   CH14    14   10000.0
 * 8-channel series for Seshan 8/05. Lower 4 X-band,
