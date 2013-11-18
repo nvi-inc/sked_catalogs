@@ -1,11 +1,13 @@
-* VERSION 2013Jul15_iGSFC
+* VERSION 2013Nov18_iGSFC
 
 * Put in updates in reverse order, newest at top.
+*
+* 2013Nov18 JMG. Added seveal stations to 32-16-1-2: Ap, Gc, Sv
 * 2013Oct11 JMG. Put in new  mode 32-16-1-2
-* 13Jul16 JMG. Added MEDICINA to 32-16-1-2
-* 13Jun20 JMG. Added HART15M and GGAO12M to 32-16-1-2
-* 13May06 JMG. Changd name of GORF7102 to GGAO12M
-* 14APR10 JMG. Added SEJONG to 00-16-0-1
+* 13Jul16 JMG.   Added MEDICINA to 32-16-1-2
+* 13Jun20 JMG.   Added HART15M and GGAO12M to 32-16-1-2
+* 13May06 JMG.   Changd name of GORF7102 to GGAO12M
+* 14APR10 JMG.   Added SEJONG to 00-16-0-1
 * 13MAR27 JMG. Added SEJONG to 32-8-4-1
 * 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
 * 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
@@ -630,9 +632,11 @@
 * Everything is 32 tracks EXCEPT Zc
 *
  32-16-1-2
+ -       ALGOPARK   MK3V-A      14U2L-1-2  Mk34 
  -       BADARY     MK3V-A      14U2L-1-2  Mk34  
  -       FORTLEZA   MK3V-A      14U2L-1-2  Mk34  
  -       GGAO12M    MK3V-A      14U2L-1-2  Mk34  
+ -       GILCREEK   MK3V-A      14U2L-1-2  Mk34 
  -       HARTRAO    MK3V-A      14U2L-1-2  Mk34  
  -       HART15M    MK3V-A      14U2L-1-2  Mk34  
  -       HOBART12   MK3V-A      14U2L-1-2  Mk34
@@ -645,6 +649,7 @@
  -       ONSALA60   MK3V-A      14U2L-1-2  Mk34  
  -       PARKES64   MK3V-A      14U2L-1-2  Mk34  
  -       SESHAN25   MK3V-A      14U2L-1-2  Mk34  
+ -       SVETLOE    MK3V-A      14U2L-1-2  Mk34 
  -       TIGO       MK3V-A      14U2L-1-2  Mk34  
  -       TIGOPLTA   MK3V-A      14U2L-1-2  Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2  Mk34
