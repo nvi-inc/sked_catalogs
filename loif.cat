@@ -1,8 +1,9 @@
-* VERSION 2013OCT11_iGSFC
+* VERSION 2013Nov20_iGSFC
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
 *
+* 2013Nov20 JMG. Added CDP_STDUW for Urmuqi and made IF3 LO 8600 for 5-8 per E. Himwich email. 
 * 2013Oct11 JMG. Added LO settings for Warkworth (previously used AUscope) and modified LO settings HART15M
 * 2013Oct10 JMG. Modified LO settings for AUSCope
 * 130917 dbb Add AIRA_WIDE for R1s per R. Kawabata.
@@ -95,6 +96,23 @@
  -   12 2N    S   2000  U
  -   13 2N    S   2000  U
  -   14 2N    S   2000  U
+* Wideband for Urumqi
+CDP_STDUW
+ -   1  1N    X   8100  U
+ -   2  1N    X   8100  U
+ -   3  1N    X   8100  U
+ -   4  1N    X   8100  U
+ -   5  3N    X   8600  U
+ -   6  3N    X   8600  U
+ -   7  3N    X   8600  U
+ -   8  3N    X   8600  U
+ -   9  2N    S   2000  U
+ -   10 2N    S   2000  U
+ -   11 2N    S   2000  U
+ -   12 2N    S   2000  U
+ -   13 2N    S   2000  U
+ -   14 2N    S   2000  U
+
  CDP_CRF
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
