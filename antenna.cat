@@ -1,9 +1,10 @@
-* VERSION 2013Dec13_iGSFC
+* VERSION 2013Dec17_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
 *
+* 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBC
 * Restored from 2013 version. the 2013Nov20 had wrong slew speeds for GGAO
 * 2013Dec13 JMG. Modified AZ-el limits for Warkworth per email from Stuart. 2013-Nov-21
 * 2013OCT10 JMG. Modified Warkworth entry to reflect antenna mask
@@ -345,5 +346,6 @@
  Y YARRA12M AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Yg Yg
 *Y YEBES    AZEL 0.0      60.0 10    5.0  715.0  60.0 10   10.0   89.0  13.7 Yb 105
  Y YEBES40M AZEL 2.00980  60.0 10  300.0  780.0  60.0 10    5.0   89.0  40.0 Ys 105
+ Y YEBESDBC AZEL 2.00980  60.0 10  300.0  780.0  60.0 10    5.0   89.0  40.0 Yd xx5
 *Z ZELENCHK AZEL 0.00000  72.0 60  270.0  810.0  48.0 60   12.0   80.0  32.0 Zc 118
  Z ZELENCHK AZEL 0.00000  60.0 40  278.0  802.0  30.0 40   12.0   80.0  32.0 Zc 118
