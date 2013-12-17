@@ -1,6 +1,7 @@
-* VERSION 2013Dec13_iGSFC 
+* VERSION 2013Dec17_iGSFC 
 * CATALOG equip.cat 
 * EQUIP.CAT - station equipment
+* 2013Dec17 JMGipson  Added Yd=YEBES with DBBC
 * 2013Dec13 JMGipson. chaged SEFs at Sv, BD, Zc. X: 1200->400;  S:1500-->600
 * 2013Nov13 JMGipson. Changed X-band SEFDs of Kokee to 2000 per conversation with E. Himwich 
 * 2013Oct17 JMGipson. S-SEFD of NyAlesund changed from 2500--1500
@@ -510,6 +511,7 @@
 *YEBES     105  YEBES     1x56000 17640   X  3000   S  5000 VLBA4 MARK5A
 *YEBES40M  105  YEBES     1x56000 17640   X   420   S   420 VLBA4 MARK5A
  YEBES40M  105  YEBES     1x56000 17640   X   250   S  1500 VLBA5 MARK5B
+ YEBESDBC  xx5  YEBES     1x56000 17640   X   250   S  1500 none MARK5B
  ZELENCHK  118  ZELENCHK  2x56000 17640   X   400   S   600 VLBA4 MARK5B
 * ZELENCHK  118  ZELENCHK  2x56000 17640   X   1200   S  1500  none MARK5B
 * ZELENCHK   ZC  S2-ZELEN   SLP      361   X   400   S   600 none S2
