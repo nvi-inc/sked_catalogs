@@ -1,7 +1,8 @@
-* VERSION 2013Nov18_iGSFC
+* VERSION 2013Dec17_iGSFC
 
 * Put in updates in reverse order, newest at top.
 *
+* 2013Dec17 JMG. Added YEBESDBC=YEBES40M with DBC 
 * 2013Nov18 JMG. Added seveal stations to 32-16-1-2: Ap, Gc, Sv
 * 2013Oct11 JMG. Put in new  mode 32-16-1-2
 * 13Jul16 JMG.   Added MEDICINA to 32-16-1-2
@@ -362,6 +363,7 @@
  -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
+ -       YEBESDBC   MK3V-A      14U2L-1-1-B  Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-1-B  Mk34  
  -       ATCA       MK3V-A      14U2L-2-1  Mk34  
  -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  
