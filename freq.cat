@@ -1,9 +1,9 @@
-* VERSION 2013NOV13_iGSFC
-* CATALOG freq.cat 
+* VERSION 2014Jan15_iGSFC
 * FREQ.CAT - frequency sequences
 *
 * Changes now with most recent at the top.
 *
+* 2014Jan16 JMG  Changed RDV frequency per email David Gordon 2014Jan15
 * 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
 *
 * 050709 nrv Add alternate BBC assignments for Zc in VG.
@@ -511,51 +511,51 @@
 * JMG 2002Nov20. Raised 7MHz again
 * Added set-up values for non-recorded BBCs
  VGEOSX SX STD VG_STD
-- X    R   8405.99  U   CH1     1    10000.0
-- X    R   8475.99  U   CH2     2    10000.0
-- X    R   8790.99  U   CH3     3    10000.0
-- X    R   8895.99  U   CH4     4    10000.0
-- S    R   2232.99  U   CH5     5    10000.0
-- S    R   2262.99  U   CH6     6    10000.0
-- S    R   2352.99  U   CH7     7    10000.0
-- S    R   2372.99  U   CH8     8    10000.0
-* S    R   2225.99  U   CH5     5    10000.0
-* S    R   2255.99  U   CH6     6    10000.0
-* S    R   2345.99  U   CH7     7    10000.0
-* S    R   2365.99  U   CH8     8    10000.0
+- X    R   8365.75  U   CH1     1    10000.0
+- X    R   8445.75  U   CH2     2    10000.0
+- X    R   8805.75  U   CH3     3    10000.0
+- X    R   8925.75  U   CH4     4    10000.0
+- S    R   2232.75  U   CH5     5    10000.0
+- S    R   2262.75  U   CH6     6    10000.0
+- S    R   2352.75  U   CH7     7    10000.0
+- S    R   2372.75  U   CH8     8    10000.0
+* S    R   2225.75  U   CH5     5    10000.0
+* S    R   2255.75  U   CH6     6    10000.0
+* S    R   2345.75  U   CH7     7    10000.0
+* S    R   2365.75  U   CH8     8    10000.0
 * VC assignments for non-VLBA stations
 * includes setups for non-recorded VCs
  VGEOSX SX STD VG_MK4
-- X    R   8405.99  U   CHX   101    10000.0
-- X    R   8405.99  U   CHX   102    10000.0
-- X    R   8405.99  U   CH1     3    10000.0
-- X    R   8475.99  U   CH2     4    10000.0
-- X    R   8790.99  U   CH3     5    10000.0
-- X    R   8895.99  U   CH4     6    10000.0
-- X    R   8895.99  U   CHX   107    10000.0
-- X    R   8895.99  U   CHX   108    10000.0
-- S    R   2232.99  U   CH5     9    10000.0
-- S    R   2262.99  U   CH6    10    10000.0
-- S    R   2262.99  U   CHX   111    10000.0
-- S    R   2262.99  U   CHX   112    10000.0
-- S    R   2352.99  U   CH7    13    10000.0
-- S    R   2372.99  U   CH8    14    10000.0
+- X    R   8365.75  U   CHX   101    10000.0
+- X    R   8365.75  U   CHX   102    10000.0
+- X    R   8365.75  U   CH1     3    10000.0
+- X    R   8445.75  U   CH2     4    10000.0
+- X    R   8805.75  U   CH3     5    10000.0
+- X    R   8925.75  U   CH4     6    10000.0
+- X    R   8925.75  U   CHX   107    10000.0
+- X    R   8925.75  U   CHX   108    10000.0
+- S    R   2232.75  U   CH5     9    10000.0
+- S    R   2262.75  U   CH6    10    10000.0
+- S    R   2262.75  U   CHX   111    10000.0
+- S    R   2262.75  U   CHX   112    10000.0
+- S    R   2352.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * VC assignments for ZELENCHK
  VGEOSX SX STD VG_ZC 
-- X    R   8405.99  U   CHX   101    10000.0
-- X    R   8405.99  U   CHX   102    10000.0
-- X    R   8405.99  U   CH1     3    10000.0
-- X    R   8475.99  U   CH2     4    10000.0
-- X    R   8790.99  U   CH3     5    10000.0
-- X    R   8895.99  U   CH4     6    10000.0
-- X    R   8895.99  U   CHX   107    10000.0
-- X    R   8895.99  U   CHX   108    10000.0
-- S    R   2232.99  U   CH5     9    10000.0
-- S    R   2262.99  U   CHX   110    10000.0
-- S    R   2262.99  U   CHX   111    10000.0
-- S    R   2262.99  U   CH6    12    10000.0
-- S    R   2352.99  U   CH7    13    10000.0
-- S    R   2372.99  U   CH8    14    10000.0
+- X    R   8365.75  U   CHX   101    10000.0
+- X    R   8365.75  U   CHX   102    10000.0
+- X    R   8365.75  U   CH1     3    10000.0
+- X    R   8445.75  U   CH2     4    10000.0
+- X    R   8805.75  U   CH3     5    10000.0
+- X    R   8925.75  U   CH4     6    10000.0
+- X    R   8925.75  U   CHX   107    10000.0
+- X    R   8925.75  U   CHX   108    10000.0
+- S    R   2232.75  U   CH5     9    10000.0
+- S    R   2262.75  U   CHX   110    10000.0
+- S    R   2262.75  U   CHX   111    10000.0
+- S    R   2262.75  U   CH6    12    10000.0
+- S    R   2352.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 ******************************************************
 * 8-channel sequence for Patrick Charlot.
 * Based on VGEOSX.
