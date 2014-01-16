@@ -1,9 +1,10 @@
-* VERSION 2013Dec17_iGSFC
+* VERSION 2014Jan16_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
 *
+* 2013Jan16 JMG. Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
 * 2013Dec17 JMG. Added YDC_WIDE  for YEBESDBC=YEBES40M with DBBC
 * 2013Nov20 JMG. Added CDP_STDUW for Urmuqi and made IF3 LO 8600 for 5-8 per E. Himwich email. 
 * 2013Oct11 JMG. Added LO settings for Warkworth (previously used AUscope) and modified LO settings HART15M
@@ -438,16 +439,16 @@ DBBC_WW
  -   13  D1    S   1900    U
  -   14  D1    S   1900    U
 * 
-* New sequence for HARTRAO15M .
-DBBC_H15M
+* New sequence for HART15M.  Now also for HH
+DBBC_HH
  -   1   A1    X   8080    U
  -   2   A1    X   8080    U
  -   3   A1    X   8080    U
  -   4   A1    X   8080    U
- -   5   B1    X   8080    U
- -   6   B1    X   8080    U
- -   7   B1    X   8080    U
- -   8   B1    X   8080    U
+ -   5   B2    X   8080    U
+ -   6   B2    X   8080    U
+ -   7   B2    X   8080    U
+ -   8   B2    X   8080    U
  -   9   C1    S   2020    U
  -   10  C1    S   2020    U
  -   11  C1    S   2020    U
@@ -845,14 +846,14 @@ CDPV_SEX
  -   7   A    X   7900    U
  -   8   A    X   7900    U
  VLBA_79
- -   1   B    X   7900    U
- -   2   B    X   7900    U
- -   3   B    X   7900    U
- -   4   B    X   7900    U
- -   5   A    S   2900    L
- -   6   A    S   2900    L
- -   7   A    S   2900    L
- -   8   A    S   2900    L
+ -   1   B    X   7600    U
+ -   2   B    X   7600    U
+ -   3   C    X   9600    U
+ -   4   C    X   9600    U
+ -   5   A    S   3100    L
+ -   6   A    S   3100    L
+ -   7   A    S   3100    L
+ -   8   A    S   3100    L
  VLBA_STD
  -   1   B    X   7600    U
  -   2   B    X   7600    U
