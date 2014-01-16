@@ -1,7 +1,8 @@
-* VERSION 2013Dec17_iGSFC
+* VERSION 2014JAN16_iGSFC
 
 * Put in updates in reverse order, newest at top.
 *
+* 2014Jan16 JMG  Added HART15M to 00-8U-0-2
 * 2013Dec17 JMG. Added YEBESDBC=YEBES40M with DBC 
 * 2013Nov18 JMG. Added seveal stations to 32-16-1-2: Ap, Gc, Sv
 * 2013Oct11 JMG. Put in new  mode 32-16-1-2
@@ -203,6 +204,7 @@
  -       FORTLEZA   MK3V-A       8U-2-2   Mk34        
  -       GILCREEK   MK3A-A       8U-2-2   VLBA  
  -       HARTRAO    MK3V-A       8U-1-2-b   Mk34 
+ -       HART15M    MK3V-A       8U-1-2-b   Mk34 
  -       HOBART26   MK3V-A       8U-2-2   Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
