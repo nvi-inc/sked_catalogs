@@ -1,7 +1,10 @@
-* VERSION 2013Oct11_iGSFC
+* VERSION 2013Dec17_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+*
+* 2013Dec17 JMGipson. Added YEBESDBC = YEBES40M with DBBC
+* 2013Nov20 JMGipson. In SX_WIDE changed Urumqi's LO to CDP_STDUW. Also updated loif.cat.
 * 2013Oct11 JMGipson. Cahnged  WARK12M to use DBBC_WW
 * 2013Jul11 JMGipson. Added Sejong to SX_WIDE
 * 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
@@ -165,6 +168,7 @@
  -       WETTZELL    CDP_STD
  -       YARRA12M    CDP_STD
  -       YEBES40M    YEB_STD
+ -       YEBESDBC    YDC_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
 * -       ZELENCHK    CDP_STDN
@@ -273,7 +277,7 @@
  -       TIGOPLTA    CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
- -       URUMQI      CDP_STDU
+ -       URUMQI      CDP_STDUW
  -       VERAISGK    TSU_WIDE
  -       VERAMZSW    TSU_WIDE
  -       WARK12M     DBBC_WW
@@ -281,6 +285,7 @@
  -       WETTZELL    CDP_WIDE
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YEB_WIDE
+ -       YEBESDBC    YDC_WIDE
  -       ZELENCHK    CDP_STDN
 * CORE modes testing
  SX_W16
@@ -406,6 +411,7 @@
  -       WETTZELL    CDP_WID8 
  -       URUMQI      CDP_WID8 
  -       YEBES40M    CDP_WID8 
+ -       YEBESDBC    CDP_WID8
  VG_ZC
  -       ZELENCHK    ZC8_WIDE 
  VLBA_PH
