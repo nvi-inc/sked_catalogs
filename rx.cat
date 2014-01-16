@@ -1,8 +1,9 @@
-* VERSION 2013Dec17_iGSFC
+* VERSION 2014Jan16_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
+* 2014Jan16 JMGipson. Modified link to LO settings for HARTRAO, HART15M to DBBC_HH
 * 2013Dec17 JMGipson. Added YEBESDBC = YEBES40M with DBBC
 * 2013Nov20 JMGipson. In SX_WIDE changed Urumqi's LO to CDP_STDUW. Also updated loif.cat.
 * 2013Oct11 JMGipson. Cahnged  WARK12M to use DBBC_WW
@@ -116,8 +117,8 @@
  -       EFLSBERG    EFL_STD
  -       GILCREEK    CDPV_STD
  -       GOLDVENU    DSN_STD
- -       HARTRAO     CDP_STD
- -       HART15M     DBBC_H15M
+ -       HARTRAO     DBBC_HH
+ -       HART15M     DBBC_HH
  -       HAYSTACK    CDP_STD
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_STD
@@ -239,8 +240,8 @@
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
  -       GGAO12M     CDP_WIDE
- -       HARTRAO     CDP_WIDE
- -       HART15M     DBBC_H15M
+ -       HARTRAO     DBBC_HH
+ -       HART15M     DBBC_HH
  -       HAYSTACK    CDP_WIDE
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_WIDE
@@ -387,7 +388,8 @@
  -       EFLSBERG    CDP_WID8   
  -       FORTLEZA    CDP_WID8
  -       GILCREEK    CDPV_VG2
- -       HARTRAO     CDP_WID8 
+ -       HARTRAO     DBBC_HH
+ -       HART15M     DBBC_HH
  -       KOKEE       NRAO_VG2
  -       HOBART26    CDP_WID8 
  -       HOBART12    DBBC_AU
