@@ -1,8 +1,9 @@
-* VERSION 2014Jan15_iGSFC
+* VERSION 2014Feb05_iGSFC
 * FREQ.CAT - frequency sequences
 *
 * Changes now with most recent at the top.
 *
+* 2014Feb05 JMG  Changed LOIF sequence for RDV from VG_STD to VLBA_RV
 * 2014Jan16 JMG  Changed RDV frequency per email David Gordon 2014Jan15
 * 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
 *
@@ -329,7 +330,7 @@
 ********************************************************
 * Europe second sequence, narrow-band SX with different
 * S-band to avoid interference at Matera.
- EUR2-SX SX STD  SX_STD   
+ EUR2-SX SX STD  SX_STD
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -461,7 +462,6 @@
 - S    R   2220.99  U   CH5     5    10000.0
 - S    R   2240.99  U   CH6     6    10000.0
 - S    R   2330.99  U   CH7     7    10000.0
-- S    R   2360.99  U   CH8     8    10000.0
 
 ********************************************************
 * 8-channel sequence for geodetic VLBA experiments.
@@ -510,7 +510,7 @@
 * Raise S-band by 5 MHz to avoid RFI in 2320-2345 band.
 * JMG 2002Nov20. Raised 7MHz again
 * Added set-up values for non-recorded BBCs
- VGEOSX SX STD VG_STD
+ VGEOSX SX STD  VLBA_RV
 - X    R   8365.75  U   CH1     1    10000.0
 - X    R   8445.75  U   CH2     2    10000.0
 - X    R   8805.75  U   CH3     3    10000.0
