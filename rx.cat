@@ -1,8 +1,9 @@
-* VERSION 2014Jan16_iGSFC
+* VERSION 2014Feb06_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
+* 2014Feb06 JMGipson. Added VLBA_RV
 * 2014Jan16 JMGipson. Modified link to LO settings for HARTRAO, HART15M to DBBC_HH
 * 2013Dec17 JMGipson. Added YEBESDBC = YEBES40M with DBBC
 * 2013Nov20 JMGipson. In SX_WIDE changed Urumqi's LO to CDP_STDUW. Also updated loif.cat.
@@ -344,6 +345,17 @@
  -       TAHITI      CDP_W14 
  -       WESTFORD    CDP_W14
  -       WETTZELL    CDP_W14
+ VLBA_RV
+ -       BR-VLBA     VLBA_RV
+ -       FD-VLBA     VLBA_RV
+ -       HN-VLBA     VLBA_RV
+ -       KP-VLBA     VLBA_RV
+ -       LA-VLBA     VLBA_RV
+ -       MK-VLBA     VLBA_RV
+ -       NL-VLBA     VLBA_RV
+ -       OV-VLBA     VLBA_RV
+ -       PIETOWN     VLBA_RV
+ -       SC-VLBA     VLBA_RV 
  VLBA_WID
  -       BR-VLBA     VLBA_WIDE
  -       FD-VLBA     VLBA_WIDE
