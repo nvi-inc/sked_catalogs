@@ -1,9 +1,10 @@
-* VERSION 2014Jan16_iGSFC
+* VERSION 2014Feb06_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
 *
+* 2014Feb06 JMG. Added VLBA_RV
 * 2013Jan16 JMG. Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
 * 2013Dec17 JMG. Added YDC_WIDE  for YEBESDBC=YEBES40M with DBBC
 * 2013Nov20 JMG. Added CDP_STDUW for Urmuqi and made IF3 LO 8600 for 5-8 per E. Himwich email. 
@@ -899,6 +900,15 @@ CDPV_SEX
  -   6   A    S   2900    L
  -   7   A    S   2900    L
  -   8   A    S   2900    L
+ VLBA_RV
+ -   1   B    X   7600    U
+ -   2   B    X   7600    U
+ -   3   D    X   9600    L
+ -   4   D    X   9600    L
+ -   5   A    S   3100    L
+ -   6   A    S   3100    L
+ -   7   A    S   3100    L
+ -   8   A    S   3100    L
  VLBA_PW  
  -   1   B    X   9600    L
  -   2   D    X   9600    L
