@@ -1,7 +1,8 @@
-* VERSION 2014JAN16_iGSFC
+* VERSION 2014Mar25_iGSFC
 
 * Put in updates in reverse order, newest at top.
 *
+* 2014MAr25 JMG. Added ONSALDBC=ONSALA60 with DBBC
 * 2014Jan16 JMG  Added HART15M to 00-8U-0-2
 * 2013Dec17 JMG. Added YEBESDBC=YEBES40M with DBC 
 * 2013Nov18 JMG. Added seveal stations to 32-16-1-2: Ap, Gc, Sv
@@ -345,6 +346,7 @@
  -       NYALES20   MK3V-A      14U2L-1-1-B  Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
  -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
+ -       ONSALDBC   MK3V-A      14U2L-2-1  Mk34 
  -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
  -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
@@ -651,6 +653,7 @@
  -       MEDICINA   MK3V-A      14U2L-1-2  Mk34 
  -       NYALES20   MK3V-A      14U2L-1-2  Mk34  
  -       ONSALA60   MK3V-A      14U2L-1-2  Mk34  
+ -       ONSALDBC   MK3V-A      14U2L-1-2  Mk34  
  -       PARKES64   MK3V-A      14U2L-1-2  Mk34  
  -       SESHAN25   MK3V-A      14U2L-1-2  Mk34  
  -       SVETLOE    MK3V-A      14U2L-1-2  Mk34 
@@ -662,6 +665,7 @@
  -       WETTZELL   MK3V-A      14U2L-1-2  Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2  Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2  Mk34  
+ -       YEBESDBC   MK3V-A      14U2L-1-2  Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-2  Mk34  
 *******************************************************************
 * 2-bit sampling, 8 USB and LSB channels, 1:1 fanout, 32 tracks.
