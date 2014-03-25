@@ -1,10 +1,11 @@
-* VERSION 2014Jan30_iGSFC
+* VERSION 2014Mar25_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2014Mar25 JMG  Added ONSALDBC = ONSALA60 with DBBC
 * 2014Jan30 JMG  Added 3 seconds to HART15Ms slew parameters
-* 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBC
+* 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBBC
 * Restored from 2013 version. the 2013Nov20 had wrong slew speeds for GGAO
 * 2013Dec13 JMG. Modified AZ-el limits for Warkworth per email from Stuart. 2013-Nov-21
 * 2013OCT10 JMG. Modified Warkworth entry to reflect antenna mask
@@ -178,6 +179,8 @@
 * 120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
 * 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
+* 140416 dbb Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
+* 140516 dbb Add TIANMA65 per Fengchun Shu.
 *    
 *             
 *
@@ -283,7 +286,8 @@
  N NYALES20 AZEL 0.51980 120.0  9  271.0  809.0 120.0  9    0.0   89.7  20.0 Ny 66  NY
 *P OHIGGINS AZEL 0.00000  90.0  0   90.0  530.0  90.0  0    0.0   88.0   9.0 Oh 100 --
  P OHIGGINS AZEL 0.00000  90.0  0  270.0  630.0  90.0  0    0.0   88.0   9.0 Oh 100 --
- T ONSALA60 AZEL 0.00000 144.0 20  340.0  740.0  60.0 10    5.0   85.0  20.0 On 02    
+ T ONSALA60 AZEL 0.00000 144.0 20  340.0  740.0  60.0 10    5.0   85.0  20.0 On 02
+ T ONSALDBC AZEL 0.00000 144.0 20  340.0  740.0  60.0 10    5.0   85.0  20.0 Od 02d 
  S ONSALA85 HADC 2.15000  18.0  0 -180.0  180.0  20.0  0  -40.0   88.0  25.0 O8 02    
 *Z ORION_5M AZEL 0.00000 180.0  0  102.0  792.0 180.0  0    6.2   89.0   5.0 Gg 10    
  Z ORION_5M AZEL 0.00000 180.0  0  195.0  875.0 180.0  0    6.2   89.0   5.0 Gg 10    
@@ -316,6 +320,7 @@
  S SVETLOE  AZEL 0.00000  60.0 40  278.0  802.0  30.0 40   10.0   80.0  32.0 Sv 116
  T TAHITI   AZEL 0.508   120.0  2  270.0  810.0 120.0  2    0.0   89.0  20.0 Th 106 Th
  Y TATEYAMA AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    6.0   88.0  11.0 Ty  Ty   
+ T TIANMA65 AZEL 0.00000  30.0  0  280.0  800.0  15.0  0    6.0   87.0  65.0 T6 109
 *T TIDBIN64 AZEL 0.00000  12.0  0  230.0  760.0  12.0  0    6.0   88.0  64.0 Ti 69    
  T TIDBIN64 AZEL 0.00000  15.0 12  230.0  759.8  15.0 12    6.0   86.0  64.0 Ti 39    
  O TIGO     AZEL 0.00000 360.0  0  276.0  774.0 180.0  0    0.0   90.0   6.0 Tc 70 TG
@@ -334,7 +339,7 @@
  S VERAISGK AZEL 0.00000 120.0  0  270.0  810.0 120.0  0    5.0   85.0  20.0 Vs Vs  Vs 
  M VERAMZSW AZEL 0.00000 120.0  0  270.0  810.0 120.0  0    5.0   85.0  20.0 Vm Vm  Vm 
  Y VLA      AZEL 0.00000  40.0  0  275.0  805.0  20.0  0   10.0   88.0  26.0 Yl 101   
- W WARK12M  AZEL 0.00000 300.0  2  180.0  540.0  60.0  2    8.0   88.0  12.0 Ww Ww Ww
+ W WARK12M  AZEL 0.00000 300.0  2  180.0  720.0  60.0  2    8.0   88.0  12.0 Ww Ww Ww
  Z WERTHOVN AZEL 0.00000  60.0  0    0.0  360.0  60.0  0    5.0   88.0  34.0 WT --    
 *E WESTFORD AZEL 0.31830 240.0  0  100.0  460.0 180.0  0    4.0   87.2  18.0 Wf 07  WF
  E WESTFORD AZEL 0.31830 200.0 10  100.0  460.0 120.0 10    4.0   87.2  18.0 Wf 07  WF
