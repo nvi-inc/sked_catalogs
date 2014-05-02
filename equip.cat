@@ -1,6 +1,8 @@
-* VERSION 2014Mar28_iGSFC 
-* CATALOG equip.cat 
+* VERSION 2014May02_iGSFC 
+* CATALOG equip.cat    
 * EQUIP.CAT - station equipment
+*
+* 2014May02 JMGipson  Changed rack tpe of Tsukuba K4-2 per E. Himwich email 5/2/14
 * 2014Mar28 JMGipson  Changed rack type of Zc to none
 * 2014Mar25 JMGipson  Added Od=ONSALA60 with DBBC
 * 2013Dec17 JMGipson  Added Yd=YEBES with DBBC
@@ -484,7 +486,7 @@
  TIGOPLTA   70  TIGO      2x56000 17640   X 20000   S 15000 VLBA5 MARK5B
  TORUN     113  TORUN     1x56000 17640   C   250   C   250 VLBA MARK5A
 *TSUKUB32   TS  TSUKUB32  1x56000 17640   X   300   S   300
- TSUKUB32  108  TSUKUB32  2x56000 17640   X   320   S   360 K4-2/M4   K5 
+ TSUKUB32  108  TSUKUB32  2x56000 17640   X   320   S   360 K4-2      K5 
 * TSUKUB32   TK  K4-TSUKB    1       100   X   320   S   360 K4-2     K5
 * TSUKUB32   T2  TS-K4M4     1       100   X   320   S   360 K4-2/M4  K5
  UCHINOUR   Uc  UCHINOUR     1      100   X   460   S  360  X 1.0 0.890 0.110 S 1.0 0.920 0.080 K4-1 K5
