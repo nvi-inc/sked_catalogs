@@ -1,7 +1,8 @@
-* VERSION 2014May02_iGSFC 
+* VERSION 2014May06_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
-*
+* 140516    dbb       Add TIANMA65 per Fengchun Shu.
+* 2014May06 JMGipson  Made "none Mark5B"  default for Onsala60. Commented out DBBC test version
 * 2014May02 JMGipson  Changed rack tpe of Tsukuba K4-2 per E. Himwich email 5/2/14
 * 2014Mar28 JMGipson  Changed rack type of Zc to none
 * 2014Mar25 JMGipson  Added Od=ONSALA60 with DBBC
@@ -278,6 +279,7 @@
 * 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
 * 121026 JMG Added terminal info to SYOWA. Somehow this disappeared.
 * 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
+
 *
 *
 * NOTE: Multiple equipment lines may appear for the same antenna name,
@@ -445,8 +447,8 @@
  OHIGGINS  100  OHIGVLBA 1x56000  17640   X 10000   S 18000 VLBA4 MARK5A
 *ONSALA60   02  ONSALA      1      8820   X  2450   S  3200 S 0.2 0.418 0.582 X 0.5 0.777 0.223 Mark4 MARK5A
 *ONSALA60   02  ONSALA   1x56000  17640   X  2450   S  3200 S 0.2 0.418 0.582 X 0.5 0.777 0.223 Mark4 MARK5A
- ONSALA60   02  ONSALA   2x56000  17640   X  2000   S  2500 S 0.2 0.418 0.582 X 0.5 0.777 0.223 Mark4 MARK5A
- ONSALDBC  02d  ONSALA   2x56000  17640   X  2000   S  2500 S 0.2 0.418 0.582 X 0.5 0.777 0.223 None MARK5B
+ ONSALA60   02  ONSALA   2x56000  17640   X  2000   S  2500 S 0.2 0.418 0.582 X 0.5 0.777 0.223  None Mark5B
+* ONSALDBC  02d  ONSALA   2x56000  17640   X  2000   S  2500 S 0.2 0.418 0.582 X 0.5 0.777 0.223 None MARK5B
  ONSALA85   02  ONSALA   1x56000  17640   C   600   C   600 Mark4 MARK5A
  ORION_5M   10  MV3_5M   2x56000  17640   X 30000   S 45000 Mark4 MARK5A
  MV3-LOW    10  MV3_5M      1     17640   X 30000   S 45000
@@ -479,6 +481,7 @@
  SYOWA      SY  SYOWA-K4    2     99999   X 11230   S  7500 K4-1 K5 
  TAHITI     TH  TAHITI   1x56000  17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723
  TATEYAMA   Ty  K4-TATEY    1       200   X  4500   S  4500 K4-2 K5 
+ TIANMA65  109  TIANMA65 2x56000  17640   X    60   S    90 VLBA5 MARK5B
 *TIGO       70  TIGO      1x56000 17640   X  7000   S 30000 VLBA4 MARK5A
 *TIGO       70  TIGO      1x56000 17640   X  8500   S 15000 VLBA4 MARK5A
  TIGO       70  TIGO      2x56000 17640   X 20000   S 15000 VLBA5 MARK5B
