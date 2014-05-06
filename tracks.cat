@@ -1,9 +1,10 @@
-* VERSION 2013Jul09_iGSFC
+* VERSION 2014May06_iGSFC
 * CATALOG tracks.cat 
 * TRACKS.CAT - track assignments
 *
 * This catalog includes track assignments.
-* 2013Jul09    JMGipson. Added
+* 2014May06    JMGipson Mark5B track layout for CONT14.
+* 2013Jul09    JMGipson. 
 * 2013Jul08    JMGipson. Modified track assignhment 14U2L-1-1-BS for SESHAN
 *
 * 051030 nrv   New version
@@ -199,6 +200,38 @@
  - 12 1(20,,22)
  - 13 1(24,,26)
  - 14 1(28,,30)
+* 14 USB, 2 LSB, no fanout, 2-bit = 32 tracks. Mark5B
+ 14U2L-1-2-B   1   2
+ -  1 1(-1,15,,16)
+ -  2 1(1,,2)
+ -  3 1(3,,4)
+ -  4 1(5,,6)
+ -  5 1(7,,8)
+ -  6 1(9,,10)
+ -  7 1(11,,12)
+ -  8 1(13,17,14,18)
+ -  9 1(19,,20)
+ - 10 1(21,,22)
+ - 11 1(23,,24)
+ - 12 1(25,,26)
+ - 13 1(27,,28)
+ - 14 1(29,,30)
+* 14 USB, 2 LSB, no fanout, 2-bit = 32 tracks. Japanese
+ 14U2L-1-2-J   1   2
+ -  1 1(-1,27,0,28)
+ -  2 1(1,,2)
+ -  3 1(3,,4)
+ -  4 1(5,,6)
+ -  5 1(7,,8)
+ -  6 1(9,,10)
+ -  7 1(11,,12)
+ -  8 1(13,29,14,30)
+ -  9 1(15,,16)
+ - 10 1(17,,18)
+ - 11 1(19,,20)
+ - 12 1(21,,22)
+ - 13 1(23,,24)
+ - 14 1(25,,26)
 ************************************
 * 14 USB, 2 LSB, fanout 1:1, 1-bit = 16 tracks
  14U2L-1-1   1   1
