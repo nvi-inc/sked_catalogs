@@ -1,8 +1,9 @@
-* VERSION 2014Mar25_iGSFC
+* VERSION 2014May16_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2014May16 dbb Add TIANMA65 per Fenchun Shu.
 * 2014Mar25 JMG  Added ONSALDBC = ONSALA60 with DBBC
 * 2014Jan30 JMG  Added 3 seconds to HART15Ms slew parameters
 * 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBBC
