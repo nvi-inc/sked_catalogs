@@ -1,8 +1,10 @@
-* VERSION 2014Feb06_iGSFC
+* VERSION 2014May16_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
+* 2014May16 DBB       Tianma
+* 2014Mar25 JMGipson. Added ONSALDBC = ONSALA60 with DBBC
 * 2014Feb06 JMGipson. Added VLBA_RV
 * 2014Jan16 JMGipson. Modified link to LO settings for HARTRAO, HART15M to DBBC_HH
 * 2013Dec17 JMGipson. Added YEBESDBC = YEBES40M with DBBC
@@ -146,6 +148,7 @@
  -       NYALES20    CDP_STD
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    CDP_STD
+ -       ONSALDBC    ODB_STD
  -       ORION_5M    CDP_STD
  -       OVRO_130    CDP_STD
  -       PARKES64    CDP_STDN
@@ -264,6 +267,7 @@
  -       NYALES20    CDP_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    CDP_WIDE
+ -       ONSALDBC   ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
  -       PARKES64    CDP_WIDE
@@ -275,6 +279,7 @@
  -       SYOWA       TSU_WIDE
  -       SVETLOE     CDP_STDN
  -       TAHITI      CDP_WIDE
+ -       TIANMA65    CDP_T6
  -       TIGO        CDPV_WIDE
  -       TIGOPLTA    CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
@@ -409,6 +414,7 @@
  -       MATERA      CDP_WID8
  -       NRAO20      NRAO_VG2
  -       ONSALA60    CDP_WID8
+ -       ONSALDBC    ODB_WID8
  -       ORION_5M    CDP_WID8
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
