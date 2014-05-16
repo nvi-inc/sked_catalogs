@@ -1,9 +1,9 @@
-* VERSION 2014Feb06_iGSFC
+** VERSION 2014May16_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
-*
+* 2014May16  DBB Tianma 
 * 2014Feb06 JMG. Added VLBA_RV
 * 2013Jan16 JMG. Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
 * 2013Dec17 JMG. Added YDC_WIDE  for YEBESDBC=YEBES40M with DBBC
@@ -177,6 +177,21 @@ CDP_STDUW
  -   12 2N    S   1600  U
  -   13 2N    S   1600  U
  -   14 2N    S   1600  U
+ODB_WIDE
+ -   1  A1     X   8080  U
+ -   2  A1     X   8080  U
+ -   3  A1     X   8080  U
+ -   4  A1     X   8080  U
+ -   5  B1     X   8080  U
+ -   6  B1     X   8080  U
+ -   7  B1     X   8080  U
+ -   8  B1     X   8080  U
+ -   9  C1     S   2020  U
+ -   10 C1     S   2020  U
+ -   11 C1     S   2020  U
+ -   12 C1     S   2020  U
+ -   13 D1     S   2020  U
+ -   14 D1     S   2020  U
  YEB_STD
  -   1  A     X   7650  U
  -   2  A     X   7650  U
@@ -222,6 +237,7 @@ YDC_WIDE
  -   12 C1     S   1530  U
  -   13 D1     S   1530  U
  -   14 D1     S   1530  U
+
  AIRA_WIDE
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
@@ -654,6 +670,21 @@ CDPV_SEX
  -   12  B    S   1600    U
  -   13  B    S   1600    U
  -   14  B    S   1600    U
+ CDP_T6
+ -    1  A    X   8100    U
+ -    2  A    X   8100    U
+ -    3  A    X   8100    U
+ -    4  A    X   8100    U
+ -    5  B    X   8100    U
+ -    6  B    X   8100    U
+ -    7  B    X   8100    U
+ -    8  B    X   8100    U
+ -    9  C    S   2000    U
+ -   10  C    S   2000    U
+ -   11  C    S   2000    U
+ -   12  C    S   2000    U
+ -   13  D    S   2000    U
+ -   14  D    S   2000    U
  NRAO_XX
  -   1   A    X   7600    U
  -   2   A    X   7600    U
