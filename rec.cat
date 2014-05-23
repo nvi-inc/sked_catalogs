@@ -1,7 +1,8 @@
-* VERSION 2014May06_iGSFC
+* VERSION 2014May23_iGSFC
 
 * Put in updates in reverse order, newest at top.
 *
+* 2014May23 JMG. Added tianma65 to 00-16-0-1 (R1 sequence)
 * 2014May06 JMG. Modified CONT11 for CONT14
 * 2014MAr25 JMG. Added ONSALDBC=ONSALA60 with DBBC
 * 2014Jan16 JMG  Added HART15M to 00-8U-0-2
@@ -351,6 +352,7 @@
  -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
+ -       TIANMA65   MK3V-A      14U2L-1-1-BS  Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
  -       SYOWA      MK3V-A      14U2L-2-1  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
