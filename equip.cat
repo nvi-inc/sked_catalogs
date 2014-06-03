@@ -1,6 +1,7 @@
-* VERSION 2014May06_iGSFC 
+* VERSION 2014Jun03_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
+* 2014Jun03 JMG.      Added twin telescope per email from arno Muesken
 * 140516    dbb       Add TIANMA65 per Fengchun Shu.
 * 2014May06 JMGipson  Made "none Mark5B"  default for Onsala60. Commented out DBBC test version
 * 2014May02 JMGipson  Changed rack tpe of Tsukuba K4-2 per E. Himwich email 5/2/14
@@ -512,6 +513,7 @@
 *WETTZELL   33  WETTZELL    1      8820   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516
  WETTZELL   33  WETTZELL  2x56000 17640   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 Mark4 MARK5A
  WETTZELL   WK  K4-WETTZ  1         100   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 Mark4 K5
+ WETTZ13N   Wn  WETTZ13N  2x56000 17640   X  1400   S  1400 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 Mark4 MARK5A
 *YARRA12M   Yg  YARRA12M  2x56000  17640  X  3500   S  3500 VLBA4 MARK5A 
 *YARRA12M   Yg  YARRA12M  2x56000  17640  X  4500   S  5000 VLBA4 MARK5A 
  YARRA12M   Yg  YARRA12M  2x56000  17640  X  9000   S  5500 none MARK5B
