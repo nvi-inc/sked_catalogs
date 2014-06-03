@@ -1,10 +1,11 @@
-* VERSION 2014May16_iGSFC 
+* VERSION 2014Jun03_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  Dirk.Behrend@nasa.gov   *
 ***************************************************************
 * Changed the order so that most recent changes are at the top
+* 2014Jun03 JMG. Added Twin telescope per email A. Muesken
 * 2014May16 dbb Add TIANMA65 per Fenchun Shu.
 * 2014Mar25  JMG. Added Od = Onsala DBC with DBC
 * 2013DEC17  JMG. Added Yd = YEBES with DBC
@@ -324,8 +325,8 @@
  KS KIRSBERG  3879830.73038   987963.33801  4948713.37785   00000000 345.71   51.21 GLB1069
  KR KARLBURG  3653204.25956   884427.58965  5135732.14174   00000000 346.39   53.98 GLB1069
  Wz WETTZELL  4075539.89941   931735.27025  4801629.35185   72247801 347.12   49.15 GLB1069
- Wn WETTZELL  4075627.80      931774.14     4801552.30      73870000 347.12   49.15 Email Nothnagel 6/29/2012
- Ws WETTZELL  4075659.10      931824.64     4801516.18      73880000 347.12   49.15 Email Nothangel 6/29/2012
+ Wn WETTZ13N  4075627.80      931774.14     4801552.30      73870000 347.12   49.15 Email Nothnagel 6/29/2012
+ Ws WETTZ13s  4075659.10      931824.64     4801516.18      73880000 347.12   49.15 Email Nothangel 6/29/2012
  Tg TIGOWTZL  4075572.53000   931755.03000  4801584.02000   75932401 347.12   49.15 from Hayo
  TL TRYSILNO  2988029.18878   655957.07936  5578669.14383   76075202 347.62   61.42 GLB1069
  Ny NYALES20  1202462.76928   252734.40716  6237766.01541   73313301 348.13   78.93 GLB1069
