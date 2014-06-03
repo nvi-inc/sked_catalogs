@@ -1,8 +1,9 @@
-* VERSION 2013OCT10_iGSFC
+* VERSION 2014Jun03_iGSFC
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
 *
 * Now put in comments in reverse order
+* 2014Jun03 JMG added twin telescope per email A. Muesken 
 * 2013OCT10  Added in Warkworth mask. From Stuart Weston email 2013Aug01
 * 2013Sep13  Changed HART15M mask code from HT to Ht
 * 2013May15  Changed name of GORF7102 to GGAO12M
@@ -342,6 +343,7 @@
  H WETTZELL WZ 0 4.5  25 4.5  26 3  35 3  36 4.5  90 4.5  91 3  120 3
  - 121 4  160 4  161 3  200 3  201 4  230 4  231 1  310 1  311 4
  - 330 4  331 5  350 5  351 4.5  360 4.5
+ H WETTZ13N Wn 0     3     120   3     340   3     360
 *H TIGO     TG 0 4.5  25 4.5  26 3  35 3  36 4.5  90 4.5  91 3  120 3
 *- 121 4  160 4  161 3  200 3  201 4  230 4  231 1  310 1  311 4
 *- 330 4  331 5  350 5  351 4.5  360 4.5
