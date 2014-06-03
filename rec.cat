@@ -1,7 +1,8 @@
-* VERSION 2014May23_iGSFC
+* VERSION 2014Jun03_iGSFC
 
 * Put in updates in reverse order, newest at top.
-*
+* 2014Jun03 JMG. Added WETTZ13N to 00-16-0-1
+* 2014Jun02 JMG. Wettzell, Warkworth had wrong track layout CONT14.
 * 2014May23 JMG. Added tianma65 to 00-16-0-1 (R1 sequence)
 * 2014May06 JMG. Modified CONT11 for CONT14
 * 2014MAr25 JMG. Added ONSALDBC=ONSALA60 with DBBC
@@ -636,7 +637,7 @@
  -       YEBES40M   MK4-A      14U2L-2-2 Mk34
  -       ZELENCHK   MK4-A      14U2L-2-2 Mk34
 *******************************************************************
-* Mode for CONT11
+* Mode for CONT11 (modified for CONT14)
 * Everything is 32 tracks EXCEPT Zc
 *
  32-16-1-2
@@ -663,9 +664,9 @@
  -       TIGO       MK3V-A      14U2L-1-2    Mk34  
  -       TIGOPLTA   MK3V-A      14U2L-1-2    Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J  Mk34
- -       WARK12M    MK3V-A      14U2L-1-2    Mk34
+ -       WARK12M    MK3V-A      14U2L-1-2-B    Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-1-2-B   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2-B  Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2-B  Mk34  
  -       YEBESDBC   MK3V-A      14U2L-1-2-B  Mk34  
