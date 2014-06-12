@@ -1,8 +1,10 @@
-** VERSION 2014May16_iGSFC
+** VERSION 2014Jun12_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+*
+* 2014Jun12 JMG. Modified DSS13 for DVP
 * 2014May16  DBB Tianma 
 * 2014Feb06 JMG. Added VLBA_RV
 * 2013Jan16 JMG. Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
@@ -346,6 +348,23 @@ YDC_WIDE
  -   12 2N    S   2000  U
  -   13 2N    S   2000  U
  -   14 2N    S   2000  U
+DVP_STD
+ -   1  1N    X   8100  U
+ -   2  1N    X   8100  U
+ -   3  1N    X   8100  U
+ -   4  1N    X   8100  U
+ -   5  1N    X   8100  U
+ -   6  1N    X   8100  U
+ -   7  1N    X   8100  U
+ -   8  1N    X   8100  U
+ -   9  2N    S   2000  U
+ -   10 2N    S   2000  U
+ -   11 2N    S   2000  U
+ -   12 2N    S   2000  U
+ -   13 2N    S   2000  U
+ -   14 2N    S   2000  U
+ -   15 2N    S   2000  U
+ -   16 2N    S   2000  U
  CDP_XX1
  -   1   1N   X   8080    U
  -   2   1N   X   8080    U
@@ -771,6 +790,21 @@ CDPV_SEX
  -   12  B    S   1540.1  U
  -   13  B    S   1540.1  U
  -   14  B    S   1540.1  U
+ TWIN_WIDE
+ -   1  1N    X   8080  U
+ -   2  1N    X   8080  U
+ -   3  1N    X   8080  U
+ -   4  1N    X   8080  U
+ -   5  1N    X   8080  U
+ -   6  1N    X   8080  U
+ -   7  1N    X   8080  U
+ -   8  1N    X   8080  U
+ -   9  2N    S   2020  U
+ -   10 2N    S   2020  U
+ -   11 2N    S   2020  U
+ -   12 2N    S   2020  U
+ -   13 2N    S   2020  U
+ -   14 2N    S   2020  U
  CDPV_W16
  -   1   A    X   7600.1  U
  -   2   A    X   7600.1  U
