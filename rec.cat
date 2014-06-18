@@ -1,6 +1,11 @@
-* VERSION 2014Jun03_iGSFC
-
-* Put in updates in reverse order, newest at top.
+* VERSION 2014Jun18_iGSFC
+*
+* CATALOG rec.cat 
+* REC.CAT - recording modes 
+*
+* Put in updates in reverse order, newest at top
+* 2014Jun18 JMG. Makde TIANMA65  14U2L-1-1-B
+* 2014Jun12 JMG. Modified DSS13 for DVP. Added  14U2L-1-2-D which sort of works. 
 * 2014Jun03 JMG. Added WETTZ13N to 00-16-0-1
 * 2014Jun02 JMG. Wettzell, Warkworth had wrong track layout CONT14.
 * 2014May23 JMG. Added tianma65 to 00-16-0-1 (R1 sequence)
@@ -22,9 +27,7 @@
 * 12Oct04 JMG. Many changes to support Mark5B.
 * 120518 JMG Added EFLSBERG to  32-8-4-1 (RDV mode) 
 * 120118 dbb Add JAXA station UCHINOUR.
-*
-* CATALOG rec.cat 
-* REC.CAT - recording modes 
+
 *
 * This catalog specifies all the details of the recording mode used
 * by each station: head positions, track assignments, recording 
@@ -324,7 +327,7 @@
  -       DSS45      MK3V-A      14U2L-2-1  Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
  -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-2-1  Mk34  
+ -       DSS13      MK3V-A      14U2L-1-2-D  Mk34  
  -       EFLSBERG   MK3V-A      14U2L-1-1-B  Mk34    
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
@@ -353,7 +356,7 @@
  -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
- -       TIANMA65   MK3V-A      14U2L-1-1-BS  Mk34
+ -       TIANMA65   MK3V-A      14U2L-1-1-B  Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
  -       SYOWA      MK3V-A      14U2L-2-1  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
@@ -392,7 +395,7 @@
  -       DSS45      MK3V-A      14U2L-2-1  Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
  -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-2-1  Mk34  
+ -       DSS13      MK3V-A      14U2L-1-2-D  Mk34
  -       EFLSBERG   MK3V-A      14U2L-1-1-B  Mk34    
  -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
