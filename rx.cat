@@ -1,8 +1,9 @@
-* VERSION 2014Jun12_iGSFC
+* VERSION 2014Jul01_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
+* 2014Jul01 JMG. Added WETTZ13N
 * 2014Jun12 JMG. Modified DSS13 for DVP
 * 2014May16 DBB       Tianma
 * 2014Mar25 JMGipson. Added ONSALDBC = ONSALA60 with DBBC
@@ -268,7 +269,7 @@
  -       NYALES20    CDP_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    CDP_WIDE
- -       ONSALDBC   ODB_WIDE
+ -       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
  -       PARKES64    CDP_WIDE
@@ -291,6 +292,8 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
+ -       WETTZ13N    TWIN_WIDE
+ -       WETTZ13S    TWIN_WIDE
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YEB_WIDE
  -       YEBESDBC    YDC_WIDE
