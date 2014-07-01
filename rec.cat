@@ -1,9 +1,11 @@
-* VERSION 2014Jun18_iGSFC
+* VERSION 2014Jul01_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2014Jul01 JMG. Added ONSALA60 to 00-8U-0-2
+* 2014Jul01 JMG. Added WETTZ13N, WETTZ13S to 00-16-0-1
 * 2014Jun18 JMG. Makde TIANMA65  14U2L-1-1-B
 * 2014Jun12 JMG. Modified DSS13 for DVP. Added  14U2L-1-2-D which sort of works. 
 * 2014Jun03 JMG. Added WETTZ13N to 00-16-0-1
@@ -214,10 +216,10 @@
  -       HOBART26   MK3V-A       8U-2-2   Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
- -       KASHIM34   MK3V-A       8U-2-2   Mk34 
+ -       KASHIM34   MK3V-A       8U-1-2-b   Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
  -       ORION_5M   MK3V-A       8U-2-2   Mk34
- -       ONSALA60   MK3V-A       8U-2-2   Mk34 
+ -       ONSALA60   MK3V-A       8U-1-2-b   Mk34 
  -       MATERA     MK3V-A       8U-1-2-b   Mk34 
  -       MEDICINA   MK3V-A       8U-2-2   Mk34 
  -       NOTO       MK3V-A       8U-2-2   Mk34 
@@ -225,7 +227,7 @@
  -       GBT_VLBA   MK3V-A       8U-2-2   VLBA 
  -       NYALES20   MK3V-A       8U-1-2-b   Mk34 
  -       PARKES64   MK3V-A       8U-1-2-b   Mk34 
- -       SESHAN25   MK3V-A       8U-2-2   VLBA 
+ -       SESHAN25   MK3V-A       8U-2-2    VLBA 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
  -       TIGO       MK3V-A       8U-1-2-b   Mk34 
  -       TIGOPLTA   MK3V-A       8U-1-2-b   Mk34 
@@ -370,7 +372,9 @@
  -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
  -       WESTFORD   MK3V-A      14U2L-1-1-B  Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1    Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-1-B  Mk34  
+ -       WETTZ13S   MK3V-A      14U2L-1-1-B  Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
  -       YEBESDBC   MK3V-A      14U2L-1-1-B  Mk34  
