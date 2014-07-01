@@ -1,10 +1,11 @@
-* VERSION 2014Jun03_iGSFC
+* VERSION 2014Jul01_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
-* 2014Jun03 JMG.      Added twin telescope per email from arno Muesken
-* 2014May16 dbb Add TIANMA65 per Fenchun Shu.
+* 2014Jul01 JMG. Modified az-el limits twin.
+* 2014Jun03 JMG. Added twin telescope per email from arno Muesken
+* 2014May16 dbb  Add TIANMA65 per Fenchun Shu.
 * 2014Mar25 JMG  Added ONSALDBC = ONSALA60 with DBBC
 * 2014Jan30 JMG  Added 3 seconds to HART15Ms slew parameters
 * 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBBC
@@ -17,7 +18,6 @@
 * 2013Mar27 JMG. Added in Sejong
 * 2013Jan17 JMG. Added GGAO12M=GORF7102
 * 2012Nov05 JMG. Added Axis offset for HART15M using information from first solve solutions
-* 
 *
 *
 * NOTE: Use this file for schedules to be created for observations
@@ -349,7 +349,8 @@
  W WSTRBORK HADC 0.00000  15.0 10  -90.0  +90.0  15.0 10  -38.0   90.0  25.9 Wb 11    
 *V WETTZELL AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
 *V WETTZELL AZEL 0.00000 180.0  0  245.0  833.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
- N WETTZ13N AZEL 0.00000 180.0  0  251.5  831.0  90.0  0    2.0   89.0  20.0 Wn 33  Wn
+ N WETTZ13N AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    0.0   90.0  20.0 Wn Wn  Wn
+ S WETTZ13S AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    0.0   90.0  20.0 Wn Wn  Wn
  V WETTZELL AZEL 0.00000 180.0  0  251.5  831.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
  Y YARRA12M AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Yg Yg
 *Y YEBES    AZEL 0.0      60.0 10    5.0  715.0  60.0 10   10.0   89.0  13.7 Yb 105
