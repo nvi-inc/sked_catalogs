@@ -1,7 +1,8 @@
-* VERSION 2014Jul01_iGSFC 
+* VERSION 2014Aug26_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
-* 2014Jul01 JMG.      Further modification of Twint 'none Mark5B' (Is really DBBC which is not recognized yet.)
+* 2014Aug26 JMG.      YARRA changed to 4500 5500;  HARTRAO rack changed to 'none'. 
+* 2014Jul01 JMG.      Further modification of Twin 'none Mark5B' (Is really DBBC which is not recognized yet.)
 * 2014Jun03 JMG.      Added twin telescope per email from arno Muesken
 * 140516    dbb       Add TIANMA65 per Fengchun Shu.
 * 2014May06 JMGipson  Made "none Mark5B"  default for Onsala60. Commented out DBBC test version
@@ -371,7 +372,8 @@
 *HARTRAO    34  TDVS-VX1    1      8820   X  2000   S  1300
 *HARTRAO    34  TDVS-VX1 2x56000 17640   X  2000   S  1300 Mark4 MARK5A
 *HARTRAO    34  TDVS-VX1 2x56000 17640   X  1500   S  1300 Mark4 MARK5B
- HARTRAO    34  TDVS-VX1 2x56000 17640   X  1500   S  1300 Mark5 MARK5B
+*HARTRAO    34  TDVS-VX1 2x56000 17640   X  1500   S  1300 Mark5 MARK5B
+ HARTRAO    34  TDVS-VX1 2x56000 17640   X  1500   S  1300 none MARK5B
  HART15M    Ht  HART15M  2x56000 17640   X  1400   S  1050 none MARK5B
  HATCREEK   03  TVDS-1      1      8820   X   525   S   460
  HAYSTACK   00  HAYSTACK    1      8820   X  1050   S  6400
@@ -518,7 +520,8 @@
  WETTZ13S   Ws  WETTZ13S  2x56000 17640   X  1400   S  1400 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 none  Mark5B
 *YARRA12M   Yg  YARRA12M  2x56000  17640  X  3500   S  3500 VLBA4 MARK5A 
 *YARRA12M   Yg  YARRA12M  2x56000  17640  X  4500   S  5000 VLBA4 MARK5A 
- YARRA12M   Yg  YARRA12M  2x56000  17640  X  9000   S  5500 none MARK5B
+* YARRA12M   Yg  YARRA12M  2x56000  17640  X  9000   S  5500 none MARK5B
+ YARRA12M   Yg  YARRA12M  2x56000  17640  X  4500   S  5000 none MARK5B  
 *YEBES     105  YEBES       1      8820   X  3000   S  5000 VLBA  MARK5A
 *YEBES     105  YEBES     1x56000 17640   X  3000   S  5000 VLBA4 MARK5A
 *YEBES40M  105  YEBES     1x56000 17640   X   420   S   420 VLBA4 MARK5A
