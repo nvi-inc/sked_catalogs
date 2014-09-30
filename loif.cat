@@ -1,9 +1,10 @@
-** VERSION 2014Jun12_iGSFC
+** VERSION 2014Sep30_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
-*
+* 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE
+
 * 2014Jun12 JMG. Modified DSS13 for DVP
 * 2014May16  DBB Tianma 
 * 2014Feb06 JMG. Added VLBA_RV
@@ -118,7 +119,6 @@ CDP_STDUW
  -   12 2N    S   2000  U
  -   13 2N    S   2000  U
  -   14 2N    S   2000  U
-
  CDP_CRF
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
@@ -302,6 +302,22 @@ YDC_WIDE
  -  12  2N    S   2020    L 
  -  13  2N    S   2020    U
  -  14  2N    S   2020    U
+* NEW RDV LOIF for ONSALA DBBC.
+ ODB_WID8
+ -   1  A1    X   8080    L 
+ -   2  A1    X   8080    L 
+ -   3  A1    X   8080    U
+ -   4  A1    X   8080    U
+ -   5  B1    X   8080    U
+ -   6  B1    X   8080    U
+ -   7  B1    X   8080    L 
+ -   8  B1    X   8080    L 
+ -   9  C1    S   2020    U
+ -  10  C1    S   2020    U
+ -  11  C1    S   2020    L 
+ -  12  C1    S   2020    L 
+ -  13  C1    S   2020    U
+ -  14  C1    S   2020    U
 * New RDV sequency for KASHIM34. "L" as sideband indicates BBC not used
  KAS_WID8
  -   1  1N    X   7580    L 
@@ -780,16 +796,32 @@ CDPV_SEX
  -   2   A    X   7600.1  U
  -   3   A    X   7600.1  U
  -   4   A    X   7600.1  U
- -   5   C    X   8080  U
- -   6   C    X   8080  U
- -   7   C    X   8080  U
- -   8   C    X   8080  U
+ -   5   C    X   8080    U
+ -   6   C    X   8080    U
+ -   7   C    X   8080    U
+ -   8   C    X   8080    U
  -   9   B    S   1540.1  U
  -   10  B    S   1540.1  U
  -   11  B    S   1540.1  U
  -   12  B    S   1540.1  U
  -   13  B    S   1540.1  U
  -   14  B    S   1540.1  U
+* NEW RDV LOIF for ONSALA DBBC.
+ ODB_WIDE
+ -   1  A1    X   8080    U 
+ -   2  A1    X   8080    U 
+ -   3  A1    X   8080    U
+ -   4  A1    X   8080    U
+ -   5  B1    X   8080    U
+ -   6  B1    X   8080    U
+ -   7  B1    X   8080    U 
+ -   8  B1    X   8080    U 
+ -   9  C1    S   2020    U
+ -  10  C1    S   2020    U
+ -  11  C1    S   2020    U 
+ -  12  C1    S   2020    U
+ -  13  C1    S   2020    U
+ -  14  C1    S   2020    U
  TWIN_WIDE
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
