@@ -1,10 +1,11 @@
-** VERSION 2014Sep30_iGSFC
+** VERSION 2014Oct01_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
-* 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE
-
+*
+* 2014Oct01 JMG. Added ODB_STD for Onsala (Euro, T2) 
+* 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE (R1, R4)
 * 2014Jun12 JMG. Modified DSS13 for DVP
 * 2014May16  DBB Tianma 
 * 2014Feb06 JMG. Added VLBA_RV
@@ -149,6 +150,21 @@ CDP_STDUW
  -   12 2N    S   2020  U
  -   13 2N    S   2020  U
  -   14 2N    S   2020  U
+ODB_STD
+ -   1  A1     X   8080  U
+ -   2  A1     X   8080  U
+ -   3  A1     X   8080  U
+ -   4  A1     X   8080  U
+ -   5  B1     X   8080  U
+ -   6  B1     X   8080  U
+ -   7  B1     X   8080  U
+ -   8  B1     X   8080  U
+ -   9  C1     S   2020  U
+ -   10 C1     S   2020  U
+ -   11 C1     S   2020  U
+ -   12 C1     S   2020  U
+ -   13 D1     S   2020  U
+ -   14 D1     S   2020  U
  KAS_STD
  -   1  1N    X   7580  U
  -   2  1N    X   7580  U
