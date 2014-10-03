@@ -1,6 +1,7 @@
-* VERSION 2013NOV13_iGSFC
+* VERSION 2014OCT03_iGSFC
 *
 * Updates now in decreaseing order, most recent first. 
+* 2014OCT03 JMG  Got rid of obsolete modes
 * 2013Nov13 JMG  Commented out INT2 observing mode.  This now uses R1 sequence.
 * 2013OCT11 JMG  Added 1GB Aust mode
 * 2013Jul09 JMG  Changed T2 mode because Seshan has a different track layout
@@ -58,27 +59,16 @@
 *rate-chan(sess)                          trk-chan-fan-bit
 *                                         trk-Ux+Lx-fan-bit  <---Alternate
 ***********************************************************************
-* STANDARD GEODETIC MODES IN CURRENT USE 2005
-256-16(R1)       GEOSX        8.0  16.0    00-16-0-1
-*256-16(R1)      GEOSX        8.0  16.0    32-16-2-1
-*112-14(INT)     NEOS-WB      4.0   8.0    28-14-2-1
+* STANDARD GEODETIC MODES IN CURRENT USE 2014
+256-16(R1-R4)    GEOSX        8.0  16.0    00-16-0-1
 128-16(INT)      NEOS-WB      4.0   8.0    32-16-2-1 
-*256-16(INT2)     GEOSX4F      8.0   16.0   32-16-2-1
 1024-16(AU)      GEOSX       16.0   32.0   32-16-1-2
-*56-14(R4)       GEOSXR4      2.0   4.0    28-14-2-1
-*112-14(R4)      GEOSXR4      4.0   8.0    28-14-2-1
-*112-14(R4)      GEOSXOLD     4.0   8.0    28-14-2-1
-128-16(R4)       GEOSXR4      4.0   8.0    32-16-2-1 
 64-16(OHIG)      EUR2-SX      2.0   4.0    16-16-1-1
 256-16(OHIG)     EUR2-SX      4.0   8.0    32-16-2-2
 64-32(APSG)      CDP-SX       4.0   8.0    32-16-2-1 
-*64-16(EU-T2)    EUR2-SX      4.0   8.0    32-16-2-1
 64-16(EU-T2)     EUR2-SX      4.0   8.0    01-16-0-1
-128-8(RDV)       VGEOSX       8.0  16.0    32-8-4-1
-*256-8(RDV)      VGEOSX       8.0  16.0   32-8U-2-2
 256-8(RDV)       VGEOSX       8.0  16.0    00-8U-0-2
 512-16(CONT11)   GEOSX8N       8.0  16.0   32-16-1-2
-*256-8(RDV)      VGEOSX      16.0  32.0    32-8-4-1
 * Next two are 'fake' modes for simulation studies.
 *512-8(fake)       VGEOSX      32.0  64.0    32-8-4-1
 *1024-8(fake)      VGEOSX      64.0 128.0    32-8-4-1
