@@ -1,9 +1,11 @@
-* VERSION 2014Jul01_iGSFC
+* VERSION 2014OCT03_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2014Oct03 JMG. Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
+* 2014Jul01 JMG. In 32-16-2-1 changed Kokee tracks to 14U2L-1-1-B  
 * 2014Jul01 JMG. Added ONSALA60 to 00-8U-0-2
 * 2014Jul01 JMG. Added WETTZ13N, WETTZ13S to 00-16-0-1
 * 2014Jun18 JMG. Makde TIANMA65  14U2L-1-1-B
@@ -88,13 +90,13 @@
 *              fanout modes.)
 * rec. format - recording format for this station. Choices are:
 *                 VLBA - the non-data replacement (NDR) format
-*                 Mk34 - the data replacement format
+*                  Mk34 - the data replacement format
 *               Generally, use VLBA for stations with VLBA formatters,
-*               use Mk34 for stations with Mk4 and VLBA4 formatters 
+*               use  Mk34 for stations with Mk4 and VLBA4 formatters 
 *               [check with Ed].
 * barrel roll - type of barrel roll to use for this station. Choices are:
 *                 none - default. Use none for MkIII tape stations.
-*                 16   - for stations recording in Mk34 format
+*                 16   - for stations recording in  Mk34 format
 *                 16:1 - for stations recording in VLBA format
 *                 8:1  - for stations recording in VLBA format that do
 *                     not have a certain formatter board (only GILCREEK) 
@@ -116,40 +118,40 @@
 *Group   Station    head pos     track assg  rec.    barrel  max bw
 *name    name       hdpos.cat    tracks.cat format   roll 
 *        max 8 char max 8 char  max 4 char  default  default  default in
-*                                            Mk34     none  modes.cat
+*                                             Mk34     none  modes.cat
 *******************************************************************
 *
 * 32 tracks, 8 USB channels fanned out 1:4, 1-bit sampling. 
 * Used for RDV sessions. 
  32-8-4-1
- -       ALGOPARK   MK3V-A       8U-4-1   Mk34 
- -       BADARY     MK3V-A       8U-4-1   Mk34 
- -       EFLSBERG   MK3V-A       8U-4-1   Mk34 
+ -       ALGOPARK   MK3V-A       8U-4-1    Mk34 
+ -       BADARY     MK3V-A       8U-4-1    Mk34 
+ -       EFLSBERG   MK3V-A       8U-4-1    Mk34 
  -       GILCREEK   MK3A-A       8U-4-1   VLBA 
- -       HARTRAO    MK3V-A       8U-4-1   Mk34 
- -       HOBART26   MK3V-A       8U-4-1   Mk34 
- -       KASHIM34   MK3V-A       8U-4-1   Mk34 
- -       KOKEE      MK3V-A       8U-4-1   Mk34 
- -       ORION_5M   MK3V-A       8U-4-1   Mk34 
- -       ONSALA60   MK3V-A       8U-4-1   Mk34 
- -       MATERA     MK3V-A       8U-4-1   Mk34 
- -       MEDICINA   MK3V-A       8U-4-1   Mk34 
- -       NOTO       MK3V-A       8U-4-1   Mk34 
+ -       HARTRAO    MK3V-A       8U-4-1    Mk34 
+ -       HOBART26   MK3V-A       8U-4-1    Mk34 
+ -       KASHIM34   MK3V-A       8U-4-1    Mk34 
+ -       KOKEE      MK3V-A       8U-4-1    Mk34 
+ -       ORION_5M   MK3V-A       8U-4-1    Mk34 
+ -       ONSALA60   MK3V-A       8U-4-1    Mk34 
+ -       MATERA     MK3V-A       8U-4-1    Mk34 
+ -       MEDICINA   MK3V-A       8U-4-1    Mk34 
+ -       NOTO       MK3V-A       8U-4-1    Mk34 
  -       NRAO20     MK3V-A       8U-4-1   VLBA 
  -       GBT_VLBA   MK3V-A       8U-4-1   VLBA 
- -       NYALES20   MK3V-A       8U-4-1   Mk34 
- -       PARKES64   MK3V-A       8U-4-1   Mk34 
- -       SEJONG     MK3V-A       8U-4-1   Mk34 
+ -       NYALES20   MK3V-A       8U-4-1    Mk34 
+ -       PARKES64   MK3V-A       8U-4-1    Mk34 
+ -       SEJONG     MK3V-A       8U-4-1    Mk34 
 *-       SESHAN25   MK3V-A       8U-4-1   VLBA 
- -       SVETLOE    MK3V-A       8U-4-1   Mk34 
- -       TIGO       MK3V-A       8U-4-1   Mk34 
- -       TIGOPLTA   MK3V-A       8U-4-1   Mk34 
- -       TSUKUB32   MK3V-A       8U-4-1   Mk34 
- -       URUMQI     MK3V-A       8U-4-1   Mk34 
- -       YEBES40M   MK3V-A       8U-4-1   Mk34 
- -       WESTFORD   MK3V-A       8U-4-1   Mk34 
- -       WETTZELL   MK3V-A       8U-4-1   Mk34 
- -       ZELENCHK   MK3V-A       8U-4-1   Mk34 
+ -       SVETLOE    MK3V-A       8U-4-1    Mk34 
+ -       TIGO       MK3V-A       8U-4-1    Mk34 
+ -       TIGOPLTA   MK3V-A       8U-4-1    Mk34 
+ -       TSUKUB32   MK3V-A       8U-4-1    Mk34 
+ -       URUMQI     MK3V-A       8U-4-1    Mk34 
+ -       YEBES40M   MK3V-A       8U-4-1    Mk34 
+ -       WESTFORD   MK3V-A       8U-4-1    Mk34 
+ -       WETTZELL   MK3V-A       8U-4-1    Mk34 
+ -       ZELENCHK   MK3V-A       8U-4-1    Mk34 
  -       BR-VLBA    MK3V-A       8U-4-1   VLBA 
  -       FD-VLBA    MK3V-A       8U-4-1   VLBA 
  -       HN-VLBA    MK3V-A       8U-4-1   VLBA 
@@ -160,158 +162,116 @@
  -       OV-VLBA    MK3V-A       8U-4-1   VLBA 
  -       PIETOWN    MK3V-A       8U-4-1   VLBA 
  -       SC-VLBA    MK3V-A       8U-4-1   VLBA
-* 32 tracks, 8 USB channels fanned out 1:2, 2-bit sampling.
-* Used for RDV sessions. 
-* Note: Zelenchuska which is Mark5B uses different track
- 32-8U-2-2
- -       ALGOPARK   MK3V-A       8U-2-2   Mk34 
- -       BADARY     MK3V-A       8U-2-2   Mk34
- -       FORTLEZA   MK3V-A       8U-2-2   Mk34        
- -       GILCREEK   MK3A-A       8U-2-2   VLBA  
- -       HARTRAO    MK3V-A       8U-2-2   Mk34 
- -       HOBART26   MK3V-A       8U-2-2   Mk34
- -       HOBART12   MK3V-A       8U-2-2   Mk34
- -       KASHIM34   MK3V-A       8U-2-2   Mk34 
- -       KOKEE      MK3V-A       8U-2-2   Mk34 
- -       ORION_5M   MK3V-A       8U-2-2   Mk34
- -       ONSALA60   MK3V-A       8U-2-2   Mk34 
- -       MATERA     MK3V-A       8U-2-2   Mk34 
- -       MEDICINA   MK3V-A       8U-2-2   Mk34 
- -       NOTO       MK3V-A       8U-2-2   Mk34 
- -       NRAO20     MK3V-A       8U-2-2   VLBA 
- -       GBT_VLBA   MK3V-A       8U-2-2   VLBA 
- -       NYALES20   MK3V-A       8U-2-2   Mk34 
- -       PARKES64   MK3V-A       8U-2-2   Mk34 
- -       SESHAN25   MK3V-A       8U-2-2   VLBA 
- -       SVETLOE    MK3V-A       8U-2-2   Mk34
- -       TIGO       MK3V-A       8U-2-2   Mk34 
- -       TIGOPLTA   MK3V-A       8U-2-2   Mk34 
- -       TSUKUB32   MK3V-A       8U-2-2   Mk34 
- -       URUMQI     MK3V-A       8U-2-2   Mk34 
- -       YEBES40M   MK3V-A       8U-2-2   Mk34 
- -       WESTFORD   MK3V-A       8U-2-2   Mk34 
- -       WETTZELL   MK3V-A       8U-2-2   Mk34 
- -       ZELENCHK   MK3V-A       8U-1-2   Mk34
- -       BR-VLBA    MK3V-A       8U-2-2   VLBA
- -       FD-VLBA    MK3V-A       8U-2-2   VLBA
- -       HN-VLBA    MK3V-A       8U-2-2   VLBA
- -       KP-VLBA    MK3V-A       8U-2-2   VLBA
- -       LA-VLBA    MK3V-A       8U-2-2   VLBA
- -       MK-VLBA    MK3V-A       8U-2-2   VLBA
- -       NL-VLBA    MK3V-A       8U-2-2   VLBA
- -       OV-VLBA    MK3V-A       8U-2-2   VLBA
- -       PIETOWN    MK3V-A       8U-2-2   VLBA
- -       SC-VLBA    MK3V-A       8U-2-2   VLBA
 * Mixed mode for RDV. Some stations fanout, others don't
 *    8 USB channels ,  2-bit sampling.
 * Used for RDV sessions. 
 * Note: Zelenchuska which is Mark5B uses different track
  00-8U-0-2
- -       ALGOPARK   MK3V-A       8U-2-2   Mk34 
+ -       ALGOPARK   MK3V-A       8U-2-2     Mk34 
  -       BADARY     MK3V-A       8U-1-2-b   Mk34
- -       FORTLEZA   MK3V-A       8U-2-2   Mk34        
- -       GILCREEK   MK3A-A       8U-2-2   VLBA  
+ -       FORTLEZA   MK3V-A       8U-2-2     Mk34        
+ -       GILCREEK   MK3A-A       8U-2-2    VLBA  
  -       HARTRAO    MK3V-A       8U-1-2-b   Mk34 
  -       HART15M    MK3V-A       8U-1-2-b   Mk34 
- -       HOBART26   MK3V-A       8U-2-2   Mk34
+ -       HOBART26   MK3V-A       8U-2-2     Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
  -       KASHIM34   MK3V-A       8U-1-2-b   Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
- -       ORION_5M   MK3V-A       8U-2-2   Mk34
- -       ONSALA60   MK3V-A       8U-1-2-b   Mk34 
- -       MATERA     MK3V-A       8U-1-2-b   Mk34 
- -       MEDICINA   MK3V-A       8U-2-2   Mk34 
- -       NOTO       MK3V-A       8U-2-2   Mk34 
- -       NRAO20     MK3V-A       8U-2-2   VLBA 
- -       GBT_VLBA   MK3V-A       8U-2-2   VLBA 
+ -       ORION_5M   MK3V-A       8U-2-2     Mk34
+ -       ONSALA60   MK3V-A       8U-1-2-b    Mk34 
+ -       MATERA     MK3V-A       8U-1-2-b    Mk34 
+ -       MEDICINA   MK3V-A       8U-2-2     Mk34 
+ -       NOTO       MK3V-A       8U-2-2     Mk34 
+ -       NRAO20     MK3V-A       8U-2-2    VLBA 
+ -       GBT_VLBA   MK3V-A       8U-2-2    VLBA 
  -       NYALES20   MK3V-A       8U-1-2-b   Mk34 
  -       PARKES64   MK3V-A       8U-1-2-b   Mk34 
  -       SESHAN25   MK3V-A       8U-2-2    VLBA 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
  -       TIGO       MK3V-A       8U-1-2-b   Mk34 
  -       TIGOPLTA   MK3V-A       8U-1-2-b   Mk34 
- -       TSUKUB32   MK3V-A       8U-2-2   Mk34 
+ -       TSUKUB32   MK3V-A       8U-2-2     Mk34 
  -       URUMQI     MK3V-A       8U-1-2-b   Mk34 
  -       YEBES40M   MK3V-A       8U-1-2-b   Mk34 
  -       WARK12M    MK3V-A       8U-1-2-b   Mk34
  -       WESTFORD   MK3V-A       8U-1-2-b   Mk34 
- -       WETTZELL   MK3V-A       8U-2-2   Mk34 
+ -       WETTZELL   MK3V-A       8U-2-2     Mk34 
  -       YARRA12M   MK3V-A       8U-1-2-b   Mk34
  -       ZELENCHK   MK3V-A       8U-1-2-b   Mk34
- -       BR-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       FD-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       HN-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       KP-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       LA-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       MK-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       NL-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       OV-VLBA    MK3V-A       8U-1-2-v   VLBA
- -       PIETOWN    MK3V-A       8U-1-2-v   VLBA
- -       SC-VLBA    MK3V-A       8U-1-2-v   VLBA
+ -       BR-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       FD-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       HN-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       KP-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       LA-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       MK-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       NL-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       OV-VLBA    MK3V-A       8U-1-2-v  VLBA
+ -       PIETOWN    MK3V-A       8U-1-2-v  VLBA
+ -       SC-VLBA    MK3V-A       8U-1-2-v  VLBA
 *******************************************************************
 * 32 tracks, 16 channels fanned out 1:2, 1-bit sampling. 
 * Use Mode C for MkIII stations, recording 14 channels. 
 * Used for R1 (256), R4 (56 or 112) that record wideband and have 
 * Seshan recording 9 channels. (See 32-16-2-1-S8 for narrowband.)
  32-16-2-1
- -       AIRA       MK3V-A      14U2L-2-1  Mk34
- -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
- -       BADARY     MK3V-A      14U2L-2-1  Mk34  
- -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CHICHI10   MK3V-A      14U2L-2-1  Mk34
- -       CRIMEA     MK3V-A      14U2L-2-1  Mk34  
- -       CTVA       MK3V-A      14U2L-2-1  Mk34
- -       DSS45      MK3V-A      14U2L-2-1  Mk34  
- -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
- -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-2-1  Mk34  
- -       EFLSBERG   MK3V-A      14U2L-2-1  Mk34    
- -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
+ -       AIRA       MK3V-A      14U2L-2-1   Mk34
+ -       ALGOPARK   MK3V-A      14U2L-2-1   Mk34
+ -       BADARY     MK3V-A      14U2L-2-1   Mk34  
+ -       ARIES_9M   MK3A-C         C        Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-2-1   Mk34
+ -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
+ -       CTVA       MK3V-A      14U2L-2-1   Mk34
+ -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS15      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS13      MK3V-A      14U2L-2-1   Mk34  
+ -       EFLSBERG   MK3V-A      14U2L-2-1   Mk34    
+ -       FORTLEZA   MK3V-A      14U2L-2-1   Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       GGAO12M    MK3V-A      14U2L-2-1  Mk34  
- -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  
- -       HOBART12   MK3V-A      14U2L-2-1  Mk34
- -       HOBART26   MK3V-A      14U2L-2-1  Mk34
- -       KASHIM11   MK3A-A      14U2L-2-1  Mk34 
- -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
- -       KATH12M    MK3V-A      14U2L-2-1  Mk34
- -       KOGANEI    MK3A-A      14U2L-2-1  Mk34 
- -       KOKEE      MK3V-A      14U2L-2-1  Mk34 
- -       KUNMING    MK3V-A      14U2L-2-1  Mk34
- -       MATERA     MK3V-A      14U2L-2-1  Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  
- -       NOTO       MK3V-A      14U2L-2-1  Mk34  
+ -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
+ -       GGAO12M    MK3V-A      14U2L-2-1   Mk34  
+ -       HARTRAO    MK3V-A      14U2L-2-1   Mk34  
+ -       HOBART12   MK3V-A      14U2L-2-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       KASHIM11   MK3A-A      14U2L-2-1   Mk34 
+ -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
+ -       KATH12M    MK3V-A      14U2L-2-1   Mk34
+ -       KOGANEI    MK3A-A      14U2L-2-1   Mk34 
+ -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
+ -       KUNMING    MK3V-A      14U2L-2-1   Mk34
+ -       MATERA     MK3V-A      14U2L-2-1   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
- -       NYALES20   MK3V-A      14U2L-2-1  Mk34  
- -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
- -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
- -       PARKES64   MK3V-A      14U2L-2-1  Mk34  
- -       SEJONG     MK3V-A      14U2L-2-1  Mk34
- -       SESHAN25   MK3V-A      14U2L-2-1  Mk34
- -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
- -       SYOWA      MK3V-A      14U2L-2-1  Mk34
- -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
- -       TIGO       MK3V-A      14U2L-2-1  Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-2-1  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
- -       URUMQI     MK3V-A      14U2L-2-1  Mk34  
- -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
- -       VERAMZSW   MK3V-A      14U2L-2-1  Mk34
- -       WARK12M    MK3V-A      14U2L-2-1  Mk34
- -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
- -       YARRA12M   MK3V-A      14U2L-2-1  Mk34
- -       YEBES40M   MK3V-A      14U2L-2-1  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-2-1  Mk34  
- -       ATCA       MK3V-A      14U2L-2-1  Mk34  
- -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  
- -       MOPRA      MK3V-A      14U2L-2-1  Mk34  
+ -       NYALES20   MK3V-A      14U2L-2-1   Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       PARKES64   MK3V-A      14U2L-2-1   Mk34  
+ -       SEJONG     MK3V-A      14U2L-2-1   Mk34
+ -       SESHAN25   MK3V-A      14U2L-2-1   Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1   Mk34
+ -       SVETLOE    MK3V-A      14U2L-2-1   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       TIGO       MK3V-A      14U2L-2-1   Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-2-1   Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-2-1   Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       URUMQI     MK3V-A      14U2L-2-1   Mk34  
+ -       VERAISGK   MK3V-A      14U2L-2-1   Mk34
+ -       VERAMZSW   MK3V-A      14U2L-2-1   Mk34
+ -       WARK12M    MK3V-A      14U2L-2-1   Mk34
+ -       WESTFORD   MK3V-A      14U2L-2-1   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1   Mk34  
+ -       YARRA12M   MK3V-A      14U2L-2-1   Mk34
+ -       YEBES40M   MK3V-A      14U2L-2-1   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-2-1   Mk34  
+ -       ATCA       MK3V-A      14U2L-2-1   Mk34  
+ -       CEDUNA     MK3V-A      14U2L-2-1   Mk34  
+ -       MOPRA      MK3V-A      14U2L-2-1   Mk34  
 *******************************************************************
 * Mixed mode:  Some stations have fanout, others don't.  
 *  16 channels, 1-bit sampling.
@@ -320,364 +280,353 @@
 * 
  00-16-0-1
  -       AIRA       MK3V-A      14U2L-1-1-BJ  Mk34
- -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
- -       BADARY     MK3V-A      14U2L-1-1-B  Mk34  
- -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
- -       CRIMEA     MK3V-A      14U2L-1-1-B  Mk34  
- -       CTVA       MK3V-A      14U2L-2-1  Mk34
- -       DSS45      MK3V-A      14U2L-2-1  Mk34  
- -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
- -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-1-2-D  Mk34  
- -       EFLSBERG   MK3V-A      14U2L-1-1-B  Mk34    
- -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
+ -       ALGOPARK   MK3V-A      14U2L-2-1     Mk34
+ -       BADARY     MK3V-A      14U2L-1-1-B   Mk34  
+ -       ARIES_9M   MK3A-C         C          Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       CTVA       MK3V-A      14U2L-2-1     Mk34
+ -       DSS45      MK3V-A      14U2L-2-1     Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1     Mk34  
+ -       DSS15      MK3V-A      14U2L-2-1     Mk34  
+ -       DSS13      MK3V-A      14U2L-1-2-D   Mk34  
+ -       EFLSBERG   MK3V-A      14U2L-1-1-B   Mk34    
+ -       FORTLEZA   MK3V-A      14U2L-2-1   Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       GGAO12M    MK3V-A      14U2L-1-1-B  Mk34  
- -       HARTRAO    MK3V-A      14U2L-1-1-B  Mk34  
- -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
- -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
- -       HOBART26   MK3V-A      14U2L-2-1  Mk34
- -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
- -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
- -       KATH12M    MK3V-A      14U2L-1-1-B  Mk34
- -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
- -       KOKEE      MK3V-A      14U2L-1-1-B  Mk34 
- -       KUNMING    MK3V-A      14U2L-1-1-B  Mk34
- -       MATERA     MK3V-A      14U2L-1-1-B  Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  
- -       NOTO       MK3V-A      14U2L-2-1  Mk34  
+ -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
+ -       GGAO12M    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
+ -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
+ -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
+ -       KOGANEI    MK3A-A      14U2L-1-1-BJ   Mk34 
+ -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
+ -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
+ -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
- -       NYALES20   MK3V-A      14U2L-1-1-B  Mk34  
- -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
- -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
- -       ONSALDBC   MK3V-A      14U2L-2-1  Mk34 
- -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
- -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
- -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
- -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
- -       TIANMA65   MK3V-A      14U2L-1-1-B  Mk34
- -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
- -       SYOWA      MK3V-A      14U2L-2-1  Mk34
- -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
- -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-1-1-B  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
- -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
- -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
- -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
- -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
- -       WESTFORD   MK3V-A      14U2L-1-1-B  Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1    Mk34  
- -       WETTZ13N   MK3V-A      14U2L-1-1-B  Mk34  
- -       WETTZ13S   MK3V-A      14U2L-1-1-B  Mk34 
- -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
- -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
- -       YEBESDBC   MK3V-A      14U2L-1-1-B  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-1-1-B  Mk34  
- -       ATCA       MK3V-A      14U2L-2-1  Mk34  
- -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  
- -       MOPRA      MK3V-A      14U2L-2-1  Mk34  
+ -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+ -       ONSALDBC   MK3V-A      14U2L-2-1   Mk34 
+ -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       PARKES64   MK3V-A      14U2L-1-1-B   Mk34  
+ -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
+ -       SESHAN25   MK3V-A      14U2L-1-1-BS   Mk34
+ -       TIANMA65   MK3V-A      14U2L-1-1-B   Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1   Mk34
+ -       SVETLOE    MK3V-A      14U2L-1-1-B   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       TIGO       MK3V-A      14U2L-1-1-B   Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1-B   Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34  
+ -       VERAISGK   MK3V-A      14U2L-2-1   Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1     Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-1-B   Mk34  
+ -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
+ -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-1-B   Mk34  
+ -       YEBESDBC   MK3V-A      14U2L-1-1-B   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-1-B   Mk34  
+ -       ATCA       MK3V-A      14U2L-2-1   Mk34  
+ -       CEDUNA     MK3V-A      14U2L-2-1   Mk34  
+ -       MOPRA      MK3V-A      14U2L-2-1   Mk34  
 *******************************************************************
 * Mixed mode:  Some stations have fanout, others don't.  
 *  16 channels, 1-bit sampling.
 *  This is close to 00-16-0-1T EXCEPT for SESHAN?
 * 
-* 
  01-16-0-1
- -       AIRA       MK3V-A      14U2L-1-1-BJ  Mk34
- -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
- -       BADARY     MK3V-A      14U2L-1-1-B  Mk34  
- -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
- -       CRIMEA     MK3V-A      14U2L-1-1-B  Mk34  
- -       CTVA       MK3V-A      14U2L-2-1  Mk34
- -       DSS45      MK3V-A      14U2L-2-1  Mk34  
- -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
- -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-1-2-D  Mk34
- -       EFLSBERG   MK3V-A      14U2L-1-1-B  Mk34    
- -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none   
+ -       AIRA       MK3V-A      14U2L-1-1-BJ   Mk34
+ -       ALGOPARK   MK3V-A      14U2L-2-1   Mk34
+ -       BADARY     MK3V-A      14U2L-1-1-B   Mk34  
+ -       ARIES_9M   MK3A-C         C        Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       CTVA       MK3V-A      14U2L-2-1   Mk34
+ -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS15      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS13      MK3V-A      14U2L-1-2-D   Mk34
+ -       EFLSBERG   MK3V-A      14U2L-1-1-B   Mk34    
+ -       FORTLEZA   MK3V-A      14U2L-2-1   Mk34  none   
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       GGAO12M    MK3V-A      14U2L-1-1-B  Mk34  
- -       HARTRAO    MK3V-A      14U2L-1-1-B  Mk34  
- -       HART15M    MK3V-A      14U2L-1-1-B  Mk34  
- -       HOBART12   MK3V-A      14U2L-1-1-B  Mk34
- -       HOBART26   MK3V-A      14U2L-2-1  Mk34
- -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
- -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
- -       KATH12M    MK3V-A      14U2L-1-1-B  Mk34
- -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
- -       KOKEE      MK3V-A      14U2L-1-1-B  Mk34 
- -       KUNMING    MK3V-A      14U2L-1-1-B  Mk34
- -       MATERA     MK3V-A      14U2L-1-1-B  Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  
- -       NOTO       MK3V-A      14U2L-2-1  Mk34  
+ -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
+ -       GGAO12M    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
+ -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
+ -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
+ -       KOGANEI    MK3A-A      14U2L-1-1-BJ   Mk34 
+ -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
+ -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
+ -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
- -       NYALES20   MK3V-A      14U2L-1-1-B  Mk34  
- -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
- -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
- -       PARKES64   MK3V-A      14U2L-1-1-B  Mk34  
- -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
- -       SESHAN25   MK3V-A      8L6U-1-1-BS  Mk34
- -       SINTOTU3   MK3V-A      14U2L-2-1  Mk34
- -       SYOWA      MK3V-A      14U2L-2-1  Mk34
- -       SVETLOE    MK3V-A      14U2L-1-1-B  Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
- -       TIGO       MK3V-A      14U2L-1-1-B  Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-1-1-B  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
- -       URUMQI     MK3V-A      14U2L-1-1-B  Mk34  
- -       VERAISGK   MK3V-A      14U2L-2-1  Mk34
- -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
- -       WARK12M    MK3V-A      14U2L-1-1-B  Mk34
- -       WESTFORD   MK3V-A      14U2L-1-1-B  Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
- -       YARRA12M   MK3V-A      14U2L-1-1-B  Mk34
- -       YEBES40M   MK3V-A      14U2L-1-1-B  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-1-1-B  Mk34  
- -       ATCA       MK3V-A      14U2L-2-1  Mk34  
- -       CEDUNA     MK3V-A      14U2L-2-1  Mk34  
- -       MOPRA      MK3V-A      14U2L-2-1  Mk34  
+ -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       PARKES64   MK3V-A      14U2L-1-1-B   Mk34  
+ -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
+ -       SESHAN25   MK3V-A      8L6U-1-1-BS   Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1   Mk34
+ -       SVETLOE    MK3V-A      14U2L-1-1-B   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       TIGO       MK3V-A      14U2L-1-1-B   Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1-B   Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34  
+ -       VERAISGK   MK3V-A      14U2L-2-1   Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1   Mk34  
+ -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-1-B   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-1-B   Mk34  
+ -       ATCA       MK3V-A      14U2L-2-1   Mk34  
+ -       CEDUNA     MK3V-A      14U2L-2-1   Mk34  
+ -       MOPRA      MK3V-A      14U2L-2-1   Mk34  
 *******************************************************************
 * 16 tracks, 16 channels fanned out 1:1, 1-bit sampling.
 * Use Mode C for MkIII stations, recording 14 channels. 
 * Used for R1 (256), R4 (56 or 112) that record wideband and have 
 * Seshan recording 9 channels. (See 32-16-2-1-S8 for narrowband.)
  16-16-1-1
- -       ALGOPARK   MK3V-A      14U2L-1-1  Mk34
- -       BADARY     MK3V-A      14U2L-1-1  Mk34  
- -       CTVA       MK3V-A      14U2L-1-1  Mk34
- -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CRIMEA     MK3V-A      14U2L-2-1  Mk34  
- -       DSS65A     MK3V-A      14U2L-1-1  Mk34  
- -       DSS45      MK3V-A      14U2L-1-1  Mk34  
- -       TIDBIN64   MK3V-A      14U2L-1-1  Mk34  
- -       DSS15      MK3V-A      14U2L-1-1  Mk34  
- -       DSS13      MK3V-A      14U2L-1-1  Mk34  
- -       EFLSBERG   MK3V-A      14U2L-1-1  Mk34    
- -       FORTLEZA   MK3V-A      14U2L-1-1  Mk34  none  
+ -       ALGOPARK   MK3V-A      14U2L-1-1   Mk34
+ -       BADARY     MK3V-A      14U2L-1-1   Mk34  
+ -       CTVA       MK3V-A      14U2L-1-1   Mk34
+ -       ARIES_9M   MK3A-C         C        Mk34  none   4
+ -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-1-1   Mk34  
+ -       DSS45      MK3V-A      14U2L-1-1   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-1-1   Mk34  
+ -       DSS15      MK3V-A      14U2L-1-1   Mk34  
+ -       DSS13      MK3V-A      14U2L-1-1   Mk34  
+ -       EFLSBERG   MK3V-A      14U2L-1-1   Mk34    
+ -       FORTLEZA   MK3V-A      14U2L-1-1   Mk34  none  
  -       GILCREEK   MK3A-A      14U2L-1-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-1-1  Mk34
- -       HARTRAO    MK3V-A      14U2L-1-1  Mk34  
- -       HOBART12   MK3V-A      14U2L-1-1  Mk34
- -       HOBART26   MK3V-A      14U2L-1-1  Mk34
- -       KASHIM34   MK3A-A      14U2L-1-1  Mk34
- -       KATH12M    MK3V-A      14U2L-1-1  Mk34
- -       KOKEE      MK3V-A      14U2L-1-1  Mk34 
- -       MATERA     MK3V-A      14U2L-1-1  Mk34  
- -       MEDICINA   MK3V-A      14U2L-1-1  Mk34  
- -       NOTO       MK3V-A      14U2L-1-1  Mk34  
+ -       GOLDVENU   MK3V-A      14U2L-1-1   Mk34
+ -       HARTRAO    MK3V-A      14U2L-1-1   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1   Mk34
+ -       KASHIM34   MK3A-A      14U2L-1-1   Mk34
+ -       KATH12M    MK3V-A      14U2L-1-1   Mk34
+ -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
+ -       MATERA     MK3V-A      14U2L-1-1   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-1-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-1-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-1-1  VLBA 16:1
- -       NYALES20   MK3V-A      14U2L-1-1  Mk34  
+ -       NYALES20   MK3V-A      14U2L-1-1   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-1-1  Mk3
- -       ONSALA60   MK3V-A      14U2L-1-1  Mk34  
- -       ORION_5M   MK3V-A      14U2L-1-1  Mk34  
- -       PARKES64   MK3A-C         C       Mk34   none  4
- -       SESHAN25   MK3V-A      14U2L-1-1  Mk34
- -       SYOWA      MK3V-A      14U2L-1-1  Mk34
- -       SVETLOE    MK3V-A      14U2L-1-1  Mk34  
- -       TIGO       MK3V-A      14U2L-1-1  Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-1-1  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-1  Mk34
- -       URUMQI     MK3V-A      14U2L-1-1  Mk34  
- -       WARK12M    MK3V-A      14U2L-1-1  Mk34
- -       WESTFORD   MK3V-A      14U2L-1-1  Mk34  
- -       WETTZELL   MK3V-A      14U2L-1-1  Mk34  
- -       YARRA12M   MK3V-A      14U2L-1-1  Mk34
- -       YEBES40M   MK3V-A      14U2L-1-1  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-1-1  Mk34  
-*
+ -       ONSALA60   MK3V-A      14U2L-1-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-1-1   Mk34  
+ -       PARKES64   MK3A-C         C        Mk34   none  4
+ -       SESHAN25   MK3V-A      14U2L-1-1   Mk34
+ -       SYOWA      MK3V-A      14U2L-1-1   Mk34
+ -       SVETLOE    MK3V-A      14U2L-1-1   Mk34  
+ -       TIGO       MK3V-A      14U2L-1-1   Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-1   Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-1   Mk34
+ -       URUMQI     MK3V-A      14U2L-1-1   Mk34  
+ -       WARK12M    MK3V-A      14U2L-1-1   Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-1   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-1   Mk34  
+ -       YARRA12M   MK3V-A      14U2L-1-1   Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-1   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-1   Mk34  
 *******************************************************************
 * 32 tracks, 16 channels fanned out 1:2, 1-bit sampling. 
 * Use Mode C for MkIII stations, recording 14 channels. 
 * Used for T2 (128) or session that record narrowband and have 
 * Seshan recording 8 channels. (See 32-16-2-1 for wideband.)
  32-16-2-1-S8
- -       ALGOPARK   MK3V-A      14U2L-2-1  Mk34
- -       CTVA       MK3V-A      14U2L-2-1  Mk34
- -       ARIES_9M   MK3A-C         C       Mk34  none   4
- -       CRIMEA     MK3V-A      14U2L-2-1  Mk34  
- -       DSS65A     MK3V-A      14U2L-2-1  Mk34  
- -       DSS45      MK3V-A      14U2L-2-1  Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1  Mk34  
- -       DSS15      MK3V-A      14U2L-2-1  Mk34  
- -       DSS13      MK3V-A      14U2L-2-1  Mk34  
- -       EFLSBERG   MK3V-A      14U2L-2-1  Mk34   
- -       FORTLEZA   MK3V-A      14U2L-2-1  Mk34  none  
+ -       ALGOPARK   MK3V-A      14U2L-2-1   Mk34
+ -       CTVA       MK3V-A      14U2L-2-1   Mk34
+ -       ARIES_9M   MK3A-C         C        Mk34  none   4
+ -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       DSS15      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS13      MK3V-A      14U2L-2-1   Mk34  
+ -       EFLSBERG   MK3V-A      14U2L-2-1   Mk34   
+ -       FORTLEZA   MK3V-A      14U2L-2-1   Mk34  none  
  -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-2-1  Mk34
- -       HARTRAO    MK3V-A      14U2L-2-1  Mk34  
- -       HOBART12   MK3V-A      14U2L-2-1  Mk34
- -       HOBART26   MK3V-A      14U2L-2-1  Mk34
- -       KASHIM34   MK3A-A      14U2L-2-1  Mk34 
- -       KATH12M    MK3V-A      14U2L-2-1  Mk34
- -       KOGANEI    MK3V-A      14U2L-2-1  Mk34  
- -       KOKEE      MK3V-A      14U2L-2-1  Mk34  
- -       KUNMING    MK3V-A      14U2L-2-1  Mk34  
- -       MATERA     MK3V-A      14U2L-2-1  Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1  Mk34  
- -       NOTO       MK3V-A      14U2L-2-1  Mk34  
+ -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
+ -       HARTRAO    MK3V-A      14U2L-2-1   Mk34  
+ -       HOBART12   MK3V-A      14U2L-2-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
+ -       KATH12M    MK3V-A      14U2L-2-1   Mk34
+ -       KOGANEI    MK3V-A      14U2L-2-1   Mk34  
+ -       KOKEE      MK3V-A      14U2L-2-1   Mk34  
+ -       KUNMING    MK3V-A      14U2L-2-1   Mk34  
+ -       MATERA     MK3V-A      14U2L-2-1   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
- -       NYALES20   MK3V-A      14U2L-2-1  Mk34  
- -       OHIGGINS   MK3V-A      14U2L-2-1  Mk34
- -       ONSALA60   MK3V-A      14U2L-2-1  Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1  Mk34  
- -       PARKES64   MK3A-C         C       Mk34  none  4
- -       SESHAN25   MK3V-A      8U-1-1S    Mk34  none
- -       SVETLOE    MK3V-A      14U2L-2-1  Mk34  
- -       TIGO       MK3V-A      14U2L-2-1  Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-2-1  Mk34  
- -       TSUKUB32   MK3V-A      14U2L-2-1  Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1  Mk34
- -       URUMQI     MK3V-A      14U2L-2-1  Mk34  
- -       WARK12M    MK3V-A      14U2L-2-1  Mk34
- -       WESTFORD   MK3V-A      14U2L-2-1  Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1  Mk34  
- -       YARRA12M   MK3V-A      14U2L-2-1  Mk34
- -       YEBES40M   MK3V-A      14U2L-2-1  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-2-1  Mk34  
-*******************************************************************
-* 28 tracks 14 channels for the intensives.
-* Put in so that when we select intenstives that are consistent with
-* pre 2006Oct31 schedules.
-28-14I
--       KOKEE      MK3V-A      14U-2-1  Mk34 
--       WETTZELL   MK3V-A      14U-2-1  Mk34 
--       NYALES20   MK3V-A      14U-2-1  Mk34 
--       SVETLOE    MK3V-A      14U-2-1  Mk34 
+ -       NYALES20   MK3V-A      14U2L-2-1   Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
+ -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       PARKES64   MK3A-C         C        Mk34  none  4
+ -       SESHAN25   MK3V-A      8U-1-1S     Mk34  none
+ -       SVETLOE    MK3V-A      14U2L-2-1   Mk34  
+ -       TIGO       MK3V-A      14U2L-2-1   Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-2-1   Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-2-1   Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       URUMQI     MK3V-A      14U2L-2-1   Mk34  
+ -       WARK12M    MK3V-A      14U2L-2-1   Mk34
+ -       WESTFORD   MK3V-A      14U2L-2-1   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1   Mk34  
+ -       YARRA12M   MK3V-A      14U2L-2-1   Mk34
+ -       YEBES40M   MK3V-A      14U2L-2-1   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-2-1   Mk34  
 *******************************************************************
 * 28 tracks, 14 channels recorded using Mode C. 
 * Used for R4 (56 or 112).
  28-14-2-1
- -       ALGOPARK   MK3V-C         C        Mk34
- -       ARIES_9M   MK3A-C         C        Mk34
- -       CRIMEA     MK3A-C         C        Mk34
- -       DSS15      MK3V-C         C        Mk34
- -       FORTLEZA   MK3V-C         C        Mk34
+ -       ALGOPARK   MK3V-C         C         Mk34
+ -       ARIES_9M   MK3A-C         C         Mk34
+ -       CRIMEA     MK3A-C         C         Mk34
+ -       DSS15      MK3V-C         C         Mk34
+ -       FORTLEZA   MK3V-C         C         Mk34
  -       GILCREEK   MK3A-C         C        VLBA
- -       HARTRAO    MK3V-C         C        Mk34
- -       HOBART26   MK3V-C         C        Mk34
- -       KASHIM34   MK3A-C         C        Mk34
- -       KOKEE      MK3V-C         C        Mk34
- -       MATERA     MK3V-C         C        Mk34
- -       MEDICINA   MK3V-C         C        Mk34
- -       NOTO       MK3V-C         C        Mk34
- -       NYALES20   MK3V-C         C        Mk34
- -       OHIGGINS   MK3V-C         C        Mk34
- -       ONSALA60   MK3V-C         C        Mk34
- -       PARKES64   MK3A-C         C        Mk34
- -       SESHAN25   MK3V-A      14U-2-1     Mk34
-* -       SESHAN25   MK3V-A      8U-1-1S-R4  MK34
- -       SVETLOE    MK3V-C         C        Mk34
- -       TIGO       MK3V-C         C        Mk34
- -       TIGOPLTA   MK3V-C         C        Mk34
- -       TSUKUB32   MK3V-C         C        Mk34
- -       URUMQI     MK3V-C         C        Mk34
- -       WESTFORD   MK3V-C         C        Mk34
- -       WETTZELL   MK3V-C         C        Mk34
- -       ZELENCHK   MK3V-C         C        Mk34
+ -       HARTRAO    MK3V-C         C         Mk34
+ -       HOBART26   MK3V-C         C         Mk34
+ -       KASHIM34   MK3A-C         C         Mk34
+ -       KOKEE      MK3V-C         C         Mk34
+ -       MATERA     MK3V-C         C         Mk34
+ -       MEDICINA   MK3V-C         C         Mk34
+ -       NOTO       MK3V-C         C         Mk34
+ -       NYALES20   MK3V-C         C         Mk34
+ -       OHIGGINS   MK3V-C         C         Mk34
+ -       ONSALA60   MK3V-C         C         Mk34
+ -       PARKES64   MK3A-C         C         Mk34
+ -       SESHAN25   MK3V-A      14U-2-1      Mk34
+* -       SESHAN25   MK3V-A      8U-1-1S-R4   Mk34
+ -       SVETLOE    MK3V-C         C         Mk34
+ -       TIGO       MK3V-C         C         Mk34
+ -       TIGOPLTA   MK3V-C         C         Mk34
+ -       TSUKUB32   MK3V-C         C         Mk34
+ -       URUMQI     MK3V-C         C         Mk34
+ -       WESTFORD   MK3V-C         C         Mk34
+ -       WETTZELL   MK3V-C         C         Mk34
+ -       ZELENCHK   MK3V-C         C         Mk34
 *******************************************************************
 * Gbit mode, 2 headstacks, 2-bit sampling, 16 USB channels.
 * Used for R&D.
  64-16-2-2
- -       ALGOPARK   MK4-A      14U2L-2-2 Mk34
- -       FORTLEZA   MK4-A      14U2L-2-2 Mk34
- -       GILCREEK   MK4-A      14U2L-2-2 Mk34 
- -       HOBART26   MK4-A      14U2L-2-2 Mk34
- -       HARTRAO    MK4-A      14U2L-2-2 Mk34
- -       KOKEE      MK4-A      14U2L-2-2 Mk34 
- -       ONSALA60   MK4-A      14U2L-2-2 Mk34
- -       ORION_5M   MK4-A      14U2L-2-2 Mk34
- -       MATERA     MK4-A      14U2L-2-2 Mk34 
- -       MEDICINA   MK4-A      14U2L-2-2 Mk34 
+ -       ALGOPARK   MK4-A      14U2L-2-2  Mk34
+ -       FORTLEZA   MK4-A      14U2L-2-2  Mk34
+ -       GILCREEK   MK4-A      14U2L-2-2  Mk34 
+ -       HOBART26   MK4-A      14U2L-2-2  Mk34
+ -       HARTRAO    MK4-A      14U2L-2-2  Mk34
+ -       KOKEE      MK4-A      14U2L-2-2  Mk34 
+ -       ONSALA60   MK4-A      14U2L-2-2  Mk34
+ -       ORION_5M   MK4-A      14U2L-2-2  Mk34
+ -       MATERA     MK4-A      14U2L-2-2  Mk34 
+ -       MEDICINA   MK4-A      14U2L-2-2  Mk34 
  -       METSAHOV   MK4-A      14U2L-2-2 VLBA 
- -       NYALES20   MK4-A      14U2L-2-2 Mk34
- -       SVETLOE    MK4-A      14U2L-2-2 Mk34
- -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
- -       TIGO       MK4-A      14U2L-2-2 Mk34
- -       TIGOPLTA   MK4-A      14U2L-2-2 Mk34
- -       ZELENCHK   MK4-A      14U2L-2-2 Mk34 
- -       WESTFORD   MK4-A      14U2L-2-2 Mk34
- -       WETTZELL   MK4-A      14U2L-2-2 Mk34
+ -       NYALES20   MK4-A      14U2L-2-2  Mk34
+ -       SVETLOE    MK4-A      14U2L-2-2  Mk34
+ -       TSUKUB32   MK4-A      14U2L-2-2  Mk34
+ -       TIGO       MK4-A      14U2L-2-2  Mk34
+ -       TIGOPLTA   MK4-A      14U2L-2-2  Mk34
+ -       ZELENCHK   MK4-A      14U2L-2-2  Mk34 
+ -       WESTFORD   MK4-A      14U2L-2-2  Mk34
+ -       WETTZELL   MK4-A      14U2L-2-2  Mk34
 *******************************************************************
 * 512Mbit  mode, 2 headstacks, 2-bit sampling, 16 USB channels.
 * Used for R&D.
  32-16-2-2
- -       ALGOPARK   MK4-A      14U2L-2-2 Mk34
- -       BADARY     MK4-A      14U2L-2-2 Mk34
- -       FORTLEZA   MK4-A      14U2L-2-2 Mk34
- -       GILCREEK   MK4-A      14U2L-2-2 Mk34
- -       HOBART12   MK4-A      14U2L-2-2 Mk34
- -       HOBART26   MK4-A      14U2L-2-2 Mk34
- -       HARTRAO    MK4-A      14U2L-2-2 Mk34
- -       KATH12M    MK4-A      14U2L-2-2 Mk34
- -       KOKEE      MK4-A      14U2L-2-2 Mk34
- -       MATERA     MK4-A      14U2L-2-2 Mk34
- -       MEDICINA   MK4-A      14U2L-2-2 Mk34
+ -       ALGOPARK   MK4-A      14U2L-2-2  Mk34
+ -       BADARY     MK4-A      14U2L-2-2  Mk34
+ -       FORTLEZA   MK4-A      14U2L-2-2  Mk34
+ -       GILCREEK   MK4-A      14U2L-2-2  Mk34
+ -       HOBART12   MK4-A      14U2L-2-2  Mk34
+ -       HOBART26   MK4-A      14U2L-2-2  Mk34
+ -       HARTRAO    MK4-A      14U2L-2-2  Mk34
+ -       KATH12M    MK4-A      14U2L-2-2  Mk34
+ -       KOKEE      MK4-A      14U2L-2-2  Mk34
+ -       MATERA     MK4-A      14U2L-2-2  Mk34
+ -       MEDICINA   MK4-A      14U2L-2-2  Mk34
  -       METSAHOV   MK4-A      14U2L-2-2 VLBA
- -       OHIGGINS   MK4-A      14U2L-2-2 Mk34
- -       ONSALA60   MK4-A      14U2L-2-2 Mk34
- -       ORION_5M   MK4-A      14U2L-2-2 Mk34
- -       NYALES20   MK4-A      14U2L-2-2 Mk34
- -       PARKES64   MK4-A      14U2L-2-2 Mk34
- -       SESHAN25   MK4-A      14U2L-2-2 Mk34
- -       SVETLOE    MK4-A      14U2L-2-2 Mk34
- -       SYOWA      MK4-A      14U2L-2-2 Mk34
- -       TSUKUB32   MK4-A      14U2L-2-2 Mk34
- -       TIGO       MK4-A      14U2L-2-2 Mk34
- -       TIGOPLTA   MK4-A      14U2L-2-2 Mk34
- -       WARK12M    MK4-A      14U2L-2-2 Mk34
- -       WESTFORD   MK4-A      14U2L-2-2 Mk34
- -       WETTZELL   MK4-A      14U2L-2-2 Mk34
- -       YARRA12M   MK4-A      14U2L-2-2 Mk34
- -       YEBES40M   MK4-A      14U2L-2-2 Mk34
- -       ZELENCHK   MK4-A      14U2L-2-2 Mk34
+ -       OHIGGINS   MK4-A      14U2L-2-2  Mk34
+ -       ONSALA60   MK4-A      14U2L-2-2  Mk34
+ -       ORION_5M   MK4-A      14U2L-2-2  Mk34
+ -       NYALES20   MK4-A      14U2L-2-2  Mk34
+ -       PARKES64   MK4-A      14U2L-2-2  Mk34
+ -       SESHAN25   MK4-A      14U2L-2-2  Mk34
+ -       SVETLOE    MK4-A      14U2L-2-2  Mk34
+ -       SYOWA      MK4-A      14U2L-2-2  Mk34
+ -       TSUKUB32   MK4-A      14U2L-2-2  Mk34
+ -       TIGO       MK4-A      14U2L-2-2  Mk34
+ -       TIGOPLTA   MK4-A      14U2L-2-2  Mk34
+ -       WARK12M    MK4-A      14U2L-2-2  Mk34
+ -       WESTFORD   MK4-A      14U2L-2-2  Mk34
+ -       WETTZELL   MK4-A      14U2L-2-2  Mk34
+ -       YARRA12M   MK4-A      14U2L-2-2  Mk34
+ -       YEBES40M   MK4-A      14U2L-2-2  Mk34
+ -       ZELENCHK   MK4-A      14U2L-2-2  Mk34
 *******************************************************************
 * Mode for CONT11 (modified for CONT14)
 * Everything is 32 tracks EXCEPT Zc
 *
  32-16-1-2
- -       ALGOPARK   MK3V-A      14U2L-1-2    Mk34 
- -       BADARY     MK3V-A      14U2L-1-2-B  Mk34  
- -       FORTLEZA   MK3V-A      14U2L-1-2    Mk34  
- -       GGAO12M    MK3V-A      14U2L-1-2    Mk34  
- -       HARTRAO    MK3V-A      14U2L-1-2    Mk34  
- -       HART15M    MK3V-A      14U2L-1-2-B  Mk34  
- -       HOBART12   MK3V-A      14U2L-1-2-B  Mk34
- -       HOBART26   MK3V-A      14U2L-1-2    Mk34
- -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
- -       KATH12M    MK3V-A      14U2L-1-2-B  Mk34
- -       KOKEE      MK3V-A      14U2L-1-2-B  Mk34 
- -       MATERA     MK3V-A      14U2L-1-2-B  Mk34 
- -       MEDICINA   MK3V-A      14U2L-1-2    Mk34 
- -       NYALES20   MK3V-A      14U2L-1-2-B  Mk34  
- -       ONSALA60   MK3V-A      14U2L-1-2-B  Mk34  
- -       ONSALDBC   MK3V-A      14U2L-1-2-B  Mk34  
- -       PARKES64   MK3V-A      14U2L-1-2    Mk34  
- -       SESHAN25   MK3V-A      14U2L-1-2    Mk34  
- -       SVETLOE    MK3V-A      14U2L-1-2    Mk34 
- -       TIANMA65   MK3V-A      14U2L-1-2    Mk34  
- -       TIGO       MK3V-A      14U2L-1-2    Mk34  
- -       TIGOPLTA   MK3V-A      14U2L-1-2    Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-2-J  Mk34
- -       WARK12M    MK3V-A      14U2L-1-2-B    Mk34
- -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
- -       YARRA12M   MK3V-A      14U2L-1-2-B  Mk34
- -       YEBES40M   MK3V-A      14U2L-1-2-B  Mk34  
- -       YEBESDBC   MK3V-A      14U2L-1-2-B  Mk34  
- -       ZELENCHK   MK3V-A      14U2L-1-2-B  Mk34  
+ -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
+ -       BADARY     MK3V-A      14U2L-1-2-B   Mk34  
+ -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
+ -       GGAO12M    MK3V-A      14U2L-1-2     Mk34  
+ -       HARTRAO    MK3V-A      14U2L-1-2     Mk34  
+ -       HART15M    MK3V-A      14U2L-1-2-B   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-2-B   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-2     Mk34
+ -       KASHIM34   MK3V-A      14U2L-1-2-J   Mk34
+ -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34 
+ -       MATERA     MK3V-A      14U2L-1-2-B   Mk34 
+ -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
+ -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
+ -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
+ -       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
+ -       PARKES64   MK3V-A      14U2L-1-2     Mk34  
+ -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
+ -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
+ -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
+ -       TIGO       MK3V-A      14U2L-1-2     Mk34  
+ -       TIGOPLTA   MK3V-A      14U2L-1-2     Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-2-B     Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-2-B    Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-2      Mk34  
+ -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
+ -       YEBESDBC   MK3V-A      14U2L-1-2-B   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-2-B   Mk34  
 *******************************************************************
 * 2-bit sampling, 8 USB and LSB channels, 1:1 fanout, 32 tracks.
 * Used for iGRID real-time demo.
@@ -685,17 +634,17 @@
 * Renamed to 32-16-1-2x so that we could use 32-16-1-2
 *                   HeadPos     Tracks    Rec_format
  32-16-1-2x
- -       WESTFORD   MK3V-A      8U8L-1-2    Mk34
- -       WSTRBORK   MK3V-A      8U8L-1-2    Mk34
- -       ORION_5M   MK3V-A      8U8L-1-2    Mk34
- -       ONSALA60   MK3V-A      8U8L-1-2    Mk34
- -       KASHIM34   MK3V-A      8U8L-1-2    Mk34
+ -       WESTFORD   MK3V-A      8U8L-1-2     Mk34
+ -       WSTRBORK   MK3V-A      8U8L-1-2     Mk34
+ -       ORION_5M   MK3V-A      8U8L-1-2     Mk34
+ -       ONSALA60   MK3V-A      8U8L-1-2     Mk34
+ -       KASHIM34   MK3V-A      8U8L-1-2     Mk34
  * New
- -       MEDICINA   MK3V-A      8U8L-1-2    Mk34
- -       NOTO       MK3V-A      8U8L-1-2    Mk34
- -       EFLSBERG   MK3V-A      8U8L-1-2    Mk34
- -       HARTRAO    MK3V-A      8U8L-1-2    Mk34
- -       DSS65A     MK3V-A      8U8L-1-2    Mk34
+ -       MEDICINA   MK3V-A      8U8L-1-2     Mk34
+ -       NOTO       MK3V-A      8U8L-1-2     Mk34
+ -       EFLSBERG   MK3V-A      8U8L-1-2     Mk34
+ -       HARTRAO    MK3V-A      8U8L-1-2     Mk34
+ -       DSS65A     MK3V-A      8U8L-1-2     Mk34
  * VLBA
  -       BR-VLBA    MK3V-A      8U8L-1-2  VLBA
  -       FD-VLBA    MK3V-A      8U8L-1-2  VLBA
@@ -711,18 +660,18 @@
 * DBE test. 
 * 4 channels, 4USB and 4LSB,  2 bit sampling, 2:1 fanout
 32-4U+4L-2-2
- -       WESTFORD   MK3V-A      4U4L-2-2    Mk34
- -       ORION_5M   MK3V-A      4U4L-2-2    Mk34
+ -       WESTFORD   MK3V-A      4U4L-2-2     Mk34
+ -       ORION_5M   MK3V-A      4U4L-2-2     Mk34
  *****************************************************************
  * Australian K-band fringe test
 *Group   Station    head pos     track assg  rec.    barrel  max bw
 *name    name       hdpos.cat    tracks.cat format   roll 
  32-2-1-1
- -       ATCA       MK3V-A      2U-1-1    Mk34
- -       CEDUNA     MK3V-A      2U-1-1    Mk34
- -       MOPRA      MK3V-A      2U-1-1    Mk34
- -       HOBART26   MK3V-A      2U-1-1    Mk34
- -       PARKES64   MK3V-A      2U-1-1    Mk34
+ -       ATCA       MK3V-A      2U-1-1     Mk34
+ -       CEDUNA     MK3V-A      2U-1-1     Mk34
+ -       MOPRA      MK3V-A      2U-1-1     Mk34
+ -       HOBART26   MK3V-A      2U-1-1     Mk34
+ -       PARKES64   MK3V-A      2U-1-1     Mk34
 
 
 
