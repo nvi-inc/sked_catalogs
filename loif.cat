@@ -1,9 +1,9 @@
-** VERSION 2014Oct01_iGSFC
+** VERSION 2014Oct07_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
-*
+* 2014Oct07 JMG. Fixed bug in ODB_WID8 for Onsala
 * 2014Oct01 JMG. Added ODB_STD for Onsala (Euro, T2) 
 * 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE (R1, R4)
 * 2014Jun12 JMG. Modified DSS13 for DVP
@@ -332,8 +332,8 @@ YDC_WIDE
  -  10  C1    S   2020    U
  -  11  C1    S   2020    L 
  -  12  C1    S   2020    L 
- -  13  C1    S   2020    U
- -  14  C1    S   2020    U
+ -  13  D1    S   2020    U
+ -  14  D1    S   2020    U
 * New RDV sequency for KASHIM34. "L" as sideband indicates BBC not used
  KAS_WID8
  -   1  1N    X   7580    L 
