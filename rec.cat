@@ -1,9 +1,10 @@
-* VERSION 2014OCT03_iGSFC
+* VERSION 2014OCT07_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2014Oct07 JMG. changed Kashima in 00-8U-2-2
 * 2014Oct03 JMG. Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
 * 2014Jul01 JMG. In 32-16-2-1 changed Kokee tracks to 14U2L-1-1-B  
 * 2014Jul01 JMG. Added ONSALA60 to 00-8U-0-2
@@ -176,7 +177,7 @@
  -       HOBART26   MK3V-A       8U-2-2     Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
- -       KASHIM34   MK3V-A       8U-1-2-b   Mk34 
+ -       KASHIM34   MK3V-A       8U-2-2     Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
  -       ORION_5M   MK3V-A       8U-2-2     Mk34
  -       ONSALA60   MK3V-A       8U-1-2-b    Mk34 
