@@ -1,6 +1,7 @@
-* VERSION 2014Sep03_iGSFC 
+* VERSION 2014Nov06_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
+* 2014Nov06 JMG.      Added DSS45
 * 2014Sep03 JMG.      Updated YARRA KATH12 HOBART12
 * 2014Aug26 JMG.      YARRA changed to 4500 5500;  HARTRAO rack changed to 'none'. 
 * 2014Jul01 JMG.      Further modification of Twin 'none Mark5B' (Is really DBBC which is not recognized yet.)
@@ -357,6 +358,7 @@
 *DSS65      69  DSS65    2x56000 2x17640   X   220   S   195 Mark4 MARK5A
 *DSS65      69  DSS65    2x56000 17640   X   220   S   195 Mark4 MARK5A
  DSS65A     69  DSS65A   2x56000 17640   X   220   S   195 Mark4 MARK5A
+ DSS54      54  DSS54    2x56000 17640   X   220   S   195 Mark4 MARK5A
 *EFLSBERG   06  EFLSBERG    1      8820   X    40   S   100 Mark4 MARK5A
  EFLSBERG   06  EFLSBERG 1x56000   17640  X    40   S   100 none  MARK5B
 * EFLSBERG   06  EFLSBERG 1x56000   17640  X    40   S   100 VLBA MARK5A
