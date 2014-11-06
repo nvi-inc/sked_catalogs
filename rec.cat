@@ -1,9 +1,10 @@
-* VERSION 2014OCT07_iGSFC
+* VERSION 2014NOV06_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2014Nov06 JMG. Added DSS54 to 01-16-0-1
 * 2014Oct07 JMG. changed Kashima in 00-8U-2-2
 * 2014Oct03 JMG. Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
 * 2014Jul01 JMG. In 32-16-2-1 changed Kokee tracks to 14U2L-1-1-B  
@@ -357,6 +358,7 @@
  -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1   Mk34
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS54      MK3V-A      14U2L-2-1   Mk34 
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
  -       DSS13      MK3V-A      14U2L-1-2-D   Mk34
