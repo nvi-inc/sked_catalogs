@@ -1,8 +1,9 @@
-* VERSION 2014Jul01_iGSFC
+* VERSION 2014Nov06_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2014Nov06 JMG. Added DSS54 per email from Garcia Miro 2014Nov06
 * 2014Jul01 JMG. Modified az-el limits twin.
 * 2014Jun03 JMG. Added twin telescope per email from arno Muesken
 * 2014May16 dbb  Add TIANMA65 per Fenchun Shu.
@@ -212,6 +213,7 @@
  D DSS15    AZEL 0.00000  48.0 20  270.0  720.0  39.0 20    6.15  88.0  34.0 15 68    
 *T DSS45    AZEL 0.00000  48.0 20  180.0  630.0  42.0 20    6.15  88.0  34.0 45 39    
  T DSS45    AZEL 0.00000  48.0 20  180.0  628.9  48.0 20    6.15  88.0  34.0 45 39    
+ R DSS54    AZEL 0.00000  48.0 20  270.0  719.0  48.0 20    7.0   90.0  34.0 54 54  
 *M DSS65    AZEL 0.00000  15.0 20  270.0  720.0  24.0 20    6.15  88.0  34.0 65 69 65 
 *M DSS65    AZEL 0.00000  48.0 20  270.0  720.0  48.0 20    6.15  88.0  34.0 65 69 65 
 *M DSS65    AZEL 0.00000  30.0 20  270.0  720.0  48.0 20    6.15  88.0  34.0 65 69 65 
