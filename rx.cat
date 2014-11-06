@@ -1,7 +1,8 @@
-* VERSION 2014Sep30_iGSFC
+* VERSION 2014Nov06_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2014Nov06 JMG  Added DSS54
 * 2014Oct30 JMG. For CDP_STD 
 * 2014SEP30 JMG. For VG_MK4  (RDV setup) added ODB_WID for Onsala60
 * 2014Jul01 JMG. Added WETTZ13N
@@ -118,7 +119,8 @@
  -       DSS13      DVP_STD 
  -       DSS15       DSN_STD    
  -       DSS45       DSN_STD
- -       TIDBIN64    DSN_STD
+ -       TIDBIN64    DSN_STD\
+ -       DSS54       DSN_STD
  -       DSS65A      DSN_STD
  -       EFLSBERG    EFL_STD
  -       GILCREEK    CDPV_STD
@@ -154,6 +156,7 @@
  -       ONSALDBC    ODB_STD
  -       ORION_5M    CDP_STD
  -       OVRO_130    CDP_STD
+ -       NOTO        CDPVNOTO 
  -       PARKES64    CDP_STDN
  -       SANTIA12    CDP_STD
  -       SEJONG      CDP_STDN
@@ -180,7 +183,6 @@
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
 * -       ZELENCHK    CDP_STDN
-  -       NOTO        CDPVNOTO 
  SX_SE8W
   -       SESHAN25    CDPV_SE8
  SX_SE8N
@@ -253,7 +255,6 @@
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_WIDE
  -       KASHIM34    KAS_WIDE
- -       KASHIM11    K4_KAS11
  -       KATH12M     DBBC_AU
  -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_WIDE
@@ -264,7 +265,7 @@
  -       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
  -       MEDICINA    CDP_WIDE   
- -       NOTO        CDPVNOWI
+ -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
  -       NYALES20    CDP_WIDE
