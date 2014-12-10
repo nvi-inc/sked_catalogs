@@ -1,8 +1,10 @@
-** VERSION 2014Oct07_iGSFC
+** VERSION 2014Dec10_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2014Dec10 JMg. Updated CDPVNOTO to reflect new LOs per P.Cassaro email 2014Nov27
+* 2014Dec10 JMG. Updated LOs for Koganei, Kashima11, Kashima34 per Ed Himwich. 
 * 2014Oct07 JMG. Fixed bug in ODB_WID8 for Onsala
 * 2014Oct01 JMG. Added ODB_STD for Onsala (Euro, T2) 
 * 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE (R1, R4)
@@ -166,20 +168,20 @@ ODB_STD
  -   13 D1     S   2020  U
  -   14 D1     S   2020  U
  KAS_STD
- -   1  1N    X   7580  U
- -   2  1N    X   7580  U
- -   3  1N    X   7580  U
- -   4  1N    X   7580  U
- -   5  3N    X   7580  U
- -   6  3N    X   7580  U
- -   7  3N    X   7580  U
- -   8  3N    X   7580  U
- -   9  2N    S   1520  U
- -   10 2N    S   1520  U
- -   11 2N    S   1520  U
- -   12 2N    S   1520  U
- -   13 2N    S   1520  U
- -   14 2N    S   1520  U
+ -   1  1N    X   8080  U
+ -   2  1N    X   8080  U
+ -   3  1N    X   8080  U
+ -   4  1N    X   8080  U
+ -   5  3N    X   8080  U
+ -   6  3N    X   8080  U
+ -   7  3N    X   8080  U
+ -   8  3N    X   8080  U
+ -   9  2N    S   2020  U
+ -   10 2N    S   2020  U
+ -   11 2N    S   2020  U
+ -   12 2N    S   2020  U
+ -   13 2N    S   2020  U
+ -   14 2N    S   2020  U
  TSU_STD
  -   1  1N    X   7680  U
  -   2  1N    X   7680  U
@@ -592,20 +594,20 @@ DBBC_HH
  -   13  D    S   1540.1  U
  -   14  D    S   1540.1  U
  CDPVNOTO
- -   1   A    X   7600.1  U
- -   2   A    X   7600.1  U
- -   3   A    X   7600.1  U
- -   4   A    X   7600.1  U
- -   5   A    X   7600.1  U
- -   6   A    X   7600.1  U
- -   7   A    X   7600.1  U
- -   8   A    X   7600.1  U
- -   9   D    S   1540.1  U
- -   10  D    S   1540.1  U
- -   11  D    S   1540.1  U
- -   12  D    S   1540.1  U
- -   13  D    S   1540.1  U
- -   14  D    S   1540.1  U
+ -   1   A2    X   8080  U
+ -   2   A2    X   8080  U
+ -   3   A2    X   8080  U
+ -   4   A2    X   8080  U
+ -   5   B2    X   8080  U
+ -   6   B2    X   8080  U
+ -   7   B2    X   8080  U
+ -   8   B2    X   8080  U
+ -   9   C1    S   2020  U
+ -   10  C1    S   2020  U
+ -   11  C1    S   2020  U
+ -   12  C1    S   2020  U
+ -   13  C1    S   2020  U
+ -   14  C1    S   2020  U
  CDPV_STD
  -   1   A    X   7600.1  U
  -   2   A    X   7600.1  U
@@ -1068,22 +1070,7 @@ CDPV_SEX
  -  12  1N    S   3000  U
  -  13  1N    S   3000  U
  -  14  1N    S   3000  U
- K4_KAS11
- -   1  1N    X   7600  U
- -   2  1N    X   7600  U
- -   3  1N    X   7600  U
- -   4  1N    X   7600  U
- -   5  1N    X   7600  U
- -   6  1N    X   7600  U
- -   7  1N    X   7600  U
- -   8  1N    X   7600  U
- -   9  1N    S   3000  U
- -  10  1N    S   3000  U
- -  11  1N    S   3000  U
- -  12  1N    S   3000  U
- -  13  1N    S   3000  U
- -  14  1N    S   3000  U
- K4_KOG
+  K4_KAS11
  -   1  1N    X   7680  U
  -   2  1N    X   7680  U
  -   3  1N    X   7680  U
@@ -1092,6 +1079,21 @@ CDPV_SEX
  -   6  1N    X   7680  U
  -   7  1N    X   7680  U
  -   8  1N    X   7680  U
+ -   9  1N    S   3000  U
+ -  10  1N    S   3000  U
+ -  11  1N    S   3000  U
+ -  12  1N    S   3000  U
+ -  13  1N    S   3000  U
+ -  14  1N    S   3000  U
+ K4_KOG
+ -   1  1N    X   7600  U
+ -   2  1N    X   7600  U
+ -   3  1N    X   7600  U
+ -   4  1N    X   7600  U
+ -   5  1N    X   7600  U
+ -   6  1N    X   7600  U
+ -   7  1N    X   7600  U
+ -   8  1N    X   7600  U
  -   9  1N    S   3000  U
  -  10  1N    S   3000  U
  -  11  1N    S   3000  U
