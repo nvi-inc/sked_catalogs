@@ -1,6 +1,8 @@
-* VERSION 2014Nov06_iGSFC 
+* VERSION 2014Dec10_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
+* 2014Dec10 JMG.      Noto updated per email Piettro Cassaro. Now (none, Mark5B). none=DBBC which is not recognized yet. 
+* 2014Dec10 JMG.      Sejong X,S SEFDS==>5000
 * 2014Nov06 JMG.      Added DSS45
 * 2014Sep03 JMG.      Updated YARRA KATH12 HOBART12
 * 2014Aug26 JMG.      YARRA changed to 4500 5500;  HARTRAO rack changed to 'none'. 
@@ -438,8 +440,8 @@
  NOBEYA45   32  NOBEYA45           8820   X     0   S     0
 *NOTO       NO  NOTO        1      8820   X  1725   S  1100
 *NOTO       NO  NOTO        1      8820   X  1000   S   900 VLBA4 MARK5A
- NOTO       NO  NOTO     1x56000  17640   X  1000   S   900 VLBA4 MARK5A
- NOTO       NO  NOTO     1x56000  17640   C   260   C   260 
+ NOTO       NO  NOTO     1x56000  17640   X  1000   S   900 none MARK5B 
+ NOTO       NO  NOTO     1x56000  17640   C   260   C   260 none MARK5B
  NRAO85_3  103  VLBA85_3    1      8820   X   800   S   550
  NRAO_13    GB  VLBASATL    1      8820   X  9600   S   550
 *NRAO85_1   KH  KOKEVLBA    1      8820   X   800   S   750
@@ -474,8 +476,8 @@
  SC-VLBA    SC  SC-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
 *SESHAN25  104  SESHAN25 1x56000  17640   X  2000   S  2700 VLBA4 MARK5A
  SESHAN25  104  SESHAN25 2x56000  17640   X   700   S  1100 VLBA5 MARK5B 
-* SESHAN25  104  SESHAN25 1x56000  17640   C   520   C   520 
- SEJONG     Kv  SEJONG    1x56000 17640   X   900   S  1200 K4-1  K5
+* SESHAN25  104  SESHAN25 1x56000  17640   C   520  C   520 
+ SEJONG     Kv  SEJONG    1x56000 17640   X  5000   S  5000 K4-1  K5
  SEST       70  TVDS-VX2    1      8820   X  8000   S 12000
  SINTOTU3   S3  SINTOTU3  1x56000 80000   X 70900   S 77700 none K4-1 
 *SVETLOE   116  TVDS-1      1      8820   X   400   S   600 Mark3A Mark3A
