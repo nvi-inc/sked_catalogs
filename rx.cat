@@ -1,7 +1,9 @@
-* VERSION 2014Nov06_iGSFC
+* VERSION 2014Dec10_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO
+             
 * 2014Nov06 JMG  Added DSS54
 * 2014Oct30 JMG. For CDP_STD 
 * 2014SEP30 JMG. For VG_MK4  (RDV setup) added ODB_WID for Onsala60
@@ -18,8 +20,7 @@
 * 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
 * 2013May06. Changed name of GORF7102 to GGAO12M
 * 2013Apr10 Added Sejong to SX_STD
-
-
+------------------------------------------------------
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
@@ -241,10 +242,8 @@
  -       BADARY      CDP_STDN
  -       ARIES_4M    CDP_WIDE
  -       ARIES_9M    CDP_WIDE
- -       CHICHI10    CDP_STDN
  -       CTVA        CDP_WIDE
  -       CRIMEA      CDP_WIDE
- -       DSS13       CDP_WIDE
  -       EFLSBERG    CDP_WIDE
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
@@ -256,7 +255,6 @@
  -       HOBART26    CDP_WIDE
  -       KASHIM34    KAS_WIDE
  -       KATH12M     DBBC_AU
- -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_WIDE
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
