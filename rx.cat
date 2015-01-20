@@ -1,9 +1,9 @@
-* VERSION 2014Dec10_iGSFC
+* VERSION 2015Jan20_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
-* 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO
-             
+* 2015Jan20 JMG. Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
+* 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO     
 * 2014Nov06 JMG  Added DSS54
 * 2014Oct30 JMG. For CDP_STD 
 * 2014SEP30 JMG. For VG_MK4  (RDV setup) added ODB_WID for Onsala60
@@ -179,8 +179,8 @@
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
  -       YARRA12M    CDP_STD
- -       YEBES40M    YEB_STD
- -       YEBESDBC    YDC_STD
+ -       YEBES40M    YDC_STD
+*-       YEBESDBC    YDC_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
 * -       ZELENCHK    CDP_STDN
@@ -295,8 +295,8 @@
  -       WETTZ13N    TWIN_WIDE
  -       WETTZ13S    TWIN_WIDE
  -       YARRA12M    DBBC_AU
- -       YEBES40M    YEB_WIDE
- -       YEBESDBC    YDC_WIDE
+ -       YEBES40M    YDC_WIDE
+*       YEBESDBC    YDC_WIDE
  -       ZELENCHK    CDP_STDN
 * CORE modes testing
  SX_W16
