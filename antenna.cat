@@ -1,8 +1,9 @@
-* VERSION 2014Dec10_iGSFC
+* VERSION 2015Jan22_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2014Jan22 JMG. Changed antenna parameters for WETTZ13N, 13S to
 * 2014Dec10 JMG. Several changes:  GGAO12M lower=6.25; Hart15M upper=88; 
 * 2014Dec10 JMG. GGAO12M AZ=5 deg/sec, el=1.1 per WEH
 * 2014Nov06 JMG. Added DSS54 per email from Garcia Miro 2014Nov06
@@ -353,11 +354,12 @@
  W WSTRBORK HADC 0.00000  15.0 10  -90.0  +90.0  15.0 10  -38.0   90.0  25.9 Wb 11    
 *V WETTZELL AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
 *V WETTZELL AZEL 0.00000 180.0  0  245.0  833.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
- N WETTZ13N AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    0.0   90.0  20.0 Wn Wn  Wn
- S WETTZ13S AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    0.0   90.0  20.0 Wn Wn  Wn
+ N WETTZ13N AZEL 0.00000 720.0  0    0.0  540.0  360.0  0   0.0   90.0  12.0 Wn Wn  Wn
+ S WETTZ13S AZEL 0.00000 720.0  0   0.0   540.0  360.0  0   0.0   90.0 12.0 Ws Ws  Ws
  V WETTZELL AZEL 0.00000 180.0  0  251.5  831.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
  Y YARRA12M AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Yg Yg
 *Y YEBES    AZEL 0.0      60.0 10    5.0  715.0  60.0 10   10.0   89.0  13.7 Yb 105
+*Y RAEGYEB  AZEL 0.0     720.0  0     .0  540.0 360.0  0    0.0   90.0  13.2 Yj Yj Yj
  Y YEBES40M AZEL 2.00980  60.0 10  300.0  780.0  60.0 10    5.0   89.0  40.0 Ys 105
  Y YEBESDBC AZEL 2.00980  60.0 10  300.0  780.0  60.0 10    5.0   89.0  40.0 Yd xx5
 *Z ZELENCHK AZEL 0.00000  72.0 60  270.0  810.0  48.0 60   12.0   80.0  32.0 Zc 118
