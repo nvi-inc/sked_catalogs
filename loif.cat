@@ -1,8 +1,9 @@
-** VERSION 2015Feb09_iGSFC
+** VERSION 2015Feb10_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2015Feb10 JMG. Modified YDC_STD per email pablo.devicente@oan.es 2/10/15
 * 2015Feb09 JMG. Added YDC_STD for use in T2 schedules. 
 * 2014Dec10 JMg. Updated CDPVNOTO to reflect new LOs per P.Cassaro email 2014Nov27
 * 2014Dec10 JMG. Updated LOs for Koganei, Kashima11, Kashima34 per Ed Himwich. 
@@ -241,8 +242,8 @@ ODB_WIDE
  -   10 C1     S   1530  U
  -   11 C1     S   1530  U
  -   12 C1     S   1530  U
- -   13 C1     S   1530  U
- -   14 C1     S   1530  U
+ -   13 D1     S   1530  U
+ -   14 D1     S   1530  U
  YEB_WIDE
  -   1  A     X   7650  U
  -   2  A     X   7650  U
