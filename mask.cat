@@ -1,8 +1,11 @@
-* VERSION 2015Jan22_iGSFC
+* VERSION 2015Feb12_iGSFC
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
 *
 * Now put in comments in reverse order
+* 2015Sep10 JMG.  Modified HART15M based on email from J. Quick 2015Sep04. Used same mask for HARTRAO
+* 2015Sep10 JMG.  Also changed HARTRAO mask from Ht to Hh
+* 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
 * 2015Jan22 Added WETTZ13S
 * 2014Jun03 JMG added WETTZ13N telescope per email A. Muesken 
 * 2013OCT10  Added in Warkworth mask. From Stuart Weston email 2013Aug01
@@ -110,9 +113,12 @@
  - 180 17  205 8  225 5  290 5  340 11 360 17
 * GGAO12M Mask.
  H GGAO12M Gs 0 6 15 5.5 58 3.5 90 4.5 130 3 154 28 162 33 167 36 172 40 212 36 222. 33 227 28 232 6 290  6 360
-* HartRAO mask is fixed
- H HARTRAO  HT 0     7     360    7                                  
- H HART15M  Ht 0     7     360    7                                  
+* HartRAO. Was previously 7 degrees all the way. Added stuff that was above 7 based on HART15M mask.
+ H HARTRAO Hh 0 7  90 9.5 100 7 110 8 120 7 300 9 320 9.5 330 9  350 7 360 7                 
+* Based on email from J.Quick 2015Sep09
+ H HART15M  Ht 0 7 40 4.25 70 4.25 90 9.5 100 6 110 8 120 4 150 5 
+ - 190 2 200 3 210 2 230 2 250 4.5 260 4.5 270 2 300 9 320 9.5 
+ - 330 9  350 7 360 7                                   
  C HATCREEK HC -38.0 21.0  -35.0 28.4  -30.0 40.9  -25.0 51.8  -20.0
  - 60.8  -15.0 68.0  -10.0 73.5  -5.0  77.1  2.0   80.0  59.0 
  - 76.3  65.0  72.4  70.0  68.6  75.0  64.8  80.0  61.0  85.0 
@@ -342,6 +348,10 @@
 *- 230 1  290 1  310 4  330 5  350 4.5  360 4.5 
 * Wettzell mask converted from step function to lines.
  H WETTZELL WZ 0 4.5  25 4.5  26 3  35 3  36 4.5  90 4.5  91 3  120 3
+ - 121 4  160 4  161 3  200 3  201 4  230 4  231 1  310 1  311 4
+ - 330 4  331 5  350 5  351 4.5  360 4.5
+* DBBC version of WETTZELL 
+ H WETTDBBC Wd 0 4.5  25 4.5  26 3  35 3  36 4.5  90 4.5  91 3  120 3
  - 121 4  160 4  161 3  200 3  201 4  230 4  231 1  310 1  311 4
  - 330 4  331 5  350 5  351 4.5  360 4.5
  H WETTZ13N Wn 0     3     360 
