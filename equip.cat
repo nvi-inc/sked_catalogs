@@ -1,8 +1,9 @@
-* VERSION 2015Jan22_iGSFC 
+* VERSION 2015Feb12_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *
-* 2015Jan22           Modified equipment for Wettzell twin telescopes. Use HARM15M SEFDs
+* 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
+* 2015Jan22           Modified equipment for Wettzell twin telescopes. Use HART15M SEFDs
 * 2014Dec10 JMG.      Noto updated per email Piettro Cassaro. Now (none, Mark5B). none=DBBC which is not recognized yet. 
 * 2014Dec10 JMG.      Sejong X,S SEFDS==>5000
 * 2014Nov06 JMG.      Added DSS45
@@ -522,6 +523,7 @@
  WESTFORD   07  WESTFORD  2x56000 17640   X  1500   S  1400 S 1.0 0.962 0.0384 X 1.0 0.939 0.0608 Mark5 MARK5B
 *WETTZELL   33  WETTZELL    1      8820   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516
  WETTZELL   33  WETTZELL  2x56000 17640   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 Mark4 MARK5A
+ WETTDBBC   Wd  WETTDBBC  2x56000 17640   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 None  MARK5B
  WETTZELL   WK  K4-WETTZ  1         100   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 Mark4 K5
  WETTZ13N   Wn  WETTZ13N  2x56000  17640  X  1400   S  1050 Mark5 MARK5B
  WETTZ13S   WS  WETTZ13S  2x56000  17640  X  1400   S  1050 Mark5 MARK5B
