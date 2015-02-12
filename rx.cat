@@ -1,7 +1,8 @@
-* VERSION 2015Jan20_iGSFC
+* VERSION 2015Feb12_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015Feb12 JMG. Added WETTDBBC to SX_WIDE 
 * 2015Jan20 JMG. Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
 * 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO     
 * 2014Nov06 JMG  Added DSS54
@@ -292,6 +293,7 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
+ -       WETTDBBC    ODB_WIDE
  -       WETTZ13N    TWIN_WIDE
  -       WETTZ13S    TWIN_WIDE
  -       YARRA12M    DBBC_AU
