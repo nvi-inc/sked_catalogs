@@ -1,9 +1,10 @@
-* VERSION 2014NOV06_iGSFC
+* VERSION 2015FEB12_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2014Feb12 JMG. Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
 * 2014Nov06 JMG. Added DSS54 to 01-16-0-1
 * 2014Oct07 JMG. changed Kashima in 00-8U-2-2
 * 2014Oct03 JMG. Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
@@ -335,6 +336,7 @@
  -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
  -       WETTZELL   MK3V-A      14U2L-2-1     Mk34  
+ -       WETTDBBC   MK3V-A      14U2L-1-1-B   Mk34 
  -       WETTZ13N   MK3V-A      14U2L-1-1-B   Mk34  
  -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
