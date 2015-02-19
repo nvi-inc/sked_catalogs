@@ -1,8 +1,9 @@
-** VERSION 2015Feb10_iGSFC
+** VERSION 2015Feb19_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2015Feb19 JMG. Modifed KAS_STD per email Himwich, Sekiod 2015Feb15
 * 2015Feb10 JMG. Modified YDC_STD per email pablo.devicente@oan.es 2/10/15
 * 2015Feb09 JMG. Added YDC_STD for use in T2 schedules. 
 * 2014Dec10 JMg. Updated CDPVNOTO to reflect new LOs per P.Cassaro email 2014Nov27
@@ -170,20 +171,20 @@ ODB_STD
  -   13 D1     S   2020  U
  -   14 D1     S   2020  U
  KAS_STD
- -   1  1N    X   8080  U
- -   2  1N    X   8080  U
- -   3  1N    X   8080  U
- -   4  1N    X   8080  U
- -   5  3N    X   8080  U
- -   6  3N    X   8080  U
- -   7  3N    X   8080  U
- -   8  3N    X   8080  U
- -   9  2N    S   2020  U
- -   10 2N    S   2020  U
- -   11 2N    S   2020  U
- -   12 2N    S   2020  U
- -   13 2N    S   2020  U
- -   14 2N    S   2020  U
+ -   1  1N    X   7580  U
+ -   2  1N    X   7580  U
+ -   3  1N    X   7580  U
+ -   4  1N    X   7580  U
+ -   5  3N    X   7580  U
+ -   6  3N    X   7580  U
+ -   7  3N    X   7580  U
+ -   8  3N    X   7580  U
+ -   9  2N    S   1520  U
+ -   10 2N    S   1520  U
+ -   11 2N    S   1520  U
+ -   12 2N    S   1520  U
+ -   13 2N    S   1520  U
+ -   14 2N    S   1520  U
  TSU_STD
  -   1  1N    X   7680  U
  -   2  1N    X   7680  U
