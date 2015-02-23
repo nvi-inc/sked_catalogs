@@ -1,9 +1,10 @@
-* VERSION 2015FEB12_iGSFC
+* VERSION 2015FEB23_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2014Feb12 JMG. Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
 * 2014Nov06 JMG. Added DSS54 to 01-16-0-1
 * 2014Oct07 JMG. changed Kashima in 00-8U-2-2
@@ -294,14 +295,15 @@
  -       DSS15      MK3V-A      14U2L-2-1     Mk34  
  -       DSS13      MK3V-A      14U2L-1-2-D   Mk34  
  -       EFLSBERG   MK3V-A      14U2L-1-1-B   Mk34    
- -       FORTLEZA   MK3V-A      14U2L-2-1   Mk34  none   
- -       GILCREEK   MK3A-A      14U2L-2-1  VLBA   8:1
- -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
+ -       FORTLEZA   MK3V-A      14U2L-2-1     Mk34  none   
+ -       GILCREEK   MK3A-A      14U2L-2-1     VLBA   8:1
+ -       GOLDVENU   MK3V-A      14U2L-2-1     Mk34
  -       GGAO12M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
- -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-2-1     Mk34
+ -       ISHIOKA    MK3V-A      14U2L-1-1-BJ   Mk34
  -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
  -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
  -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
