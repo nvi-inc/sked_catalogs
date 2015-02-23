@@ -1,8 +1,9 @@
-* VERSION 2015Feb12_iGSFC
+* VERSION 2015Feb23_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
 * 2014Jan22 JMG. Changed antenna parameters for WETTZ13N, 13S to
 * 2014Dec10 JMG. Several changes:  GGAO12M lower=6.25; Hart15M upper=88; 
@@ -244,7 +245,8 @@
 *H HOBART26 XYEW 8.19430  40.0 30  -82.0   82.0  20.0 30  -74.0   74.0  26.0 Ho 04    
 *H HOBART26 XYEW 8.19430  40.0 30  -82.0   82.0  40.0 30  -74.0   74.0  26.0 Ho 04    
  H HOBART26 XYEW 8.19430  39.0 36  -82.0   82.0  39.0 36  -74.0   74.0  26.0 Ho 04    
-*F HRAS_085 HADC 6.70200  29.0 40  -81.5   81.5  20.0 40  -40.0   88.0  25.9 HR 10    
+*F HRAS_085 HADC 6.70200  29.0 40  -81.5   81.5  20.0 40  -40.0   88.0  25.9 HR 10  
+ I ISHIOKA  AZEL 0.00000 720.0 10  -75.0  430.0 360.0 10    5.0   89.0  13.2 Is Is   Is   
  I ITAPETGA AZEL 0.00000  60.0  0  270.0  810.0  60.0  0    5.0   88.0  14.0 It --    
 *J JODRELL2 AZEL 0.45800  22.5  0  275.0  685.0  22.5  0    3.0   89.0  76.0 Jb 37    
  J JODRELL2 AZEL 0.45800  20.0  0  270.0  690.0  20.0  0    1.0   89.0  76.0 Jb 37    
