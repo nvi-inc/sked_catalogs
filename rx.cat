@@ -1,7 +1,8 @@
-* VERSION 2015Feb12_iGSFC
+* VERSION 2015Feb23_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Added WETTDBBC to SX_WIDE 
 * 2015Jan20 JMG. Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
 * 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO     
@@ -118,7 +119,7 @@
  -       CHICHI10    CDP_STDN
  -       CRIMEA      CDP_STDN
  -       CTVA        CDP_STD
- -       DSS13      DVP_STD 
+ -       DSS13       DVP_STD 
  -       DSS15       DSN_STD    
  -       DSS45       DSN_STD
  -       TIDBIN64    DSN_STD\
@@ -132,6 +133,7 @@
  -       HAYSTACK    CDP_STD
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_STD
+ -       ISHIOKA     CDP_STDN
  -       KASHIM34    KAS_STD
  -       KASHIM11    K4_KAS11
  -       KATH12M     DBBC_AU
@@ -174,8 +176,8 @@
  -       TSUKUB32    TSU_STD
  -       UCHINOUR    TSU_STD
  -       URUMQI      CDP_STDU
- -       VERAISGK    TSU_STD
- -       VERAMZSW    TSU_STD
+ -       VERAISGK    JD_VSTD
+ -       VERAMZSW    JD_VSTD
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
@@ -236,13 +238,14 @@
  -       ORION_5M    CDP_WIDE
  -       KOKEE       CDP_WIDE
  -       GILCREEK    CDP_WIDE
- -       ONSALA60    CDP_WIDE
+ -       ONSALA60    CDP_WIDE 
  SX_WIDE
  -       AIRA        AIRA_WIDE
  -       ALGOPARK    CDPV_WIDE
  -       BADARY      CDP_STDN
  -       ARIES_4M    CDP_WIDE
  -       ARIES_9M    CDP_WIDE
+ -       CHICHI10    KAS_WIDE
  -       CTVA        CDP_WIDE
  -       CRIMEA      CDP_WIDE
  -       EFLSBERG    CDP_WIDE
@@ -254,8 +257,11 @@
  -       HAYSTACK    CDP_WIDE
  -       HOBART12    DBBC_AU
  -       HOBART26    CDP_WIDE
+ -       ISHIOKA     KAS_WIDE
  -       KASHIM34    KAS_WIDE
+ -       KASHIM11    KAS_WIDE
  -       KATH12M     DBBC_AU
+ -       KOGANEI     KAS_WIDE
  -       KOKEE       NRAO_WIDE
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
