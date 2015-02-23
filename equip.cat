@@ -1,7 +1,8 @@
-* VERSION 2015Feb12_iGSFC 
+* VERSION 2015Feb23_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *
+* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
 * 2015Jan22           Modified equipment for Wettzell twin telescopes. Use HART15M SEFDs
 * 2014Dec10 JMG.      Noto updated per email Piettro Cassaro. Now (none, Mark5B). none=DBBC which is not recognized yet. 
@@ -395,6 +396,7 @@
  HOBART26   04  HRAS_085 2x56000  17640   X  1200   S  800 S 1.0 0.970 0.030  X 1.0 0.959 0.041 Mark4 MARK5A
  HOBART26   04  HRAS_085 1x56000  17640   K  1800   K 1800  Mark4 MARK5A
  HRAS_085   10  MV3_5M      1      8820   X  1450   S   900
+ ISHIOKA    Is  ISHIOKA     1      100    X  2000   S  4000 K4-2 K5 
  JODRELL2   37  JODRELL2 2x56000  17640   C   320   C   320 Mark4 MARK5A
  *KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-2 K4-2
  KASHIM34   KB  KASHIM34    1      8820   X   550   S   430 K4-2 K5 
@@ -472,7 +474,7 @@
 * PARKES64   09  MARPOINT    1      8820   X   200   S   300 Mark3A Mark3A
  PARKES64   09  MARPOINT    1      8820   X   200   S   300 Mark4 Mark5A
  PARKES     09  MARPOINT    1      8820   X   200   S   300 Mark5 Mark5B
- PIETOWN    PT  PT-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.002 3.002 X 0.25 0.494 0.506 VLBA MARK5A
+ PIETOWN    PT  PT-VLBA   1x56000 2x17640  X   500   S   400 S 0.1 -2.002 3.002 X 0.25 0.494 0.506 VLBA MARK5A
 *RICHMOND   66  RICHMOND    1      8820   X  2700   S  1800
  MIAMI20    08  MV2_4M      1      8820   X  5500   S  5500 
  SANTIA12   70  TVDS-VX2    1      8820   X  5000   S  3000
