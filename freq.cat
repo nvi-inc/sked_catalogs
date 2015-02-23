@@ -1,8 +1,9 @@
-* VERSION 2014Feb05_iGSFC
+* VERSION 2015Feb23_iGSFC
 * FREQ.CAT - frequency sequences
 *
 * Changes now with most recent at the top.
 *
+* 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
 * 2014Feb05 JMG  Changed LOIF sequence for RDV from VG_STD to VLBA_RV
 * 2014Jan16 JMG  Changed RDV frequency per email David Gordon 2014Jan15
 * 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
@@ -692,6 +693,23 @@
 - S    R   2295.99  U   CH12    12   10000.0
 - S    R   2345.99  U   CH13    13   10000.0
 - S    R   2365.99  U   CH14    14   10000.0
+* K5-16KSP mode from JADE schedules  2015Feb23
+ K5-16KSP   SX STD SX_STD
+- X    R   8204.99  U   CH1     1    10000.0
+- X    R   8214.99  U   CH2     2    10000.0
+- X    R   8244.99  U   CH3     3    10000.0
+- X    R   8304.99  U   CH4     4    10000.0
+- X    R   8414.99  U   CH5     5    10000.0
+- X    R   8494.99  U   CH6     6    10000.0
+- X    R   8544.99  U   CH7     7    10000.0
+- X    R   8864.99  U   CH8     8    10000.0
+- S    R   2229.99  U   CH9     9    10000.0
+- S    R   2234.99  U   CH10    10   10000.0
+- S    R   2249.99  U   CH11    11   10000.0
+- S    R   2279.99  U   CH12    12   10000.0
+- S    R   2304.99  U   CH13    13   10000.0
+- S    R   2314.99  U   CH14    14   10000.0
+
 * New sequence  at Arnos Request (07May31)
 * Modifed 2013Nov13.  2312.99 was previously 2212.99
  GEOSX4F   SX STD SX_WIDE
