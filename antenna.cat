@@ -1,8 +1,9 @@
-* VERSION 2015Feb23_iGSFC
+* VERSION 2015Feb25_iGSFC
 * CATALOG antenna.cat 
 *
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
 * 2014Jan22 JMG. Changed antenna parameters for WETTZ13N, 13S to
@@ -314,6 +315,7 @@
  P PIETOWN  AZEL 2.13710  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Pt PT  PT
  U QUABBIN  AZEL 0.00000  60.0  0  270.0  810.0  60.0  0    5.0   88.0  18.0 Qb --    
 *R RICHMOND RICH 5.18040  30.0  0  -84.8   84.8  30.0  0  -25.0   86.9  18.0 RI 66    
+ R RAEGYEB  AZEL 0.00000 720.0  3  300.0  780.0 360.0  3    5.0   89.0  13.2 Yj Yj
  R ROBLED32 HADC 6.70600  20.0  0 -100.0  100.0  20.0  0  -35.0   86.0  32.0 61 --    
  S SANTIA12 XYNS 0.00000  60.0  0  -82.5   82.8  60.0  0  -81.5   81.9  12.0 St 70  ST
  C SC-VLBA  AZEL 2.13370  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Sc SC  SC
