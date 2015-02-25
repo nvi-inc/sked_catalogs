@@ -1,9 +1,10 @@
-* VERSION 2015FEB23_iGSFC
+* VERSION 2015FEB25_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2014Feb12 JMG. Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
 * 2014Nov06 JMG. Added DSS54 to 01-16-0-1
@@ -321,6 +322,7 @@
  -       ONSALDBC   MK3V-A      14U2L-2-1   Mk34 
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
  -       PARKES64   MK3V-A      14U2L-1-1-B   Mk34  
+ -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-BS   Mk34
  -       TIANMA65   MK3V-A      14U2L-1-1-B   Mk34
@@ -391,6 +393,7 @@
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
  -       PARKES64   MK3V-A      14U2L-1-1-B   Mk34  
+ -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
  -       SESHAN25   MK3V-A      8L6U-1-1-BS   Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
