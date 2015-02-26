@@ -1,7 +1,11 @@
-* VERSION 2015Feb23_iGSFC
+* VERSION 2015Feb26_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording.
+* 2015APR21 JMG. YDC_WIDE replaced by YDC_STD. No distinction between wide and narrow band. 
+* 2015Feb25 JMG. Changed RAEGYEB LO: YDC_WIDE-->RAEG_WIDE
+* 2015Feb25 JMG. Added RAEGYEB to SX_WIDE.
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Added WETTDBBC to SX_WIDE 
 * 2015Jan20 JMG. Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
@@ -183,7 +187,6 @@
  -       WETTZELL    CDP_STD
  -       YARRA12M    CDP_STD
  -       YEBES40M    YDC_STD
-*-       YEBESDBC    YDC_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
 * -       ZELENCHK    CDP_STDN
@@ -280,6 +283,7 @@
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
  -       PARKES64    CDP_WIDE
+ -       RAEGYEB     RAEG_WIDE 
  -       SANTIA12    CDP_WIDE
  -       SEST        CDP_WIDE
  -       SEJONG      TSU_WIDE
@@ -303,8 +307,7 @@
  -       WETTZ13N    TWIN_WIDE
  -       WETTZ13S    TWIN_WIDE
  -       YARRA12M    DBBC_AU
- -       YEBES40M    YDC_WIDE
-*       YEBESDBC    YDC_WIDE
+ -       YEBES40M    YDC_STD
  -       ZELENCHK    CDP_STDN
 * CORE modes testing
  SX_W16
@@ -443,7 +446,6 @@
  -       WETTZELL    CDP_WID8 
  -       URUMQI      CDP_WID8 
  -       YEBES40M    CDP_WID8 
- -       YEBESDBC    CDP_WID8
  VG_ZC
  -       ZELENCHK    ZC8_WIDE 
  VLBA_PH
