@@ -1,8 +1,12 @@
-* VERSION 2015Feb25_iGSFC
-* CATALOG antenna.cat 
-*
+* VERSION 2015Mar30_iGSFC
+237=1B5B313B324 CATALOG antenna.cat 
+6
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2015nov12 dbb  Change lower el. limit from 6.0 to 7.0 for KASHIMA11 and 
+*                KOGANEI per Eiji Kawai.
+* 2015Sep17 dbb  Change lower el. limit from 5.0 to 5.5 for VERAMZSW per T. Jike.
+* 2015Sep10 JMG. Changed HARTRAO mask key from "HT" to "Hh" 
 * 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
@@ -55,8 +59,8 @@
 *  940624 nrv Change Crimea az limits by 2 degrees
 *  940729 nrv Change VLBA upper el limits to 88 degrees.
 *  940818 nrv Change az limits for Fortaleza, per JDW
-*  940829 nrv Reduce Bonn az slewing to 15 deg/min per message from Bonn
-*             and changed az cable limits per Kurt Standke
+*  940829 nrv Reduce Bonn az slewing to 15 deg/min er message from Bonn
+2             and changed az cable limits per Kurt Standke
 *  941011 nrv Change lower az limit for Medicina per G. Maccaferri
 *  941011 nrv Change Ny Alesund name per C. Ma and M. Eubanks
 *  941219 nrv Initial Yebes data from P. Vicente
@@ -112,8 +116,8 @@
 * 001211 nrv Change O'Higgins cable wrap to -90/270, one full wrap.
 * 010119 nrv Change DSS45 slew rate in elevation from 42 to 48 deg/min
 *            per George Martinez. Other DSS antennas unchanged.
-* 010508 nrv Add Parkes with info from A. Fey.
-* 010529 nrv Change TIGO position code to Tc (Concepcion).
+* 10508 nrv Add Parkes with info from A. Fey.
+2 010529 nrv Change TIGO position code to Tc (Concepcion).
 * 010807 nrv Add Metsahovi info from old .drg schedule.
 * 011002 nrv Add GBT per F. Ghigho.
 * 011024 nrv Add SVETLOE per info in IVS AR1999.
@@ -168,25 +172,25 @@
 * 090611 dbb Changed DSS43=TIDBIN64 CW limit to 759.8 (from 760.0) per Shinji Horiuchi.
 * 090611 dbb Changed DSS45 CW limit to 628.9 (from 630.0) per Shinji Horiuchi.
 * 090713 JMG Changed Badary so that pionts to horizon mask
-* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
-*            purposes.
+090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth or simulation
+2            purposes.
 * 090925 JMG Updated GGAO (=ORION) limits
 * 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
 * 091204 JMG Changed limits of DSS65A per 12/04/09 email from Esther Moll Moreno
 * 100114 JMG Change slew rates of DS15 to 48 deg/min and 45 deg/min per email George Martinez
-* 100811 dbb Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
-* 100811 dbb Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
-*            per Brett Reid.
-* 100812 DG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
-* 052411 JG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
-* 110706 dbb Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
-* 110711 dbb Add KUNMING per Fengchun Shu.
+	100811 dbb Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
+6 100811 dbb Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
+	*            per Brett Reid.
+	* 100812 DG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
+	* 052411 JG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
+	110706 dbb Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
+6 110711 dbb Add KUNMING per Fengchun Shu.
 * 110815 dbb Change TIGO Lim1 from (276 916) to (276 774) per Ed Himwich.
 * 110818 dbb Correct TIGO slew speeds per Hayo Hase.
-* 120118 dbb Add JAXA station UCHINOUR.
-* 120215 JMG Chaged limits of Effelsberg from 30-480 to 34-490 per email Uwe Bach (11/21/2011)
-* 120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
-* 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
+	* 120118 dbb Add JAXA station UCHINOUR.
+	* 120215 JMG Chaged limits of Effelsberg fom 30-480 to 34-490 per email Uwe Bach (11/21/2011)
+120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
+6 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
 * 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
 * 140416 dbb Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
 * 140516 dbb Add TIANMA65 per Fengchun Shu.
@@ -237,7 +241,7 @@
  P GOLDPION HADC 0.00000  60.0  0  -85.0   85.0  60.0  0  -40.0   88.0  25.9 GP --    
  Q GOLDVENU AZEL 0.92520 120.0  0  270.0  810.0 120.0  0    6.0   88.0  26.0 GV 16    
 *J HARTRAO  HADC 6.69220  22.0  0  -88.0   88.0  28.0  0  -89.0   45.0  26.0 Hh 34 HT
- J HARTRAO  HADC 6.69220  24.0 45  -88.0   88.0  22.2 45  -89.0   45.0  26.0 Hh 34 HT
+ J HARTRAO  HADC 6.69220  24.0 45  -88.0   88.0  22.2 45  -89.0   45.0  26.0 Hh 34 Hh
  J HART15M  AZEL 1.47000 120.0  3 -185.0  275.0  60.0  3    2.0   88.0  15.0 Ht Ht Ht
  H HATCREEK HADC 0.00000  13.0 40  -80.9   80.9  12.0 40  -38.0   85.0  26.0 Hc 03 HC
  K HAYSTACK AZEL 0.00000 120.0  0    0.0  360.0 120.0  0    3.0   88.0  37.0 Hs 00    
@@ -253,7 +257,7 @@
  J JODRELL2 AZEL 0.45800  20.0  0  270.0  690.0  20.0  0    1.0   89.0  76.0 Jb 37    
  O KASHIM34 AZEL 0.00000  45.0  0   90.0  630.0  40.0  0    7.0   88.0  34.0 Kb KB    
 *Q KASHIMA  AZEL 0.00000  60.0  0   10.0  710.0  60.0  0    5.0   88.0  26.0 Ka 160   
- R KASHIM11 AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    6.0   88.0  11.0 K1  K1  
+ R KASHIM11 AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    7.0   88.0  11.0 K1  K1  
  K KATH12M  AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Ke Ke
  K KAUAI    XYNS 2.43440  60.0  0  -87.6   86.6  60.0  0  -80.8   81.0   9.0 Ku 35 KU
  K KOKEE    AZEL 0.5181  117.0  15  270.0  810.0 117.0  15    0.0   89.7  20.0 Kk 102
@@ -261,7 +265,7 @@
  K KITTPEAK AZEL 0.00000  14.0  0  270.0  690.0  14.0  0   12.0   88.0  12.0 Kt --    
  K KUNMING  AZEL 0.00000  60.0  0  280.0  800.0  30.0  0    6.0   86.0  40.0 Km 103
  K KP-VLBA  AZEL 2.13130  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 Kp KV KV
- G KOGANEI  AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    6.0   88.0  11.0 Kg  Kg   
+ G KOGANEI  AZEL 0.00000 180.0  0   95.0  625.0 180.0  0    7.0   88.0  11.0 Kg  Kg   
  W KWAJAL26 AZEL 0.00000 750.0  0    0.0  360.0 750.0  0    0.0   90.0  25.6 Kw --    
  L LA-VLBA  AZEL 2.13180  90.0  0  270.0  810.0  30.0  0    2.3   88.0  25.0 La LA  LA
  M MADRID64 AZEL 0.00000  12.0  0  230.0  760.0  12.0  0    6.0   88.0  64.0 Ro 69    
@@ -349,7 +353,7 @@
  U URUMQI   AZEL 0.00000  60.0  0  280.0  800.0  30.0  0    5.0   88.0  25.0 Ur K4    
  U USSURISK AZEL 4.00000  30.0 900 270.0  810.0  15.0 900   5.0   88.0  70.0 Us US --
  S VERAISGK AZEL 0.00000 120.0  0  270.0  810.0 120.0  0    5.0   85.0  20.0 Vs Vs  Vs 
- M VERAMZSW AZEL 0.00000 120.0  0  270.0  810.0 120.0  0    5.0   85.0  20.0 Vm Vm  Vm 
+ M VERAMZSW AZEL 0.00000 120.0  0  270.0  810.0 120.0  0    5.5   85.0  20.0 Vm Vm  Vm 
  Y VLA      AZEL 0.00000  40.0  0  275.0  805.0  20.0  0   10.0   88.0  26.0 Yl 101   
  W WARK12M  AZEL 0.00000 300.0  2  180.0  720.0  60.0  2    8.0   88.0  12.0 Ww Ww Ww
  Z WERTHOVN AZEL 0.00000  60.0  0    0.0  360.0  60.0  0    5.0   88.0  34.0 WT --    
