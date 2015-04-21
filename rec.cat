@@ -1,9 +1,10 @@
-* VERSION 2015FEB25_iGSFC
+* VERSION 2015APR21_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording
 * 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2014Feb12 JMG. Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
@@ -345,7 +346,6 @@
  -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B   Mk34  
- -       YEBESDBC   MK3V-A      14U2L-1-1-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-1-B   Mk34  
  -       ATCA       MK3V-A      14U2L-2-1   Mk34  
  -       CEDUNA     MK3V-A      14U2L-2-1   Mk34  
@@ -635,7 +635,6 @@
  -       WETTZELL   MK3V-A      14U2L-1-2      Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
- -       YEBESDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-2-B   Mk34  
 *******************************************************************
 * 2-bit sampling, 8 USB and LSB channels, 1:1 fanout, 32 tracks.
