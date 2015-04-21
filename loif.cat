@@ -1,8 +1,10 @@
-** VERSION 2015Feb26_iGSFC
+** VERSION 2015Apr21_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2015May29 JMG. Added CDP_STDK for Kunming. Identical to CDP_STDU accept 1N,2N go to A, B,C,D. Per email Fengchun
+* 2015Apr21 JMG. Modified LOs for YEBES. Changes made because of using firmware V105E at DBBC. (per Pablo). Removed unneeded YDC_WIDE. 
 * 2015Feb26 JMG. Added RAEG_WIDE for RAEG antennas
 * 2015Feb23 JMG. Put in LO settings for JADE sessions. 
 * 2015Feb19 JMG. Modifed KAS_STD per email Himwich, Sekiod 2015Feb15
@@ -126,6 +128,21 @@ JD_VSTD
  -   12 2N    S   2000  U
  -   13 2N    S   2000  U
  -   14 2N    S   2000  U
+ CDP_STDK
+ -   1   A    X   8100  U
+ -   2   A    X   8100  U
+ -   3   A    X   8100  U
+ -   4   A    X   8100  U
+ -   5   B    X   8100  U
+ -   6   B    X   8100  U
+ -   7   B    X   8100  U
+ -   8   B    X   8100  U
+ -   9   C    S   2000  U
+ -   10  C    S   2000  U
+ -   11  C    S   2000  U
+ -   12  C    S   2000  U
+ -   13  D    S   2000  U
+ -   14  D    S   2000  U
 * Wideband for Urumqi
 CDP_STDUW
  -   1  1N    X   8100  U
@@ -267,46 +284,16 @@ RAEG_WIDE
  -   2  A1     X   7650  U
  -   3  A1     X   7650  U
  -   4  A1     X   7650  U
- -   5  B1     X   7650  U
- -   6  B1     X   7650  U
- -   7  B1     X   7650  U
- -   8  B1     X   7650  U
- -   9  C1     S   1530  U
- -   10 C1     S   1530  U
- -   11 C1     S   1530  U
- -   12 C1     S   1530  U
- -   13 D1     S   1530  U
- -   14 D1     S   1530  U
- YEB_WIDE
- -   1  A     X   7650  U
- -   2  A     X   7650  U
- -   3  A     X   7650  U
- -   4  A     X   7650  U
- -   5  C     X   8100  U
- -   6  C     X   8100  U
- -   7  C     X   8100  U
- -   8  C     X   8100  U
- -   9  B     S   1530  U
- -   10 B     S   1530  U
- -   11 B     S   1530  U
- -   12 B     S   1530  U
- -   13 B     S   1530  U
- -   14 B     S   1530  U
-YDC_WIDE
- -   1  A1     X   7650  U
- -   2  A1     X   7650  U
- -   3  A1     X   7650  U
- -   4  A1     X   7650  U
- -   5  B1     X   8100  U
- -   6  B1     X   8100  U
- -   7  B1     X   8100  U
- -   8  B1     X   8100  U
- -   9  C1     S   1530  U
- -   10 C1     S   1530  U
- -   11 C1     S   1530  U
- -   12 C1     S   1530  U
- -   13 D1     S   1530  U
- -   14 D1     S   1530  U
+ -   5  B2     X   8100  U
+ -   6  B2     X   8100  U
+ -   7  B2     X   8100  U
+ -   8  B2     X   8100  U
+ -   9  C2     S   1530  U
+ -   10 C2     S   1530  U
+ -   11 C2     S   1530  U
+ -   12 C2     S   1530  U
+ -   13 D2     S   1530  U
+ -   14 D2     S   1530  U 
  AIRA_WIDE
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
