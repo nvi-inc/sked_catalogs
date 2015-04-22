@@ -1,9 +1,10 @@
-* VERSION 2015APR21_iGSFC
+* VERSION 2015APR22_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Apr22 JMG. Added PARKES to 32-16-1-2 
 * 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording
 * 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
@@ -623,6 +624,7 @@
  -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
  -       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
+ -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES64   MK3V-A      14U2L-1-2     Mk34  
  -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
