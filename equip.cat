@@ -1,6 +1,7 @@
-* VERSION 2015APR21_iGSFC 
+* VERSION 2015APR22_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
+* 2015Apr22 JMG. Commented out duplicate PARKES entries. Got rid of K-band PARKES entries
 * 2015Apr21 JMG. Commented out YEBESDBC (for testing DBBC) and changed YEBES40M to none MARK5B
 * 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
@@ -470,10 +471,10 @@
  OV-VLBA    OV  OV-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
  OVRO_130   05  MV1_9M      1      8820   X   810   S   775
 *PARKES64   09  MARPOINT    1      8820   X   126   S   200 Mark3A Mark3A
- PARKES64   09  MARPOINT    1      8820   K   800   K   800 Mark4  MARK5A
- PARKES     09  MARPOINT    1      8820   K   800   K   800 Mark5  MARK5B
+* PARKES64   09  MARPOINT    1      8820   K   800   K   800 Mark4  MARK5A
+* PARKES     09  MARPOINT    1      8820   K   800   K   800 Mark5  MARK5B
 * PARKES64   09  MARPOINT    1      8820   X   200   S   300 Mark3A Mark3A
- PARKES64   09  MARPOINT    1      8820   X   200   S   300 Mark4 Mark5A
+* PARKES64   09  MARPOINT    1      8820   X   200   S   300 Mark4 Mark5A
  PARKES     09  MARPOINT    1      8820   X   200   S   300 Mark5 Mark5B
  PIETOWN    PT  PT-VLBA   1x56000 2x17640  X   500   S   400 S 0.1 -2.002 3.002 X 0.25 0.494 0.506 VLBA MARK5A
  RAEGYEB    Yj  RAEGYEB   1x56000 17640   X  1600   S  1700 none MARK5B
