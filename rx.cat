@@ -1,7 +1,9 @@
-* VERSION 2015Apr22_iGSFC
+* VERSION 2015May14_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015May29 JMG. For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
+* 2015May14 KOL. Added TIANMA65 to SX_STD
 * 2015Apr22 JMG. Replaced PARKES64 by PARKES in SX_WIDE 
 * 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording.
 * 2015APR21 JMG. YDC_WIDE replaced by YDC_STD. No distinction between wide and narrow band. 
@@ -144,7 +146,7 @@
  -       KATH12M     DBBC_AU
  -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_STD
- -       KUNMING     CDP_STDU
+ -       KUNMING     CDP_STDK
  -       KWAJAL26    CDP_STDN
  -       MARPOINT    CDP_STDN
  -       MARCUS      CDP_STDN
@@ -176,6 +178,7 @@
  -       SYOWA       CDP_STD
  -       TAHITI      CDP_STD
  -       TATEYAMA    CDP_STD
+ -       TIANMA65    CDP_T6
  -       TIGO        CDPV_STD
  -       TIGOPLTA    CDPV_STD
  -       TSUKUB32    TSU_STD
