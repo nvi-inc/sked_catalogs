@@ -1,9 +1,10 @@
-* VERSION 2015APR22_iGSFC
+* VERSION 2015MAY14_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015May14 KOL. Added TIANMA65 to 32-16-2-1
 * 2015Apr22 JMG. Added PARKES to 32-16-1-2 
 * 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording
 * 2015Feb25 JMG. Added RAEGYEB 
@@ -262,6 +263,7 @@
  -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
  -       SYOWA      MK3V-A      14U2L-2-1   Mk34
  -       SVETLOE    MK3V-A      14U2L-2-1   Mk34  
+ -       TIANMA65   MK3V-A      14U2L-2-1   Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
  -       TIGO       MK3V-A      14U2L-2-1   Mk34  
  -       TIGOPLTA   MK3V-A      14U2L-2-1   Mk34  
