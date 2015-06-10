@@ -1,7 +1,8 @@
-* VERSION 2015May14_iGSFC
+* VERSION 2015Jun10_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015Jun10 JMG&KLB synchronized with aust
 * 2015May29 JMG. For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
 * 2015May14 KOL. Added TIANMA65 to SX_STD
 * 2015Apr22 JMG. Replaced PARKES64 by PARKES in SX_WIDE 
@@ -129,7 +130,7 @@
  -       DSS13       DVP_STD 
  -       DSS15       DSN_STD    
  -       DSS45       DSN_STD
- -       TIDBIN64    DSN_STD\
+ -       TIDBIN64    DSN_STD
  -       DSS54       DSN_STD
  -       DSS65A      DSN_STD
  -       EFLSBERG    EFL_STD
@@ -169,6 +170,7 @@
  -       OVRO_130    CDP_STD
  -       NOTO        CDPVNOTO 
  -       PARKES64    CDP_STDN
+ -       PARKES      CDP_STD
  -       SANTIA12    CDP_STD
  -       SEJONG      CDP_STDN
  -       SEST        CDP_STD
@@ -189,7 +191,7 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
- -       YARRA12M    CDP_STD
+ -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_STD
 * -       ZELENCHK    ZC8_STD
   -       ZELENCHK    CDP_STDN
@@ -255,6 +257,8 @@
  -       CHICHI10    KAS_WIDE
  -       CTVA        CDP_WIDE
  -       CRIMEA      CDP_WIDE
+ -       DSS45       DSN_STD
+ -       TIDBIN64    DSN_STD
  -       EFLSBERG    CDP_WIDE
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
@@ -286,7 +290,7 @@
  -       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
- -       PARKES      CDP_WIDE
+ -       PARKES      PKS_WIDE
  -       RAEGYEB     RAEG_WIDE 
  -       SANTIA12    CDP_WIDE
  -       SEST        CDP_WIDE
