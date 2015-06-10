@@ -1,11 +1,13 @@
-* VERSION 2015MAY14_iGSFC
+* VERSION 2015JUN10_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Jun10 JMG. Synchronized with Australian
 * 2015May14 KOL. Added TIANMA65 to 32-16-2-1
 * 2015Apr22 JMG. Added PARKES to 32-16-1-2 
+* 2015 Mar15 Lucia: DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
 * 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording
 * 2015Feb25 JMG. Added RAEGYEB 
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
@@ -612,6 +614,8 @@
  32-16-1-2
  -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
  -       BADARY     MK3V-A      14U2L-1-2-B   Mk34  
+ -       DSS45      MK3V-A      14U2L-1-2     Mk34
+ -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
  -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
  -       GGAO12M    MK3V-A      14U2L-1-2     Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-2     Mk34  
