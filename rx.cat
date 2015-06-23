@@ -1,7 +1,8 @@
-* VERSION 2015Jun10_iGSFC
+* VERSION 2015Jun23_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+* 2015Jun23 JMG. under SX_WIDE chaned MC to TWIN_WIDE because of change in hardware.  
 * 2015Jun10 JMG&KLB synchronized with aust
 * 2015May29 JMG. For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
 * 2015May14 KOL. Added TIANMA65 to SX_STD
@@ -280,7 +281,7 @@
  -       METSAHOV    CDPV_WIDE
  -       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
- -       MEDICINA    CDP_WIDE   
+ -       MEDICINA    TWIN_WIDE   
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
