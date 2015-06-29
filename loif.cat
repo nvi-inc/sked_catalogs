@@ -1,9 +1,12 @@
-** VERSION 2015Apr21_iGSFC
+** VERSION 2015Jun29_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2015Jun29 JMG. Modified TWIN_WIDE and changed name to TWN_DBBC for WETZN and WETZS
+* 2015Jun10 JMG KLB synchronized with AUST catalog
 * 2015May29 JMG. Added CDP_STDK for Kunming. Identical to CDP_STDU accept 1N,2N go to A, B,C,D. Per email Fengchun
+* 2015Apr28 JMc  Added PKS_WIDE to support Parkes LOs
 * 2015Apr21 JMG. Modified LOs for YEBES. Changes made because of using firmware V105E at DBBC. (per Pablo). Removed unneeded YDC_WIDE. 
 * 2015Feb26 JMG. Added RAEG_WIDE for RAEG antennas
 * 2015Feb23 JMG. Put in LO settings for JADE sessions. 
@@ -875,22 +878,22 @@ CDPV_SEX
  -  11  C1    S   2020    U 
  -  12  C1    S   2020    U
  -  13  C1    S   2020    U
- -  14  C1    S   2020    U
- TWIN_WIDE
- -   1  1N    X   8080  U
- -   2  1N    X   8080  U
- -   3  1N    X   8080  U
- -   4  1N    X   8080  U
- -   5  1N    X   8080  U
- -   6  1N    X   8080  U
- -   7  1N    X   8080  U
- -   8  1N    X   8080  U
- -   9  2N    S   2020  U
- -   10 2N    S   2020  U
- -   11 2N    S   2020  U
- -   12 2N    S   2020  U
- -   13 2N    S   2020  U
- -   14 2N    S   2020  U
+ -  14  C1    S   2020    U 
+ TWN_DBBC
+ -   1  A1    X   7580  U
+ -   2  A1    X   7580  U
+ -   3  A1    X   7580  U
+ -   4  A1    X   7580  U
+ -   5  B1    X   7580  U
+ -   6  B1    X   7580  U
+ -   7  B1    X   7580  U
+ -   8  B1    X   7580  U
+ -   9  C1    S   2020  U
+ -   10 C1    S   2020  U
+ -   11 C1    S   2020  U
+ -   12 C1    S   2020  U
+ -   13 D1    S   2020  U
+ -   14 D1    S   2020  U
  CDPV_W16
  -   1   A    X   7600.1  U
  -   2   A    X   7600.1  U
@@ -1306,3 +1309,18 @@ CDPV_SEX
  K_22200
  -   1  1N    K   22000 U
  -   2  1N    K   22000 U
+PKS_WIDE
+ -   1  1N    X   8100  U
+ -   2  1N    X   8100  U
+ -   3  1N    X   8100  U
+ -   4  1N    X   8100  U
+ -   5  3N    X   8600.1  U
+ -   6  3N    X   8600.1  U
+ -   7  3N    X   8600.1  U
+ -   8  3N    X   8600.1  U
+ -   9  2N    S   1900  U
+ -   10 2N    S   1900  U
+ -   11 2N    S   1900  U
+ -   12 2N    S   1900  U
+ -   13 2N    S   1900  U
+ -   14 2N    S   1900  U
