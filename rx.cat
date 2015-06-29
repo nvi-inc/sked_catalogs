@@ -1,8 +1,10 @@
-* VERSION 2015Jun23_iGSFC
+* VERSION 2015Jun29_iGSFC
 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
-* 2015Jun23 JMG. under SX_WIDE chaned MC to TWIN_WIDE because of change in hardware.  
+* 2015JUN29 JMG. Changed TWIN_WIDE to TWN_DBBC.  In SX_WIDE changed MEDICINA to ODB_WIDE
+* 2015Jun24 JMG. Added WETTZ13N to SX_STD 
+* 2015Jun23 JMG. under SX_WIDE chaned MC to TWN_DBBC because of change in hardware.  
 * 2015Jun10 JMG&KLB synchronized with aust
 * 2015May29 JMG. For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
 * 2015May14 KOL. Added TIANMA65 to SX_STD
@@ -192,6 +194,8 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    CDP_STD
+ -       WETTZ13N    TWN_DBBC
+ -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_STD
 * -       ZELENCHK    ZC8_STD
@@ -281,7 +285,7 @@
  -       METSAHOV    CDPV_WIDE
  -       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
- -       MEDICINA    TWIN_WIDE   
+ -       MEDICINA    ODB_WIDE
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
@@ -313,8 +317,8 @@
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
  -       WETTDBBC    ODB_WIDE
- -       WETTZ13N    TWIN_WIDE
- -       WETTZ13S    TWIN_WIDE
+ -       WETTZ13N    TWN_DBBC
+ -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_STD
  -       ZELENCHK    CDP_STDN
