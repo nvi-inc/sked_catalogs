@@ -1,9 +1,12 @@
-* VERSION 2015JUN10_iGSFC
+* VERSION 2015JUN30_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Aug10 JMG. Added WETTZ13N to        to 32-16-1-2 
+* 2015Jun30 JMG. Added RAEGYEB and SEJONG to 32-16-1-2
+* 2015Jun24 JMG. Added WETTZ13N, WETTZ13S to 01-16-0-1 
 * 2015Jun10 JMG. Synchronized with Australian
 * 2015May14 KOL. Added TIANMA65 to 32-16-2-1
 * 2015Apr22 JMG. Added PARKES to 32-16-1-2 
@@ -361,11 +364,11 @@
 *  This is close to 00-16-0-1T EXCEPT for SESHAN?
 * 
  01-16-0-1
- -       AIRA       MK3V-A      14U2L-1-1-BJ   Mk34
- -       ALGOPARK   MK3V-A      14U2L-2-1   Mk34
+ -       AIRA       MK3V-A      14U2L-1-1-BJ  Mk34
+ -       ALGOPARK   MK3V-A      14U2L-2-1     Mk34
  -       BADARY     MK3V-A      14U2L-1-1-B   Mk34  
- -       ARIES_9M   MK3A-C         C        Mk34  none   4
- -       CHICHI10   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       ARIES_9M   MK3A-C         C          Mk34  none   4
+ -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
  -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1   Mk34
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
@@ -396,25 +399,27 @@
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
  -       PARKES64   MK3V-A      14U2L-1-1-B   Mk34  
  -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
  -       SESHAN25   MK3V-A      8L6U-1-1-BS   Mk34
- -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
- -       SYOWA      MK3V-A      14U2L-2-1   Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1     Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1     Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1-B   Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1     Mk34  
  -       TIGO       MK3V-A      14U2L-1-1-B   Mk34  
  -       TIGOPLTA   MK3V-A      14U2L-1-1-B   Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-1-BJ   Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1     Mk34
  -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34  
- -       VERAISGK   MK3V-A      14U2L-2-1   Mk34
+ -       VERAISGK   MK3V-A      14U2L-2-1     Mk34
  -       VERAMZSW   MK3V-A      14U2L-1-1-BJ   Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1     Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-1-B   Mk34  
+ -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-1-B   Mk34  
@@ -632,6 +637,8 @@
  -       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES64   MK3V-A      14U2L-1-2     Mk34  
+ -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
+ -       SEJONG     MK3V-A      14U2L-1-2-B   Mk34    
  -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
@@ -640,7 +647,8 @@
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B     Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B    Mk34  
- -       WETTZELL   MK3V-A      14U2L-1-2      Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-2     Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-2-B   Mk34  
