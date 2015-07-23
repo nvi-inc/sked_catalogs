@@ -1,10 +1,11 @@
-* VERSION 2015Mar10_iGSFC 
+* VERSION 2015Jul23_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  john.m.gipson@nasa.gov  *
 ***************************************************************
 * Changed the order so that most recent changes are at the top
+* 2015Jul23 JMG. Changed position of SYOWA per latest GSFC solution. 
 * 2015Mar10 JMG. Changed two letters codes for HOFENFRG--Hg and HOHNBERG-->Hp to agree with nscodes.txt   
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
@@ -313,7 +314,8 @@
 * Km KUNMING   -1281152.887    5640864.271     2682653.360   73670901 257.20   24.88 GLB1069
  Km KUNMING   -1281152.785   5640864.388     2682653.478   73670901 257.20   24.88 2011B         
  Ur URUMQI    228310.75003   4631922.93394  4367064.07254   73303201 272.82   43.47 GLB1069
- Sy SYOWA     1766202.3      1460418.4     -5932293.1       00000000 320.42  -69.01 GSI/NIPR
+ Sy SYOWA     1766194.218    1460410.922   -5932273.357      00000000 320.42 -69.01 gsfc2014a 
+* Sy SYOWA    1766202.3      1460418.4     -5932293.1       00000000 320.42  -69.01 GSI/NIPR
  Sm CRIMEA    3785231.10124  2551207.42034  4439796.36738   73323401 326.02   44.40 GLB1069
 *Sv SVETLOE   2730188.1      1562450.8      5529986.4       00000000 330.22   60.53 GPS+survey
 *Sv SVETLOE   2730173.719    1562442.859    5529969.647     73800000 330.22   60.53 fringetest
