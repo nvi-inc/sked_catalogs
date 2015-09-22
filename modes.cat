@@ -1,5 +1,7 @@
-* VERSION 2015Feb23_iGSFC
+* VERSION 2015Sep22_iGSFC
 *
+* 2015Sep22  JMG. Removed 256-16(AOV.....) because track layout is not defined elsewhere
+* 2015 Mar15 Lucia: DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
 * Updates now in decreaseing order, most recent first. 
 * 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
 * 2014OCT03 JMG  Got rid of obsolete modes
@@ -90,3 +92,9 @@
 512-16(Charlot)  VGEOSX_C     8.0  16.0    32-16-1-2
 DBE_TEST         DBE-X4      16.0  32.0    32-4U+4L-2-2
 K_ATNF           K_ATNF      32.   64.0    32-2-1-1
+***********************************************************************
+* mode used in VIE_SCHED
+*1024-16(AU)      GEOSX       16.0   32.0   32-16-1-2
+VLBI2010obsmodes GEOSX       16.0   32.0   32-16-1-2
+1024-16(DSN****) DVP-SX      16.0   32.0   32-16-1-2
+* 256-16(AOV.....) AOVSX8N      8.0  16.0    32-16-1-1
