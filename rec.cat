@@ -1,9 +1,10 @@
-* VERSION 2015AUG10_iGSFC
+* VERSION 2015SEP22_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2015Sep22 JMG. Added ISHIOKA to            32-16-1-2
 * 2015Aug10 JMG. Added WETTZ13N to        to 32-16-1-2 
 * 2015Jun30 JMG. Added RAEGYEB and SEJONG to 32-16-1-2
 * 2015Jun24 JMG. Added WETTZ13N, WETTZ13S to 01-16-0-1 
@@ -627,7 +628,8 @@
  -       HART15M    MK3V-A      14U2L-1-2-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-2-B   Mk34
  -       HOBART26   MK3V-A      14U2L-1-2     Mk34
- -       KASHIM34   MK3V-A      14U2L-1-2-J   Mk34
+ -       ISHIOKA    MK3V-A      14U2L-1-2-J  Mk34
+ -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
  -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
  -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34 
  -       MATERA     MK3V-A      14U2L-1-2-B   Mk34 
@@ -644,7 +646,7 @@
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       TIGOPLTA   MK3V-A      14U2L-1-2     Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       TSUKUB32   MK3V-A      14U2L-1-2-J  Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B     Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B    Mk34  
  -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
