@@ -1,10 +1,11 @@
-* VERSION 2015Jul23_iGSFC 
+* VERSION 2015Nov18_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  john.m.gipson@nasa.gov  *
 ***************************************************************
 * Changed the order so that most recent changes are at the top
+* 2015Nov18 JMG. Changed position of ISHIOKA per latest GSFC solution. (D. Gordon email.) 
 * 2015Jul23 JMG. Changed position of SYOWA per latest GSFC solution. 
 * 2015Mar10 JMG. Changed two letters codes for HOFENFRG--Hg and HOHNBERG-->Hp to agree with nscodes.txt   
 * 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
@@ -273,7 +274,8 @@
  Mz MIZUSGSI  -3862411.96809  3105015.01053  4001944.82947   73144401 218.80   39.11 GLB1069
  Mn MIZNAO10  -3857236.14408  3108803.21036  4003883.04112   73243501 218.87   39.13 GLB1069
  Vm VERAMZSW  -3857241.8290   3108784.8090   4003900.5230    73621501 218.87   39.13 NAO
- Is ISHIOKA   -3959620.08612  3296812.67492  3747033.53887   00000000 219.78   36.21 GSI Map
+ Is ISHIOKA   -3959636.070    3296825.480    3747042.610     00000000 219.78   36.21 GSFC Solution
+* Is ISHIOKA  -3959620.08612  3296812.67492  3747033.53887   00000000 219.78   36.21 GSI Map
  K1 KASHIM11  -3997505.697   +3276878.404   +3724240.713     00000000 219.34   35.96 BLOKQ
  Kb KASHIM34  -3997649.20158  3276690.75133  3724278.80527   18575801 219.34   35.96 GLB1069
  Ka KASHIMA   -3997892.25992  3276581.28126  3724118.22385   18567601 219.34   35.95 GLB1069
