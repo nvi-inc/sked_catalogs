@@ -1,10 +1,11 @@
-* VERSION 2015Nov18_iGSFC 
+* VERSION 2016Jan11_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  john.m.gipson@nasa.gov  *
 ***************************************************************
 * Changed the order so that most recent changes are at the top
+* 2015Jan11 JMG. Changed GGAO12M per email from Arthur Niell (2016Jan10).
 * 2015Nov18 JMG. Changed position of ISHIOKA per latest GSFC solution. (D. Gordon email.) 
 * 2015Jul23 JMG. Changed position of SYOWA per latest GSFC solution. 
 * 2015Mar10 JMG. Changed two letters codes for HOFENFRG--Hg and HOHNBERG-->Hp to agree with nscodes.txt   
@@ -170,7 +171,7 @@
 *Tc TIGOCONC  1492054.15681 -4887961.00333 -3803541.35678   00000000  73.04  -36.82 VLBI 
  Tc TIGOCONC  1492051.10792 -4887961.52962 -3803541.76919   00000000  73.04  -36.82 D. MacMillan (2011a+11JUN23XE displacement)
  Gg GGAO7108  1130794.76936 -4831233.80170  3994217.03883   71085301  76.83   39.02 GLB1069
- Gs GGAO12M  1130686.51568 -4831353.02183  3994110.92471   71025302  76.83   39.02 GLB1069
+ Gs GGAO12M   1130730.2450  -4831245.9530   3994228.228     71025302  76.83   39.02 email ANeil 2016Jan10
  Md MARPOINT  1106629.30862 -4882907.14842  3938086.95585   72178101  77.23   38.37 GLB1069
  Ap ALGOPARK  918034.75611 -4346132.26769  4561971.16681   72828201  78.07   45.96 GLB1069
  G1 NRAO85_1  883555.56249 -4924490.88792  3943961.95994   00000000  79.83   38.44 GLB1069
