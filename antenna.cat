@@ -1,8 +1,8 @@
-* VERSION 2015Mar30_iGSFC
-237=1B5B313B324 CATALOG antenna.cat 
-6
+* VERSION 2016Jan25_iGSFC
+* CATALOG antenna.cat 
 * ANTENNA.CAT - antenna information
 * Please put change entries more recent first. 
+* 2016Jan25 JMG. Added KOKEE12M as K2
 * 2015nov12 dbb  Change lower el. limit from 6.0 to 7.0 for KASHIMA11 and 
 *                KOGANEI per Eiji Kawai.
 * 2015Sep17 dbb  Change lower el. limit from 5.0 to 5.5 for VERAMZSW per T. Jike.
@@ -261,6 +261,7 @@
  K KATH12M  AZEL 0.00000 300.0  3   90.0  630.0  75.0  3    5.0   88.0  12.0 Ke Ke
  K KAUAI    XYNS 2.43440  60.0  0  -87.6   86.6  60.0  0  -80.8   81.0   9.0 Ku 35 KU
  K KOKEE    AZEL 0.5181  117.0  15  270.0  810.0 117.0  15    0.0   89.7  20.0 Kk 102
+ C KOKEE12M  AZEL 0.00000 720.0  0 180.0  720.0  300.0  0    6.5   88.0  12.0 K2 K2 K2 
 * K KOKEE    AZEL 0.5181  117.0  9  270.0  810.0 117.0  9    0.0   89.7  20.0 Kk 102 
  K KITTPEAK AZEL 0.00000  14.0  0  270.0  690.0  14.0  0   12.0   88.0  12.0 Kt --    
  K KUNMING  AZEL 0.00000  60.0  0  280.0  800.0  30.0  0    6.0   86.0  40.0 Km 103
@@ -358,7 +359,7 @@
  W WARK12M  AZEL 0.00000 300.0  2  180.0  720.0  60.0  2    8.0   88.0  12.0 Ww Ww Ww
  Z WERTHOVN AZEL 0.00000  60.0  0    0.0  360.0  60.0  0    5.0   88.0  34.0 WT --    
 *E WESTFORD AZEL 0.31830 240.0  0  100.0  460.0 180.0  0    4.0   87.2  18.0 Wf 07  WF
- E WESTFORD AZEL 0.31830 200.0 10  100.0  460.0 120.0 10    4.0   87.2  18.0 Wf 07  WF
+ E WESTFORD AZEL 0.31830 200.0 10  100.0  460.0 120.0 10    4.0   87.2  18.0 Wf 07  Wf
 *W WESTRBRK HADC 4.95000  15.0  0  -90.0  -90.0  15.0  0  -38.0   90.0  25.9 Dw 11
  W WSTRBORK HADC 0.00000  15.0 10  -90.0  +90.0  15.0 10  -38.0   90.0  25.9 Wb 11    
 *V WETTZELL AZEL 0.00000 180.0  0  270.0  810.0  90.0  0    2.0   89.0  20.0 Wz 33  WZ
