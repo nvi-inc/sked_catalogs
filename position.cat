@@ -1,11 +1,12 @@
-* VERSION 2016Jan11_iGSFC 
+* VERSION 2016Jan25_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog
 ***************************************************************
 * Please report errors or updates to  john.m.gipson@nasa.gov  *
 ***************************************************************
 * Changed the order so that most recent changes are at the top
-* 2015Jan11 JMG. Changed GGAO12M per email from Arthur Niell (2016Jan10).
+* 2016Jan25 JMG. Put in KOKEE12M as K2.  Used 12M position from J.Long email 2016Jan21 
+* 2016Jan11 JMG. Changed GGAO12M per email from Arthur Niell (2016Jan10).
 * 2015Nov18 JMG. Changed position of ISHIOKA per latest GSFC solution. (D. Gordon email.) 
 * 2015Jul23 JMG. Changed position of SYOWA per latest GSFC solution. 
 * 2015Mar10 JMG. Changed two letters codes for HOFENFRG--Hg and HOHNBERG-->Hp to agree with nscodes.txt   
@@ -249,6 +250,7 @@
  Hk HALEAKAL  -5465998.56887 -2404408.02785  2242228.76079   00000000 156.26   20.71 GLB1069
  Ku KAUAI     -5543846.05309 -2054563.63330  2387814.11965   13116701 159.67   22.13 GLB1069
  Kk KOKEE     -5543837.61747 -2054567.84798  2387851.93900   72983001 159.67   22.13 GLB1069
+ K2 KOKEE12M     -5543831.705 -2054585.983  2387821.776   72983001 159.66   22.13 Temporary position 
  SN SNDPOINT  -3425462.01164 -1214669.09929  5223858.15574   72805201 160.48   55.35 GLB1069
  NO NOME      -2658150.60296  -693821.97103  5737236.58821   72795301 165.37   64.56 GLB1069
  MS MCMURDO   -1390317.       -372534.      -6192824.        72993101 165.00  -77.00 Map
