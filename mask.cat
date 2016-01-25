@@ -1,8 +1,9 @@
-* VERSION 2015Feb12_iGSFC
+* VERSION 2016Jan25_iGSFC
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks
 *
 * Now put in comments in reverse order
+* 2015Jan25 JMG.  Put in KOKEE12M with 5 degree limit
 * 2015Sep10 JMG.  Modified HART15M based on email from J. Quick 2015Sep04. Used same mask for HARTRAO
 * 2015Sep10 JMG.  Also changed HARTRAO mask from Ht to Hh
 * 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
@@ -130,6 +131,7 @@
 * HOBART mask per  Stuart Weston email 
  H WARK12M  Ww 0 5.0 139 5.9 145 5.2 147 5.0 151 5.5 164 6.0 169 7.2 
  - 171 6.5 174 5.9 179 5.5 190 5.0 360
+ H KOKEE12M K2 0 5 360 
 * Kauai no change in mask -- this is the old format
  H  KAUAI    KU 0     13    8     22    16 
  - 17    20    5      60   2     100   3     110   2     120  
