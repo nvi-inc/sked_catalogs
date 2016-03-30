@@ -1,8 +1,9 @@
-** VERSION 2015Jun29_iGSFC
+** VERSION 2016Mar30_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2016MAR30 JMG. Added SESH_WIDE for SESHAN26M with DBBC. 
 * 2015Jun29 JMG. Modified TWIN_WIDE and changed name to TWN_DBBC for WETZN and WETZS
 * 2015Jun10 JMG KLB synchronized with AUST catalog
 * 2015May29 JMG. Added CDP_STDK for Kunming. Identical to CDP_STDU accept 1N,2N go to A, B,C,D. Per email Fengchun
@@ -266,7 +267,22 @@ RAEG_WIDE
  -   11 C1     S   1700  U
  -   12 C1     S   1700  U
  -   13 D1     S   1700  U
- -   14 D1     S   1700 U
+ -   14 D1     S   1700  U
+SESH_WIDE
+ -   1  A1     X   8100  U
+ -   2  A1     X   8100  U
+ -   3  A1     X   8100  U
+ -   4  A1     X   8100  U
+ -   5  B1     X   8100  U
+ -   6  B1     X   8100  U
+ -   7  B1     X   8100  U
+ -   8  B1     X   8100  U
+ -   9  C3     S   2000  U
+ -   10 C3     S   2000  U
+ -   11 C3     S   2000  U
+ -   12 C3     S   2000  U
+ -   13 D3     S   2000  U
+ -   14 D3     S   2000  U
  YEB_STD
  -   1  A     X   7650  U
  -   2  A     X   7650  U
