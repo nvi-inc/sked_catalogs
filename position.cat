@@ -1,10 +1,11 @@
-* VERSION 2016Feb05_iGSFC 
+* VERSION 2016Apr07_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
 *************************************************************** 
 * Please report errors or updates to  john.m.gipson@nasa.gov  * 
 *************************************************************** 
 * Changed the order so that most recent changes are at the top 
+* 2016Apr07 JMG. Modified Kokee12M per Kt6091 schedule. 
 * 2016Feb05 kol  Use same 2-letter codes than in the IVS file ns-codes.txt 
 * 2016Jan25 JMG. Put in KOKEE12M as K2.  Used 12M position from J.Long email 2016Jan21 
 * 2016Jan11 JMG. Changed GGAO12M per email from Arthur Niell (2016Jan10).
@@ -237,7 +238,8 @@
  Hk HALEAKAL  -5465998.56887  -2404408.02785   2242228.76079   00000000   156.26   20.71 GLB1069
  Ku KAUAI     -5543846.05309  -2054563.63330   2387814.11965   13116701   159.67   22.13 GLB1069
  Kk KOKEE     -5543837.61747  -2054567.84798   2387851.93900   72983001   159.67   22.13 GLB1069
- K2 KOKEE12M  -5543831.70500  -2054585.98300   2387821.77600   72983001   159.66   22.13 Temporary position 
+* K2 KOKEE12M  -5543831.70500  -2054585.98300   2387821.77600   72983001   159.66   22.13 Temporary position 
+ K2 KOKEE12M  -5543831.705    -2054585.983     2387828.776     72983001 159.66   22.13 From KT6091.skd
  Sn SNDPOINT  -3425462.01164  -1214669.09929   5223858.15574   72805201   160.48   55.35 GLB1069
  Nm NOME      -2658150.60296   -693821.97103   5737236.58821   72795301   165.37   64.56 GLB1069
  Ww WARK12M   -5115324.39900    477843.30500  -3767192.88600   73771101   185.17  -36.60 2011b         
