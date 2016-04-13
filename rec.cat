@@ -1,9 +1,10 @@
-* VERSION 2016Jan25_igsfc
+* VERSION 2016Apr13_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2016Apr13 JMG. Added RAEGYEB and WETTZ13S to 32-16-2-1
 * 2016Feb08 KOL. Changed PARKES64 to PARKES
 * 2016Feb08 KOL. Replaced TIGOPLTA with AGGO
 * 2016Feb08 KOL. Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
@@ -257,7 +258,7 @@
  -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
  -       KATH12M    MK3V-A      14U2L-2-1   Mk34
  -       KOGANEI    MK3A-A      14U2L-2-1   Mk34 
- -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
+ -       KOKEE      MK3V-A      14U2L-1-1-B Mk34 
  -       KOKEE12M   MK3V-A      14U2L-2-1   Mk34  
  -       KUNMING    MK3V-A      14U2L-2-1   Mk34
  -       MATERA     MK3V-A      14U2L-2-1   Mk34  
@@ -270,6 +271,7 @@
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
  -       PARKES     MK3V-A      14U2L-2-1   Mk34  
+ -       RAEGYEB   MK3V-A      14U2L-1-1-B Mk34 
  -       SEJONG     MK3V-A      14U2L-2-1   Mk34
  -       SESHAN25   MK3V-A      14U2L-2-1   Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
@@ -286,7 +288,8 @@
  -       VERAMZSW   MK3V-A      14U2L-2-1   Mk34
  -       WARK12M    MK3V-A      14U2L-2-1   Mk34
  -       WESTFORD   MK3V-A      14U2L-2-1   Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-2-1   Mk34 
+ -       WETTZ13S   MK3V-A      14U2L-1-1-B Mk34  
  -       YARRA12M   MK3V-A      14U2L-2-1   Mk34
  -       YEBES40M   MK3V-A      14U2L-2-1   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-2-1   Mk34  
