@@ -2,10 +2,13 @@
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
-* Please put change entries more recent first.
-* 2016Jun20 JMG.  Put in mask for KOKEE (kokee20M).
-* 2016Apr07 JMG	 Use new az limits for SESHAN25 per email from Bo  
-* 2016Feb05 kol  Use same 2-letter codes than in the IVS file ns-codes.txt 
+*  
+* ------ Please put change entries more recent first. -----
+*
+* 2016Jul20 JMG. Moved AGGO to the top of the list. Previously in location occupied by TIGO. 
+* 2016Jun22 KOL  Use same 2-letter codes than in the IVS file ns-codes.txt 
+* 2016Apr07 JMG. Modified Seshan limits per email from BO XIA 3/31/16
+* 2016Jan25 JMG. Added KOKEE12M as K2
 * 2015nov12 dbb  Change lower el. limit from 6.0 to 7.0 for KASHIMA11 and 
 *                KOGANEI per Eiji Kawai.
 * 2015Sep17 dbb  Change lower el. limit from 5.0 to 5.5 for VERAMZSW per T. Jike.
@@ -175,25 +178,24 @@
 * 090611 dbb Changed DSS43=TIDBIN64 CW limit to 759.8 (from 760.0) per Shinji Horiuchi.
 * 090611 dbb Changed DSS45 CW limit to 628.9 (from 630.0) per Shinji Horiuchi.
 * 090713 JMG Changed Badary so that pionts to horizon mask
-090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth or simulation
-2            purposes.
+* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth or simulation purposes.
 * 090925 JMG Updated GGAO (=ORION) limits
 * 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
 * 091204 JMG Changed limits of DSS65A per 12/04/09 email from Esther Moll Moreno
 * 100114 JMG Change slew rates of DS15 to 48 deg/min and 45 deg/min per email George Martinez
-	100811 dbb Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
-6 100811 dbb Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
-	*            per Brett Reid.
-	* 100812 DG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
-	* 052411 JG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
-	110706 dbb Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
-6 110711 dbb Add KUNMING per Fengchun Shu.
+* 100811 dbb Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
+* 100811 dbb Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
+*            per Brett Reid.
+* 100812 DG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
+* 052411 JG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
+* 110706 dbb Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
+* 110711 dbb Add KUNMING per Fengchun Shu.
 * 110815 dbb Change TIGO Lim1 from (276 916) to (276 774) per Ed Himwich.
 * 110818 dbb Correct TIGO slew speeds per Hayo Hase.
-	* 120118 dbb Add JAXA station UCHINOUR.
-	* 120215 JMG Chaged limits of Effelsberg fom 30-480 to 34-490 per email Uwe Bach (11/21/2011)
-120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
-6 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
+* 120118 dbb Add JAXA station UCHINOUR.
+* 120215 JMG Chaged limits of Effelsberg fom 30-480 to 34-490 per email Uwe Bach (11/21/2011)
+* 120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
+* 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
 * 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
 * 140416 dbb Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
 * 140516 dbb Add TIANMA65 per Fengchun Shu.
@@ -202,6 +204,7 @@
 *
 *ID Name    Axis  Offset   Rate1 C1  Lim1   Lim1   Rate2  C2  Lim2  Lim2  Diam  PO EQ  MS 
 *
+ O AGGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Ag 70  Ag
  A AIRA     AZEL   0.00000 180.0   0   20.0  700.0  180.0   0   5.0  88.0  10.0 Ai Ai  --
  G ALGOPARK AZEL   0.00000  20.0  10   41.0  453.0    5.0  30   8.8  86.8  47.0 Ap 106 --
  A ARECIBO  AZEL   0.00000  23.5   0    0.0  540.0    1.8   0  70.0  89.6 300.0 Ar 03  --
@@ -294,7 +297,6 @@
  T TIANMA65 AZEL   0.00000  30.0   0  280.0  800.0   15.0   0   6.0  87.0  65.0 T6 109 --
  T TIDBIN64 AZEL   0.00000  15.0  12  230.0  759.8   15.0  12   6.0  86.0  64.0 Ti 39  --
  O TIGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Tc 70  Tc
- O AGGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Ag 70  Ag
  Z TORUN    AZEL   0.00000  22.0  15  280.0  800.0   12.5  15   3.0  88.0  14.0 Tr Tr  --
  T TSUKUB32 AZEL   0.00000 180.0  14   10.0  710.0  180.0  14   5.0  88.0  32.0 Ts TS  --
  V UCHINOUR AZEL   0.00000 300.0   0  275.0  805.0  150.0   0   5.0  88.0  34.0 Uc Uc  Uc
