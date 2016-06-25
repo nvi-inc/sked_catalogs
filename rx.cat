@@ -1,7 +1,15 @@
-* VERSION 2015Jun29_iGSFC
-
+* VERSION 2016Jun25_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
+*
+* ---- Now put in changes with most recent at top.
+*
+* 2016Jul20 JMG  Added ISHIOKA and WETTZ13N to VG_MK4  (=RDV mode)
+* 2016Mar30 JMG. in SX_WIDE changed SHESAN25 to SESH_WIDE 
+* 2016Feb08 KOL. Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
+* 2016Feb08 KOL. Changed PARKES64 with PARKES
+* 2016Feb08 KOL. Replaced TIGOPLTA with AGGO
+* 2015Jan25 JMG. Added in KOKEE12M based on GGAO12M
 * 2015JUN29 JMG. Changed TWIN_WIDE to TWN_DBBC.  In SX_WIDE changed MEDICINA to ODB_WIDE
 * 2015Jun24 JMG. Added WETTZ13N to SX_STD 
 * 2015Jun23 JMG. under SX_WIDE chaned MC to TWN_DBBC because of change in hardware.  
@@ -134,7 +142,7 @@
  -       DSS15       DSN_STD    
  -       DSS45       DSN_STD
  -       TIDBIN64    DSN_STD
- -       DSS54       DSN_STD
+*-       DSS54       DSN_STD
  -       DSS65A      DSN_STD
  -       EFLSBERG    EFL_STD
  -       GILCREEK    CDPV_STD
@@ -155,7 +163,7 @@
  -       MARPOINT    CDP_STDN
  -       MARCUS      CDP_STDN
  -       MATERA      CDP_STD
- -       MCMURDO     CDP_STD
+*-       MCMURDO     CDP_STD
  -       MEDICINA    CDP_STD
  -       METSAHOV    YEB_STD
  -       MIAMI20     CDP_STD    
@@ -168,11 +176,11 @@
  -       NYALES20    CDP_STD
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    ODB_STD
- -       ONSALDBC    ODB_STD
+*-       ONSALDBC    ODB_STD
  -       ORION_5M    CDP_STD
  -       OVRO_130    CDP_STD
  -       NOTO        CDPVNOTO 
- -       PARKES64    CDP_STDN
+*-       PARKES64    CDP_STDN
  -       PARKES      CDP_STD
  -       SANTIA12    CDP_STD
  -       SEJONG      CDP_STDN
@@ -181,11 +189,11 @@
  -       SINTOTU3    CDP_STDN
  -       SVETLOE     CDP_STDN
  -       SYOWA       CDP_STD
- -       TAHITI      CDP_STD
+*-       TAHITI      CDP_STD
  -       TATEYAMA    CDP_STD
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_STD
- -       TIGOPLTA    CDPV_STD
+ -       AGGO        CDPV_STD
  -       TSUKUB32    TSU_STD
  -       UCHINOUR    TSU_STD
  -       URUMQI      CDP_STDU
@@ -279,11 +287,12 @@
  -       KATH12M     DBBC_AU
  -       KOGANEI     KAS_WIDE
  -       KOKEE       NRAO_WIDE
+ -       KOKEE12M    CDP_WIDE
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
  -       MATERA      CDP_WIDE
  -       METSAHOV    CDPV_WIDE
- -       MCMURDO     CDP_WIDE
+*-       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
  -       MEDICINA    ODB_WIDE
  -       NOTO        CDPVNOTO
@@ -292,7 +301,7 @@
  -       NYALES20    CDP_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
- -       ONSALDBC    ODB_WIDE
+*-       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
  -       PARKES      PKS_WIDE
@@ -300,14 +309,15 @@
  -       SANTIA12    CDP_WIDE
  -       SEST        CDP_WIDE
  -       SEJONG      TSU_WIDE
- -       SESHAN25    CDPV_SE
+* -       SESHAN25    CDPV_SE
+ -       SESHAN25    SESH_WIDE
  -       SINTOTU3    CDP_STDN 
  -       SYOWA       TSU_WIDE
  -       SVETLOE     CDP_STDN
- -       TAHITI      CDP_WIDE
+*-       TAHITI      CDP_WIDE
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_WIDE
- -       TIGOPLTA    CDPV_WIDE
+ -       AGGO        CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
  -       URUMQI      CDP_STDUW
@@ -316,7 +326,7 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    CDP_WIDE
- -       WETTDBBC    ODB_WIDE
+*-       WETTDBBC    ODB_WIDE
  -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
@@ -375,7 +385,7 @@
  -       SANTIA12    CDP_W14
 *-       SESHAN25    CDP_W14
  -       SEST        CDP_W14
- -       TAHITI      CDP_W14 
+*-       TAHITI      CDP_W14 
  -       WESTFORD    CDP_W14
  -       WETTZELL    CDP_W14
  VLBA_RV
@@ -438,19 +448,21 @@
  -       KOKEE       NRAO_VG2
  -       HOBART26    CDP_WID8 
  -       HOBART12    DBBC_AU
+ -       ISHIOKA     KAS_WID8
  -       KASHIM34    KAS_WID8
  -       MATERA      CDP_WID8
  -       NRAO20      NRAO_VG2
  -       ONSALA60    ODB_WID8
- -       ONSALDBC    ODB_WID8
+*-       ONSALDBC    ODB_WID8
  -       ORION_5M    CDP_WID8
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
  -       NYALES20    CDP_WID8 
- -       PARKES64    CDP_WID8 
+ -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
- -       TIGOPLTA    CDPV_VG2
+ -       WETTZ13N    CDPV_VG2
+ -       AGGO        CDPV_VG2
 *-       SESHAN25    CDPS_VG2
 * Added 2010Dec23
  -       SESHAN25    CDPV_SEX 
@@ -562,4 +574,4 @@
  -       CEDUNA      K_22200
  -       HOBART26    K_22200
  -       MOPRA       K_22200
- -       PARKES64    K_22200
+ -       PARKES      K_22200
