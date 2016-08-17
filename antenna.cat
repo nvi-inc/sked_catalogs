@@ -1,10 +1,11 @@
-* VERSION 2016Jun22_iGSFC 
+* VERSION 2016Aug17_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
 *
+* 2016Aug17 JMG. Changed ISHIOKA Az limits per email from Ryoji Kawabata
 * 2016Jul20 JMG. Moved AGGO to the top of the list. Previously in location occupied by TIGO. 
 * 2016Jun22 KOL  Use same 2-letter codes than in the IVS file ns-codes.txt 
 * 2016Apr07 JMG. Modified Seshan limits per email from BO XIA 3/31/16
@@ -237,7 +238,7 @@
  H HN-VLBA  AZEL   2.13030  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Hn HN  Hn
  H HOBART12 AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Hb Hb  Hb
  H HOBART26 XYEW   8.19430  39.0  36  -82.0   82.0   39.0  36 -74.0  74.0  26.0 Ho 04  --
- I ISHIOKA  AZEL   0.00000 720.0  10  -75.0  430.0  360.0  10   5.0  89.0  13.2 Is Is  Is
+ I ISHIOKA  AZEL   0.00000 720.0  10  -70.0  430.0  360.0  10   5.0  89.0  13.2 Is Is  Is
  I ITAPETGA AZEL   0.00000  60.0   0  270.0  810.0   60.0   0   5.0  88.0  14.0 It --  --
  J JODRELL2 AZEL   0.45800  20.0   0  270.0  690.0   20.0   0   1.0  89.0  76.0 Jb 37  --
  O KASHIM34 AZEL   0.00000  45.0   0   90.0  630.0   40.0   0   7.0  88.0  34.0 Kb KB  --
