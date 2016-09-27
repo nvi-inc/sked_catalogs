@@ -1,9 +1,9 @@
-* VERSION 2016Aug22_iGSFC 
+* VERSION 2016Sep27_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
-*
+* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
 * 2016Aug22 JMG.  Changed HOBART26 to Mark4 Mark5a
 * 2016Jul20  JMG  Changed TIGOPLTA to AGGO. Moved to top of file so in alphabetical order.  
 * 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
@@ -408,6 +408,7 @@
  HOBART26   04  HRAS_085 2x56000  17640   X  1200   S  800 S 1.0 0.970 0.030  X 1.0 0.959 0.041 MARK4  MARK5A 
 * HOBART26   04  HRAS_085 1x56000  17640   K  1800   K 1800  Mark4 MARK5A
  HRAS_085   10  MV3_5M      1      8820   X  1450   S   900
+ IRBENE     IR  IRBENE   2x56000  17640   X  800    S  800 DBBC MARK5B
  ISHIOKA    Is  ISHIOKA     1      100    X  2000   S  4000 K4-2 K5 
  JODRELL2   37  JODRELL2 2x56000  17640   C   320   C   320 Mark4 MARK5A
  *KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-2 K4-2
