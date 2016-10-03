@@ -1,8 +1,10 @@
-** VERSION 2016Mar30_iGSFC
+** VERSION 2016Oct03_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2016Oct03 JMG. Added IRB_WIDE for IRBENE
+* 2016AUG23 JMG. Renamed SESH_WIDE to SESH_LO.  Got rid of CDPV_SEN, CDPV_SEX
 * 2016MAR30 JMG. Added SESH_WIDE for SESHAN26M with DBBC. 
 * 2015Jun29 JMG. Modified TWIN_WIDE and changed name to TWN_DBBC for WETZN and WETZS
 * 2015Jun10 JMG KLB synchronized with AUST catalog
@@ -268,7 +270,22 @@ RAEG_WIDE
  -   12 C1     S   1700  U
  -   13 D1     S   1700  U
  -   14 D1     S   1700  U
-SESH_WIDE
+IRB_WIDE
+ -   1  A1     X   7400  U
+ -   2  A1     X   7400  U
+ -   3  A1     X   7400  U
+ -   4  A1     X   7400  U
+ -   5  B1     X   7400  U
+ -   6  B1     X   7400  U
+ -   7  B1     X   7400  U
+ -   8  B1     X   7400  U
+ -   9  C1     S   2200  U
+ -   10 C1     S   2200  U
+ -   11 C1     S   2200  U
+ -   12 C1     S   2200  U
+ -   13 D1     S   2200  U
+ -   14 D1     S   2200  U
+SESH_LO
  -   1  A1     X   8100  U
  -   2  A1     X   8100  U
  -   3  A1     X   8100  U
@@ -701,38 +718,7 @@ DBBC_HH
  -   5   B    S   1600    U
  -   6   B    S   1600    U
  -   7   B    S   1600    U
- -   8   B    S   1600    U
- CDPV_SEN
- -   1   A    X   9100    L 
- -   2   A    X   9100    L 
- -   3   A    X   9100    L 
- -   4   A    X   9100    L  
- -   5   A    X   9100    L  
- -   6   A    X   9100    L  
- -   7   A    X   9100    L  
- -   8   A    X   9100    L  
- -   9   B    S   1600    U
- -   10  B    S   1600    U
- -   11  B    S   1600    U
- -   12  B    S   1600    U
- -   13  B    S   1600    U
- -   14  B    S   1600    U
-* New RDV sequence for Seshan. 
-CDPV_SEX
- -   1   A    X   9100    L 
- -   2   A    X   9100    L 
- -   3   A    X   9100    U 
- -   4   A    X   9100    U  
- -   5   C    X   8100    U  
- -   6   C    X   8100    U  
- -   7   A    X   9100    L  
- -   8   A    X   9100    L  
- -   9   B    S   1600    U
- -   10  B    S   1600    U
- -   11  B    S   1600    L
- -   12  B    S   1600    L
- -   13  B    S   1600    U
- -   14  B    S   1600    U
+ -   8   B    S   1600    U 
  CDPV_SE
  -   1   A    X   9100    L 
  -   2   A    X   9100    L 
