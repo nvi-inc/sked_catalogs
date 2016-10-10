@@ -1,8 +1,9 @@
-** VERSION 2016Oct03_iGSFC
+** VERSION 2016Oct10_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2016Oct10 JMG. Modified IRB_WIDE LO per Vladislavs
 * 2016Oct03 JMG. Added IRB_WIDE for IRBENE
 * 2016AUG23 JMG. Renamed SESH_WIDE to SESH_LO.  Got rid of CDPV_SEN, CDPV_SEX
 * 2016MAR30 JMG. Added SESH_WIDE for SESHAN26M with DBBC. 
@@ -271,14 +272,14 @@ RAEG_WIDE
  -   13 D1     S   1700  U
  -   14 D1     S   1700  U
 IRB_WIDE
- -   1  A1     X   7400  U
- -   2  A1     X   7400  U
- -   3  A1     X   7400  U
- -   4  A1     X   7400  U
- -   5  B1     X   7400  U
- -   6  B1     X   7400  U
- -   7  B1     X   7400  U
- -   8  B1     X   7400  U
+ -   1  A1     X   7600  U
+ -   2  A1     X   7600  U
+ -   3  A1     X   7600  U
+ -   4  A1     X   7600  U
+ -   5  B1     X   7600  U
+ -   6  B1     X   7600  U
+ -   7  B1     X   7600  U
+ -   8  B1     X   7600  U
  -   9  C1     S   2200  U
  -   10 C1     S   2200  U
  -   11 C1     S   2200  U
