@@ -1,10 +1,13 @@
-* VERSION 2016Sep27_iGSFC 
+* VERSION 2016Oct12_iGSFC 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
 *************************************************************** 
 * Please report errors or updates to  john.m.gipson@nasa.gov  * 
 *************************************************************** 
+*
 * Changed the order so that most recent changes are at the top 
+* 2017Mar21 JMG. Added DSS34 and DSS36. Used DSN document 301K. 
+* 2016Oct12 JMG. Fixed spelling of Arthur's last name in note to position. 
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
 * 2016Jun22 KOL  Use same 2-letter codes than in the IVS file ns-codes.txt 
 * 2016Apr07 JMG. Modified Kokee12M per Kt6091 schedule. 
@@ -249,6 +252,8 @@
  At ATCA      -4751685.98800   2791621.22300  -3200491.70000   00000000   210.43  -30.31 Other
  Mp MOPRA     -4682768.63000   2802619.06000  -3291759.90000   00000000   210.90  -31.27 Other
  Ti TIDBIN64  -4460894.38658   2682361.28749  -3674747.98550   00000000   211.02  -35.40 GLB1069
+ 34 DSS34     -4461147.093     2682439.239    -3674393.133     00000000   211.02  -35.40 JPL
+ 36 DSS36     -4461168.917     2682814.657    -3674083.901     00000000   211.02  -35.40 JPL
  45 DSS45     -4460935.40745   2682765.71593  -3674381.20810   16426001   211.02  -35.40 GLB1069
  Pa PARKES    -4554232.04618   2816758.99212  -3454035.88558   00000000   211.74  -33.00 GLB1069
  Hb HOBART12  -3949990.58300   2522421.17400  -4311708.24200   73741201   212.56  -42.80 2011b    
