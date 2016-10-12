@@ -1,10 +1,11 @@
-* VERSION 2016Oct08_iGSFC 
+* VERSION 2016Oct12_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
 *
+* 2016Oct12 JMG. Modified wettz13S, Wettz13N antenna size. 
 * 2016Oct08 JMG. Modifed IRBENE el limits per V. Bezrokovs
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
 * 2016Aug17 JMG. Changed ISHIOKA Az limits per email from Ryoji Kawabata
@@ -312,8 +313,8 @@
  W WARK12M  AZEL   0.00000 300.0   2  180.0  720.0   60.0   2   8.0  88.0  12.0 Ww Ww  Ww
  E WESTFORD AZEL   0.31830 200.0  10  100.0  460.0  120.0  10   4.0  87.2  18.0 Wf 07  Wf
  W WSTRBORK HADC   0.00000  15.0  10  -90.0   90.0   15.0  10 -38.0  90.0  25.9 Wb 11  --
- N WETTZ13N AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  12.0 Wn Wn  Wn
- S WETTZ13S AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  12.0 Ws Ws  Ws
+ N WETTZ13N AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  13.2 Wn Wn  Wn
+ S WETTZ13S AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  13.2 Ws Ws  Ws
  V WETTZELL AZEL   0.00000 180.0   0  251.5  831.0   90.0   0   2.0  89.0  20.0 Wz 33  Wz
  Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YEBES40M AZEL   2.00980  60.0  10  300.0  780.0   60.0  10   5.0  89.0  40.0 Ys 105 --
