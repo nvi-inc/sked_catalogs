@@ -1,9 +1,12 @@
-* VERSION 2016Apr13_igsfc
+* VERSION 2016Oct21_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2016Oct21 JMG. Changed track layout of noto in  00-16-0-1 and 01-16-0-1 to reflect has MARK5B
+* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
+* 2016Jul20 JMG. Added ISHIOKA and WETTZ13N to 00-8U-0-2
 * 2016Apr13 JMG. Added RAEGYEB and WETTZ13S to 32-16-2-1
 * 2016Feb08 KOL. Changed PARKES64 to PARKES
 * 2016Feb08 KOL. Replaced TIGOPLTA with AGGO
@@ -195,6 +198,7 @@
  -       HART15M    MK3V-A       8U-1-2-b   Mk34 
  -       HOBART26   MK3V-A       8U-2-2     Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
+ -       ISHIOKA    MK3V-A       8U-2-2     Mk34 
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
  -       KASHIM34   MK3V-A       8U-2-2     Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
@@ -202,7 +206,7 @@
  -       ONSALA60   MK3V-A       8U-1-2-b    Mk34 
  -       MATERA     MK3V-A       8U-1-2-b    Mk34 
  -       MEDICINA   MK3V-A       8U-2-2     Mk34 
- -       NOTO       MK3V-A       8U-2-2     Mk34 
+ -       NOTO       MK3V-A       8U-1-2-b     Mk34 
  -       NRAO20     MK3V-A       8U-2-2    VLBA 
  -       GBT_VLBA   MK3V-A       8U-2-2    VLBA 
  -       NYALES20   MK3V-A       8U-1-2-b   Mk34 
@@ -217,6 +221,7 @@
  -       WARK12M    MK3V-A       8U-1-2-b   Mk34
  -       WESTFORD   MK3V-A       8U-1-2-b   Mk34 
  -       WETTZELL   MK3V-A       8U-2-2     Mk34 
+ -       WETTZ13N   MK3V-A       8U-2-2     Mk34 
  -       YARRA12M   MK3V-A       8U-1-2-b   Mk34
  -       ZELENCHK   MK3V-A       8U-1-2-b   Mk34
  -       BR-VLBA    MK3V-A       8U-1-2-v  VLBA
@@ -323,6 +328,7 @@
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
  -       HOBART26   MK3V-A      14U2L-2-1     Mk34
+ -       IRBENE     MK3V-A      14U2L-1-1-B   Mk34  
  -       ISHIOKA    MK3V-A      14U2L-1-1-BJ   Mk34
  -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
  -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
@@ -332,8 +338,8 @@
  -       KOKEE12M    MK3V-A      14U2L-1-1-B   Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
- -       NOTO       MK3V-A      14U2L-2-1   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1     Mk34  
+ -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
@@ -405,8 +411,8 @@
  -       KOKEE12M   MK3V-A      14U2L-1-1-B   Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
- -       NOTO       MK3V-A      14U2L-2-1   Mk34  
+ -       MEDICINA   MK3V-A      14U2L-2-1     Mk34  
+ -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
@@ -467,7 +473,7 @@
  -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
  -       MATERA     MK3V-A      14U2L-1-1   Mk34  
  -       MEDICINA   MK3V-A      14U2L-1-1   Mk34  
- -       NOTO       MK3V-A      14U2L-1-1   Mk34  
+ -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-1-1  VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1   Mk34  
@@ -583,7 +589,7 @@
  -       ORION_5M   MK4-A      14U2L-2-2  Mk34
  -       MATERA     MK4-A      14U2L-2-2  Mk34 
  -       MEDICINA   MK4-A      14U2L-2-2  Mk34 
- -       METSAHOV   MK4-A      14U2L-2-2 VLBA 
+ -       METSAHOV   MK4-A      14U2L-2-2  VLBA 
  -       NYALES20   MK4-A      14U2L-2-2  Mk34
  -       SVETLOE    MK4-A      14U2L-2-2  Mk34
  -       TSUKUB32   MK4-A      14U2L-2-2  Mk34
@@ -603,6 +609,7 @@
  -       HOBART12   MK4-A      14U2L-2-2  Mk34
  -       HOBART26   MK4-A      14U2L-2-2  Mk34
  -       HARTRAO    MK4-A      14U2L-2-2  Mk34
+ -       IRBENE     MK3V-A     14U2L-1-2  Mk34  
  -       KATH12M    MK4-A      14U2L-2-2  Mk34
  -       KOKEE      MK4-A      14U2L-2-2  Mk34
  -       MATERA     MK4-A      14U2L-2-2  Mk34
@@ -640,6 +647,7 @@
  -       HART15M    MK3V-A      14U2L-1-2-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-2-B   Mk34
  -       HOBART26   MK3V-A      14U2L-1-2     Mk34
+ -       IRBENE     MK3V-A      14U2L-1-2     Mk34  
  -       ISHIOKA    MK3V-A      14U2L-1-2-J  Mk34
  -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
  -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
