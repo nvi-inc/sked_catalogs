@@ -1,9 +1,10 @@
-* VERSION 2016Oct27_igsfc
+* VERSION 2016Nov21_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2016Nov21 JMG. Fixed error in WETTZ13N tracklayout. Was 8U-2-2-b (non-existent). Should be 8U-1-2-b
 * 2016Oct27 JMG. WETTZ13N track layout is changed to reflect BBC
 * 2016Oct21 JMG. Changed track layout of noto in  00-16-0-1 and 01-16-0-1 to reflect has MARK5B
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
@@ -222,7 +223,7 @@
  -       WARK12M    MK3V-A       8U-1-2-b   Mk34
  -       WESTFORD   MK3V-A       8U-1-2-b   Mk34 
  -       WETTZELL   MK3V-A       8U-2-2     Mk34 
- -       WETTZ13N   MK3V-A       8U-2-2-b     Mk34 
+ -       WETTZ13N   MK3V-A       8U-1-2-b   Mk34 
  -       YARRA12M   MK3V-A       8U-1-2-b   Mk34
  -       ZELENCHK   MK3V-A       8U-1-2-b   Mk34
  -       BR-VLBA    MK3V-A       8U-1-2-v  VLBA
