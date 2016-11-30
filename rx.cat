@@ -1,8 +1,9 @@
-* VERSION 2016Sep27_iGSFC
+* VERSION 2016Nov30_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2016Nov30 JMG. Added YARRA12M to VG_MK4 (RDV mode) 
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
 * 2016Aug23 JMG. For SX_STD and SX_WIDE, and RDV SESHAN LO is now SESH_LO
 * 2016Jul20 JMG  Added ISHIOKA and WETTZ13N to VG_MK4  (=RDV mode)
@@ -471,7 +472,8 @@
  -       SVETLOE     CDP_WID8 
  -       WESTFORD    CDP_WID8 
  -       WETTZELL    CDP_WID8 
- -       URUMQI      CDP_WID8 
+ -       URUMQI      CDP_WID8
+ -       YARRA12M    CDPV_VG2 
  -       YEBES40M    CDP_WID8 
  VG_ZC
  -       ZELENCHK    ZC8_WIDE 
