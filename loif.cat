@@ -1,8 +1,10 @@
-** VERSION 2016Oct10_iGSFC
+** VERSION 2017Feb07_iGSFC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments
 * Updates now in reverse time order with newest at top.
+* 2017Feb09 JMG. Changed LO naming for EFELSBERG per email from Uwe Back 2017Feb09. 
+* 2017Feb07 JMG. Removed YEB_STD (unused). Added MET_STD
 * 2016Oct10 JMG. Modified IRB_WIDE LO per Vladislavs
 * 2016Oct03 JMG. Added IRB_WIDE for IRBENE
 * 2016AUG23 JMG. Renamed SESH_WIDE to SESH_LO.  Got rid of CDPV_SEN, CDPV_SEX
@@ -301,21 +303,21 @@ SESH_LO
  -   12 C3     S   2000  U
  -   13 D3     S   2000  U
  -   14 D3     S   2000  U
- YEB_STD
- -   1  A     X   7650  U
- -   2  A     X   7650  U
- -   3  A     X   7650  U
- -   4  A     X   7650  U
- -   5  A     X   7650  U
- -   6  A     X   7650  U
- -   7  A     X   7650  U
- -   8  A     X   7650  U
- -   9  B     S   1530  U
- -   10 B     S   1530  U
- -   11 B     S   1530  U
- -   12 B     S   1530  U
- -   13 B     S   1530  U
- -   14 B     S   1530  U
+ MET_STD
+ -   1  A1     X   7650  U
+ -   2  A1     X   7650  U
+ -   3  A1     X   7650  U
+ -   4  A1     X   7650  U
+ -   5  A1     X   7650  U
+ -   6  A1     X   7650  U
+ -   7  A1     X   7650  U
+ -   8  A1     X   7650  U
+ -   9  B1     S   1530  U
+ -   10 B1     S   1530  U
+ -   11 B1     S   1530  U
+ -   12 B1     S   1530  U
+ -   13 B1     S   1530  U
+ -   14 B1     S   1530  U
  YDC_STD
  -   1  A1     X   7650  U
  -   2  A1     X   7650  U
@@ -347,20 +349,20 @@ SESH_LO
  -   13 2N    S   2020  U
  -   14 2N    S   2020  U
  EFL_STD
- -   1  1N    X   8110  U
- -   2  1N    X   8110  U
- -   3  1N    X   8110  U
- -   4  1N    X   8110  U
- -   5  1N    X   8110  U
- -   6  1N    X   8110  U
- -   7  1N    X   8110  U
- -   8  1N    X   8110  U
- -   9  2N    S   2100  U
- -   10 2N    S   2100  U
- -   11 2N    S   2100  U
- -   12 2N    S   2100  U
- -   13 2N    S   2100  U
- -   14 2N    S   2100  U
+ -   1  A4    X   8110  U
+ -   2  A4    X   8110  U
+ -   3  A4    X   8110  U
+ -   4  A4    X   8110  U
+ -   5  B4    X   8110  U
+ -   6  B4    X   8110  U
+ -   7  B4    X   8110  U
+ -   8  B4    X   8110  U
+ -   9  C2    S   2100  U
+ -   10 C2    S   2100  U
+ -   11 C2    S   2100  U
+ -   12 C2    S   2100  U
+ -   13 D2    S   2100  U
+ -   14 D2    S   2100  U
 * New RDV sequence. include non-used BBCs. Indicated below by "L" for sideband
  TSU_WID8
  -   1  1N    X   7680    L 
