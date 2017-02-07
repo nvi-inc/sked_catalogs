@@ -1,8 +1,9 @@
-* VERSION 2016Nov30_iGSFC
+* VERSION 2017FEB07_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2017Feb07 JMG. Changed LO pointers for METSAHOV to MET_STD 
 * 2016Nov30 JMG. Added YARRA12M to VG_MK4 (RDV mode) 
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
 * 2016Aug23 JMG. For SX_STD and SX_WIDE, and RDV SESHAN LO is now SESH_LO
@@ -167,7 +168,7 @@
  -       MATERA      CDP_STD
 *-       MCMURDO     CDP_STD
  -       MEDICINA    CDP_STD
- -       METSAHOV    YEB_STD
+ -       METSAHOV    MET_STD
  -       MIAMI20     CDP_STD    
  -       MIURA       CDP_STD
  -       MIZUSGSI    CDP_STD
@@ -294,7 +295,7 @@
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
  -       MATERA      CDP_WIDE
- -       METSAHOV    CDPV_WIDE
+ -       METSAHOV    MET_STD
 *-       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
  -       MEDICINA    ODB_WIDE
@@ -571,7 +572,7 @@
  -       NOTO        K_21600
  -       ONSALA60    K_22000
  -       SESHAN25    K_21600
- -       METSAHOVI   K_21480
+ -       METSAHOV   K_21480
  -       URUMQI      K_22000
  KK_AT
  -       ATCA        K_22200
