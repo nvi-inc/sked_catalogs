@@ -1,8 +1,9 @@
-* VERSION 2017FEB07_iGSFC
+* VERSION 2017FEB09_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2017Feb09 JMG  Changed EFLSBERG LOs to all EFL_STD
 * 2017Feb07 JMG. Changed LO pointers for METSAHOV to MET_STD 
 * 2016Nov30 JMG. Added YARRA12M to VG_MK4 (RDV mode) 
 * 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
@@ -275,7 +276,7 @@
  -       CRIMEA      CDP_WIDE
  -       DSS45       DSN_STD
  -       TIDBIN64    DSN_STD
- -       EFLSBERG    CDP_WIDE
+ -       EFLSBERG    EFL_STD
  -       FORTLEZA    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
  -       GGAO12M     CDP_WIDE
@@ -444,7 +445,7 @@
  VG_MK4
  -       ALGOPARK    CDPV_VG2
  -       BADARY      CDP_WID8
- -       EFLSBERG    CDP_WID8   
+ -       EFLSBERG    EFL_STD 
  -       FORTLEZA    CDP_WID8
  -       GILCREEK    CDPV_VG2
  -       HARTRAO     DBBC_HH
