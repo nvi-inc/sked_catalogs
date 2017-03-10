@@ -1,8 +1,9 @@
-* VERSION 2017FEB09_iGSFC
+* VERSION 2017Mar10_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2017Mar10 JMG. Added   WARK12M, KATH12M to broadband 
 * 2017Feb09 JMG  Changed EFLSBERG LOs to all EFL_STD
 * 2017Feb07 JMG. Changed LO pointers for METSAHOV to MET_STD 
 * 2016Nov30 JMG. Added YARRA12M to VG_MK4 (RDV mode) 
@@ -453,6 +454,7 @@
  -       KOKEE       NRAO_VG2
  -       HOBART26    CDP_WID8 
  -       HOBART12    DBBC_AU
+ -       KATH12M     DBBC_AU
  -       ISHIOKA     KAS_WID8
  -       KASHIM34    KAS_WID8
  -       MATERA      CDP_WID8
@@ -467,6 +469,7 @@
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
  -       WETTZ13N    CDPV_VG2
+ -       WARK12M    DBBC_AU
  -       AGGO        CDPV_VG2
 *-       SESHAN25    CDPS_VG2
 * Added 2010Dec23
