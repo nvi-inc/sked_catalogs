@@ -1,9 +1,10 @@
-* VERSION 2017Jan18_igsfc
+* VERSION 2017Mar21_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Mar21 JMG. Added DSS34 and DSS36
 * 2017Jan18 KOL. Added Metsahov to 32-16-1-2 (CONT11 mode)
 * 2016Nov22 JMG. Added KUNMING to 32-16-1-2
 * 2016Nov21 JMG. Fixed error in WETTZ13N tracklayout. Was 8U-2-2-b (non-existent). Should be 8U-1-2-b
@@ -251,6 +252,8 @@
  -       CHICHI10   MK3V-A      14U2L-2-1   Mk34
  -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1   Mk34
+ -       DSS34      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
@@ -319,6 +322,8 @@
  -       CHICHI10   MK3V-A      14U2L-1-1-BJ   Mk34
  -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1     Mk34
+ -       DSS34      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1     Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1     Mk34  
  -       DSS15      MK3V-A      14U2L-2-1     Mk34  
@@ -392,6 +397,8 @@
  -       CHICHI10   MK3V-A      14U2L-1-1-BJ  Mk34
  -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1   Mk34
+ -       DSS34      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
 *-       DSS54      MK3V-A      14U2L-2-1   Mk34 
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
@@ -460,8 +467,10 @@
  -       CTVA       MK3V-A      14U2L-1-1   Mk34
  -       ARIES_9M   MK3A-C         C        Mk34  none   4
  -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
- -       DSS65A     MK3V-A      14U2L-1-1   Mk34  
+ -       DSS34      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-1-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-1-1   Mk34  
  -       TIDBIN64   MK3V-A      14U2L-1-1   Mk34  
  -       DSS15      MK3V-A      14U2L-1-1   Mk34  
  -       DSS13      MK3V-A      14U2L-1-1   Mk34  
@@ -508,8 +517,10 @@
  -       CTVA       MK3V-A      14U2L-2-1   Mk34
  -       ARIES_9M   MK3A-C         C        Mk34  none   4
  -       CRIMEA     MK3V-A      14U2L-2-1   Mk34  
- -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
+ -       DSS34      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
  -       DSS13      MK3V-A      14U2L-2-1   Mk34  
