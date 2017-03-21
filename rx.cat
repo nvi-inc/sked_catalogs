@@ -1,8 +1,11 @@
-* VERSION 2017Mar10_iGSFC
+* VERSION 2017Mar21_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2017SEP19 JMG. Added in RAEGSMAR
+* 2017Mar21 JMG. Changed NYALES20,WETTZELL to ODB_WIDE, ODB_STD
+* 2017Mar21 JMG. Added DSS34 and DSS36
 * 2017Mar10 JMG. Added   WARK12M, KATH12M to broadband 
 * 2017Feb09 JMG  Changed EFLSBERG LOs to all EFL_STD
 * 2017Feb07 JMG. Changed LO pointers for METSAHOV to MET_STD 
@@ -144,7 +147,9 @@
  -       CRIMEA      CDP_STDN
  -       CTVA        CDP_STD
  -       DSS13       DVP_STD 
- -       DSS15       DSN_STD    
+ -       DSS15       DSN_STD  
+ -       DSS34       DSN_STD  
+ -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
  -       TIDBIN64    DSN_STD
 *-       DSS54       DSN_STD
@@ -178,7 +183,7 @@
  -       FORTLEZA    CDP_STD
  -       NRAO85_3    NRAO_STD
  -       NRAO20      NRAO_STD
- -       NYALES20    CDP_STD
+ -       NYALES20    ODB_STD 
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    ODB_STD
 *-       ONSALDBC    ODB_STD
@@ -206,7 +211,7 @@
  -       VERAMZSW    JD_VSTD
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
- -       WETTZELL    CDP_STD
+ -       WETTZELL    ODB_STD
  -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
@@ -275,6 +280,8 @@
  -       CHICHI10    KAS_WIDE
  -       CTVA        CDP_WIDE
  -       CRIMEA      CDP_WIDE
+ -       DSS34       DSN_STD  
+ -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
  -       TIDBIN64    DSN_STD
  -       EFLSBERG    EFL_STD
@@ -304,13 +311,14 @@
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
- -       NYALES20    CDP_WIDE
+ -       NYALES20    ODB_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
 *-       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
  -       PARKES      PKS_WIDE
+ -       RAEGSMAR    RAEG_WIDE 
  -       RAEGYEB     RAEG_WIDE 
  -       SANTIA12    CDP_WIDE
  -       SEST        CDP_WIDE
@@ -331,7 +339,7 @@
  -       VERAMZSW    TSU_WIDE
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_WIDE
- -       WETTZELL    CDP_WIDE
+ -       WETTZELL    ODB_WIDE
 *-       WETTDBBC    ODB_WIDE
  -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
