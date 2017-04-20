@@ -1,9 +1,10 @@
-* VERSION 2017Mar21_igsfc
+* VERSION 2017Apr20_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Apr20 JMG. for 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
 * 2017Mar21 JMG. Added DSS34 and DSS36
 * 2017Jan18 KOL. Added Metsahov to 32-16-1-2 (CONT11 mode)
 * 2016Nov22 JMG. Added KUNMING to 32-16-1-2
@@ -678,7 +679,7 @@
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
 *-       PARKES64   MK3V-A      14U2L-1-2     Mk34  
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
- -       SEJONG     MK3V-A      14U2L-1-2-B   Mk34    
+ -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
  -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
