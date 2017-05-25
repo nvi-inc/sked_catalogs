@@ -1,9 +1,10 @@
-* VERSION 2017Apr20_igsfc
+* VERSION 2017May25_igsfc
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017May25 JMG. In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
 * 2017Apr20 JMG. for 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
 * 2017Mar21 JMG. Added DSS34 and DSS36
 * 2017Jan18 KOL. Added Metsahov to 32-16-1-2 (CONT11 mode)
@@ -209,15 +210,15 @@
  -       KASHIM34   MK3V-A       8U-2-2     Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
  -       ORION_5M   MK3V-A       8U-2-2     Mk34
- -       ONSALA60   MK3V-A       8U-1-2-b    Mk34 
- -       MATERA     MK3V-A       8U-1-2-b    Mk34 
- -       MEDICINA   MK3V-A       8U-2-2     Mk34 
- -       NOTO       MK3V-A       8U-1-2-b     Mk34 
+ -       ONSALA60   MK3V-A       8U-1-2-b   Mk34 
+ -       MATERA     MK3V-A       8U-1-2-b   Mk34 
+ -       MEDICINA   MK3V-A       8U-1-2-b   Mk34 
+ -       NOTO       MK3V-A       8U-1-2-b   Mk34 
  -       NRAO20     MK3V-A       8U-2-2    VLBA 
  -       GBT_VLBA   MK3V-A       8U-2-2    VLBA 
  -       NYALES20   MK3V-A       8U-1-2-b   Mk34 
  -       PARKES     MK3V-A       8U-1-2-b   Mk34 
- -       SESHAN25   MK3V-A       8U-2-2    VLBA 
+ -       SESHAN25   MK3V-A       8U-1-2-b   Mk34 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
  -       TIGO       MK3V-A       8U-1-2-b   Mk34 
  -       AGGO       MK3V-A       8U-1-2-b   Mk34 
@@ -226,7 +227,7 @@
  -       YEBES40M   MK3V-A       8U-1-2-b   Mk34 
  -       WARK12M    MK3V-A       8U-1-2-b   Mk34
  -       WESTFORD   MK3V-A       8U-1-2-b   Mk34 
- -       WETTZELL   MK3V-A       8U-2-2     Mk34 
+ -       WETTZELL   MK3V-A       8U-1-2-b   Mk34 
  -       WETTZ13N   MK3V-A       8U-1-2-b   Mk34 
  -       YARRA12M   MK3V-A       8U-1-2-b   Mk34
  -       ZELENCHK   MK3V-A       8U-1-2-b   Mk34
