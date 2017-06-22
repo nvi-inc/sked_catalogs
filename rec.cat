@@ -1,9 +1,10 @@
-* VERSION 2017May25_igsfc
+* VERSION 2017Jun22_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Jun22 JMG. Added Kashima11 to 32-16-1-2 for CONT11
 * 2017May25 JMG. In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
 * 2017Apr20 JMG. for 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
 * 2017Mar21 JMG. Added DSS34 and DSS36
@@ -667,6 +668,7 @@
  -       IRBENE     MK3V-A      14U2L-1-2     Mk34  
  -       ISHIOKA    MK3V-A      14U2L-1-2-J  Mk34
  -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
+ -       KASHIM11   MK3V-A      14U2L-1-2-J  Mk34
  -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
  -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34 
  -       KOKEE12M   MK3V-A      14U2L-1-2-B   Mk34
@@ -686,11 +688,11 @@
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-2-J  Mk34
- -       WARK12M    MK3V-A      14U2L-1-2-B     Mk34
- -       WESTFORD   MK3V-A      14U2L-1-2-B    Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
  -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
- -       WETTZ13N   MK3V-A      14U2L-1-2-B     Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-2-B   Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-2-B   Mk34  
