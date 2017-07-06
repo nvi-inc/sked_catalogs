@@ -1,9 +1,10 @@
-* VERSION 2017Jun22_iGSFC
+* VERSION 2017Jul06_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Jul06 JMG. 00-16-0-1: Changed track layout to: 14U2L-1-1-B for MEDICINA, METSAHOVI, ONSALA60, WETTZELL
 * 2017Jun22 JMG. Added Kashima11 to 32-16-1-2 for CONT11
 * 2017May25 JMG. In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
 * 2017Apr20 JMG. for 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
@@ -325,8 +326,8 @@
  -       CHICHI10   MK3V-A      14U2L-1-1-BJ   Mk34
  -       CRIMEA     MK3V-A      14U2L-1-1-B   Mk34  
  -       CTVA       MK3V-A      14U2L-2-1     Mk34
- -       DSS34      MK3V-A      14U2L-2-1   Mk34  
- -       DSS36      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS34      MK3V-A      14U2L-2-1     Mk34  
+ -       DSS36      MK3V-A      14U2L-2-1     Mk34  
  -       DSS45      MK3V-A      14U2L-2-1     Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1     Mk34  
  -       DSS15      MK3V-A      14U2L-2-1     Mk34  
@@ -341,52 +342,51 @@
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
  -       HOBART26   MK3V-A      14U2L-2-1     Mk34
  -       IRBENE     MK3V-A      14U2L-1-1-B   Mk34  
- -       ISHIOKA    MK3V-A      14U2L-1-1-BJ   Mk34
- -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
- -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
+ -       ISHIOKA    MK3V-A      14U2L-1-1-BJ  Mk34
+ -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
+ -       KASHIM34   MK3A-A      14U2L-2-1     Mk34 
  -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
- -       KOGANEI    MK3A-A      14U2L-1-1-BJ   Mk34 
+ -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
  -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
- -       KOKEE12M    MK3V-A      14U2L-1-1-B   Mk34  
+ -       KOKEE12M    MK3V-A      14U2L-1-1-B  Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
- -       MEDICINA   MK3V-A      14U2L-2-1     Mk34  
+ -       MEDICINA   MK3V-A      14U2L-1-1-B   Mk34  
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
- -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
+ -       METSAHOV   MK3V-A      14U2L-1-1-B   Mk34 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
- -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
- -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
-*-       ONSALDBC   MK3V-A      14U2L-2-1   Mk34 
- -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+ -       OHIGGINS   MK3V-A      14U2L-2-1     Mk34
+ -       ONSALA60   MK3V-A      14U2L-1-1-B   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
  -       PARKES     MK3V-A      14U2L-1-1-B   Mk34  
  -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
- -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
- -       SESHAN25   MK3V-A      14U2L-1-1-BS   Mk34
+ -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
+ -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
  -       TIANMA65   MK3V-A      14U2L-1-1-B   Mk34
- -       SINTOTU3   MK3V-A      14U2L-2-1   Mk34
- -       SYOWA      MK3V-A      14U2L-2-1   Mk34
+ -       SINTOTU3   MK3V-A      14U2L-2-1     Mk34
+ -       SYOWA      MK3V-A      14U2L-2-1     Mk34
  -       SVETLOE    MK3V-A      14U2L-1-1-B   Mk34  
- -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
+ -       TIDBIN64   MK3V-A      14U2L-2-1     Mk34  
  -       TIGO       MK3V-A      14U2L-1-1-B   Mk34  
  -       AGGO       MK3V-A      14U2L-1-1-B   Mk34  
- -       TSUKUB32   MK3V-A      14U2L-1-1-BJ   Mk34
- -       UCHINOUR   MK3V-A      14U2L-2-1   Mk34
+ -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
+ -       UCHINOUR   MK3V-A      14U2L-2-1     Mk34
  -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34  
- -       VERAISGK   MK3V-A      14U2L-2-1   Mk34
- -       VERAMZSW   MK3V-A      14U2L-1-1-BJ   Mk34
+ -       VERAISGK   MK3V-A      14U2L-2-1     Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1     Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-1-B   Mk34  
 *-       WETTDBBC   MK3V-A      14U2L-1-1-B   Mk34 
  -       WETTZ13N   MK3V-A      14U2L-1-1-B   Mk34  
  -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-1-B   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-1-1-B   Mk34  
- -       ATCA       MK3V-A      14U2L-2-1   Mk34  
- -       CEDUNA     MK3V-A      14U2L-2-1   Mk34  
- -       MOPRA      MK3V-A      14U2L-2-1   Mk34  
+ -       ATCA       MK3V-A      14U2L-2-1     Mk34  
+ -       CEDUNA     MK3V-A      14U2L-2-1     Mk34  
+ -       MOPRA      MK3V-A      14U2L-2-1     Mk34  
 *******************************************************************
 * Mixed mode:  Some stations have fanout, others don't.  
 *  16 channels, 1-bit sampling.
