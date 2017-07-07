@@ -1,8 +1,9 @@
-* VERSION 2017Mar21_iGSFC 
+* VERSION 2017Jul07_iGSFC 
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
+* 2017Jul07 JMG. Kashima34 SEFDs updated to reflect warm receiver. 
 * 2017Mar21 JMG. Changed Nyalesund, Wettzell from Mark5 Mark5B-->DBBC MARK5B
 * 2017Mar21 JMG. Added DSS34 and DSS36
 * 2017Jan18 KOL. Updated METSAHOV recorder (Mark5A => Mark5B) and changed to DBBC to reflect what is in the log (T2111)
@@ -422,8 +423,8 @@
  ISHIOKA    Is  ISHIOKA     1      100    X  1950   S  1750 K4-2 K5 
  JODRELL2   37  JODRELL2 2x56000  17640   C   320   C   320 Mark4 MARK5A
  *KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-2 K4-2
- KASHIM34   KB  KASHIM34    1      8820   X   550   S   430 K4-2 K5 
- KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-1 K5 
+ KASHIM34   KB  KASHIM34    1      8820   X  1800   S  1000 K4-2 K5 
+ KASHIM34   Kk  K4-KA34     1      8820   X  1800   S  1000 K4-1 K5 
  KASHIMA   160  KASHIMA     1      8820   X  2100   S  1100 Mark3A Mark3A
  KASHIMA    Ka  K4-KA26     1       200   X  2100   S  1100 K4-2 K5 
 *KASHIM11   K1  K4-KA11     1       200   X  5500   S  3000 K4-2 K5 
