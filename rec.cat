@@ -1,9 +1,10 @@
-* VERSION 2017Jul06_iGSFC
+* VERSION 2017AUG01_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Aug01 JMG. Added WETTZ13N to 32-16-2-1
 * 2017Jul06 JMG. 00-16-0-1: Changed track layout to: 14U2L-1-1-B for MEDICINA, METSAHOVI, ONSALA60, WETTZELL
 * 2017Jun22 JMG. Added Kashima11 to 32-16-1-2 for CONT11
 * 2017May25 JMG. In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
@@ -306,6 +307,7 @@
  -       WESTFORD   MK3V-A      14U2L-2-1   Mk34  
  -       WETTZELL   MK3V-A      14U2L-2-1   Mk34 
  -       WETTZ13S   MK3V-A      14U2L-1-1-B Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-1-B Mk34  
  -       YARRA12M   MK3V-A      14U2L-2-1   Mk34
  -       YEBES40M   MK3V-A      14U2L-2-1   Mk34  
  -       ZELENCHK   MK3V-A      14U2L-2-1   Mk34  
