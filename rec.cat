@@ -1,9 +1,10 @@
-* VERSION 2017AUG01_iGSFC
+* VERSION 2017Sep08_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Sep08  JMG Added Austral 1GB mode. 
 * 2017Aug01 JMG. Added WETTZ13N to 32-16-2-1
 * 2017Jul06 JMG. 00-16-0-1: Changed track layout to: 14U2L-1-1-B for MEDICINA, METSAHOVI, ONSALA60, WETTZELL
 * 2017Jun22 JMG. Added Kashima11 to 32-16-1-2 for CONT11
@@ -653,6 +654,16 @@
  -       YEBES40M   MK4-A      14U2L-2-2  Mk34
  -       ZELENCHK   MK4-A      14U2L-2-2  Mk34
 *******************************************************************
+* Austral 1GB mode. 
+* Most things are non-fanout EXCEPT HOBART26
+ 32-16-1-3
+ -       HART15M    MK3V-A      AUST1GBPS-B   Mk34  
+ -       HOBART12   MK3V-A      AUST1GBPS-B   Mk34
+ -       HOBART26   MK3V-A      AUST1GBPS     Mk34
+ -       KATH12M    MK3V-A      AUST1GBPS-B   Mk34
+ -       WARK12M    MK3V-A      AUST1GBPS-B   Mk34
+ -       YARRA12M   MK3V-A      AUST1GBPS-B   Mk34
+**********************************************************************
 * Mode for CONT11 (modified for CONT14)
 * Everything is 32 tracks EXCEPT Zc
 *
