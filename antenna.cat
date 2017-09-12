@@ -1,9 +1,10 @@
-* VERSION 2017AUG24_iGSFC 
+* VERSION 2017SEP12_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2017Sep12 JMG. Changed 1-letter code of Hobart12 to "L"
 * 2017Aug24 JMG. Added information for ONSALA twins per Email rudiger 2017Aug23
 * 2017Apr20 JMG. Modified slewing of several antennas per email Mario Berube 2017Apr20
 *                FORTLEZA, HOBART, HART15M, KATH12M, KOKEE,MATERA, MEDICINA, NYALES20
@@ -248,7 +249,7 @@
  K HAYSTACK AZEL   0.00000 120.0   0    0.0  360.0  120.0   0   3.0  88.0  37.0 Hs 00  --
  H HN-VLBA  AZEL   2.13030  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Hn HN  Hn
 * H HOBART12 AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Hb Hb  Hb
- H HOBART12 AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Hb Hb  Hb
+ L HOBART12 AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Hb Hb  Hb
  H HOBART26 XYEW   8.19430  39.0  36  -82.0   82.0   39.0  36 -74.0  74.0  26.0 Ho 04  --
  I IRBENE   AZEL   0.0     168.0   3  -326.  326.0  126.0   3   3.0  89.0  32.0 Ir Ir  --
  I ISHIOKA  AZEL   0.00000 720.0  10  -70.0  430.0  360.0  10   5.0  89.0  13.2 Is Is  Is
