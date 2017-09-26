@@ -1,4 +1,4 @@
-* VERSION 2017SEP20_iGSFC 
+* VERSION 2017SEP26_iGSFC 
 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
@@ -7,6 +7,7 @@
 *************************************************************** 
 *
 * Changed the order so that most recent changes are at the top 
+* 2017Sep26 JMG. Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
 * 2017Sep20 JMG. Added information for RAEGSMAR (santa maria) per email from Pablo de Vicente  
 * 2017Aug24 JMG. Added information for ONSALA twins per email Rudiger August 23 2017
 * 2017Mar21 JMG. Added DSS34 and DSS36. Used DSN document 301K. 
@@ -321,8 +322,8 @@
  Ny NYALES20   1202462.76928    252734.40716   6237766.01541   73313301   348.13   78.93 GLB1069
  On ONSALA60   3370606.04502    711917.49406   5349830.72571   72137701   348.07   57.40 GLB1069
  O8 ONSALA85   3370966.20000    711465.90500   5349663.99000   72137701   348.08   57.39 JIVE 
- OE ONSA13NE   3370889.19       711570.78      5349691.10      00000000   348.08   57.39 Email Haas
- OW ONSA13SW   3370946.72       711534.14      5349659.94      00000000   348.08   57.39 Email Haas
+ Oe ONSA13NE   3370889.19       711570.78      5349691.10      00000000   348.08   57.39 Email Haas 23AUG17
+ Ow ONSA13SW   3370946.72       711534.14      5349659.94      00000000   348.08   57.39 Email Haas 23AUG17
  Mc MEDICINA   4461369.98765    919596.83046   4449559.17316   72308801   348.35   44.52 GLB1069
  Hg HOHENFRG   3778214.86349    698644.78233   5074053.59468   72845201   349.52   53.05 GLB1069
  Hp HOHNBERG   4213687.22930    820422.95948   4702784.24084   00000000   348.98   47.80 GLB1069
