@@ -1,9 +1,11 @@
-* VERSION 2017Sep19_iGSFC
+* VERSION 2017Sep26_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Nov02 JMG Added KOKEE, MEDICINA, NYALES20, ONSALA60, WETTZELL to Austral 1GB mode. 
+* 2017SEP26 JMG. Added in ONSA13SW, ONSA13NE to 00-16-0-1
 * 2017SEP19 JMG. Added in RAEGSMAR
 * 2017Sep19 JMG Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
 * 2017Sep08 JMG Added Austral 1GB mode. 
@@ -367,6 +369,8 @@
  -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
  -       PARKES     MK3V-A      14U2L-1-1-B   Mk34  
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+ -       ONSA13NE   MK3V-A      14U2L-1-1-B   Mk34 
+ -       ONSA13SW   MK3V-A      14U2L-1-1-B   Mk34 
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
  -       PARKES     MK3V-A      14U2L-2-1   Mk34  
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B   Mk34 
@@ -674,6 +678,12 @@
  -       KATH12M    MK3V-A      AUST1GBPS-B   Mk34
  -       WARK12M    MK3V-A      AUST1GBPS-B   Mk34
  -       YARRA12M   MK3V-A      AUST1GBPS-B   Mk34
+ -       HARTRAO    MK3V-A      AUST1GBPS-B   Mk34
+ -       KOKEE      MK3V-A      AUST1GBPS-B   Mk34
+ -       MEDICINA   MK3V-A      AUST1GBPS-B   Mk34
+ -       NYALES20   MK4-A        AUST1GBPS-B   Mk34
+ -       ONSALA60   MK4-A        AUST1GBPS-B   Mk34
+ -       WETTZELL   MK4-A        AUST1GBPS-B   Mk34
 **********************************************************************
 * Mode for CONT11 (modified for CONT14)
 * Everything is 32 tracks EXCEPT Zc
