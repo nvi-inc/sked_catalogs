@@ -1,8 +1,9 @@
-* VERSION 2017Mar21_iGSFC
+* VERSION 2017Sep26_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2017Sep26 JMG. Put in ONSA13SW, ONSA13NE
 * 2017SEP19 JMG. Added in RAEGSMAR
 * 2017Mar21 JMG. Changed NYALES20,WETTZELL to ODB_WIDE, ODB_STD
 * 2017Mar21 JMG. Added DSS34 and DSS36
@@ -314,6 +315,8 @@
  -       NYALES20    ODB_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
+ -       ONSA13NE    RAEG_WIDE
+ -       ONSA13SW    RAEG_WIDE 
 *-       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       OVRO_130    CDP_WIDE
