@@ -1,10 +1,11 @@
-* VERSION 2017SEP25_iGSFC 
+* VERSION 2017Nov15_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
-* 2017Sep25 JMG. Addeed pointer to mask information. 
+* 2017Nov15 JMG. Changed az limits of Wettzell twins
+* 2017Sep25 JMG. Added pointer to mask information. 
 * 2017SEP19 JMG. Added in RAEGSMAR
 * 2017Sep12 JMG. Changed 1-letter code of Hobart12 to "L"
 * 2017Aug24 JMG. Added information for ONSALA twins per Email rudiger 2017Aug23
@@ -338,8 +339,8 @@
  W WARK12M  AZEL   0.00000 300.0   2  180.0  720.0   60.0   2   8.0  88.0  12.0 Ww Ww  Ww
  E WESTFORD AZEL   0.31830 200.0  10  100.0  460.0  120.0  10   4.0  87.2  18.0 Wf 07  Wf
  W WSTRBORK HADC   0.00000  15.0  10  -90.0   90.0   15.0  10 -38.0  90.0  25.9 Wb 11  --
- N WETTZ13N AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  13.2 Wn Wn  Wn
- S WETTZ13S AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   0.0  90.0  13.2 Ws Ws  Ws
+ N WETTZ13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   0.0  90.0  13.2 Wn Wn  Wn
+ S WETTZ13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   0.0  90.0  13.2 Ws Ws  Ws
  V WETTZELL AZEL   0.00000 180.0   0  251.5  831.0   90.0   0   2.0  89.0  20.0 Wz 33  Wz
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
