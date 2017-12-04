@@ -1,9 +1,10 @@
-* VERSION 2017Nov15_iGSFC 
+* VERSION 2017Dec04_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2017Dec04 JMG. Changed Dec limits of HARTRAO per email from Jonathan Quick: (-88,45)-->(-83,45) 
 * 2017Nov15 JMG. Changed az limits of Wettzell twins
 * 2017Sep25 JMG. Added pointer to mask information. 
 * 2017SEP19 JMG. Added in RAEGSMAR
@@ -245,7 +246,7 @@
  A GILCREEK XYNS   7.28470  60.0   0  -86.0   86.0   60.0   0 -73.5  73.5  25.9 Gc 101 Gc
  D GOLDMARS AZEL   0.00000  12.0   0  136.0  672.0   12.0   0   6.0  88.0  64.0 14 68  --
  Q GOLDVENU AZEL   0.92520 120.0   0  270.0  810.0  120.0   0   6.0  88.0  26.0 Gv 16  --
- J HARTRAO  HADC   6.69220  24.0  45  -88.0   88.0   22.2  45 -89.0  45.0  26.0 Hh 34  Hh
+ J HARTRAO  HADC   6.69220  24.0  45  -88.0   88.0   22.2  45 -83.0  45.0  26.0 Hh 34  Hh
 *J HART15M  AZEL   1.47000 120.0   3 -185.0  275.0   60.0   3   2.0  88.0  15.0 Ht Ht  Ht
  J HART15M  AZEL   1.47000 124.0   8 -185.0  275.0   60.0   8   2.0  88.0  15.0 Ht Ht  Ht
  H HATCREEK HADC   0.00000  13.0  40  -80.9   80.9   12.0  40 -38.0  85.0  26.0 Hc 03  Hc
