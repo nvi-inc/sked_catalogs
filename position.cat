@@ -1,4 +1,4 @@
-* VERSION 2017SEP26_iGSFC 
+* VERSION 2017DEC06_iGSFC 
 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
@@ -7,6 +7,7 @@
 *************************************************************** 
 *
 * Changed the order so that most recent changes are at the top 
+* 2017Dec06 JMG. Changed position of RAEGSMAR per email P. de Vicente 2017Dec06
 * 2017Sep26 JMG. Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
 * 2017Sep20 JMG. Added information for RAEGSMAR (santa maria) per email from Pablo de Vicente  
 * 2017Aug24 JMG. Added information for ONSALA twins per email Rudiger August 23 2017
@@ -150,7 +151,8 @@
  Jb JODRELL2   3822846.79000   -153802.28000   5086285.92000   00000000     2.30   53.23 JIVE 
  Cn CARNUSTY   3526416.37832   -171421.09865   5294098.85187   76015301     2.78   56.48 GLB1069
  Yj RAEGYEB    4848831.10900   -261629.53600   4122976.48800   73890000     3.09   40.52 Other
- Sa RAEGSMAR   4615601.7680    -3476247.0280   2691779.919     0000000     36.99   25.13 Pablo email 17SEP20
+ Sa RAEGSMAR   4618520.154     -2166021.902    3816274.031     0000000     25.13   36.99  Pablo de Vicente 2017Dec06
+* Sa RAEGSMAR   4615601.7680    -3476247.0280   2691779.919     0000000     36.99   25.13 Pablo email 17SEP20
  Ys YEBES40M   4848762.10000   -261484.50000   4123084.90000   73863601     3.09   40.52 Other
  Ro MADRID64   4849092.50800   -360180.50540   4115108.62490   16658501     4.25   40.43 Other       
  65 DSS65      4849336.70429   -360488.78340   4114748.81871   16658501     4.25   40.43 GLB1069
