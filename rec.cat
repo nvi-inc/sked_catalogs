@@ -1,9 +1,12 @@
-* VERSION 2017Dec04_iGSFC
+* VERSION 2017Dec07_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2017Dec07 JMG. Fixed two tings where Wettzell  was 14U2L-2-1-B instead of 14U2L-1-2-B
+* 2017Dec06 JMG. Updated 32-16-3-1. AUST1GPBS-B-->14U2L-1-2-B,   Added some stations for INT3. 
+* 2017Dec06 JMG. Also updated to reflect WETTZELL going to Mark5B
 * 2017Dec04 JMG. in 32-16-1-2 changed HOBART26
 * 2017Nov02 JMG Added KOKEE, MEDICINA, NYALES20, ONSALA60, WETTZELL to Austral 1GB mode. 
 * 2017SEP26 JMG. Added in ONSA13SW, ONSA13NE to 00-16-0-1
@@ -312,7 +315,7 @@
  -       VERAMZSW   MK3V-A      14U2L-2-1   Mk34
  -       WARK12M    MK3V-A      14U2L-2-1   Mk34
  -       WESTFORD   MK3V-A      14U2L-2-1   Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1   Mk34 
+ -       WETTZELL   MK3V-A      14U2L-1-1-B   Mk34 
  -       WETTZ13S   MK3V-A      14U2L-1-1-B Mk34  
  -       WETTZ13N   MK3V-A      14U2L-1-1-B Mk34  
  -       YARRA12M   MK3V-A      14U2L-2-1   Mk34
@@ -469,7 +472,7 @@
  -       VERAMZSW   MK3V-A      14U2L-1-1-BJ   Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-1-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-2-1     Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-1-B     Mk34  
  -       WETTZ13N   MK3V-A      14U2L-1-1-B   Mk34  
  -       WETTZ13S   MK3V-A      14U2L-1-1-B   Mk34 
  -       YARRA12M   MK3V-A      14U2L-1-1-B   Mk34
@@ -673,18 +676,21 @@
 * Austral 1GB mode. 
 * Most things are non-fanout EXCEPT HOBART26
  32-16-3-2
- -       HART15M    MK3V-A      AUST1GBPS-B   Mk34  
- -       HOBART12   MK3V-A      AUST1GBPS-B   Mk34
+ -       HART15M    MK3V-A      14U2L-1-2-B   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-2-B   Mk34
  -       HOBART26   MK3V-A      AUST1GBPS     Mk34
- -       KATH12M    MK3V-A      AUST1GBPS-B   Mk34
- -       WARK12M    MK3V-A      AUST1GBPS-B   Mk34
- -       YARRA12M   MK3V-A      AUST1GBPS-B   Mk34
- -       HARTRAO    MK3V-A      AUST1GBPS-B   Mk34
- -       KOKEE      MK3V-A      AUST1GBPS-B   Mk34
- -       MEDICINA   MK3V-A      AUST1GBPS-B   Mk34
- -       NYALES20   MK4-A        AUST1GBPS-B   Mk34
- -       ONSALA60   MK4-A        AUST1GBPS-B   Mk34
- -       WETTZELL   MK4-A        AUST1GBPS-B   Mk34
+ -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
+ -       HARTRAO    MK3V-A      14U2L-1-2-B   Mk34
+ -       ISHIOKA    MK3V-A      14U2L-1-2-J  Mk34
+ -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34
+ -       MEDICINA   MK3V-A      14U2L-1-2-B   Mk34
+ -       NYALES20   MK4-A       14U2L-1-2-B   Mk34
+ -       ONSALA60   MK4-A       14U2L-1-2-B   Mk34
+ -       WETTZELL   MK4-A       14U2L-1-2-B   Mk34
+ -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-2-B   Mk34  
 **********************************************************************
 * Mode for CONT11 (modified for CONT14)
 * Everything is 32 tracks EXCEPT Zc
@@ -730,7 +736,7 @@
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
- -       WETTZELL   MK3V-A      14U2L-1-2     Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-2-B   Mk34  
  -       WETTZ13N   MK3V-A      14U2L-1-2-B   Mk34  
  -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
  -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
