@@ -1,4 +1,4 @@
-* VERSION 2017DEC06_iGSFC 
+* VERSION 2018Feb03_iGSFC 
 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
@@ -7,6 +7,7 @@
 *************************************************************** 
 *
 * Changed the order so that most recent changes are at the top 
+* 2018Feb03 JMG. Changed position of AGGO per email Hayo
 * 2017Dec06 JMG. Changed position of RAEGSMAR per email P. de Vicente 2017Dec06
 * 2017Sep26 JMG. Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
 * 2017Sep20 JMG. Added information for RAEGSMAR (santa maria) per email from Pablo de Vicente  
@@ -165,7 +166,7 @@
  Ft FORTLEZA   4985370.04891  -3955020.32584   -428472.30378   72974801    38.43   -3.88 GLB1069
  It ITAPETGA   4034100.60000  -4259757.80000  -2495751.60000   00000000    46.56  -23.18 Other
  Oh OHIGGINS   1525833.00937  -2432463.66410  -5676174.51415   72454101    57.90  -63.32 GLB1069
- Ag AGGO       2780104.49974  -4437421.40247  -3629400.41191   00000000    57.93  -34.91 GPS site LPGS
+ Ag AGGO       2765117.1886   -4449232.5897   -3626419.1095    00000000    57.93  -34.91 email Hayo 2018Feb01
  Sc SC-VLBA    2607848.52822  -5488069.69340   1932739.53143   76159001    64.58   17.76 GLB1069
  Be BERMUDA    2307209.46504  -4874215.89998   3394317.99929   72945301    64.67   32.36 GLB1069
  Ar ARECIBO    2440574.32000  -5546918.81000   1982434.40000   00000000    66.25   18.23 Other
