@@ -1,9 +1,12 @@
-* VERSION 2017Dec04_iGSFC 
+* VERSION 2018Apr27_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2018Apr27 JMG. Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
+* 2018Jan09 JMG. Changed WETTZELL lower limit to 5 degrees. 
+* 2018Jan09 JMG. Modified Kokee's slew parameters. These changed after repair 
 * 2017Dec04 JMG. Changed Dec limits of HARTRAO per email from Jonathan Quick: (-88,45)-->(-83,45) 
 * 2017Nov15 JMG. Changed az limits of Wettzell twins
 * 2017Sep25 JMG. Added pointer to mask information. 
@@ -265,7 +268,7 @@
  K KATH12M  AZEL   0.00000 300.0   9   90.0  630.0   75.0   8   5.0  88.0  12.0 Ke Ke  -- 
  K KAUAI    XYNS   2.43440  60.0   0  -87.6   86.6   60.0   0 -80.8  81.0   9.0 Ku 35  Ku
 *K KOKEE    AZEL   0.51810 117.0  15  270.0  810.0  117.0  15   0.0  89.7  20.0 Kk 102 Kk
- K KOKEE    AZEL   0.51810 127.0  12  270.0  810.0  136.0  12   0.0  89.7  20.0 Kk 102 Kk
+ K KOKEE    AZEL   0.51810 112.0  12  270.0  810.0  136.0  12   0.0  89.7  20.0 Kk 102 Kk
  C KOKEE12M AZEL   0.00000 720.0   0  180.0  720.0  300.0   0   6.5  88.0  12.0 K2 K2  K2
  K KITTPEAK AZEL   0.00000  14.0   0  270.0  690.0   14.0   0  12.0  88.0  12.0 Kt --  --
  K KUNMING  AZEL   0.00000  60.0   0  280.0  800.0   30.0   0   6.0  86.0  40.0 Km 103 --
@@ -300,8 +303,8 @@
  P OHIGGINS AZEL   0.00000  90.0   0  270.0  630.0   90.0   0   0.0  88.0   9.0 Oh 100 --
 *T ONSALA60 AZEL   0.00000 144.0  20  340.0  740.0   60.0  10   5.0  85.0  20.0 On 02  --
  T ONSALA60 AZEL   0.00000 183.0  20  340.0  740.0   60.0  18   5.0  85.0  20.0 On 02  --
- 1 ONSA13NE AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   5.0  90.0  13.2 Oe Oe  Oe
- 2 ONSA13SW AZEL   0.00000 720.0   0    0.0  540.0  360.0   0   5.0  90.0  13.2 Ow Ow  Ow
+ 1 ONSA13NE AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Oe Oe   Oe
+ 2 ONSA13SW AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ow Ow   Ow
  S ONSALA85 HADC   2.15000  18.0   0 -180.0  180.0   20.0   0 -40.0  88.0  25.0 O8 02  --
  Z ORION_5M AZEL   0.00000 180.0   0  195.0  875.0  180.0   0   6.2  89.0   5.0 Gg 10  --
  O OV-VLBA  AZEL   2.13970  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Ov OV  Ov
@@ -340,9 +343,9 @@
  W WARK12M  AZEL   0.00000 300.0   2  180.0  720.0   60.0   2   8.0  88.0  12.0 Ww Ww  Ww
  E WESTFORD AZEL   0.31830 200.0  10  100.0  460.0  120.0  10   4.0  87.2  18.0 Wf 07  Wf
  W WSTRBORK HADC   0.00000  15.0  10  -90.0   90.0   15.0  10 -38.0  90.0  25.9 Wb 11  --
- N WETTZ13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   0.0  90.0  13.2 Wn Wn  Wn
- S WETTZ13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   0.0  90.0  13.2 Ws Ws  Ws
- V WETTZELL AZEL   0.00000 180.0   0  251.5  831.0   90.0   0   2.0  89.0  20.0 Wz 33  Wz
+ N WETTZ13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Wn Wn  Wn
+ S WETTZ13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ws Ws  Ws
+ V WETTZELL AZEL   0.00000 180.0   0  251.5  831.0   90.0   0   5.0  89.0  20.0 Wz 33  Wz
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
 *Y YEBES40M AZEL   2.00980  60.0  10  300.0  780.0   60.0  10   5.0  89.0  40.0 Ys 105 --
