@@ -1,8 +1,12 @@
-* VERSION 2017Sep26_iGSFC
+* VERSION 2018Jul03_iGSFC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2018Jul10 JMG. Added 2GB VLBA mode
+* 2018Jul03 JMG. Modified LO settings for SX_STD (LO-->CDPA_STD) 
+*                    SX_WIDE (LO-->CDPW_STD), VG_MK4 (LO -->CDPA_VG2) for AGGO.
+* 2017Dec04 JMG. Modified LO settings for SX_WIDE for HOBART26
 * 2017Sep26 JMG. Put in ONSA13SW, ONSA13NE
 * 2017SEP19 JMG. Added in RAEGSMAR
 * 2017Mar21 JMG. Changed NYALES20,WETTZELL to ODB_WIDE, ODB_STD
@@ -204,7 +208,7 @@
  -       TATEYAMA    CDP_STD
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_STD
- -       AGGO        CDPV_STD
+ -       AGGO        CDPA_STD
  -       TSUKUB32    TSU_STD
  -       UCHINOUR    TSU_STD
  -       URUMQI      CDP_STDU
@@ -226,29 +230,6 @@
  -       SESHAN25    CDPV_SE8
  SX_SE8E
  -       SESHAN25    CDPV_SE8
- VLBA_STD
- -       BR-VLBA     VLBA_STD
- -       FD-VLBA     VLBA_STD
- -       HN-VLBA     VLBA_STD
- -       KP-VLBA     VLBA_STD
- -       LA-VLBA     VLBA_STD
- -       MK-VLBA     VLBA_STD
- -       NL-VLBA     VLBA_STD
- -       OV-VLBA     VLBA_STD
- -       PIETOWN     VLBA_STD
- -       SC-VLBA     VLBA_STD
- -       NRAO_140    NRAO8_STD
- VLBA_PN 
- -       BR-VLBA     VLBA_PN 
- -       FD-VLBA     VLBA_PN
- -       HN-VLBA     VLBA_PN 
- -       KP-VLBA     VLBA_PN 
- -       LA-VLBA     VLBA_PN 
- -       MK-VLBA     VLBA_PN 
- -       NL-VLBA     VLBA_PN 
- -       OV-VLBA     VLBA_PN 
- -       PIETOWN     VLBA_PN 
- -       SC-VLBA     VLBA_PN 
  XX_STD 
  -       WESTFORD    CDP_XX1
  -       WSTRBORK    CDP_XX2
@@ -293,7 +274,7 @@
  -       HART15M     DBBC_HH
  -       HAYSTACK    CDP_WIDE
  -       HOBART12    DBBC_AU
- -       HOBART26    CDP_WIDE
+ -       HOBART26    DBBC_26
  -       IRBENE      IRB_WIDE
  -       ISHIOKA     KAS_WIDE
  -       KASHIM34    KAS_WIDE
@@ -334,7 +315,7 @@
 *-       TAHITI      CDP_WIDE
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_WIDE
- -       AGGO        CDPV_WIDE
+ -       AGGO        CDPA_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
  -       URUMQI      CDP_STDUW
@@ -405,41 +386,7 @@
 *-       TAHITI      CDP_W14 
  -       WESTFORD    CDP_W14
  -       WETTZELL    CDP_W14
- VLBA_RV
- -       BR-VLBA     VLBA_RV
- -       FD-VLBA     VLBA_RV
- -       HN-VLBA     VLBA_RV
- -       KP-VLBA     VLBA_RV
- -       LA-VLBA     VLBA_RV
- -       MK-VLBA     VLBA_RV
- -       NL-VLBA     VLBA_RV
- -       OV-VLBA     VLBA_RV
- -       PIETOWN     VLBA_RV
- -       SC-VLBA     VLBA_RV 
- VLBA_WID
- -       BR-VLBA     VLBA_WIDE
- -       FD-VLBA     VLBA_WIDE
- -       HN-VLBA     VLBA_WIDE
- -       KP-VLBA     VLBA_WIDE
- -       LA-VLBA     VLBA_WIDE
- -       MK-VLBA     VLBA_WIDE
- -       NL-VLBA     VLBA_WIDE
- -       OV-VLBA     VLBA_WIDE
- -       PIETOWN     VLBA_WIDE
- -       SC-VLBA     VLBA_WIDE
- -       NRAO_140    NRAO8_WIDE
- VLBA_PW 
- -       BR-VLBA     VLBA_PW  
- -       FD-VLBA     VLBA_PW  
- -       HN-VLBA     VLBA_PW  
- -       KP-VLBA     VLBA_PW  
- -       LA-VLBA     VLBA_PW  
- -       MK-VLBA     VLBA_PW  
- -       NL-VLBA     VLBA_PW  
- -       OV-VLBA     VLBA_PW  
- -       PIETOWN     VLBA_PW  
- -       SC-VLBA     VLBA_PW  
- VG_STD
+  VG_STD
  -       BR-VLBA     VLBA_79
  -       FD-VLBA     VLBA_79
  -       HN-VLBA     VLBA_79
@@ -450,6 +397,17 @@
  -       OV-VLBA     VLBA_79
  -       PIETOWN     VLBA_79
  -       SC-VLBA     VLBA_79
+ VG_2GB	
+ -       BR-VLBA     VG_2GB
+ -       FD-VLBA     VG_2GB
+ -       HN-VLBA     VG_2GB
+ -       KP-VLBA     VG_2GB
+ -       LA-VLBA     VG_2GB
+ -       MK-VLBA     VG_2GB
+ -       NL-VLBA     VG_2GB
+ -       OV-VLBA     VG_2GB
+ -       PIETOWN     VG_2GB
+ -       SC-VLBA     VG_2GB
  VG_4
  -       GILCREEK    CDPV_W4
  -       KOKEE       NRAO_W4 
@@ -479,19 +437,77 @@
  -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
- -       WETTZ13N    CDPV_VG2
+ -       WETTZ13N    ODB_WID8
  -       WARK12M    DBBC_AU
- -       AGGO        CDPV_VG2
+ -       AGGO        CDPA_VG2
 *-       SESHAN25    CDPS_VG2
 * Added 2010Dec23
  -       SESHAN25    SESH_LO
  -       SVETLOE     CDP_WID8 
  -       WESTFORD    CDP_WID8 
- -       WETTZELL    CDP_WID8 
+ -       WETTZELL    ODB_WID8 
  -       URUMQI      CDP_WID8
  -       YARRA12M    CDPV_VG2 
  -       YEBES40M    CDP_WID8 
  VG_ZC
+ VLBA_PN 
+ -       BR-VLBA     VLBA_PN 
+ -       FD-VLBA     VLBA_PN
+ -       HN-VLBA     VLBA_PN 
+ -       KP-VLBA     VLBA_PN 
+ -       LA-VLBA     VLBA_PN 
+ -       MK-VLBA     VLBA_PN 
+ -       NL-VLBA     VLBA_PN 
+ -       OV-VLBA     VLBA_PN 
+ -       PIETOWN     VLBA_PN 
+ -       SC-VLBA     VLBA_PN 
+ VLBA_PW 
+ -       BR-VLBA     VLBA_PW  
+ -       FD-VLBA     VLBA_PW  
+ -       HN-VLBA     VLBA_PW  
+ -       KP-VLBA     VLBA_PW  
+ -       LA-VLBA     VLBA_PW  
+ -       MK-VLBA     VLBA_PW  
+ -       NL-VLBA     VLBA_PW  
+ -       OV-VLBA     VLBA_PW  
+ -       PIETOWN     VLBA_PW  
+ -       SC-VLBA     VLBA_PW  
+ VLBA_RV
+ -       BR-VLBA     VLBA_RV
+ -       FD-VLBA     VLBA_RV
+ -       HN-VLBA     VLBA_RV
+ -       KP-VLBA     VLBA_RV
+ -       LA-VLBA     VLBA_RV
+ -       MK-VLBA     VLBA_RV
+ -       NL-VLBA     VLBA_RV
+ -       OV-VLBA     VLBA_RV
+ -       PIETOWN     VLBA_RV
+ -       SC-VLBA     VLBA_RV 
+ VLBA_STD
+ -       BR-VLBA     VLBA_STD
+ -       FD-VLBA     VLBA_STD
+ -       HN-VLBA     VLBA_STD
+ -       KP-VLBA     VLBA_STD
+ -       LA-VLBA     VLBA_STD
+ -       MK-VLBA     VLBA_STD
+ -       NL-VLBA     VLBA_STD
+ -       OV-VLBA     VLBA_STD
+ -       PIETOWN     VLBA_STD
+ -       SC-VLBA     VLBA_STD
+ -       NRAO_140    NRAO8_STD
+ VLBA_WID
+ -       BR-VLBA     VLBA_WIDE
+ -       FD-VLBA     VLBA_WIDE
+ -       HN-VLBA     VLBA_WIDE
+ -       KP-VLBA     VLBA_WIDE
+ -       LA-VLBA     VLBA_WIDE
+ -       MK-VLBA     VLBA_WIDE
+ -       NL-VLBA     VLBA_WIDE
+ -       OV-VLBA     VLBA_WIDE
+ -       PIETOWN     VLBA_WIDE
+ -       SC-VLBA     VLBA_WIDE
+ -       NRAO_140    NRAO8_WIDE
+
  -       ZELENCHK    ZC8_WIDE 
  VLBA_PH
  -       BR-VLBA     VLBA_STD
