@@ -1,9 +1,16 @@
-* VERSION 2017Dec07_iGSFC
+* VERSION 2018Aug10_iGSFC
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2018Aug10 JMG  In 01-16-0-1, ONSALA60, ORION5M and PARKES had duplicate tracks. Deleted second 
+* 2018Aug09 JMG. In 00-16-0-1,  ORION5M and PARKES had duplicate tracks. Deleted second. 
+* 2018Jul25 KLB. ONSALA60 had duplicate tracks in 00-16-0-1. Deleted second mode.
+* 2018Jul10 JMG. Added 32-4U-12L-1-2 to support 2GB-VLBA
+* 2018May05 JMG. ONSALA60 had duplicate tracks in 32-16-1-2. Deleted second mode.
+* 2018Feb05 JMG. Changed SESHAN track in 00-16-0-1
+* 2018Jan03 KLB. Added HART15M to 32-16-2-1
 * 2017Dec07 JMG. Fixed two tings where Wettzell  was 14U2L-2-1-B instead of 14U2L-1-2-B
 * 2017Dec06 JMG. Updated 32-16-3-1. AUST1GPBS-B-->14U2L-1-2-B,   Added some stations for INT3. 
 * 2017Dec06 JMG. Also updated to reflect WETTZELL going to Mark5B
@@ -204,6 +211,19 @@
  -       OV-VLBA    MK3V-A       8U-4-1   VLBA 
  -       PIETOWN    MK3V-A       8U-4-1   VLBA 
  -       SC-VLBA    MK3V-A       8U-4-1   VLBA
+* New mode for VLBA. 4U 12L.
+* Supports 2GB mode   (4Upper, 12L, 2bit) 
+ 32-4U12L-1-2
+ -       BR-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       FD-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       HN-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       KP-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       LA-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       MK-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       NL-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       OV-VLBA    MK3V-A       4U12L-1-2  VLBA
+ -       PIETOWN    MK3V-A       4U12L-1-2  VLBA
+ -       SC-VLBA    MK3V-A       4U12L-1-2  VLBA
 * Mixed mode for RDV. Some stations fanout, others don't
 *    8 USB channels ,  2-bit sampling.
 * Used for RDV sessions. 
@@ -278,6 +298,7 @@
  -       GOLDVENU   MK3V-A      14U2L-2-1   Mk34
  -       GGAO12M    MK3V-A      14U2L-2-1   Mk34  
  -       HARTRAO    MK3V-A      14U2L-2-1   Mk34  
+ -       HART15M    MK3V-A      14U2L-2-1   Mk34
  -       HOBART12   MK3V-A      14U2L-2-1   Mk34
  -       HOBART26   MK3V-A      14U2L-2-1   Mk34
  -       KASHIM11   MK3A-A      14U2L-2-1   Mk34 
@@ -370,17 +391,14 @@
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1     Mk34
  -       ONSALA60   MK3V-A      14U2L-1-1-B   Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
- -       PARKES     MK3V-A      14U2L-1-1-B   Mk34  
- -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
  -       ONSA13NE   MK3V-A      14U2L-1-1-B   Mk34 
  -       ONSA13SW   MK3V-A      14U2L-1-1-B   Mk34 
- -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
- -       PARKES     MK3V-A      14U2L-2-1   Mk34  
+ -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
+ -       PARKES     MK3V-A      14U2L-1-1-B   Mk34   
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B   Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
- -       SESHAN25   MK3V-A      14U2L-1-1-BS  Mk34
+ -       SESHAN25   MK3V-A      14U2L-1-1-B   Mk34
  -       TIANMA65   MK3V-A      14U2L-1-1-B   Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1     Mk34
  -       SYOWA      MK3V-A      14U2L-2-1     Mk34
@@ -452,9 +470,6 @@
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
  -       PARKES     MK3V-A      14U2L-1-1-B   Mk34  
- -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
- -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
- -       PARKES     MK3V-A      14U2L-2-1   Mk34  
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ   Mk34
@@ -721,8 +736,7 @@
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
 *-       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
-*-       PARKES64   MK3V-A      14U2L-1-2     Mk34  
- -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
+*-       PARKES64   MK3V-A      14U2L-1-2     Mk34   
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
  -       PARKES     MK3V-A      14U2L-2-1   Mk34  
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
