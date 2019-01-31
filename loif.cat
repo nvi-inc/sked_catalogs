@@ -1,8 +1,14 @@
-** VERSION 2017Feb07_iGSFC
+** VERSION 2019JAN31_iGSFC
 *
 * CATALOG loif.cat 
-* LOIF.CAT - setups for IF channel and LO assignments
+* LOIF.CAT - setups for IF channel and LO assignments 
 * Updates now in reverse time order with newest at top.
+* 2019Jan31 JMG. U and L sidebands were reversed for VG_2GB
+* 2018Aug06 JMG. Changed CDPA_WIDE LO entries for AGGO. 7680.1--> 7680.0 
+* 2018Jul03 JMG. Added CDPA_STD, CDPA_WIDE and CDPA_VG2 for AGGO
+* 2017Apr27 JMG. Removed second incorrect ODB_WIDE.  This has been in the catalogs for 4 years. 
+*        Since we use first entry of duplicates this did not cause a problem. 
+* 2017Dec04 JMG. Added DBBC_HO26 for Hobart LO settings
 * 2017Feb09 JMG. Changed LO naming for EFELSBERG per email from Uwe Back 2017Feb09. 
 * 2017Feb07 JMG. Removed YEB_STD (unused). Added MET_STD
 * 2016Oct10 JMG. Modified IRB_WIDE LO per Vladislavs
@@ -600,6 +606,22 @@ DBBC_HH
  -   12  C1    S   2020    U
  -   13  C1    S   2020    U
  -   14  C1    S   2020    U
+* New sequence for HOBART26
+DBBC_26
+ -   1   A1    X   8080    U
+ -   2   A1    X   8080    U
+ -   3   A1    X   8080    U
+ -   4   A1    X   8080    U
+ -   5   B4    X   8080    U
+ -   6   B4    X   8080    U
+ -   7   B4    X   8080    U
+ -   8   B4    X   8080    U
+ -   9   C2    S   2020    U
+ -   10  C2    S   2020    U
+ -   11  C2    S   2020    U
+ -   12  C2    S   2020    U
+ -   13  D2    S   2020    U
+ -   14  D2    S   2020    U
 * New RDV sequence for Kokee. Unused channel indicated  by "L" in sideband.
  NRAO_VG2
  -   1   A    X   7600    L
@@ -626,6 +648,16 @@ DBBC_HH
  -   6   C    X   8100    U
  -   9   B    S   1500    U
  -  14   B    S   1500    U
+* Below for AGGO
+ CDPA_VG2
+ -   3   A    X   7680.0  U
+ -   4   A    X   7680.0  U
+ -   5   C    X   8080.0  U
+ -   6   C    X   8080.0  U
+ -   9   B    S   1620.0  U
+ -  10   B    S   1620.0  U
+ -  13   B    S   1620.0  U
+ -  14   B    S   1620.0  U
  CDPV_VG2
  -   3   A    X   7600.1  U
  -   4   A    X   7600.1  U
@@ -698,6 +730,22 @@ DBBC_HH
  -   12  B    S   1540.1  U
  -   13  B    S   1540.1  U
  -   14  B    S   1540.1  U
+* New LO for AGGO. 
+ CDPA_STD
+ -   1   A    X   7680.0  U
+ -   2   A    X   7680.0  U
+ -   3   A    X   7680.0  U
+ -   4   A    X   7680.0  U
+ -   5   A    X   7680.0  U
+ -   6   A    X   7680.0  U
+ -   7   A    X   7680.0  U
+ -   8   A    X   7680.0  U
+ -   9   B    S   1620.0  U
+ -   10  B    S   1620.0  U
+ -   11  B    S   1620.0  U
+ -   12  B    S   1620.0  U
+ -   13  B    S   1620.0  U
+ -   14  B    S   1620.0  U
  CDPV_SES
  -   1   A    X   7600    U
  -   2   A    X   7600    U
@@ -868,22 +916,23 @@ DBBC_HH
  -   12  B    S   1540.1  U
  -   13  B    S   1540.1  U
  -   14  B    S   1540.1  U
-* NEW RDV LOIF for ONSALA DBBC.
- ODB_WIDE
- -   1  A1    X   8080    U 
- -   2  A1    X   8080    U 
- -   3  A1    X   8080    U
- -   4  A1    X   8080    U
- -   5  B1    X   8080    U
- -   6  B1    X   8080    U
- -   7  B1    X   8080    U 
- -   8  B1    X   8080    U 
- -   9  C1    S   2020    U
- -  10  C1    S   2020    U
- -  11  C1    S   2020    U 
- -  12  C1    S   2020    U
- -  13  C1    S   2020    U
- -  14  C1    S   2020    U 
+* Wideband settings for AGGO 
+CDPA_WIDE
+ -   1   A    X   7680  U
+ -   2   A    X   7680  U
+ -   3   A    X   7680  U
+ -   4   A    X   7680  U
+ -   5   C    X   8080  U
+ -   6   C    X   8080  U
+ -   7   C    X   8080  U
+ -   8   C    X   8080  U
+ -   9   B    S   1620  U
+ -   10  B    S   1620  U
+ -   11  B    S   1620  U
+ -   12  B    S   1620  U
+ -   13  B    S   1620  U
+ -   14  B    S   1620  U
+
  TWN_DBBC
  -   1  A1    X   7580  U
  -   2  A1    X   7580  U
@@ -1023,6 +1072,23 @@ DBBC_HH
  -   6   A    S   2900    L
  -   7   A    S   2900    L
  -   8   A    S   2900    L
+ VG_2GB
+ -   1   A    S   3100    L
+ -   2   A    S   3100    L
+ -   3   A    S   3100    L
+ -   4   A    S   3100    L
+ -   5   B    X   7900    U
+ -   6   B    X   7900    U
+ -   7   B    X   7900    U
+ -   8   B    X   7900    U
+ -   9   B    X   7900    U
+ -  10   B    X   7900    U
+ -  11   B    X   7900    U
+ -  12   B    X   7900    U
+ -  13   B    X   7900    U
+ -  14   B    X   7900    U
+ -  15   B    X   7900    U
+ -  16   B    X   7900    U
  VLBA_PN 
  -   1   B    X   7600    U
  -   2   D    X   7600    U
