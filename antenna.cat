@@ -4,6 +4,7 @@
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2019Apr29 JMG. Changed AGGOs wrap limits per email from Hayao. 
 * 2018Apr27 JMG. Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
 * 2018Jan09 JMG. Changed WETTZELL lower limit to 5 degrees. 
 * 2018Jan09 JMG. Modified Kokee's slew parameters. These changed after repair 
@@ -220,7 +221,7 @@
 *
 *ID Name    Axis  Offset   Rate1 C1  Lim1   Lim1   Rate2  C2  Lim2  Lim2  Diam  PO EQ  MS 
 *
- O AGGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Ag 70  Ag
+ O AGGO     AZEL   0.00000 360.0   0  -24.2  476.5  180.0   0   0.0  90.0   6.0 Ag 70  Ag
  A AIRA     AZEL   0.00000 180.0   0   20.0  700.0  180.0   0   5.0  88.0  10.0 Ai Ai  --
  G ALGOPARK AZEL   0.00000  20.0  10   41.0  453.0    5.0  30   8.8  86.8  47.0 Ap 106 --
  A ARECIBO  AZEL   0.00000  23.5   0    0.0  540.0    1.8   0  70.0  89.6 300.0 Ar 03  --
