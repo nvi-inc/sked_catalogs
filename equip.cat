@@ -1,9 +1,10 @@
-* VERSION 2018Nov09_iGSFC
+* VERSION 2019Jun25_iGSFC
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
-* 2018Nov09 JMG.Changed HARTRAO back to 'none Mark5B'
+* 2019Jun25 JMG  Added NYALE13S
+* 2018Nov09 JMG  Changed HARTRAO back to 'none Mark5B'
 * 2018Oct09 JMG  Changed many stations from (DBBC MARK5C) to (DBBC_DDC FlexBuff) 
 *                EFLSBERG, HARTRAO, MEDICINA, NOTO, ONSALA60, YEBES40M 
 * 2018Sep27 dbb  Changed SEFDs of Fortleza back to the original values of 5000 for X and S.
@@ -491,6 +492,7 @@
  NRAO20    106  NRAO20   1x56000  17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723 VLBA MARK5A
 *NRAO20    106  NRAO20      1     17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723
  NYALES20   66  RICHMOND 2x56000  17640   X  1000   S  1500 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC MARK5B
+ NYALE13S   Ns  NYALE13S    1     17650   X  1470   S  1950 DBBC_DDC Flexbuff
 *OHIGGINS   OH  OHIGVLBA    1      8820   X  6300   S 12400
 *OHIGGINS  112  OHIGVLB4    1     17640   X 10000   S 18000 VLBA4 MARK5A
 *OHIGGINS  100  OHIGVLBA    1      8820   X 10000   S 18000 VLBA  MARK5A
