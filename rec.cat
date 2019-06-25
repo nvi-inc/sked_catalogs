@@ -1,9 +1,10 @@
-* VERSION 2018Aug10_iGSFC
+* VERSION 2019Jun25_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2019Jun25 JMG  Added NYALE13S to  32-16-2-1 and(R1 mode)
 * 2018Aug10 JMG  In 01-16-0-1, ONSALA60, ORION5M and PARKES had duplicate tracks. Deleted second 
 * 2018Aug09 JMG. In 00-16-0-1,  ORION5M and PARKES had duplicate tracks. Deleted second. 
 * 2018Jul25 KLB. ONSALA60 had duplicate tracks in 00-16-0-1. Deleted second mode.
@@ -314,6 +315,7 @@
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-2-1   Mk34  
+ -       NYALE13S   MK3V-A      14U2L-2-1   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
@@ -733,6 +735,7 @@
  -       METSAHOV   MK3V-A      14U2L-1-2-B   Mk34 
  -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
  -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
+ -       NYALE13S   MK3V-A      14U2L-1-2     Mk34   
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
 *-       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
