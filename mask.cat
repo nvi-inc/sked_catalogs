@@ -1,8 +1,9 @@
-* VERSION 2018Feb01_iGSFC 
+* VERSION 2019Jun25_iGSFC 
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Now put in comments in reverse order 
+* 2019Jun25 JMG. Added entry for NYALE13S
 * 2018Feb01 JMG. Updated with new mask for AGGO
 * 2017Sep25 JMG.  Added Onsa13NE and ONSA13SW mask information
 * 2017Jun26 JMG.  Changed so that WETTZELL has 5 degreees minimum
@@ -195,6 +196,10 @@
 * Ny Alesund mask based on IVS data. simplified somewhat. 2004Feb19 JMGipson
  H  NYALES20 Ny  0 2 10 4 60 4 65 2 120 2 128 5 150 5 152 7 162 9 176
  - 12 190 5 226 8 230 6 250 6 256 7 266 12 270 12 290 4 310 2 360 2
+* NYALE13S  Based one email and spreadsheet from June 04 2019
+ H NYALE13S Ns  0 15 140 15 140.1 3 145 3 150 2 157 4 165 4  171 6  175 6 
+ - 182 3 190 3 193 2 200 20 206 3 225 3 230 4 235 9 242 10 245 10 255 7 
+ - 260 4 267 3 276 3 281 2 291 2 291.1 15 360 15
  C  WIDE85_3 Gd  -46   70    0     85    86
  H ONSA13NE Oe 0 8 8 5 215 10 226 5 240 9 252 5 315 8 360
  H ONSA13SW Ow 0 5 34  10 46 5 259 18 283 5 342 7 360
