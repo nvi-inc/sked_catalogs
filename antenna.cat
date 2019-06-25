@@ -1,9 +1,10 @@
-* VERSION 2018Apr27_iGSFC 
+* VERSION 2019Jun25_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2019Jun25 JMG  Added in NYAEL13S
 * 2019Apr29 JMG. Changed AGGOs wrap limits per email from Hayao. 
 * 2018Apr27 JMG. Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
 * 2018Jan09 JMG. Changed WETTZELL lower limit to 5 degrees. 
@@ -301,6 +302,7 @@
  N NRAO20   AZEL   0.50900 120.0   2  270.0  810.0  120.0   2   0.0  89.0  20.0 Gn 106 Gn
 *N NYALES20 AZEL   0.51980 120.0   9  271.0  809.0  120.0   9   0.0  89.7  20.0 Ny 66  Ny
  N NYALES20 AZEL   0.51980 130.0  10  271.0  809.0  135.0   9   0.0  89.7  20.0 Ny 66  Ny 
+ 1 NYALE13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ns Ns  Ns
  P OHIGGINS AZEL   0.00000  90.0   0  270.0  630.0   90.0   0   0.0  88.0   9.0 Oh 100 --
 *T ONSALA60 AZEL   0.00000 144.0  20  340.0  740.0   60.0  10   5.0  85.0  20.0 On 02  --
  T ONSALA60 AZEL   0.00000 183.0  20  340.0  740.0   60.0  18   5.0  85.0  20.0 On 02  --
