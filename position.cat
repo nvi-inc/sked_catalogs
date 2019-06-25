@@ -1,4 +1,4 @@
-* VERSION 2018Feb03_iGSFC 
+* VERSION 2019Jun25_iGSFC 
 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
@@ -7,6 +7,7 @@
 *************************************************************** 
 *
 * Changed the order so that most recent changes are at the top 
+* 2019Jun25 JMG. Put in NyAlesund South 
 * 2018Feb03 JMG. Changed position of AGGO per email Hayo
 * 2017Dec06 JMG. Changed position of RAEGSMAR per email P. de Vicente 2017Dec06
 * 2017Sep26 JMG. Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
@@ -323,6 +324,7 @@
  Tg TIGOWTZL   4075572.53000    931755.03000   4801584.02000   75932401   347.12   49.15 from Hayo
  Tl TRYSILNO   2988029.18878    655957.07936   5578669.14383   76075202   347.62   61.42 GLB1069
  Ny NYALES20   1202462.76928    252734.40716   6237766.01541   73313301   348.13   78.93 GLB1069
+ Ns NYALE13S   1201071.41854    252129.5366    6238022.33843   00000000   348.15   78.94 Email 6/25/19 
  On ONSALA60   3370606.04502    711917.49406   5349830.72571   72137701   348.07   57.40 GLB1069
  O8 ONSALA85   3370966.20000    711465.90500   5349663.99000   72137701   348.08   57.39 JIVE 
  Oe ONSA13NE   3370889.19       711570.78      5349691.10      00000000   348.08   57.39 Email Haas 23AUG17
