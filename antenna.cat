@@ -1,9 +1,10 @@
-* VERSION 2019Jun25_iGSFC 
+* VERSION 2019Jul23_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. -----
+* 2019Jul23 JMG  Modified slew times and constants for Wettzell per email from Christian Plotz (2019Jul23)            
 * 2019Jun25 JMG  Added in NYAEL13S
 * 2019Apr29 JMG. Changed AGGOs wrap limits per email from Hayao. 
 * 2018Apr27 JMG. Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
@@ -218,7 +219,9 @@
 * 140416 dbb Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
 * 140516 dbb Add TIANMA65 per Fengchun Shu.
 *    
-*             
+* Note: Assume that acceleration/deceleration is constant A, and Slew is V, both in seconds. Then
+*       offset is V/A.  Example: V=4deg/sec,  A=2deg/s^2,  Offset is 2. 
+*            
 *
 *ID Name    Axis  Offset   Rate1 C1  Lim1   Lim1   Rate2  C2  Lim2  Lim2  Diam  PO EQ  MS 
 *
@@ -348,7 +351,7 @@
  W WSTRBORK HADC   0.00000  15.0  10  -90.0   90.0   15.0  10 -38.0  90.0  25.9 Wb 11  --
  N WETTZ13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Wn Wn  Wn
  S WETTZ13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ws Ws  Ws
- V WETTZELL AZEL   0.00000 180.0   0  251.5  831.0   90.0   0   5.0  89.0  20.0 Wz 33  Wz
+ V WETTZELL AZEL   0.00000 240.0   2  251.5  831.0   90.0   1   5.0  89.0  20.0 Wz 33  Wz
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
 *Y YEBES40M AZEL   2.00980  60.0  10  300.0  780.0   60.0  10   5.0  89.0  40.0 Ys 105 --
