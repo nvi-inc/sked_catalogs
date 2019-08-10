@@ -1,10 +1,9 @@
-* VERSION 2019Jun04_iGSFC
+* VERSION 2018_Aug09_iGSFC
 * FREQ.CAT - frequency sequences
 *
 * Changes now with most recent at the top.
-* 2019Jun04 JMG. Changed RDV S-band frequency sequences to 2232.75 2262.75 2372.75 2392.75 (from 2232.75 2262.75 2352.75 2372.75)
-* 2018Aug10 JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
-* 2018Jul10 JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
+* 2018Aug10  JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
+* 2018Jul10  JMG Added 2GB VLBA mode= 32-4U-16U-1-2
 * 2018Jan03 KLB. Added new sequence for narrowband 8MHz bw - CDP- XXN
 * 2015 Mar15 Lucia: DVP- XX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
 * 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
@@ -539,8 +538,8 @@
 - X    R   8925.75  U   CH4     4    10000.0
 - S    R   2232.75  U   CH5     5    10000.0
 - S    R   2262.75  U   CH6     6    10000.0
-- S    R   2372.75  U   CH7     7    10000.0
-- S    R   2392.75  U   CH8     8    10000.0
+- S    R   2352.75  U   CH7     7    10000.0
+- S    R   2372.75  U   CH8     8    10000.0
 * S    R   2225.75  U   CH5     5    10000.0
 * S    R   2255.75  U   CH6     6    10000.0
 * S    R   2345.75  U   CH7     7    10000.0
@@ -560,8 +559,8 @@
 - S    R   2262.75  U   CH6    10    10000.0
 - S    R   2262.75  U   CHX   111    10000.0
 - S    R   2262.75  U   CHX   112    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
+- S    R   2352.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * VC assignments for ZELENCHK
  VGEOSX SX STD VG_ZC 
 - X    R   8365.75  U   CHX   101    10000.0
@@ -576,8 +575,8 @@
 - S    R   2262.75  U   CHX   110    10000.0
 - S    R   2262.75  U   CHX   111    10000.0
 - S    R   2262.75  U   CH6    12    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
+- S    R   2352.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * 
 * 16-Channel 2GB VGOS Mode
 *
