@@ -1,8 +1,9 @@
-** VERSION 2019JAN31_iGSFC
+** VERSION 2019AUG27_iGFSCD
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 * Updates now in reverse time order with newest at top.
+* 2019Aug27 JMG  Changed CDPVNOTO to reflect new LO for X band 
 * 2019Jan31 JMG. U and L sidebands were reversed for VG_2GB
 * 2018Aug06 JMG. Changed CDPA_WIDE LO entries for AGGO. 7680.1--> 7680.0 
 * 2018Jul03 JMG. Added CDPA_STD, CDPA_WIDE and CDPA_VG2 for AGGO
@@ -701,14 +702,14 @@ DBBC_26
  -   13  D    S   1540.1  U
  -   14  D    S   1540.1  U
  CDPVNOTO
- -   1   A2    X   8080  U
- -   2   A2    X   8080  U
- -   3   A2    X   8080  U
- -   4   A2    X   8080  U
- -   5   B2    X   8080  U
- -   6   B2    X   8080  U
- -   7   B2    X   8080  U
- -   8   B2    X   8080  U
+ -   1   A1    X   7056  U
+ -   2   A1    X   7056  U
+ -   3   A1    X   7056  U
+ -   4   A1    X   7056  U
+ -   5   B1    X   7056  U
+ -   6   B1    X   7056  U
+ -   7   B1    X   7056  U
+ -   8   B1    X   7056  U
  -   9   C1    S   2020  U
  -   10  C1    S   2020  U
  -   11  C1    S   2020  U
