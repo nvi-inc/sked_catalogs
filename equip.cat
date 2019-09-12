@@ -1,8 +1,9 @@
-* VERSION 2019Jun25_iGSFC
+* VERSION 2019Sep12_iGSFC
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
+* 2019Sep12 JMG  Changed AGGOs SEFDs to 34000/16000 per email WEH on Sep12.
 * 2019Jun25 JMG  Added NYALE13S
 * 2018Nov09 JMG  Changed HARTRAO back to 'none Mark5B'
 * 2018Oct09 JMG  Changed many stations from (DBBC MARK5C) to (DBBC_DDC FlexBuff) 
@@ -363,7 +364,7 @@
 *
 *Antenna    ID  DAT_Name  Heads Tape_len  X  SEFD   S SEFD  SEFD param/Equip
 *                         den/spd ft/min     (Jy)      (Jy) 
- AGGO       70  TIGO      2x56000 17640   X 20000   S 15000 VLBA5 MARK5B
+ AGGO       70  TIGO      2x56000 17640   X 34000   S 16000 VLBA5 MARK5B
  AIRA       Ai  AIRA      1x56000 80000   X 10300   S  7400 K4-1  K5 
 *ALGOPARK   03  TVDS-1      1      8820   X   200   S   250 Mark3A Mark3A
  ALGOPARK  106  NRAO20   1x56000  17640   X   200   S   250 VLBA4 MARK5A
