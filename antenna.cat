@@ -1,9 +1,10 @@
-* VERSION 2019Jul23_iGSFC 
+* VERSION 2019Sep19_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
-* ------ Please put change entries more recent first. -----
+* ------ Please put change entries more recent first. ----
+* 2019Sep19 JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
 * 2019Jul23 JMG  Modified slew times and constants for Wettzell per email from Christian Plotz (2019Jul23)            
 * 2019Jun25 JMG  Added in NYAEL13S
 * 2019Apr29 JMG. Changed AGGOs wrap limits per email from Hayao. 
@@ -286,6 +287,7 @@
  N MARPOINT HADC   6.68770  25.0   0  -82.5   82.5   25.0   0 -40.0  88.0  25.9 Md 09  -- 
 *I MATERA   AZEL   0.00000  90.0  20  277.0  803.0  100.0  20   4.0  88.0  20.0 Ma 119 --
  I MATERA   AZEL   0.00000 105.0  33  277.0  803.0  139.0  33   4.0  88.0  20.0 Ma 119 --
+ M MACGO12M AZEL   0.00000 720.0   0  180.0  720.0  300.0   0   6.5  88.0  12.0 MG MG   MG
 *B MEDICINA AZEL   1.82760  48.0   0  270.0  810.0   30.0   0   5.0  88.5  32.0 Mc 38  Mc
  B MEDICINA AZEL   1.82760  48.0  10  270.0  810.0   30.0  10   5.0  88.5  32.0 Mc 38  Mc 
  Z METSAHOV AZEL   0.00000  60.0   0  -90.0  450.0   60.0   0   5.0  89.0  13.7 Mh MH  --
