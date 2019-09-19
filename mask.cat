@@ -1,9 +1,10 @@
-* VERSION 2019Jul09_iGSFC 
+* VERSION 2019Sep19_iGSFC 
 * CATALOG mask.cat 
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Now put in comments in reverse order 
-* 2019Jul09 JMG. Also removed fractional Numbers from NYALE13AS
+* 2019Sep19 JMJ  Added in MACGO12M per email from  2019Sep12 Alex Burns. Used vt9259 as start
+* 2019Jul09 JMG. Also removed fractional numbers from NYALE13AS
 * 2019Jul09 JMG. Updated with new mask for AGGO (per email Hayo 2019-May-14)
 * 2019Jun25 JMG. Added entry for NYALE13S
 * 2018Feb01 JMG. Updated with new mask for AGGO
@@ -159,7 +160,8 @@
 *H KAUAI    KU 0     1.5   5     0     20    3     40    4     45   
 *- 5     55    4     60    2     100   3     110   2     120  
 *- 1.5   190   3     195   1.5   210   0     285   2     320  
-*- 3     325   4     350   1.5   360                          
+*- 3     325   4     350   1.5   360                         
+ H MACGO12M  MG  0 5 70 6 75 7 80 8 85 9 95 8 105 6 145 7 150 8 155 9 165 10 185 8 190 7 195 5 360
 * Medicina no change
  H  MEDICINA Mc  .0    5.0   360.0  5.0
 * Mojave old mask
