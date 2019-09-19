@@ -1,9 +1,11 @@
-* VERSION 2019Jun26_iGSFC 
+* VERSION 2019Sep19_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2019Sep19 JMG. Put in  values for MACGO12M
+* 2019Aug25 JMG  Added Noto to 32-16-1-2
 * 2019Jun26 JMG  Added NYALE13S to  00-16-0-1
 * 2019Jun25 JMG  Added NYALE13S to  32-16-2-1 and(R1 mode)
 * 2018Aug10 JMG  In 01-16-0-1, ONSALA60, ORION5M and PARKES had duplicate tracks. Deleted second 
@@ -311,6 +313,7 @@
  -       KOKEE12M   MK3V-A      14U2L-2-1   Mk34  
  -       KUNMING    MK3V-A      14U2L-2-1   Mk34
  -       MATERA     MK3V-A      14U2L-2-1   Mk34  
+ -       MACGO12M   MK3V-A      14U2L-2-1   Mk34  
  -       MEDICINA   MK3V-A      14U2L-2-1   Mk34  
  -       NOTO       MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
@@ -384,9 +387,10 @@
  -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
  -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
  -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
- -       KOKEE12M    MK3V-A      14U2L-1-1-B  Mk34  
+ -       KOKEE12M   MK3V-A      14U2L-1-1-B  Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
- -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       MATERA     MK3V-A      14U2L-1-1-B   Mk34 
+ -       MACGO12M   MK3V-A      14U2L-2-1   Mk34   
  -       MEDICINA   MK3V-A      14U2L-1-1-B   Mk34  
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-1-B   Mk34 
@@ -465,6 +469,7 @@
  -       KOKEE12M   MK3V-A      14U2L-1-1-B   Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34  
+ -       MACGO12M   MK3V-A      14U2L-2-1   Mk34  
  -       MEDICINA   MK3V-A      14U2L-2-1     Mk34  
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
@@ -734,8 +739,10 @@
  -       KOKEE12M   MK3V-A      14U2L-1-2-B   Mk34
  -       KUNMING    MK3V-A      14U2L-1-2-B   Mk34  
  -       MATERA     MK3V-A      14U2L-1-2-B   Mk34 
+ -       MACGO12M   MK3V-A      14U2L-2-1   Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-2-B   Mk34 
  -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
+ -       NOTO       MK3V-A      14U2L-1-2     Mk34   
  -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
  -       NYALE13S   MK3V-A      14U2L-1-2     Mk34   
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
