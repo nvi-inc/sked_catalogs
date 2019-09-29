@@ -1,8 +1,10 @@
-* VERSION 2018Jul03_iGSFC
+* VERSION 2019Sep19_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2019Sep19 JMG. Put in  values for MACGO12M based on KOKEE12M
+* 2019Jun25 JMG. Added NYALE13S to SX_STD
 * 2018Jul10 JMG. Added 2GB VLBA mode
 * 2018Jul03 JMG. Modified LO settings for SX_STD (LO-->CDPA_STD) 
 *                    SX_WIDE (LO-->CDPW_STD), VG_MK4 (LO -->CDPA_VG2) for AGGO.
@@ -189,6 +191,7 @@
  -       NRAO85_3    NRAO_STD
  -       NRAO20      NRAO_STD
  -       NYALES20    ODB_STD 
+ -       NYALE13S    ODB_STD
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    ODB_STD
 *-       ONSALDBC    ODB_STD
@@ -286,6 +289,7 @@
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
  -       MATERA      CDP_WIDE
+ -       MACGO12M   CDP_WIDE
  -       METSAHOV    MET_STD
 *-       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
@@ -294,6 +298,7 @@
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
  -       NYALES20    ODB_WIDE
+ -       NYALE13S    ODB_WIDE
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
  -       ONSA13NE    RAEG_WIDE
