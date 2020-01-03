@@ -1,8 +1,9 @@
-* VERSION 2019Sep19_iGSFC 
+* VERSION 2020JAN03_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2020Jan03 JMG. In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
 * 2019Sep19 JMG. Put in  values for MACGO12M based on KOKEE12M
 * 2019Jun25 JMG. Added NYALE13S to SX_STD
 * 2018Jul10 JMG. Added 2GB VLBA mode
@@ -191,7 +192,7 @@
  -       NRAO85_3    NRAO_STD
  -       NRAO20      NRAO_STD
  -       NYALES20    ODB_STD 
- -       NYALE13S    ODB_STD
+ -       NYALE13S    NYS_STD
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    ODB_STD
 *-       ONSALDBC    ODB_STD
@@ -298,7 +299,7 @@
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
  -       NYALES20    ODB_WIDE
- -       NYALE13S    ODB_WIDE
+ -       NYALE13S    NYS_STD
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
  -       ONSA13NE    RAEG_WIDE
