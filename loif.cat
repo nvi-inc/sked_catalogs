@@ -1,8 +1,9 @@
-** VERSION 2019AUG27_iGFSCD
+** VERSION 2020JAN03_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 * Updates now in reverse time order with newest at top.
+* 2020Jan03 JMG  Made new LO sequence NYS_STD for Nyalesund
 * 2019Aug27 JMG  Changed CDPVNOTO to reflect new LO for X band 
 * 2019Jan31 JMG. U and L sidebands were reversed for VG_2GB
 * 2018Aug06 JMG. Changed CDPA_WIDE LO entries for AGGO. 7680.1--> 7680.0 
@@ -220,6 +221,21 @@ ODB_STD
  -   12 C1     S   2020  U
  -   13 D1     S   2020  U
  -   14 D1     S   2020  U
+NYS_STD
+ -   1  A1     X   8080  U
+ -   2  A1     X   8080  U
+ -   3  A1     X   8080  U
+ -   4  A1     X   8080  U
+ -   5  B1     X   8080  U
+ -   6  B1     X   8080  U
+ -   7  B1     X   8080  U
+ -   8  B1     X   8080  U
+ -   9  C1     S   1700  U
+ -   10 C1     S   1700  U
+ -   11 C1     S   1700  U
+ -   12 C1     S   1700  U
+ -   13 D1     S   1700  U
+ -   14 D1     S   1700  U
  KAS_STD
  -   1  1N    X   7580  U
  -   2  1N    X   7580  U
