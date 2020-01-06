@@ -1,5 +1,6 @@
-* VERSION 2018Jan03_iGSFC
+* VERSION 2020Jan06_iGSFC
 *
+* 2020Jan06  JMG Modified so that CONT11 and 256(R1-R4) uses same frequencies. This will make correlators life easier.
 * 2018Jul10  JMG Added 2GB VLBA mode 2048-16(VLBA)   
 * 2018Jan03  KLB added new 256-16N mode.  16 channels, 8MHz bandwidth, narrow mode. 
 * 2017Sep19  JMG Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
@@ -77,7 +78,7 @@
 64-16(EU-T2)     EUR2-SX      4.0   8.0    01-16-0-1
 256-8(RDV)       VGEOSX       8.0  16.0    00-8U-0-2
 512-16(RDV)      VGEOSX      16.0  32.0    00-8U-0-2
-512-16(CONT11)   GEOSX8N      8.0  16.0   32-16-1-2
+512-16(CONT11)   GEOSX       8.0  16.0   32-16-1-2
 2048-16(VLBA)    2GB-VLBA    32.0  64.0   32-4U12L-1-2 
 * Next two are 'fake' modes for simulation studies.
 *512-8(fake)       VGEOSX      32.0  64.0    32-8-4-1
