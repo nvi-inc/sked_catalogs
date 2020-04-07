@@ -1,9 +1,12 @@
-* VERSION 2019Sep19_iGSFC 
+* VERSION 2020Apr07_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2020Jun09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
+* 2020Apr07 KLB  Added 32-16-12-2 for new 1Gbps AOV modes AOVSX16N0, AOVSX16N1, and AOVSX16W
+* 2020Apr07 KLB  PARKES had duplicate tracks in 32-16-1-2. Deleted second mode.
 * 2019Sep19 JMG. Put in  values for MACGO12M
 * 2019Aug25 JMG  Added Noto to 32-16-1-2
 * 2019Jun26 JMG  Added NYALE13S to  00-16-0-1
@@ -739,18 +742,19 @@
  -       KOKEE12M   MK3V-A      14U2L-1-2-B   Mk34
  -       KUNMING    MK3V-A      14U2L-1-2-B   Mk34  
  -       MATERA     MK3V-A      14U2L-1-2-B   Mk34 
- -       MACGO12M   MK3V-A      14U2L-2-1   Mk34  
+ -       MACGO12M   MK3V-A      14U2L-1-2     Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-2-B   Mk34 
  -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
  -       NOTO       MK3V-A      14U2L-1-2     Mk34   
  -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
  -       NYALE13S   MK3V-A      14U2L-1-2     Mk34   
+ -       ONSA13NE   MK3V-A      14U2L-1-2     Mk34   
+ -       ONSA13SW   MK3V-A      14U2L-1-2     Mk34   
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
 *-       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
 *-       PARKES64   MK3V-A      14U2L-1-2     Mk34   
  -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
- -       PARKES     MK3V-A      14U2L-2-1   Mk34  
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
  -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
@@ -760,6 +764,60 @@
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
+ -       WETTZELL   MK3V-A      14U2L-1-2-B   Mk34  
+ -       WETTZ13N   MK3V-A      14U2L-1-2-B   Mk34  
+ -       WETTZ13S   MK3V-A      14U2L-1-2-B   Mk34  
+ -       YARRA12M   MK3V-A      14U2L-1-2-B   Mk34
+ -       YEBES40M   MK3V-A      14U2L-1-2-B   Mk34  
+ -       ZELENCHK   MK3V-A      14U2L-1-2-B   Mk34  
+*******************************************************************
+* For 1Gbps AOV mode 
+* 32 tracks, 16 channels (fanned out 1:2 for Fortleza only because of 
+* the Mark IV formatter can not output more than 16Mbps/track)
+*
+ 32-16-12-2
+ -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
+ -       BADARY     MK3V-A      14U2L-1-2-B   Mk34  
+ -       DSS45      MK3V-A      14U2L-1-2     Mk34
+ -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
+* -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
+ -       FORTLEZA   MK3V-A      14U2L-2-2     Mk34  
+ -       GGAO12M    MK3V-A      14U2L-1-2     Mk34  
+ -       HARTRAO    MK3V-A      14U2L-1-2     Mk34  
+ -       HART15M    MK3V-A      14U2L-1-2-B   Mk34  
+ -       HOBART12   MK3V-A      14U2L-1-2-B   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-2-B   Mk34
+ -       IRBENE     MK3V-A      14U2L-1-2     Mk34  
+ -       ISHIOKA    MK3V-A      14U2L-1-2-J  Mk34
+ -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
+ -       KASHIM11   MK3V-A      14U2L-1-2-J  Mk34
+ -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34 
+ -       KOKEE12M   MK3V-A      14U2L-1-2-B   Mk34
+ -       KOGANEI    MK3V-A      14U2L-1-2-J   Mk34
+ -       KUNMING    MK3V-A      14U2L-1-2-B   Mk34  
+ -       MATERA     MK3V-A      14U2L-1-2-B   Mk34 
+ -       METSAHOV   MK3V-A      14U2L-1-2-B   Mk34 
+ -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
+ -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
+ -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
+*-       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
+ -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
+*-       PARKES64   MK3V-A      14U2L-1-2     Mk34   
+ -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
+*-       PARKES     MK3V-A      14U2L-2-1   Mk34  
+ -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
+ -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
+ -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
+ -       SESHAN25   MK3V-A      14U2L-1-2-B   Mk34  
+ -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
+ -       TIANMA65   MK3V-A      14U2L-1-2-B   Mk34 
+ -       TIGO       MK3V-A      14U2L-1-2     Mk34  
+ -       AGGO       MK3V-A      14U2L-1-2     Mk34  
+ -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       URUMQI     MK3V-A      14U2L-1-2-B   Mk34  
  -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
  -       WETTZELL   MK3V-A      14U2L-1-2-B   Mk34  
