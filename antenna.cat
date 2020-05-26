@@ -1,9 +1,10 @@
-* VERSION 2019Sep19_iGSFC 
+* VERSION 2020May26_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. ----
+* 2020may26 JMG. Modified slewing models for Ws,Wn, K2, GA per 2020May12 email from Mario Berube
 * 2019Sep19 JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
 * 2019Jul23 JMG  Modified slew times and constants for Wettzell per email from Christian Plotz (2019Jul23)            
 * 2019Jun25 JMG  Added in NYAEL13S
@@ -251,7 +252,7 @@
  D FD-VLBA  AZEL   2.13100  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Fd FV  Fd
 *F FORTLEZA AZEL   0.00000  40.0   0  171.0  709.0   20.0   0   5.0  88.0  14.2 Ft 01  --
  F FORTLEZA AZEL   0.00000  48.0   7  171.0  709.0   20.0  10   5.0  88.0  14.2 Ft 01  --
- G GGAO12M  AZEL   0.00000 300.0   0  180.0  720.0   66.0   0   6.5  88.0  12.0 Gs Gs  Gs
+ G GGAO12M  AZEL   0.00000 300.0   8  180.0  720.0   66.0   8   6.5  88.0  12.0 Gs Gs  Gs
  A GILCREEK XYNS   7.28470  60.0   0  -86.0   86.0   60.0   0 -73.5  73.5  25.9 Gc 101 Gc
  D GOLDMARS AZEL   0.00000  12.0   0  136.0  672.0   12.0   0   6.0  88.0  64.0 14 68  --
  Q GOLDVENU AZEL   0.92520 120.0   0  270.0  810.0  120.0   0   6.0  88.0  26.0 Gv 16  --
@@ -275,7 +276,7 @@
  K KAUAI    XYNS   2.43440  60.0   0  -87.6   86.6   60.0   0 -80.8  81.0   9.0 Ku 35  Ku
 *K KOKEE    AZEL   0.51810 117.0  15  270.0  810.0  117.0  15   0.0  89.7  20.0 Kk 102 Kk
  K KOKEE    AZEL   0.51810 112.0  12  270.0  810.0  136.0  12   0.0  89.7  20.0 Kk 102 Kk
- C KOKEE12M AZEL   0.00000 720.0   0  180.0  720.0  300.0   0   6.5  88.0  12.0 K2 K2  K2
+ C KOKEE12M AZEL   0.00000 720.0  10  180.0  720.0  360.0   6   6.5  88.0  12.0 K2 K2  K2
  K KITTPEAK AZEL   0.00000  14.0   0  270.0  690.0   14.0   0  12.0  88.0  12.0 Kt --  --
  K KUNMING  AZEL   0.00000  60.0   0  280.0  800.0   30.0   0   6.0  86.0  40.0 Km 103 --
  K KP-VLBA  AZEL   2.13130  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Kp KV  Kp
@@ -351,8 +352,8 @@
  W WARK12M  AZEL   0.00000 300.0   2  180.0  720.0   60.0   2   8.0  88.0  12.0 Ww Ww  Ww
  E WESTFORD AZEL   0.31830 200.0  10  100.0  460.0  120.0  10   4.0  87.2  18.0 Wf 07  Wf
  W WSTRBORK HADC   0.00000  15.0  10  -90.0   90.0   15.0  10 -38.0  90.0  25.9 Wb 11  --
- N WETTZ13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Wn Wn  Wn
- S WETTZ13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ws Ws  Ws
+ N WETTZ13N AZEL   0.00000 720.0  10  -90.0  450.0  360.0   6   5.0  90.0  13.2 Wn Wn  Wn
+ S WETTZ13S AZEL   0.00000 720.0  10  -90.0  450.0  360.0   6   5.0  90.0  13.2 Ws Ws  Ws
  V WETTZELL AZEL   0.00000 240.0   2  251.5  831.0   90.0   1   5.0  89.0  20.0 Wz 33  Wz
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
