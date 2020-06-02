@@ -1,5 +1,7 @@
-* VERSION 2020Jan06_iGSFC
+* VERSION 2020Jun02_iGSFC
 *
+* 2020Jun02 JMG Added AOVSX16N. This was used in apsg47
+* 2020Apr07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: AOVSX16W, AVSX16N0, AVSX16N1 (AVSX16N1 is similar to AVSX16N0 but has a different S-band frequency sequence to accomodate RFI problems for stations like Hobart26 or Tianma65)
 * 2020Jan06  JMG Modified so that CONT11 and 256(R1-R4) uses same frequencies. This will make correlators life easier.
 * 2018Jul10  JMG Added 2GB VLBA mode 2048-16(VLBA)   
 * 2018Jan03  KLB added new 256-16N mode.  16 channels, 8MHz bandwidth, narrow mode. 
@@ -106,3 +108,7 @@ K_ATNF           K_ATNF      32.   64.0    32-2-1-1
 VLBI2010obsmodes GEOSX       16.0   32.0   32-16-1-2
 1024-16(DSN****) DVP-SX      16.0   32.0   32-16-1-2
 * 256-16(AOV.....) AOVSX8N      8.0  16.0    32-16-1-1
+AOVSX16N         AOVSX16N     16.0  32.0    32-16-12-2
+AV16N0           AVSX16N0    16.0  32.0    32-16-12-2
+AV16N1           AVSX16N1    16.0  32.0    32-16-12-2
+AOV16W           AOVSX16W    16.0  32.0    32-16-12-2
