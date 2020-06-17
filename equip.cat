@@ -1,8 +1,9 @@
-* VERSION 2020Jun02_iGSFC
+* VERSION 2020Jun17_iGSFC
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
+* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
 * 2020Jun02 JMG  Removed many commented out antennas.
 * 2020Jun02 JMg  DBBC--> DBBC_DDC. Changed TIANMA65, URUMQUI to DBBC_DDC
 * 2019Nov13 JMG  Changed NOTOs flux per email from Cynthia Tomas 2019Nov13
@@ -431,7 +432,7 @@
  MADRID64   69  DSS65       1      8820   X     0   S     0
  MARCUS    161  KASHIMA     1      8820   X 17000   S 12000
  MATERA    119  MATERA   2x56000  17640   X  1600   S  2200 Mark5 MARK5B
- MACGO12M   MG  MACGO12M 2x56000  17640   X  3000   S  3000 RDBE MARK6
+ MACGO12M   Mg  MACGO12M 2x56000  17640   X  3000   S  3000 RDBE MARK6
  MEDICINA   38  MEDICINA 2x56000  17640   X  1100   S  1500 S 0.5 0.839 0.161 X 0.1 -1.26 2.26 DBBC_DDC  FlexBuff
  MEDICINA   38  MEDICINA 2x56000  17640  C   296    C   296 Mark4 MARK5A
  METSAHOV   MH  METSAHOV 2x56000  17640   X  6000   S  8000 DBBC_DDC  MARK5B
