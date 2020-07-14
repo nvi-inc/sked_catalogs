@@ -1,8 +1,9 @@
-* VERSION 2020JAN03_iGFSC
+* VERSION 2020JUL14_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2020Jul14 JMg. Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. LO settings different in two cases. 
 * 2020Jan03 JMG. In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
 * 2019Sep19 JMG. Put in  values for MACGO12M based on KOKEE12M
 * 2019Jun25 JMG. Added NYALE13S to SX_STD
@@ -334,7 +335,7 @@
  -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
- -       YEBES40M    YDC_STD
+ -       YEBES40M    YDC_WIDE
  -       ZELENCHK    CDP_STDN
 * CORE modes testing
  SX_W16
