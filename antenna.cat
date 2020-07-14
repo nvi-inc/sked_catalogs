@@ -1,9 +1,10 @@
-* VERSION 2020Jul06_iGSFC 
+* VERSION 2020Jul14_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. ----
+* 2020Jul14 JMG. Changed YEBES40M limits per email from Javier Garcia 7/24/2020
 * 2020Jul06 JMG. Changed MACGO12M slewing model based on email from M. Berbue. 
 * 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
 * 2020may26 JMG. Modified slewing models for Ws,Wn, K2, GA per 2020May12 email from Mario Berube
@@ -360,5 +361,5 @@
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
 *Y YEBES40M AZEL   2.00980  60.0  10  300.0  780.0   60.0  10   5.0  89.0  40.0 Ys 105 --
- Y YEBES40M AZEL   2.00980 120.0  16  300.0  780.0   60.0  16   5.0  89.0  40.0 Ys 105 -- 
+ Y YEBES40M AZEL   2.00980 120.0  16  -30.0  390.0   60.0  16   5.0  89.0  40.0 Ys 105 -- 
  Z ZELENCHK AZEL   0.00000  60.0  40  278.0  802.0   30.0  40  12.0  80.0  32.0 Zc 118 --
