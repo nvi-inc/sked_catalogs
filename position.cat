@@ -1,4 +1,4 @@
-* VERSION 2020Jun17_iGSFC 
+* VERSION 2020Aug04_iGSFC 
 
 * CATALOG position.cat 
 * POSITION.CAT - sked's site position catalog 
@@ -7,6 +7,7 @@
 *************************************************************** 
 *
 * Changed the order so that most recent changes are at the top 
+* 2020Aug04 JMG. Added in NYALE13N. Used position from email 2020Aug05 Ann-Silje
 * 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
 * 2019Sep19 JMG. Put in preliminary values for MACGO12M. Also alphabetized by antenna name. 
 * 2019Jun25 JMG. Put in NyAlesund South 
@@ -262,7 +263,8 @@
  Gn NRAO20      883772.75700  -4924385.58416   3944042.48457   72484701    79.83   38.44 GLB1069
  G1 NRAO85_1    883555.56249  -4924490.88792   3943961.95994   00000000    79.83   38.44 GLB1069
  G3 NRAO85_3    882325.57126  -4925137.98625   3943397.67664   72146901    79.84   38.43 GLB1069
- Ns NYALE13S   1201071.41854    252129.5366    6238022.33843   00000000   348.15   78.94 Email 6/25/19 
+ Ns NYALE13S   1201070.6354     252129.3264    6238022.5044    00000000   348.15   78.94 Email 6/25/19 
+ Nn NYALE13N   1200992.6704     252098.6295    6238038.6465    00000000   348.15   78.94 use same as 13S 
  Ny NYALES20   1202462.76928    252734.40716   6237766.01541   73313301   348.13   78.93 GLB1069
  Oc OCOTILLO  -2335601.36061  -4832243.92010   3434392.78017   00000000   115.80   32.79 GLB1069
  Oh OHIGGINS   1525833.00937  -2432463.66410  -5676174.51415   72454101    57.90  -63.32 GLB1069
