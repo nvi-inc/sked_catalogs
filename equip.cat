@@ -1,8 +1,10 @@
-* VERSION 2020Jun17_iGSFC
+* VERSION 2020Oct13_iGSFC
 * CATALOG equip.cat    
 * EQUIP.CAT - station equipment
 *  
 * -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
+* 2020Oct13 JMG. Added in DSS26
+* 2020Aug04 JMG. Added in Nn based on Ns
 * 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
 * 2020Jun02 JMG  Removed many commented out antennas.
 * 2020Jun02 JMg  DBBC--> DBBC_DDC. Changed TIANMA65, URUMQUI to DBBC_DDC
@@ -388,6 +390,7 @@
  DSS13      68  DSS13    2x56000  17640   X   400   S   250 Mark4 MARK5A
  DSS14      68  DSS15       1      8820   X     0   S     0
  DSS15      68  DSS15    2x56000  17640   X   400   S   250 Mark4 MARK5A
+ DSS26      26  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
  DSS34      34  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
  DSS36      36  DSS36    2x56000  17640   X   185   S   200 Mark4 MARK5A
  DSS45      39  DSS45    2x56000  17640   X   185   S   200 Mark4 MARK5A
@@ -457,6 +460,7 @@
 *NRAO20    106  NRAO20      1     17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723
  NYALES20   66  RICHMOND 2x56000  17640   X  1000   S  1500 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC_DDC MARK5B
  NYALE13S   Ns  NYALE13S    1     17650   X  1470   S  1950 DBBC_DDC Flexbuff
+ NYALE13S   Nn  NYALE13S    1     17650   X  1470   S  1950 DBBC_DDC Flexbuff
 *OHIGGINS   OH  OHIGVLBA    1      8820   X  6300   S 12400
 *OHIGGINS  112  OHIGVLB4    1     17640   X 10000   S 18000 VLBA4 MARK5A
 *OHIGGINS  100  OHIGVLBA    1      8820   X 10000   S 18000 VLBA  MARK5A
