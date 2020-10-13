@@ -1,9 +1,10 @@
-* VERSION 2020Jul14_iGSFC 
+* VERSION 2020Aug03_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. ----
+* 2020Aug03 JMG. Added in NYALE13N. Based on 13S
 * 2020Jul14 JMG. Changed YEBES40M limits per email from Javier Garcia 7/24/2020
 * 2020Jul06 JMG. Changed MACGO12M slewing model based on email from M. Berbue. 
 * 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
@@ -312,6 +313,7 @@
 *N NYALES20 AZEL   0.51980 120.0   9  271.0  809.0  120.0   9   0.0  89.7  20.0 Ny 66  Ny
  N NYALES20 AZEL   0.51980 130.0  10  271.0  809.0  135.0   9   0.0  89.7  20.0 Ny 66  Ny 
  1 NYALE13S AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Ns Ns  Ns
+ 2 NYALE13N AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  90.0  13.2 Nn Nn  Nn
  P OHIGGINS AZEL   0.00000  90.0   0  270.0  630.0   90.0   0   0.0  88.0   9.0 Oh 100 --
 *T ONSALA60 AZEL   0.00000 144.0  20  340.0  740.0   60.0  10   5.0  85.0  20.0 On 02  --
  T ONSALA60 AZEL   0.00000 183.0  20  340.0  740.0   60.0  18   5.0  85.0  20.0 On 02  --
