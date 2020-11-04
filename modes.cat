@@ -1,5 +1,6 @@
-* VERSION 2020Jun02_iGSFC
+* VERSION 2020Nov04_iGSFC
 *
+* 2020Nov04 JMG Added GEOSX32.  Now have a different frequency mode for.
 * 2020Jun02 JMG Added AOVSX16N. This was used in apsg47
 * 2020Apr07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: AOVSX16W, AVSX16N0, AVSX16N1 (AVSX16N1 is similar to AVSX16N0 but has a different S-band frequency sequence to accomodate RFI problems for stations like Hobart26 or Tianma65)
 * 2020Jan06  JMG Modified so that CONT11 and 256(R1-R4) uses same frequencies. This will make correlators life easier.
@@ -80,11 +81,11 @@
 64-16(EU-T2)     EUR2-SX      4.0   8.0    01-16-0-1
 256-8(RDV)       VGEOSX       8.0  16.0    00-8U-0-2
 512-16(RDV)      VGEOSX      16.0  32.0    00-8U-0-2
-512-16(CONT11)   GEOSX       8.0  16.0   32-16-1-2
-2048-16(VLBA)    2GB-VLBA    32.0  64.0   32-4U12L-1-2 
+512-16(CONT11)   GEOSX        8.0  16.0    32-16-1-2
+2048-16(VLBA)    2GB-VLBA    32.0  64.0    32-4U12L-1-2 
 * Next two are 'fake' modes for simulation studies.
-*512-8(fake)       VGEOSX      32.0  64.0    32-8-4-1
-*1024-8(fake)      VGEOSX      64.0 128.0    32-8-4-1
+*512-8(fake)       VGEOSX    32.0  64.0    32-8-4-1
+*1024-8(fake)      VGEOSX    64.0 128.0    32-8-4-1
 * End fake modes 
 1024-16(R&D)     GEOSX8N     16.0  32.0    64-16-2-2
 512-16(R&D)      GEOSX8N      8.0  16.0    32-16-2-2
@@ -104,11 +105,11 @@ DBE_TEST         DBE-X4      16.0  32.0    32-4U+4L-2-2
 K_ATNF           K_ATNF      32.   64.0    32-2-1-1
 ***********************************************************************
 * mode used in VIE_SCHED
-*1024-16(AU)      GEOSX       16.0   32.0   32-16-1-2
-VLBI2010obsmodes GEOSX       16.0   32.0   32-16-1-2
+*1024-16(AU)      GEOSX      16.0   32.0   32-16-1-2
+VLBI2010obsmodes GEOSX32     16.0   32.0   32-16-1-2
 1024-16(DSN****) DVP-SX      16.0   32.0   32-16-1-2
-* 256-16(AOV.....) AOVSX8N      8.0  16.0    32-16-1-1
-AOVSX16N         AOVSX16N     16.0  32.0    32-16-12-2
+* 256-16(AOV.....) AOVSX8N    8.0  16.0    32-16-1-1
+AOVSX16N         AOVSX16N    16.0  32.0    32-16-12-2
 AV16N0           AVSX16N0    16.0  32.0    32-16-12-2
 AV16N1           AVSX16N1    16.0  32.0    32-16-12-2
 AOV16W           AOVSX16W    16.0  32.0    32-16-12-2
