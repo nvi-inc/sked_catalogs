@@ -2,142 +2,141 @@
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
-* ---- Now put in changes with most recent at top.
-* 2020Oct13 JMG. Put in DSS26.
-* 2020Jul14 JMg. Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. LO settings different in two cases. 
-* 2020Jan03 JMG. In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
-* 2019Sep19 JMG. Put in  values for MACGO12M based on KOKEE12M
-* 2019Jun25 JMG. Added NYALE13S to SX_STD
-* 2018Jul10 JMG. Added 2GB VLBA mode
-* 2018Jul03 JMG. Modified LO settings for SX_STD (LO-->CDPA_STD) 
-*                    SX_WIDE (LO-->CDPW_STD), VG_MK4 (LO -->CDPA_VG2) for AGGO.
-* 2017Dec04 JMG. Modified LO settings for SX_WIDE for HOBART26
-* 2017Sep26 JMG. Put in ONSA13SW, ONSA13NE
-* 2017SEP19 JMG. Added in RAEGSMAR
-* 2017Mar21 JMG. Changed NYALES20,WETTZELL to ODB_WIDE, ODB_STD
-* 2017Mar21 JMG. Added DSS34 and DSS36
-* 2017Mar10 JMG. Added   WARK12M, KATH12M to broadband 
-* 2017Feb09 JMG  Changed EFLSBERG LOs to all EFL_STD
-* 2017Feb07 JMG. Changed LO pointers for METSAHOV to MET_STD 
-* 2016Nov30 JMG. Added YARRA12M to VG_MK4 (RDV mode) 
-* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
-* 2016Aug23 JMG. For SX_STD and SX_WIDE, and RDV SESHAN LO is now SESH_LO
-* 2016Jul20 JMG  Added ISHIOKA and WETTZ13N to VG_MK4  (=RDV mode)
-* 2016Mar30 JMG. in SX_WIDE changed SHESAN25 to SESH_LO 
-* 2016Feb08 KOL. Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
-* 2016Feb08 KOL. Changed PARKES64 with PARKES
-* 2016Feb08 KOL. Replaced TIGOPLTA with AGGO
-* 2015Jan25 JMG. Added in KOKEE12M based on GGAO12M
-* 2015JUN29 JMG. Changed TWIN_WIDE to TWN_DBBC.  In SX_WIDE changed MEDICINA to ODB_WIDE
-* 2015Jun24 JMG. Added WETTZ13N to SX_STD 
-* 2015Jun23 JMG. under SX_WIDE chaned MC to TWN_DBBC because of change in hardware.  
-* 2015Jun10 JMG&KLB synchronized with aust
-* 2015May29 JMG. For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
-* 2015May14 KOL. Added TIANMA65 to SX_STD
-* 2015Apr22 JMG. Replaced PARKES64 by PARKES in SX_WIDE 
-* 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording.
-* 2015APR21 JMG. YDC_WIDE replaced by YDC_STD. No distinction between wide and narrow band. 
-* 2015Feb25 JMG. Changed RAEGYEB LO: YDC_WIDE-->RAEG_WIDE
-* 2015Feb25 JMG. Added RAEGYEB to SX_WIDE.
-* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
-* 2015Feb12 JMG. Added WETTDBBC to SX_WIDE 
-* 2015Jan20 JMG. Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
-* 2014Dec10 JMG. Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO     
-* 2014Nov06 JMG  Added DSS54
-* 2014Oct30 JMG. For CDP_STD 
-* 2014SEP30 JMG. For VG_MK4  (RDV setup) added ODB_WID for Onsala60
-* 2014Jul01 JMG. Added WETTZ13N
-* 2014Jun12 JMG. Modified DSS13 for DVP
-* 2014May16 DBB       Tianma
-* 2014Mar25 JMGipson. Added ONSALDBC = ONSALA60 with DBBC
-* 2014Feb06 JMGipson. Added VLBA_RV
-* 2014Jan16 JMGipson. Modified link to LO settings for HARTRAO, HART15M to DBBC_HH
-* 2013Dec17 JMGipson. Added YEBESDBC = YEBES40M with DBBC
-* 2013Nov20 JMGipson. In SX_WIDE changed Urumqi's LO to CDP_STDUW. Also updated loif.cat.
-* 2013Oct11 JMGipson. Cahnged  WARK12M to use DBBC_WW
-* 2013Jul11 JMGipson. Added Sejong to SX_WIDE
-* 2013May17. Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
-* 2013May06. Changed name of GORF7102 to GGAO12M
-* 2013Apr10 Added Sejong to SX_STD
+* Updates (most recent entries at the top):
+* 2020-10-13 JMG Put in DSS26.
+* 2020-07-14 JMG Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. 
+*                LO settings different in two cases. 
+* 2020-01-03  JMG  In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
+* 2019-09-19  JMG  Put in  values for MACGO12M based on KOKEE12M
+* 2019-06-25  JMG  Added NYALE13S to SX_STD
+* 2018-07-10  JMG  Added 2GB VLBA mode
+* 2018-07-03  JMG  Modified LO settings for SX_STD (LO-->CDPA_STD) 
+*                  SX_WIDE (LO-->CDPW_STD), VG_MK4 (LO -->CDPA_VG2) for AGGO.
+* 2017-12-04  JMG  Modified LO settings for SX_WIDE for HOBART26
+* 2017-09-26  JMG  Put in ONSA13SW, ONSA13NE
+* 2017-09-19  JMG  Added in RAEGSMAR
+* 2017-03-21  JMG  Changed NYALES20,WETTZELL to ODB_WIDE, ODB_STD
+* 2017-03-21  JMG  Added DSS34 and DSS36
+* 2017-03-10  JMG  Added WARK12M, KATH12M to broadband 
+* 2017-02-09  JMG  Changed EFLSBERG LOs to all EFL_STD
+* 2017-02-07  JMG  Changed LO pointers for METSAHOV to MET_STD 
+* 2016-11-30  JMG  Added YARRA12M to VG_MK4 (RDV mode) 
+* 2016-09-27  JMG  Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
+* 2016-08-23  JMG  For SX_STD and SX_WIDE, and RDV SESHAN LO is now SESH_LO
+* 2016-07-20  JMG  Added ISHIOKA and WETTZ13N to VG_MK4  (=RDV mode)
+* 2016-03-30  JMG  In SX_WIDE changed SHESAN25 to SESH_LO 
+* 2016-02-08  KLB  Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
+* 2016-02-08  KLB  Changed PARKES64 with PARKES
+* 2016-02-08  KLB  Replaced TIGOPLTA with AGGO
+* 2015-01-25  JMG  Added in KOKEE12M based on GGAO12M
+* 2015-06-29  JMG  Changed TWIN_WIDE to TWN_DBBC.  In SX_WIDE changed MEDICINA to ODB_WIDE
+* 2015-06-24  JMG  Added WETTZ13N to SX_STD 
+* 2015-06-23  JMG  Under SX_WIDE chaned MC to TWN_DBBC because of change in hardware.  
+* 2015-06-10  JMG  (with KLB) Synchronized with aust
+* 2015-05-29  JMG  For Kunming changed to CDP_STDU to CDP_STDK, CDP_WIDE to CDP_WIDK
+* 2015-05-14  KLB  Added TIANMA65 to SX_STD
+* 2015-04-22  JMG  Replaced PARKES64 by PARKES in SX_WIDE 
+* 2015-04-21  JMG  Removed YEBESDBC. This was a temporay station put in to test DBBC recording.
+* 2015-04-21  JMG  YDC_WIDE replaced by YDC_STD. No distinction between wide and narrow band. 
+* 2015-02-25  JMG  Changed RAEGYEB LO: YDC_WIDE-->RAEG_WIDE
+* 2015-02-25  JMG  Added RAEGYEB to SX_WIDE.
+* 2015-02-23  JMG  Added ISHIOKA from jd1502 schedule
+* 2015-02-12  JMG  Added WETTDBBC to SX_WIDE 
+* 2015-01-20  JMG  Yebes has now gone to DBBC. Change LO Keys: YEB_WIDE--> YDC_WIDE, YEB_STD-->YDC_STD
+* 2014-12-10  JMG  Removed stations from wideband setups. From SX-WIDE:  KAS11,DSS13, Koganei,NOTO     
+* 2014-11-06  JMG  Added DSS54
+* 2014-10-30  JMG  For CDP_STD 
+* 2014-09-30  JMG  For VG_MK4  (RDV setup) added ODB_WID for Onsala60
+* 2014-07-01  JMG  Added WETTZ13N
+* 2014-06-12  JMG  Modified DSS13 for DVP
+* 2014-05-16  DBB  Tianma
+* 2014-03-25  JMG  Added ONSALDBC = ONSALA60 with DBBC
+* 2014-02-06  JMG  Added VLBA_RV
+* 2014-01-16  JMG  Modified link to LO settings for HARTRAO, HART15M to DBBC_HH
+* 2013-12-17  JMG  Added YEBESDBC = YEBES40M with DBBC
+* 2013-11-20  JMG  In SX_WIDE changed Urumqi's LO to CDP_STDUW. Also updated loif.cat.
+* 2013-10-11  JMG  Changed WARK12M to use DBBC_WW
+* 2013-07-11  JMG  Added Sejong to SX_WIDE
+* 2013-05-17  JMG  Added new LOIF pointers for KOGANEI (K4_KOG) and KASHIMA11 (K4_KAS11) 
+* 2013-05-06  JMG  Changed name of GORF7102 to GGAO12M
+* 2013-04-10  JMG  Added Sejong to SX_STD
+* 2013-09-17  DBB  Add AIRA to SX_WIDE.
+* 2013-03-27  JMG  Added SEJONG
+* 2013-03-20  JMG  Changed LO setting for WARK12M, HOBART12, and KATH12M  
+*                  to DBBC_AU for all modes. Previously only for some. 
+* 2013-01-18  JMG  Added GORF7102 to SX_WIDE
+* 2012-11-16  JMG  Changed point for LOs for URUMQI
+* 2012-10-09  JMG  Removed some changes that were made while adding VEX support to sked.          
+* 2012-08-16  JMG  In SX_WIDE, changed SV CDP_WIDE to CDP_STDN, ZC from CDPV_WIDE to CDP_STDN 
+* 2012-08-16  JMG  In SX_STD, Changed SV, ZC from CDP_STD to CDP_STDN.  
+* 2012-05-18  JMG  Added EFLSBERG to VG_MK4 (RDV mode) 
+* 2012-01-18  DBB  Add JAXA station UCHINOUR.
+* 2011-08-11  JMG  Changed Kashima, Kunming in SX_STD
+* 2011-07-11  DBB  Add KUNMING with CDP_STDU to SX_STD.
+* 2011-03-07  JMG  Added FORTLEZA, HOBART12 to VG_MK4
+* 2009-09-28  DBB  Add VERA stations Mizusawa and Ishigakijima.
+* 2009-09-28  JMG  Changed AIRA, CHICHIJIMA and SHINTOTU to CDP_STDN
+* 2009-09-21  DBB  Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
+*                  purposes.
+* 2009-04-10  DBB  Change BADARY SX_STD from CDPV_STD to CDP_STDN and
+*                  SX_WIDE from CDPV_WIDE to CDP_STDN per A. Melnikov.
+* 2008-09-26  JMG  Added Parkes, Syowa to SX_WIDE
+* 2008-06-20  JMG  Removed YEBES, added YEBES40M
+* 2008-06-09  JMG  Added AIRA, CHICHI10, and SINTOTU3
+* 2007-10-18  JMG  Changed CDP_WIDE to KAS_WIDE for KASHIM34 
+* 2007-08-07  JMG  Changed CDP_STD to KAS_STD for KASHIM34 
+* 2007-18-07  JMG  Added YEBES so that it could participate in R4s
+* 2007-02-20  JMG  Added BADARY SX_STD, SX_WIDE so that it could participate in R4s.
+* 2006-05-11  JMG  Added KK_AT for K band Australian fringe test.
+* 2006-05-01  JMG  Added XX-DBE for DBE testing
+* 2006-03-31  JMG  Added kashima to VG_MK4
+* 2005-11-22  NRV  Change URUMQI reference to CDP_STDU.
+* 2005-10-07  NRV  Change DSS65 to DSS65A. Remove DSN stations from WIDEBAND.
+* 2005-09-30  NRV  Add SESH 8-channel for Europe.
+* 2005-09-22  NRV  Add ZELENCHK to standard groups for simulations.
+* 2005-09-16  NRV  Add XX_STD for IGRID demo.
+* 2005-08-11  NRV  Remove Seshan from all modes, use one of 8-chan selections 
+*                  depending on channel setup matches.
+* 2005-08-02  NRV  Add SESH for 8 -channel Seshan.
+* 2005-07-09  NRV  Move ZELENCHK to VG_ZC because of diffefrent BBC assignments.
+* 2005-07-05  NRV  Add ZELENCHK and SVETLOE to RDV group with CDP_WID8.
+* 2005-07-05  NRV  Change ZELENCHK to ZC8_STD and ZC8_WIDE. 
+* 2005-04-30  NRV  Remove URUMQI from RDV and all WIDE groups.
+* 2005-03-22  NRV  Add SESHAN25 and URUMQI to RDV group.
+* 2004-11-19  NRV  Add ZELENCHK to wide and standard.
+* 2004-10-06  NRV  Add KK_STD per P. Charlot.
+* 2002-10-16  NRV  Add SVETLOE to SX_STD and SX_WIDE.
+* 2002-09-04  NRV  Change ALGOPARK from CDP to CDPV everywhere.
+* 2002-04-08  NRV  Add DSS13 to SX_STD.
+* 2002-02-20  NRV  Add NOTO and TIGO to RDV group.
+* 2001-11-01  NRV  Add ZELENCHK to S2, not wideband.
+* 2001-10-24  NRV  Add SVETLOE to S2, not wideband.
+* 2001-10-02  NRV  Add GBT_VLBA.
+* 2001-05-08  NRV  Add PARKES64 as CDP_STDN (narrow band)
+* 2001-02-03  NRV  FAKE: added DSS stations to wideband
+* 2000-10-26  NRV  Add EFLSBERG, MEDICINA, NOTO, ONSALA85, SESHAN25, URUMQI to C_STD.
+* 2000-10-16  NRV  Add CAMBG32M, TORUN, JODRELL2, WSTRBORK to C_STD. 
+* 2000-09-18  NRV  Add SESHAN to wideband.
+* 2000-01-31  NRV  Add GSI domestic stations to SX_STD.
+* 2000-01-25  NRV  Add S2 and S3 receiver types from C. Klatt
+* 2000-01-13  NRV  Add MATERA to WID8 list
+* 1999-01-15  NRV  Add WETTZELL to VG list
+* 1999-01-15  NRV  Change CDPV_VG and NRAO_VG to add suffix "2" and move
+*                  these stations into the "MK4" group
+* 1998-12-28  NRV  Add SYOWA10
+* 1998-11-02  NRV  Change SESHAN to CDPV_SES for non-std S LO
+* 1998-05-05  NRV  Add TAHITI for simulations
+* 1998-03-26  NRV  Add Tsukuba
+* 1997-12-10  NRV  Add TIGO
+* 1997-03-31  NRV  New SX_DSN for CRF experiments
+* 1996-01-17  NRV  Change to CDP_STD_N for stations that are still narrowband
+*                  Now CDP_STD means a wideband receiver.
+*
 ------------------------------------------------------
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
-
-* Updates now in descending order
-* 130917 dbb Add AIRA to SX_WIDE.
-* 13Mar27  JMG.  Added SEJONG
-* 13Mar20  JMG.  Changed LO setting for WARK12M, HOBART12, and KATH12M  
-*                to DBBC_AU for all modes. Previously only for some. 
-* 13Jan18  JMG.  Added GORF7102 to SX_WIDE
-* 12Nov16  JMG.  Changed point for LOs for URUMQI
-*
-*
-* 960117 nrv Change to CDP_STD_N for stations that are still narrowband
-*            Now CDP_STD means a wideband receiver.
-* 970331 nrv New SX_DSN for CRF experiments
-* 971210 nrv Add TIGO
-* 980326 nrv Add Tsukuba
-* 980505 nrv Add TAHITI for simulations
-* 981102 nrv change SESHAN to CDPV_SES for non-std S LO
-* 981228 nrv Add SYOWA10
-* 990115 nrv Change CDPV_VG and NRAO_VG to add suffix "2" and move
-*            these stations into the "MK4" group
-* 990115 nrv Add WETTZELL to VG list
-* 000113 nrv Add MATERA to WID8 list
-* 000125 nrv Add S2 and S3 receiver types from C. Klatt
-* 000131 nrv Add GSI domestic stations to SX_STD.
-* 000918 nrv Add SESHAN to wideband.
-* 001016 nrv Add CAMBG32M, TORUN, JODRELL2, WSTRBORK to C_STD. 
-* 001026 nrv Add EFLSBERG, MEDICINA, NOTO, ONSALA85, SESHAN25, URUMQI to C_STD.
-* 010203 nrv FAKE: added DSS stations to wideband
-* 010508 nrv Add PARKES64 as CDP_STDN (narrow band)
-* 011002 nrv Add GBT_VLBA.
-* 011024 nrv Add SVETLOE to S2, not wideband.
-* 011101 nrv Add ZELENCHK to S2, not wideband.
-* 020220 nrv Add NOTO and TIGO to RDV group.
-* 020408 nrv Add DSS13 to SX_STD.
-* 020904 nrv Change ALGOPARK from CDP to CDPV everywhere.
-* 021016 nrv Add SVETLOE to SX_STD and SX_WIDE.
-* 041006 nrv Add KK_STD per P. Charlot.
-* 041119 nrv Add ZELENCHK to wide and standard.
-* 050322 nrv Add SESHAN25 and URUMQI to RDV group.
-* 050430 nrv Remove URUMQI from RDV and all WIDE groups.
-* 050705 nrv Change ZELENCHK to ZC8_STD and ZC8_WIDE. 
-* 050705 nrv Add ZELENCHK and SVETLOE to RDV group with CDP_WID8.
-* 050709 nrv Move ZELENCHK to VG_ZC because of diffefrent BBC assignments.
-* 050802 nrv Add SESH for 8 -channel Seshan.
-* 050811 nrv Remove Seshan from all modes, use one of 8-chan selections 
-*         depending on channel setup matches.
-* 050916 nrv Add XX_STD for IGRID demo.
-* 050922 nrv Add ZELENCHK to standard groups for simulations.
-* 050930 nrv Add SESH 8-channel for Europe.
-* 051007 nrv Change DSS65 to DSS65A. Remove DSN stations from WIDEBAND.
-* 051122 nrv Change URUMQI reference to CDP_STDU.
-* 060331 JMG Added kashima to VG_MK4
-* 060501 JMG added XX-DBE for DBE testing
-* 060511 JMG added KK_AT for K band Australian fringe test.
-* 070220 JMG Added BADARY SX_STD, SX_WIDE so that it could participate in R4s.
-* 071807 JMG Added YEBES so that it could participate in R4s
-* 2007Aug07 JMG Changed CDP_STD to KAS_STD for KASHIM34 
-* 2007Oct18 JMG Changed CDP_WIDE to KAS_WIDE for KASHIM34 
-* 2008Jun09 JMG. Added AIRA, CHICHI10, and SINTOTU3
-* 2008Jun20 JMG. Removed YEBES, added YEBES40M
-* 2008Sep26 JMG.  Added Parkes, Syowa to SX_WIDE
-* 090410 dbb Change BADARY SX_STD from CDPV_STD to CDP_STDN and
-*            SX_WIDE from CDPV_WIDE to CDP_STDN per A. Melnikov.
-* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
-*            purposes.
-* 2009Sep28 JMG.  Changed AIRA, CHICHIJIMA and SHINTOTU to CDP_STDN
-* 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
-* 2011Mar07  JMG Added FORTLEZA, HOBART12 to VG_MK4
-* 110711 dbb Add KUNMING with CDP_STDU to SX_STD.
-* 110811 JMG changed KAshima, kunming in SX_STD
-* 120118 dbb Add JAXA station UCHINOUR.
-* 120518 JMG added EFLSBERG to VG_MK4 (RDV mode) 
-* 120816 JMG In SX_STD, Changed SV, ZC from CDP_STD to CDP_STDN.  
-* 120816 JMG In SX_WIDE, changed SV CDP_WIDE to CDP_STDN, ZC from CDPV_WIDE to CDP_STDN 
-* 121009 JMG. Removed some changes that were made while adding VEX support to sked.          
+         
 *
 *RXname  Stn.Name    LOIFname
 *
