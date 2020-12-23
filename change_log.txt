@@ -1,0 +1,67 @@
+This file has a summary of changes to the sked catalogs. Arranged by catalog and date.
+This does not list updates to the flux catalog which occur ~monthly.
+This only lists recent changes.  For older changes look in the original catalog files.  
+
+---Changes made in 2020------
+
+antenna.cat:* VERSION 2020Nov13_iGSFC 
+antenna.cat:* 2020Nov13 JMG. Changed equip code for  URUMQI
+antenna.cat:* 2020Oct13 JMG. Added in DSS26. Info from JPL email. 
+antenna.cat:* 2020Aug03 JMG. Added in NYALE13N. Based on 13S
+antenna.cat:* 2020Jul14 JMG. Changed YEBES40M limits per email from Javier Garcia 7/24/2020
+antenna.cat:* 2020Jul06 JMG. Changed MACGO12M slewing model based on email from M. Berbue. 
+antenna.cat:* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+antenna.cat:* 2020may26 JMG. Modified slewing models for Ws,Wn, K2, GA per 2020May12 email from Mario Berube
+
+equip.cat:* VERSION 2020NOV04_iGSFC
+equip.cat:* 2020NOV04 JMG. Fixed NYALE13N line. DAT name was NYALE13S. 
+equip.cat:* 2020Oct29 JMG. Fixed bug where NYALES13S was in twice 
+equip.cat:* 2020Oct13 JMG. Added in DSS26
+equip.cat:* 2020Aug04 JMG. Added in Nn based on Ns
+equip.cat:* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+equip.cat:* 2020Jun02 JMG  Removed many commented out antennas.
+equip.cat:* 2020Jun02 JMg  DBBC--> DBBC_DDC. Changed TIANMA65, URUMQUI to DBBC_DDC
+
+freq.cat:* VERSION 2020Nov04_iGSFC
+freq.cat:* 2020Nov04 JMG. GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
+freq.cat:* 2020Nov04 JMG. Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. Added GEOSX32 which keeps old
+freq.cat:* 2020Jun02 JMG. Added AOVSX16N. This was used in apsg47
+freq.cat:* 2020Apr07 KLB. Added three 1Gbps recording modes AVSX16N0, AVSX16N1, both narrowband, and AOVSX16W wideband 
+freq.cat:* 2020Apr07 KLB  The modes AVSX16N0 and AOVSX16W are derived from modes used in AOV sessions. 
+freq.cat:* 2020Apr07 KLB  AVSX16N1 differs from AVSX16N0 in the S-band frequency sequence, modified because of RFI at Hobart26.
+
+loif.cat:** VERSION 2020JUL14_iGFSC
+loif.cat:* 2020JUL14 JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez. 
+loif.cat:* 2020Jan03 JMG  Made new LO sequence NYS_STD for Nyalesund
+
+mask.cat:* VERSION 2020Oct29_iGSFC 
+mask.cat:* 2020Oct29 JMG. NYALES13S was missing code which caused sked to crash.
+mask.cat:* 2020Sep11 JMG  Fixed bug in AGGO mask. Added last El value
+mask.cat:* 2020Aug04 JMG. Changed horizon mask of NYALE13S to 15 deg. Added in NYALES13N
+mask.cat:* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+
+modes.cat:* VERSION 2020Nov23_iGSFC
+modes.cat:* 2020Nov23 JMG Added 512Mbs T2 mode 
+modes.cat:* 2020Nov04 JMG Added GEOSX32.  Now have a different frequency mode for.
+modes.cat:* 2020Jun02 JMG Added AOVSX16N. This was used in apsg47
+modes.cat:* 2020Apr07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: AOVSX16W, AVSX16N0, AVSX16N1 
+modes.cat:* 2020Apr07 KLB AVSX16N1 is similar to AVSX16N0 but has a different S-band frequency sequence to 
+modes.cat:* 2020Apr07 KLB accomodate RFI problems for stations like Hobart26 or Tianma65)
+modes.cat:* 2020Jan06 JMG Modified so that CONT11 and 256(R1-R4) uses same frequencies. This will make correlators life easier.
+
+position.cat:* VERSION 2020Nov16_iGSFC
+position.cat:* 2020Nov16 JMG. Modified Onsala twins per article about local -ties 
+position.cat:* Positions updated by: Update_position_cat v2020Sep10  on September 10 
+position.cat:* If the Origin is 2020c then the epoch is 2021Jan01 and comes from GSFC solution 2020c
+
+rec.cat:* VERSION 2020Nov23_iGSFC 
+rec.cat:* 2020Nov23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
+rec.cat:* 2020Oct13 JMG  Added in DSS26
+rec.cat:* 2020Jun09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
+rec.cat:* 2020Apr07 KLB  Added 32-16-12-2 for new 1Gbps AOV modes AOVSX16N0, AOVSX16N1, and AOVSX16W
+rec.cat:* 2020Apr07 KLB  PARKES had duplicate tracks in 32-16-1-2. Deleted second mode.
+
+rx.cat:* VERSION 2020Oct13_iGFSC
+rx.cat:* 2020Oct13 JMG. Put in DSS26.
+rx.cat:* 2020Jul14 JMg. Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. LO settings different in two cases. 
+rx.cat:* 2020Jan03 JMG. In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
