@@ -1,8 +1,9 @@
-* VERSION 2020JUL14_iGFSC
+* VERSION 2020Oct13_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * ---- Now put in changes with most recent at top.
+* 2020Oct13 JMG. Put in DSS26.
 * 2020Jul14 JMg. Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. LO settings different in two cases. 
 * 2020Jan03 JMG. In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
 * 2019Sep19 JMG. Put in  values for MACGO12M based on KOKEE12M
@@ -141,7 +142,8 @@
 *RXname  Stn.Name    LOIFname
 *
  SX_DSN
- -       DSS15       DSN_CRF    
+ -       DSS15       DSN_CRF  
+ -       DSS26       DSN_CRF
  -       DSS45       DSN_CRF
  -       TIDBIN64    DSN_CRF
  -       MEDICINA    CDP_CRF
@@ -157,6 +159,7 @@
  -       CTVA        CDP_STD
  -       DSS13       DVP_STD 
  -       DSS15       DSN_STD  
+ -       DSS26       DSN_STD
  -       DSS34       DSN_STD  
  -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
@@ -267,6 +270,7 @@
  -       CHICHI10    KAS_WIDE
  -       CTVA        CDP_WIDE
  -       CRIMEA      CDP_WIDE
+ -       DSS26       DSN_STD
  -       DSS34       DSN_STD  
  -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
@@ -343,6 +347,7 @@
  -       ARIES_4M    CDP_W16
  -       ARIES_9M    CDP_W16
  -       DSS15       CDP_W16
+ -       DSS26       DSN_W16
  -       DSS45       CDP_W16
  -       FORTLEZA    CDP_W16
  -       GILCREEK    CDPV_W16
