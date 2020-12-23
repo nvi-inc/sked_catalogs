@@ -1,26 +1,55 @@
 * VERSION 2020Nov23_iGSFC
-*
-* 2020Nov23 JMG Added 512Mbs T2 mode 
-* 2020Nov04 JMG Added GEOSX32.  Now have a different frequency mode for.
-* 2020Jun02 JMG Added AOVSX16N. This was used in apsg47
-* 2020Apr07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: AOVSX16W, AVSX16N0, AVSX16N1 (AVSX16N1 is similar to AVSX16N0 but has a different S-band frequency sequence to accomodate RFI problems for stations like Hobart26 or Tianma65)
-* 2020Jan06  JMG Modified so that CONT11 and 256(R1-R4) uses same frequencies. This will make correlators life easier.
-* 2018Jul10  JMG Added 2GB VLBA mode 2048-16(VLBA)   
-* 2018Jan03  KLB added new 256-16N mode.  16 channels, 8MHz bandwidth, narrow mode. 
-* 2017Sep19  JMG Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
-* 2017Sep08  JMG Added Austral 1GB mode. 
-* 2017Feb08  JMG Added '512' RDV mode by doubling BW. Used for CONT17 simulations.
-* 2015Sep22  JMG. Removed 256-16(AOV.....) because track layout is not defined elsewhere
-* 2015 Mar15 Lucia: DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
-* Updates now in decreaseing order, most recent first. 
-* 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
-* 2014OCT03 JMG  Got rid of obsolete modes
-* 2013Nov13 JMG  Commented out INT2 observing mode.  This now uses R1 sequence.
-* 2013OCT11 JMG  Added 1GB Aust mode
-* 2013Jul09 JMG  Changed T2 mode because Seshan has a different track layout
-* 2012Sep07 JMG  Changed 32-16-2-1 to mm-16-m-1. The later is 16 channel 1 bit. 
 * CATALOG modes.cat 
+*
 * MODES.CAT - observing modes
+*
+*
+* This catalog contains specifications for observing modes:
+* frequency sequence, channel bandwidth, sample rate, and reference
+* to the recording mode for each station.
+*
+* Updates (most recent entry at the top): 
+* 2020-11-23 JMG Added 512Mbs T2 mode 
+* 2020-11-04 JMG Added GEOSX32.  Now have a different frequency mode for.
+* 2020-06-02 JMG Added AOVSX16N. This was used in apsg47
+* 2020-04-07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: 
+* 2020-04-07 KLB AOVSX16W, AVSX16N0, AVSX16N1 (AVSX16N1 is similar to AVSX16N0 but has 
+* 2020-04-07 KLB different S-band frequency sequence to accomodate RFI problems 
+* 2020-04-07 KLB for stations like Hobart26 or Tianma65)
+* 2020-01-06 JMG  Modified so that CONT11 and 256(R1-R4) uses same frequencies. 
+* 2020-01-06 JMG This will make correlators life easier.
+* 2018-07-10 JMG  Added 2GB VLBA mode 2048-16(VLBA)   
+* 2018-01-03 KLB  Added new 256-16N mode: 16 channels, 8-MHz bandwidth, narrow mode. 
+* 2017-09-19 JMG  Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
+* 2017-09-08  JMG  Added Austral 1GB mode. 
+* 2017-02-08  JMG  Added '512' RDV mode by doubling BW. Used for CONT17 simulations.
+* 2015-09-22  JMG  Removed 256-16(AOV.....) because track layout is not defined elsewhere
+* 2015-03-15 Lucia DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1-Gbps recording
+* 2015-02-23  JMG  Added K5-16KSP  = Japanese  jade mode 
+* 2014-10-03  JMG  Got rid of obsolete modes
+* 2013-11-13  JMG  Commented out INT2 observing mode.  This now uses R1 sequence.
+* 2013-10-11  JMG  Added 1GB Aust mode
+* 2013-07-09  JMG  Changed T2 mode because Seshan has a different track layout
+* 2012-09-07  JMG  Changed 32-16-2-1 to mm-16-m-1. The later is 16 channel 1 bit. 
+* 2009-09-09  JMG  Added New 2-bit RDV mode
+* 2008-09-26  JMG  Added new Ohiggins mode.  
+* 2008-09-26  JMG  Changed mode name: 32-16(OHIG)-->64-16(OHIG)
+* 2008-09-02  JMG  Moved CRF modes to end of standard list so that they won't be selected
+*                  as defaults when doing cat-get.
+* 2008-02-25  JMG  Added new mode for Patrik Charlot
+* 2007-07-23  JMG  Added 512MB R&D mode.
+* 2007-05-31  JMG  Commented out 128-16(INT) no longer used.
+*                  Added 256-16(INT2)
+* 2007-02-21  JMG  Commented out 112-14 GEOSXR4 (no longer used)
+* 2006-12-27  JMG  Added double speed mode for Europe.
+* 2006-10-31  JMG  Added 2MHz Ohiggins mode based on EU-T2
+*                  Added 16 channel R4 and intensive modes.
+*                  Added 14 channel intensive mode for KK-WZ.
+* 2006-06-13  JMG  Commented out 2MHz T2 mode
+* 2006-05-19  JMG  Added 128-16N mode for A. Fey. 
+* 2006-05-11  JMG  Modified for Australian K-band test.
+* 2006-05-01  JMG  Modified for Digital Back End (DBE) test
+* 2005-11-15  NRV  Updated version, added documentation of fields.
 *
 * This catalog contains specifications for observing modes:
 * frequency sequence, channel bandwidth, sample rate, and reference
@@ -43,26 +72,6 @@
 *             applies to all channels and all stations.
 * rec.cat - recording mode name, as found in rec.cat. This label is
 *           generally formed as: tracks-channels-fanout-bits.
-* 051115 nrv Updated version, added documentation of fields.
-* JMGipson.  01May06  Modified for Digital Back End (DBE) test
-* JMGipson.  11May06  Modified for Australian K-band test.
-* JMGipson.  19May06  Added 128-16N mode for A. Fey. 
-* JMGipson.  13Jun06  Commented out 2MHz T2 mode
-* JMGipson   31Oct06  Added 2MHz Ohiggins mode based on EU-T2
-*                     Added 16 channel R4 and intensive modes.
-*                     Added 14 channel intensive mode for KK-WZ.
-* 06Feb27   JMGipson. Added double speed mode for Europe.
-* JMGipson   07Feb21  Commented out 112-14 GEOSXR4 (no longer used)
-* JMGipson   07May31  Commented out 128-16(INT) no longer used.
-*                     Added 256-16(INT2)
-
-* 07Jul23  JMG. Added 512MB R&D mode.
-* 08Feb25  JMGipson Added new mode for Patrik Charlot
-* 08Sep02  JMGipson  Moved CRF modes to end of standard list so that they won't be selected
-*                     as defaults when doing cat-get.
-* 08Sep26   JMGipson    Changed mode name: 32-16(OHIG)-->64-16(OHIG)
-* 08Sep26   JMGipson    Added new Ohiggins mode.  
-* 09Sep09   JMGipson    Added New 2-bit RDV mode
 *              
 ***********************************************************************
 *Mode name       freq.cat    chan  samp    rec.cat
