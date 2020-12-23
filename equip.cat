@@ -1,338 +1,314 @@
 * VERSION 2020NOV04_iGSFC
 * CATALOG equip.cat    
+*
 * EQUIP.CAT - station equipment
-*  
-* -----------  NEWEST ENTRIES GO AT THE TOP ---------------------
-* 2020NOV04 JMG. Fixed NYALE13N line. DAT name was NYALE13S. 
-* 2020Oct29 JMG. Fixed bug where NYALES13S was in twice 
-* 2020Oct13 JMG. Added in DSS26
-* 2020Aug04 JMG. Added in Nn based on Ns
-* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
-* 2020Jun02 JMG  Removed many commented out antennas.
-* 2020Jun02 JMg  DBBC--> DBBC_DDC. Changed TIANMA65, URUMQUI to DBBC_DDC
-* 2019Nov13 JMG  Changed NOTOs flux per email from Cynthia Tomas 2019Nov13
-* 2019Sep19 JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
-* 2019Sep12 JMG  Changed AGGOs SEFDs to 34000/16000 per email WEH on Sep12.
-* 2019Jun25 JMG  Added NYALE13S
-* 2018Nov09 JMG  Changed HARTRAO back to 'none Mark5B'
-* 2018Oct09 JMG  Changed many stations from (DBBC_DDC MARK5C) to (DBBC_DDC FlexBuff) 
-*                EFLSBERG, HARTRAO, MEDICINA, NOTO, ONSALA60, YEBES40M 
-* 2018Sep27 dbb  Changed SEFDs of Fortleza back to the original values of 5000 for X and S.
-* 2018Feb10 JMG  Changed SEFDs of Fortleza because of cryo problems
-* 2017DEc04 JMg. Changed Hobart equipment to DBBC_DDC MARK5B. WETTZELL had two entries. Commented out second.
-* 2017Sep26 JMG. Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
-* 2017SEP20 JMG. Added in RAEGSMAR per email Pablo de Vicente
-* 2017Aug24 JMG. Added information for ONSALA twins per email Rudiger August 23 2017
-* 2017Aug01 JMG. Added WETTZELL MARK5 MARK5A   recorder type. Commented out WETTDBBC
-* 2017Jul07 JMG. Kashima34 SEFDs updated to reflect warm receiver. 
-* 2017Mar21 JMG. Changed Nyalesund, Wettzell from Mark5 Mark5B-->DBBC_DDC MARK5B
-* 2017Mar21 JMG. Added DSS34 and DSS36
-* 2017Jan18 KOL. Updated METSAHOV recorder (Mark5A => Mark5B) and changed to DBBC_DDC to reflect what is in the log (T2111)
-* 2016Nov21 JMG. Modified equipment type at KOKEE12M, WESTFORD and GGAO to RDBE
-* 2016Oct27 JMG. Updated WETTZ13N recorder. Mark6-->Mark5B
-* 2016Oct12 JMG. Modified SEFDs of ISHIOKA to  1950 1750 (X S) from 2000 4000.
-* 2016Oct12 JMG. Modified SEFDs of Westford from 1500 1400 ot 3000 4000
-* 2015Oct12 JMG. Modified GGAO SEFD from 3000 3000 to 3500 3000
-* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
-* 2016Aug22 JMG.  Changed HOBART26 to Mark4 Mark5a
-* 2016Jul20  JMG  Changed TIGOPLTA to AGGO. Moved to top of file so in alphabetical order.  
-* 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
-* 2016Mar30 JMG. Changed SESHAN25 to DBBC
-* 2016Jan25 JMG. Added Kokee12M. Based on GGAO12M. Both KOKEE12M and GGAO12M SEFDs set to 3000 3000
-* 2015Jun24 JMG. Updated to reflect stations that have DBBC_DDC as reflected in the logs:
-*    Changes include: WETTZ14N, WETTZ13S, MEDICINA,AUSCOPE,HART15M, RAEGYEB,...
-* 2015Jun17 JMg. Changed Warkworth SEFDs to be more representative of what we are seeing from snranal.
-* 2015Apr22 JMG. Commented out duplicate PARKES entries. Got rid of K-band PARKES entries
-* 2015Apr21 JMG. Commented out YEBESDBC (for testing DBBC) and changed YEBES40M to none MARK5B
-* 2015Feb25 JMG. Added RAEGYEB 
-* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
-* 2015Feb12 JMG. Put in WETTDBBC_DDC = Wettzell DBBC
-* 2015Jan22           Modified equipment for Wettzell twin telescopes. Use HART15M SEFDs
-* 2014Dec10 JMG.      Noto updated per email Piettro Cassaro. Now (none, Mark5B). none=DBBC_DDC which is not recognized yet. 
-* 2014Dec10 JMG.      Sejong X,S SEFDS==>5000
-* 2014Nov06 JMG.      Added DSS45
-* 2014Sep03 JMG.      Updated YARRA KATH12 HOBART12
-* 2014Aug26 JMG.      YARRA changed to 4500 5500;  HARTRAO rack changed to 'none'. 
-* 2014Jul01 JMG.      Further modification of Twin 'none Mark5B' (Is really DBBC_DDC which is not recognized yet.)
-* 2014Jun03 JMG.      Added twin telescope per email from arno Muesken
-* 140516    dbb       Add TIANMA65 per Fengchun Shu.
-* 2014May06 JMGipson  Made "none Mark5B"  default for Onsala60. Commented out DBBC_DDC test version
-* 2014May02 JMGipson  Changed rack tpe of Tsukuba K4-2 per E. Himwich email 5/2/14
-* 2014Mar28 JMGipson  Changed rack type of Zc to none
-* 2014Mar25 JMGipson  Added Od=ONSALA60 with DBBC
-* 2013Dec17 JMGipson  Added Yd=YEBES with DBBC
-* 2013Dec13 JMGipson. chaged SEFs at Sv, BD, Zc. X: 1200->400;  S:1500-->600
-* 2013Nov13 JMGipson. Changed X-band SEFDs of Kokee to 2000 per conversation with E. Himwich 
-* 2013Oct17 JMGipson. S-SEFD of NyAlesund changed from 2500--1500
-* 2013Oct11 JMGipson. Changed rack type to 'none' at Ht YG Ke
-* 2013Jul11 JMGipson. Changed equipment at Sejong to K4-1 K5
-* 2013Jul10 JMGipson. Changed SEFD at Sv, BD, Zc:  X: 400-->1200, S: 600-->1500. 
-*                     This reflects fact that will run warm for half of August
-* 2013Jul08 JMGipson. Changed S-SEFD of NyAlesund: 1500-->2500
-* 2013Jun19 JMGipson. Changed SEDF of Kokee
-* 2013May15 JMGipson. Changed name of GOR7102 to GGAO12M
-* 2013Apr10 JMGipson. Modified Sejong equiptment per email from Yi.
-* 2013Mar27 JMGipson. Added Sejong
-* 2013Mar20 JMGipson. Changed Effelsberg to none. 
-* 2012Jan18 JMGipson. Added GORF7102=GGAO 12m
 *
-*
-**************************************************************
-* Note: this file will be updated frequently as equipment    *
-*       is moved around.  This file reflects the most        *
-*       recent, current, and/or planned deployment of        *
-*       equipment.  Do not use this file for planning        *
-*       experiments -- check first!                          *
-**************************************************************
-* SEFD for ATA antenna:
-*
-* Tsys = 45K
-* eff = 0.6
-* k= 1.38e-23 m^2 kg s^-2 K^-1
-* D = 6.1 m
-*
-* SEFD = 2*k*Tsys/(pi*(D/2)^2*eff)/1.e-26 = 7083 Jy
-
-* Last update
-* 2012Nov12 JMGipson.  Changed Westford to Mark5B
-
-*
-* Last update:  
-* 920915 NRV Added SEFD parameters for R&D stations
-* 921005 NRV Added NRAO_851, made NRAO_140 HD
-* 930601 nrv Added SEFDs for new stations per DBS
-* 930603 nrv Algonquin has TVDS-1 (03)
-*            Fortaleza has OVRO_139 (01)
-*            Noto, Ny Alesund have RICHMOND (66)
-* 930604 nrv Seshan now high density
-* 930621 nrv Modified Kokee SEFDs
-*            All VLBA thin tape
-* 930623 nrv Seshan high density postponed until late July
-* 930714 nrv Yellowknife has TVDS-3, Gilcreek has Moj-VLBA
-* 930716 nrv Adjust SEFD for Fortaleza, O'Higgins
-* 930721 nrv Add Kokee SEFD parameters for elevation dependence
-* 930806 nrv Add Mizsawa 10-m
-* 930921 nrv Change Seshan to high density, VLBA
-* 931028 nrv Urumqi terminal is 67, formerly at Seshan
-* 931029 nrv Update IDs written on tape and read by correlator.
-* 931119 nrv Add SEFD parameters to all VLBA stations
-* 940127 nrv Change VLBA to 14-pass tapes
-* 940411 nrv Add MV3-LOW test entry for 0 deg elevation
-* 940523 nrv Change Crimea to 3000/2000 uncooled values (conservative)
-* 940719 nrv NOTO will have its own terminal (soon?)
-* 941011 nrv Change Ny Alesund name per C. Ma and M. Eubanks
-* 941024 nrv Ny Alesund SEFE elevation-dependence parameters per DBS
-* 950109 nrv Initial entry for NRAO20, copied from Kokee.
-* 950216 nrv SEFDs for NRAO20 per D. Shaffer.
-* 950410 nrv Hobart SEFD parameters per D. Shaffer.
-* 950503 nrv Add MIAMI20 per M. Eubanks.
-* 950518 nrv MIAMI20 is uncooled.
-* 950920 nrv Modify MEDICINA SEFDs and parameters per D. Shaffer.
-* 950927 nrv New SEFDs for YEBES, per D. Shaffer from EUROP3 data.
-* 951012 nrv Lower SEFDs for Algonquin per D. Shaffer, for cooled rx.
-* 960220 nrv Allow "passes" to be bit_density per station.
-* 960409 nrv Change "passes" to "headstacks", 1 or 2 (for Mark IV testing)
-*            including bit density.
-* 960417 nrv VLBA stations are high bit density as of 960430.
-* 960605 nrv Replace Matera's SEFDs with values from DBS.
-* 960624 nrv Replace Santiago's SEFDs with values from DBS.
-* 960819 nrv Make NRAO20 high density, thin tapes
-* 960912 nrv Santiago's X-band SEFD 5000 per DBS.
-* 961112 nrv Change X-band to 900 for Ny Alesund and Kokee per DBS.
-* 961212 nrv Add SEFDs for Effelsberg per A. Mueskens.
-* 970117 nrv Update Matera's SEFDs after wide-banding.
-* 970214 nrv Make Green Bank low density, thin tape for experiments
-*            to be processed at Mark III correlators.
-* 970307 nrv Update Noto's SEFDs per D. Shaffer.
-* 970324 nrv DSS15 is Mark IV, thin tape. DSS65 will be thin tape, as
-*            will DSS45. Leave all at low density for Mk3 correlators.
-* 970325 nrv Westford is Mark IV, thin tape, normal density.
-* 970328 nrv Westford, 15, 45, 65 all high density.
-* 970812 nrv Gilcreek and Kokee thin tape, high density as of 970901.
-* 971201 nrv Add TIGO, per europ6 schedule.
-* 971210 nrv Ny Alesund thin tape, low density.
-* 980127 nrv Ny Alesund thin tape, high density.
-* 980326 nrv Add Tsukuba. SEFDs per Fukuzaki.
-* 980505 nrv Add TAHITI for simulations, copy of NRAO20.
-* 980623 nrv Change TSUKUB32 SEFDs per DBS.
-* 980923 nrv Change Matera SEFD per DBS.
-* 981021 nrv Change HartRAO to thin tape, high density.
-* 981228 nrv Add SYOWA10 per Fukuzaki&Shibuya.
-* 990115 nrv SYOWA10 set for high density and long tape length.
-* 990222 nrv Tapes can only have 5 digit tape lengths for now.
-* 990222 nrv Wettzell thin tape, high density.
-* 990527 nrv Changed TIGO rack ID to 70, Tsukubsa to 108.
-* 990607 nrv Add rack and recorder types to end of the lines. 
-* 000125 nrv Add S2 equipment at ALGOPARK, ARIES-9M. Add CTVA S2. 
-* 000131 nrv Add entries for KASHIM11, KOGANEI, MIURA, TATEYMA as K4 types.
-*            Add K4 equipment for Kashima, Kashima34, Tsukuba.
-* 000314 nrv Change Matera to thin tape, high density.
-* 000314 nrv Remove second recorder for Tsukuba.
-* 000319 nrv Specify K4 default tape length in minutes.
-* 000510 nrv Change rack to "none" for S2 equipment at Canadian stations.
-* 000622 nrv Add Arecibo for completeness.
-* 000622 nrv Rack number for VLBA4 at Kokee will be 110.
-* 000622 nrv Rack number for VLBA4 at Green Bank will be 111.
-* 000802 nrv Change Matera equipment to Mk4/VLBA4.
-* 000802 nrv Change Matera SEFD to X/S 4000/2500 for temporary uncooled
-*            operations in Sept-Oct 2000. Use X/S 3500/2000 for short
-*            baseline (intra-Europe) sessions.
-* 000807 nrv Change TIGO SEFDs per H. Hase recommendation.
-* 000807 nrv Change CTVA SEFDs per C. Klatt.
-* 000828 nrv Assign 112 rack ID to O'Higgins VLBA4.
-* 000905 nrv Show Mk4 stations with 2 headstacks.
-* 001003 nrv Change equipment name at Syowa from SYOWA10 to SYOWA.
-* 001010 nrv Change Matera back to cooled SEFDs.
-* 001016 nrv Add SEFDs and equipment for C-band for JODRELL2,
-*            CAMBG32M, TORUN, WSTRBORK per P. Charlot info.
-* 001017 nrv Add SEFDs for C-band for EFLSBERG, MEDICINA, NOTO,
-*            ONSALA85, SESHAN, URUMQI per P. Charlot.
-*            NOTE: Stations with C-band SEFDs are listed with dual
-*            C-bands so that the FS drudg will read the resulting
-*            schedule file correctly. This will be corrected in
-*            the next FS release.
-* 001017 nrv Update URUMQI to Mark4 equipment and SESHAN to VLBA4.
-* 001017 nrv Fix some stations that had two recorders incorrectly
-*            specified. Should be two headstacks.
-* 001103 nrv NOTO changed to VLBA4 rack.
-* 001106 nrv MEDICINA changed to thin tape only.
-* 010410 nrv TSUKUBA has 2 headstacks but only one useable recorder.
-* 010508 nrv Add PARKES using MARPOINT equipment, Mk3 thick tape.
-* 010807 nrv Add Metsahovi from old .drg schedule info.
-* 010827 nrv Onsala thin tape, high density
-* 010919 nrv SESHAN thin tape, high density
-* 011002 nrv Add GBT_VLBA.
-* 011024 nrv Add SVETLOE per info in IVS AR2000.
-* 011101 nrv Add ZELENCHK per info from WEH.
-* 011101 nrv Assign rack ID 113 to TORUN.
-* 020107 nrv Change URUMQI, NOTO, EFLSBERG, YEBES to thin tape.
-* 010111 nrv Change OHIGGINS to thin tape, high density.
-* 020228 nrv Change YEBES to VLBA4 per P. Vicente.
-* 020228 nrv ALGOPARK temporarily has two sets of equipment, Mk3 and VLBA,
-*            Mk3 is default.
-* 020516 nrv Updated SEFD values for Onsala, HartRAO, Seshan based
-*            on analysis of snranal output by P. Charlot.
-* 020610 nrv Add S2 equipment to TIGO and KOKEE.
-* 020904 nrv Change ALGOPARK to thin tape, VLBA4 system.
-* 021016 nrv Change ALGOPARK to NRAO20 equipment. SVETLOE has TVDS-1.
-* 030702 nrv Add TIDBIN64, same equipment as DSS45.
-* 030828 nrv Hobart is Mk4. Set up as thin tape, though they are Mk5 only.
-* 040109 nrv Sent to Paul Lane for new formatter IDs: FORTLEZA  114,
-*            SVETLOE   115, ZELENCHK  116
-* 040111 nrv Change KOKEE to VLBA4 rack and recorder.
-* 040224 nrv Update METSHOVI to VLBA4 rack and recorder, thin tape,
-*            add SEFDs (scaled from Gilcreek values).
-* 040309 nrv Change METSHOVI (old mobile) to METSAHOV (astronomy antenna).
-* 040430 nrv Copy DSS15 to make a new DSS13. DSS13 may have its own equipment.
-* 040518 nrv METSAHOV has VLBA (not VLBA4) rack per A. Mujunen.
-* 040729 nrv Updated KASHIM11 and KOGANEI11 SEFD per config files.
-* 041014 nrv Add VLBA4 equipment to ZELENCHK. Change SVETLOE ID to 116,
-*            ZELENCHK 118, per P. Lane.
-* 041104 nrv Change SVETLOE equipment to Mark4, tape to thin (for scheduling
-*            Mk5 sessions).
-* 041213 nrv Correct KOKEE equipment to S2 recorder on S2 line.
-* 050405 nrv Update SYOWA S-band SEFD to 7500 per Y. Fukuzaki.
-* 050617 nrv Change DSN stations to single recorders.
-* 050629 nrv Change TIDBIN64 to single recorder too.
-* 050630 nrv Change PARKES SEFD to 200/300 per A. Fey.
-* 050726 nrv Change MATERA SEFDs to 5000/3000 due to warm receiver.
-* 050802 nrv Raise TIGOCONC X-band SEFD to 25000 per E. Himwich.
-* 050916 nrv Change GILCREEK to VLBA4 rack.
-* 050916 nrv Add X-band WSTRBORK.
-* 050921 dbb Change antenna name to DSS65A.
-* 051103 dbb Change Matera back to cooled SEFDs (1500/1300).
-* 051103 dbb Lower TIGOCONC X-band SEFD to 12000 per E. Himwich.
-* 060419 dbb Change SESHAN25 SEFDs from 1200/2500 to 700/1100 for new
-*            receiver per Tao An.
-* 060510 dbb Add ATCA, CEDUNA, and MOPRA per S. Pogrebenko and C. Phillips.
-* 060511 JMG.  Added K-band for HOBART, PARKES.
-*        JMG. Put in dummy Mark4 Mark4 equipment type for ATCA,CEDUNA, MOPRA,HOBART,PARKES
-* 060727 JMG. Made TIGOS and Kokees S2  configuration start with S2, e.g. S2-KO
-* 061107 dbb Add K4-1 K5 equipment for Syowa. Change number of headstacks to '1'.
-* 070112 jmg Added K4-2, K4-2 Equipment type for Kaashim34
-* 070221 JMG added BADARY based on ZELENCHUK
-* 070321 JMG changed number of headstacks for Tigo so could do 1GB RD 
-* 070427 dbb Raise FORTLEZA X-band SEFD to 10000 and S-band to 5000 per E. Himwich.
-* 070718 dbb Use SEFD value of 300 for X-band and S-band for Yebes 40-m for
-*            simulation purposes. (rough estimate)
-* 070723 JMG changed number of headstacks for Svetloe so could do 512Mb RD 
-* 071018 JMG Changed Rack, Rec for Fortleza to Mark4
-* 071020 JMG Modified KAshima KB to be K4-2  VLBA
-* 080414 dbb Change SEFDs for NYALES20 from (900/1200) to (2700/2400) due
-*            to warm receiver.
-* 080606 dbb Add AIRA, CHICHI10, and SINTOTU3.
-* 080617 dbb Add YEBES40M per P. de Vicente and P. Colomer. Comment out old YEBES
-*            to avoid confusion.
-* 082509 JMG. Changed most recorders to Mark5A
-* 082609 JMG. Changed Parkes to Mark4 MARk5A 
-* 08Oct07 JMG. Changed some more stations  Mark5A/K5 that I missed the first go round
-* 090126 dbb Change SEFDs for MATERA from (1500/1300) to (3500/2000) due
-*            to warm receiver per E. Himwich.
-* 090713 JMG. Changed SEFDS for NyAlesund back to 900/1200
-* 090821 dbb Raise TIGO X-band SEFD from 12000 to 20000 per D. MacMillan.
-* 090309 JMG. Changed KOGANEI ID to Kg to avoid collision with Kokee
-* 2009Sep22 JMG  Changed Kashima disk from Mk5 to K5 (fixed an error).
-* 2009Sep25 JMG  Changed CRIMEA rack Mark3-->Mark4.
-*                Changed AIAA, CHICHI, SINTOT  K4-2 -->K4-1
-*                CHanged TSUKUBA     to K4-2
-* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
-*            purposes.
-* 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
-* 091007 dbb Double S-band SEFD for Mizusawa and Ishigakijima to 13160
-*            per Brian Corey.
-* 091118 dbb Raise KOKEE X-band SEFD from 900 to 2000 per E. Himwich.
-* 100521 dbb Change YEBES40M SEFD values from 420/420 to 250/1500 (X/S) per
-*            E. Himwich.
-*2010.06.15  JMG. Commented out S2 equipment for Zc. Made recorder Mark5B
-* 100811 dbb Change SEFDs for HOBART26 from 710/915 to 2130/1830 (X/S) due
-*            to warm receiver per Brett Reid.
-* 100913 dbb Change SEFDs for HOBART12 from 3800/3800 to 3500/3500 (X/S) due
-*            to new feed per Jim Lovell.
-* 101029 dbb Change SEFDs for HOBART12 from 3500/3500 to 9000/5500 (X/S) per
-*            Ed Himwich.
-* 100811 dbb Change SEFDs for MEDICINA from 310/500 to 970/1180 (X/S) due
-*            to warm receiver per Andrea Orlati.
-* 101118 dbb Change SEFDs for NYALES20 from (900/1200) to (2700/2400) due
-*            to warm receiver.
-* 101124 dbb Change SEFDs for NYALES20 to 4200/2600 (X/S) due to warm
-*            receiver per Ed Himwich.
-* 101206 dbb Change SEFDs for NYALES20 from (4200/2600) to (1500/2000) per
-*            Ed Himwich (receiver cold but remaining unresolved issues).
-* 110214 dbb Increase S-band SEFD for MATERA from 2000 to 3500 per Ed Himwich.
-* 110214 dbb Set SEFDs for WARK12M to 4100/4000 (X/S) per Sergei Gulyaev.
-* 110214 dbb Increase X-band SEFD for KOKEE from 2000 to 3000 per Ed Himwich.
-* 110308 JMG Reset Hobart26 SEFD per email from Jim Lovell, Ed Himwich
-* 110322 JMG Changed to Mark5B: Badary, Svetloe 
-*            Also changed Metshavi SEFDS per email from Ed Himwich. 
-* 110411 JMG Changed Yarragdee  equip per email J. Lovell
-* 110607 dbb Double X-band SEFD for KASHIM11 from 5500 to 11000 per Ed Himwich.
-* 110607 dbb Double S-band SEFD for FORTLEZA from 5000 to 10000 per Ed Himwich.
-* 110608 dbb Change SEFD values for WARK12M from 4100/4000 to 40000/8000 (X/S)
-*            per Ed Himwich.
-* 110630 dbb Change SEFD values for FORTLEZA from 10000/10000 to 5000/5000 (X/S)
-*            per Ed Himwich.
-* 110630 dbb Change TIGO recorder to MARK5B per Hayo Hase.
-* 110711 dbb Add KUNMING per Fengchun Shu.
-* 110711 dbb Change HARTRAO recorder to MARK5B per Ed Himwich.
-* 110714 dbb Change X-band SEFD for TIGO from 20000 to 10000 per Ed Himwich.
-* 110714 dbb Change SEFD values for NYALES20 from 1500/2000 to 1000/1500 (X/S)
-*            per Ed Himwich.
-* 110714 dbb Change SEFD values for MATERA from 3500/3500 to 1600/2200 (X/S)
-*            per Ed Himwich.
-* 110714 dbb Change SEFD values for HOBART12 from 9000/5500 to 5000/4000 (X/S)
-*            per Ed Himwich.
-* 110728 dbb Change X-band SEFD for TIGO from 10000 to 20000 per Ed Himwich.
-* 110823 dbb Change SEFD values for MEDICINA from 970/1180 to 1100/1500 (X/S)
-*            per Ed Himwich.
-* 111139 JMG Changed Kunming recorder to Mark5B
-* 120118 dbb Change X-band SEFD for KOKEE from 3000 to 2000 per Ed Himwich.
-* 120118 dbb Add JAXA station UCHINOUR.
-* 120320 dbb Change X-band SEFD for WARK12M from 40000 to 8000 per Ed Himwich.
-* 120510 JMG Updated a bucnch of stations based on email from Rich and Ed.
-* 120907 JMG updated all stations that we know are Mark5B.
-* 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
-* 121026 JMG Added terminal info to SYOWA. Somehow this disappeared.
-*
+* Updates (most recent at the top): 
+* 2020-11-04 JMG Fixed NYALE13N line. DAT name was NYALE13S. 
+* 2020-10-29 JMG Fixed bug where NYALES13S was in twice 
+* 2020-10-13 JMG Added in DSS26
+* 2020-08-04 JMG Added in Nn based on Ns
+* 2020-06-17 JMG Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+* 2020-06-02 JMG  Removed many commented out antennas.
+* 2020-06-02  JMg  DBBC--> DBBC_DDC. Changed TIANMA65, URUMQUI to DBBC_DDC
+* 2019-11-13  JMG  Changed NOTOs flux per email from Cynthia Thomas 2019Nov13
+* 2019-09-19  JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
+* 2019-09-12  JMG  Changed AGGOs SEFDs to 34000/16000 per email WEH on Sep12.
+* 2019-06-25  JMG  Added NYALE13S
+* 2018-11-09  JMG  Changed HARTRAO back to 'none Mark5B'
+* 2018-10-09  JMG  Changed many stations from (DBBC MARK5C) to (DBBC_DDC FlexBuff) 
+*                  EFLSBERG, HARTRAO, MEDICINA, NOTO, ONSALA60, YEBES40M 
+* 2018-09-27  DBB  Changed SEFDs of Fortleza back to the original values of 5000 for X and S.
+* 2018-02-10  JMG  Changed SEFDs of Fortleza because of cryo problems
+* 2017-12-04  JMG  Changed Hobart equipment to DBBC MARK5B. WETTZELL had two entries. Commented out second.
+* 2017-09-26  JMG  Fixed two letter code of ONASALA twins: OE, OW-->Oe, Ow
+* 2017-09-20  JMG  Added in RAEGSMAR per email Pablo de Vicente
+* 2017-08-24  JMG  Added information for ONSALA twins per email Rudiger August 23 2017
+* 2017-08-01  JMG  Added WETTZELL MARK5 MARK5A   recorder type. Commented out WETTDBBC
+* 2017-07-07  JMG  Kashima34 SEFDs updated to reflect warm receiver. 
+* 2017-03-21  JMG  Changed Nyalesund, Wettzell from Mark5 Mark5B-->DBBC MARK5B
+* 2017-03-21  JMG  Added DSS34 and DSS36
+* 2017-01-18  KLB  Updated METSAHOV recorder (Mark5A => Mark5B) and changed to DBBC to reflect what is in the log (T2111)
+* 2016-11-21  JMG  Modified equipment type at KOKEE12M, WESTFORD and GGAO to RDBE
+* 2016-10-27  JMG  Updated WETTZ13N recorder. Mark6-->Mark5B
+* 2016-10-12  JMG  Modified SEFDs of ISHIOKA to  1950 1750 (X S) from 2000 4000.
+* 2016-10-12  JMG  Modified SEFDs of Westford from 1500 1400 ot 3000 4000
+* 2016-10-12  JMG  Modified GGAO SEFD from 3000 3000 to 3500 3000
+* 2016-09-27  JMG  Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
+* 2016-08-22  JMG  Changed HOBART26 to Mark4 Mark5a
+* 2016-07-20  JMG  Changed TIGOPLTA to AGGO. Moved to top of file so in alphabetical order.  
+* 2016-07-13  DBB  Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
+* 2016-03-30  JMG  Changed SESHAN25 to DBBC
+* 2016-01-25  JMG  Added Kokee12M. Based on GGAO12M. Both KOKEE12M and GGAO12M SEFDs set to 3000 3000
+* 2015-06-24  JMG  Updated to reflect stations that have DBBC as reflected in the logs:
+*                  Changes include: WETTZ14N, WETTZ13S, MEDICINA,AUSCOPE,HART15M, RAEGYEB,...
+* 2015-06-17  JMG  Changed Warkworth SEFDs to be more representative of what we are seeing from snranal.
+* 2015-04-22  JMG  Commented out duplicate PARKES entries. Got rid of K-band PARKES entries
+* 2015-04-21  JMG  Commented out YEBESDBC (for testing DBBC) and changed YEBES40M to none MARK5B
+* 2015-02-25  JMG  Added RAEGYEB 
+* 2015-02-23  JMG  Added ISHIOKA from jd1502 schedule
+* 2015-02-12  JMG  Put in WETTDBBC = Wettzell DBBC
+* 2015-01-22  JMG  Modified equipment for Wettzell twin telescopes. Use HART15M SEFDs
+* 2014-12-10  JMG  Noto updated per email Piettro Cassaro. Now (none, Mark5B). none=DBBC which is not recognized yet. 
+* 2014-12-10  JMG  Sejong X,S SEFDS==>5000
+* 2014-11-06  JMG  Added DSS45
+* 2014-09-03  JMG  Updated YARRA KATH12 HOBART12
+* 2014-08-26  JMG  YARRA changed to 4500 5500;  HARTRAO rack changed to 'none'. 
+* 2014-07-01  JMG  Further modification of Twin 'none Mark5B' (Is really DBBC which is not recognized yet.)
+* 2014-06-03  JMG  Added twin telescope per email from arno Muesken
+* 2014-05-16  DBB  Add TIANMA65 per Fengchun Shu.
+* 2014-05-06  JMG  Made "none Mark5B"  default for Onsala60. Commented out DBBC test version
+* 2014-05-02  JMG  Changed rack tpe of Tsukuba K4-2 per E. Himwich email 5/2/14
+* 2014-03-28  JMG  Changed rack type of Zc to none
+* 2014-03-25  JMG  Added Od=ONSALA60 with DBBC
+* 2013-12-17  JMG  Added Yd=YEBES with DBBC
+* 2013-12-13  JMG  Changed SEFDs at Sv, BD, Zc. X: 1200->400;  S:1500-->600
+* 2013-11-13  JMG  Changed X-band SEFDs of Kokee to 2000 per conversation with E. Himwich 
+* 2013-10-17  JMG  S-SEFD of NyAlesund changed from 2500--1500
+* 2013-10-11  JMG  Changed rack type to 'none' at Ht YG Ke
+* 2013-07-11  JMG  Changed equipment at Sejong to K4-1 K5
+* 2013-07-10  JMG  Changed SEFD at Sv, BD, Zc:  X: 400-->1200, S: 600-->1500. 
+*                  This reflects fact that will run warm for half of August
+* 2013-07-08  JMG  Changed S-SEFD of NyAlesund: 1500-->2500
+* 2013-06-19  JMG  Changed SEDF of Kokee
+* 2013-05-15  JMG  Changed name of GOR7102 to GGAO12M
+* 2013-04-10  JMG  Modified Sejong equiptment per email from Yi.
+* 2013-03-27  JMG  Added Sejong
+* 2013-03-20  JMG  Changed Effelsberg to none.
+* 2012-11-12  JMG  Changed Westford to Mark5B.
+* 2012-10-26  JMG  Added terminal info to SYOWA. Somehow this disappeared.
+* 2012-09-25  DBB  Add 15-m antenna at Hartebeesthoek (HART15M).
+* 2012-09-07  JMG  Updated all stations that we know are Mark5B.
+* 2012-05-10  JMG  Updated a bucnch of stations based on email from Rich and Ed.
+* 2012-03-20  DBB  Change X-band SEFD for WARK12M from 40000 to 8000 per Ed Himwich.
+* 2012-01-18  JMG  Added GORF7102=GGAO 12m
+* 2012-01-18  DBB  Add JAXA station UCHINOUR.
+* 2012-01-18  DBB  Change X-band SEFD for KOKEE from 3000 to 2000 per Ed Himwich.
+* 2011-11-39  JMG  Changed Kunming recorder to Mark5B
+* 2011-08-23  DBB  Change SEFD values for MEDICINA from 970/1180 to 1100/1500 (X/S)
+*                  per Ed Himwich.
+* 2011-07-28  DBB  Change X-band SEFD for TIGO from 10000 to 20000 per Ed Himwich.
+* 2011-07-14  DBB  Change SEFD values for HOBART12 from 9000/5500 to 5000/4000 (X/S)
+*                  per Ed Himwich.
+* 2011-07-14  DBB  Change SEFD values for MATERA from 3500/3500 to 1600/2200 (X/S)
+*                  per Ed Himwich.
+* 2011-07-14  DBB  Change SEFD values for NYALES20 from 1500/2000 to 1000/1500 (X/S)
+*                  per Ed Himwich.
+* 2011-07-14  DBB  Change X-band SEFD for TIGO from 20000 to 10000 per Ed Himwich.
+* 2011-07-11  DBB  Change HARTRAO recorder to MARK5B per Ed Himwich.
+* 2011-07-11  DBB  Add KUNMING per Fengchun Shu.
+* 2011-06-30  DBB  Change TIGO recorder to MARK5B per Hayo Hase.
+* 2011-06-30  DBB  Change SEFD values for FORTLEZA from 10000/10000 to 5000/5000 (X/S)
+*                  per Ed Himwich.
+* 2011-06-08  DBB  Change SEFD values for WARK12M from 4100/4000 to 40000/8000 (X/S)
+*                  per Ed Himwich.
+* 2011-06-07  DBB  Double S-band SEFD for FORTLEZA from 5000 to 10000 per Ed Himwich.
+* 2011-06-07  DBB  Double X-band SEFD for KASHIM11 from 5500 to 11000 per Ed Himwich.
+* 2011-04-11  JMG  Changed Yarragdee  equip per email J. Lovell
+* 2011-03-22  JMG  Changed to Mark5B: Badary, Svetloe 
+*                  Also changed Metshavi SEFDS per email from Ed Himwich. 
+* 2011-03-08  JMG  Reset Hobart26 SEFD per email from Jim Lovell, Ed Himwich
+* 2011-02-14  DBB  Increase X-band SEFD for KOKEE from 2000 to 3000 per Ed Himwich.
+* 2011-02-14  DBB  Set SEFDs for WARK12M to 4100/4000 (X/S) per Sergei Gulyaev.
+* 2011-02-14  DBB  Increase S-band SEFD for MATERA from 2000 to 3500 per Ed Himwich.
+* 2010-11-24  DBB  Change SEFDs for NYALES20 to 4200/2600 (X/S) due to warm
+*                  receiver per Ed Himwich.
+* 2010-11-18  DBB  Change SEFDs for NYALES20 from (900/1200) to (2700/2400) due
+*                  to warm receiver.
+* 2010-08-11  DBB  Change SEFDs for MEDICINA from 310/500 to 970/1180 (X/S) due
+*                  to warm receiver per Andrea Orlati.
+* 2010-10-29  DBB  Change SEFDs for HOBART12 from 3500/3500 to 9000/5500 (X/S) per
+*                  Ed Himwich.
+* 2010-09-13  DBB  Change SEFDs for HOBART12 from 3800/3800 to 3500/3500 (X/S) due
+*                  to new feed per Jim Lovell.
+* 2010-08-11  DBB  Change SEFDs for HOBART26 from 710/915 to 2130/1830 (X/S) due
+*                  to warm receiver per Brett Reid.
+* 2010-06-15  JMG  Commented out S2 equipment for Zc. Made recorder Mark5B
+* 2010-05-21  DBB  Change YEBES40M SEFD values from 420/420 to 250/1500 (X/S) per
+*                  E. Himwich.
+* 2009-11-18  DBB  Raise KOKEE X-band SEFD from 900 to 2000 per E. Himwich.
+* 2009-10-07  DBB  Double S-band SEFD for Mizusawa and Ishigakijima to 13160
+*                  per Brian Corey.
+* 2009-09-28  DBB  Add VERA stations Mizusawa and Ishigakijima.
+* 2009-09-25  JMG  Changed CRIMEA rack Mark3-->Mark4.
+*                  Changed AIRA, CHICHI, SINTOT  K4-2 -->K4-1
+*                  Changed TSUKUBA     to K4-2
+* 2009-09-22  JMG  Changed Kashima disk from Mk5 to K5 (fixed an error).
+* 2009-09-21  DBB  Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
+*                  purposes.
+* 2009-09-03  JMG  Changed KOGANEI ID to Kg to avoid collision with Kokee
+* 2009-08-21  DBB  Raise TIGO X-band SEFD from 12000 to 20000 per D. MacMillan.
+* 2009-07-13  JMG  Changed SEFDS for NyAlesund back to 900/1200
+* 2009-01-26  DBB  Change SEFDs for MATERA from (1500/1300) to (3500/2000) due
+*                  to warm receiver per E. Himwich.
+* 2008-10-07  JMG  Changed some more stations  Mark5A/K5 that I missed the first go round
+* 2008-09-26  JMG  Changed Parkes to Mark4 MARk5A 
+* 2008-09-25  JMG  Changed most recorders to Mark5A
+* 2008-06-17  DBB  Add YEBES40M per P. de Vicente and P. Colomer. Comment out old YEBES
+*                  to avoid confusion.
+* 2008-06-06  DBB  Add AIRA, CHICHI10, and SINTOTU3.
+* 2008-04-14  DBB  Change SEFDs for NYALES20 from (900/1200) to (2700/2400) due
+*                  to warm receiver.
+* 2007-10-20  JMG  Modified KAshima KB to be K4-2  VLBA
+* 2007-10-18  JMG  Changed Rack, Rec for Fortleza to Mark4
+* 2007-07-23  JMG  Changed number of headstacks for Svetloe so could do 512Mb RD 
+* 2007-07-18  DBB  Use SEFD value of 300 for X-band and S-band for Yebes 40-m for
+*                  simulation purposes. (rough estimate)
+* 2007-04-27  DBB  Raise FORTLEZA X-band SEFD to 10000 and S-band to 5000 per E. Himwich.
+* 2007-03-21  JMG  Changed number of headstacks for Tigo so could do 1GB RD 
+* 2007-02-21  JMG  Added BADARY based on ZELENCHUK
+* 2007-01-12  JMG  Added K4-2, K4-2 Equipment type for Kaashim34
+* 2006-11-07  DBB  Add K4-1 K5 equipment for Syowa. Change number of headstacks to '1'.
+* 2006-07-27  JMG  Made TIGOS and Kokees S2  configuration start with S2, e.g. S2-KO
+* 2006-05-11  JMG  Added K-band for HOBART, PARKES.
+*                  Put in dummy Mark4 Mark4 equipment type for ATCA,CEDUNA, MOPRA,HOBART,PARKES
+* 2006-05-10  DBB  Add ATCA, CEDUNA, and MOPRA per S. Pogrebenko and C. Phillips.
+* 2006-04-19  DBB  Change SESHAN25 SEFDs from 1200/2500 to 700/1100 for new
+*                  receiver per Tao An.
+* 2005-11-03  DBB  Lower TIGOCONC X-band SEFD to 12000 per E. Himwich.
+* 2005-11-03  DBB  Change Matera back to cooled SEFDs (1500/1300).
+* 2005-09-21  DBB  Change antenna name to DSS65A.
+* 2005-09-16  NRV  Add X-band WSTRBORK.
+* 2005-09-16  NRV  Change GILCREEK to VLBA4 rack.
+* 2005-08-02  NRV  Raise TIGOCONC X-band SEFD to 25000 per E. Himwich.
+* 2005-07-26  NRV  Change MATERA SEFDs to 5000/3000 due to warm receiver.
+* 2005-06-30  NRV  Change PARKES SEFD to 200/300 per A. Fey.
+* 2005-06-29  NRV  Change TIDBIN64 to single recorder too.
+* 2005-06-17  NRV  Change DSN stations to single recorders.
+* 2005-04-05  NRV  Update SYOWA S-band SEFD to 7500 per Y. Fukuzaki.
+* 2004-12-13  NRV  Correct KOKEE equipment to S2 recorder on S2 line.
+* 2004-11-04  NRV  Change SVETLOE equipment to Mark4, tape to thin (for scheduling
+*                  Mk5 sessions).
+* 2004-10-14  NRV  Add VLBA4 equipment to ZELENCHK. Change SVETLOE ID to 116,
+*                  ZELENCHK 118, per P. Lane.
+* 2004-07-29  NRV  Updated KASHIM11 and KOGANEI11 SEFD per config files.
+* 2004-05-18  NRV  METSAHOV has VLBA (not VLBA4) rack per A. Mujunen.
+* 2004-04-30  NRV  Copy DSS15 to make a new DSS13. DSS13 may have its own equipment.
+* 2004-03-09  NRV  Change METSHOVI (old mobile) to METSAHOV (astronomy antenna).
+* 2004-02-24  NRV  Update METSHOVI to VLBA4 rack and recorder, thin tape,
+*                  add SEFDs (scaled from Gilcreek values).
+* 2004-01-11  NRV  Change KOKEE to VLBA4 rack and recorder.
+* 2004-01-09  NRV  Sent to Paul Lane for new formatter IDs: FORTLEZA  114,
+*                  SVETLOE   115, ZELENCHK  116
+* 2003-08-28  NRV  Hobart is Mk4. Set up as thin tape, though they are Mk5 only.
+* 2003-07-02  NRV  Add TIDBIN64, same equipment as DSS45.
+* 2002-10-16  NRV  Change ALGOPARK to NRAO20 equipment. SVETLOE has TVDS-1.
+* 2002-09-04  NRV  Change ALGOPARK to thin tape, VLBA4 system.
+* 2002-06-10  NRV  Add S2 equipment to TIGO and KOKEE.
+* 2002-05-16  NRV  Updated SEFD values for Onsala, HartRAO, Seshan based
+*                  on analysis of snranal output by P. Charlot.
+* 2002-02-28  NRV  ALGOPARK temporarily has two sets of equipment, Mk3 and VLBA,
+*                  Mk3 is default.
+* 2002-02-28  NRV  Change YEBES to VLBA4 per P. Vicente.
+* 2002-01-11  NRV  Change OHIGGINS to thin tape, high density.
+* 2002-01-07  NRV  Change URUMQI, NOTO, EFLSBERG, YEBES to thin tape.
+* 2001-11-01  NRV  Assign rack ID 113 to TORUN.
+* 2001-11-01  NRV  Add ZELENCHK per info from WEH.
+* 2001-10-24  NRV  Add SVETLOE per info in IVS AR2000.
+* 2001-10-02  NRV  Add GBT_VLBA.
+* 2001-09-19  NRV  SESHAN thin tape, high density
+* 2001-08-27  NRV  Onsala thin tape, high density
+* 2001-08-07  NRV  Add Metsahovi from old .drg schedule info.
+* 2001-05-08  NRV  Add PARKES using MARPOINT equipment, Mk3 thick tape.
+* 2001-04-10  NRV  TSUKUBA has 2 headstacks but only one useable recorder.
+* 2000-11-06  NRV  MEDICINA changed to thin tape only.
+* 2000-11-03  NRV  NOTO changed to VLBA4 rack.
+* 2000-10-17  NRV  Fix some stations that had two recorders incorrectly
+*                  specified. Should be two headstacks.
+* 2000-10-17  NRV  Update URUMQI to Mark4 equipment and SESHAN to VLBA4.
+* 2000-10-17  NRV  Add SEFDs for C-band for EFLSBERG, MEDICINA, NOTO,
+*                  ONSALA85, SESHAN, URUMQI per P. Charlot.
+*                  NOTE: Stations with C-band SEFDs are listed with dual
+*                  C-bands so that the FS drudg will read the resulting
+*                  schedule file correctly. This will be corrected in
+*                  the next FS release.
+* 2000-10-16  NRV  Add SEFDs and equipment for C-band for JODRELL2,
+*                  CAMBG32M, TORUN, WSTRBORK per P. Charlot info.
+* 2000-10-10  NRV  Change Matera back to cooled SEFDs.
+* 2000-10-03  NRV  Change equipment name at Syowa from SYOWA10 to SYOWA.
+* 2000-09-05  NRV  Show Mk4 stations with 2 headstacks.
+* 2000-08-28  NRV  Assign 112 rack ID to O'Higgins VLBA4.
+* 2000-08-07  NRV  Change CTVA SEFDs per C. Klatt.
+* 2000-08-07  NRV  Change TIGO SEFDs per H. Hase recommendation.
+* 2000-08-02  NRV  Change Matera SEFD to X/S 4000/2500 for temporary uncooled
+*                  operations in Sept-Oct 2000. Use X/S 3500/2000 for short
+*                  baseline (intra-Europe) sessions.
+* 2000-08-02  NRV  Change Matera equipment to Mk4/VLBA4.
+* 2000-06-22  NRV  Rack number for VLBA4 at Green Bank will be 111.
+* 2000-06-22  NRV  Rack number for VLBA4 at Kokee will be 110.
+* 2000-06-22  NRV  Add Arecibo for completeness.
+* 2000-05-10  NRV  Change rack to "none" for S2 equipment at Canadian stations.
+* 2000-03-19  NRV  Specify K4 default tape length in minutes.
+* 2000-03-14  NRV  Remove second recorder for Tsukuba.
+* 2000-03-14  NRV  Change Matera to thin tape, high density.
+* 2000-01-31  NRV  Add entries for KASHIM11, KOGANEI, MIURA, TATEYMA as K4 types.
+*                  Add K4 equipment for Kashima, Kashima34, Tsukuba.
+* 2000-01-25  NRV  Add S2 equipment at ALGOPARK, ARIES-9M. Add CTVA S2. 
+* 1999-06-07  NRV  Add rack and recorder types to end of the lines.
+* 1999-05-27  NRV  Changed TIGO rack ID to 70, Tsukubsa to 108.
+* 1999-02-22  NRV  Wettzell thin tape, high density.
+* 1999-02-22  NRV  Tapes can only have 5 digit tape lengths for now.
+* 1999-01-15  NRV  SYOWA10 set for high density and long tape length.
+* 1998-12-28  NRV  Add SYOWA10 per Fukuzaki&Shibuya.
+* 1998-10-21  NRV  Change HartRAO to thin tape, high density.
+* 1998-09-23  NRV  Change Matera SEFD per DBS.
+* 1998-06-23  NRV  Change TSUKUB32 SEFDs per DBS.
+* 1998-05-05  NRV  Add TAHITI for simulations, copy of NRAO20.
+* 1998-03-26  NRV  Add Tsukuba. SEFDs per Fukuzaki.
+* 1998-01-27  NRV  Ny Alesund thin tape, high density.
+* 1997-12-10  NRV  Ny Alesund thin tape, low density.
+* 1997-12-01  NRV  Add TIGO, per europ6 schedule.
+* 1997-08-12  NRV  Gilcreek and Kokee thin tape, high density as of 970901.
+* 1997-03-28  NRV  Westford, 15, 45, 65 all high density.
+* 1997-03-25  NRV  Westford is Mark IV, thin tape, normal density.
+* 1997-03-24  NRV  DSS15 is Mark IV, thin tape. DSS65 will be thin tape, as
+*                  will DSS45. Leave all at low density for Mk3 correlators.
+* 1997-03-07  NRV  Update Noto's SEFDs per D. Shaffer.
+* 1997-02-14  NRV  Make Green Bank low density, thin tape for experiments
+*                  to be processed at Mark III correlators.
+* 1997-01-17  NRV  Update Matera's SEFDs after wide-banding.
+* 1996-12-12  NRV  Add SEFDs for Effelsberg per A. Mueskens.
+* 1996-11-12  NRV  Change X-band to 900 for Ny Alesund and Kokee per DBS.
+* 1996-09-12  NRV  Santiago's X-band SEFD 5000 per DBS.
+* 1996-08-19  NRV  Make NRAO20 high density, thin tapes
+* 1996-06-24  NRV  Replace Santiago's SEFDs with values from DBS.
+* 1996-06-05  NRV  Replace Matera's SEFDs with values from DBS.
+* 1996-04-17  NRV  VLBA stations are high bit density as of 960430.
+* 1996-04-09  NRV  Change "passes" to "headstacks", 1 or 2 (for Mark IV testing)
+*                  including bit density.
+* 1996-02-20  NRV  Allow "passes" to be bit_density per station.
+* 1995-10-12  NRV  Lower SEFDs for Algonquin per D. Shaffer, for cooled rx.
+* 1995-09-27  NRV  New SEFDs for YEBES, per D. Shaffer from EUROP3 data.
+* 1995-09-20  NRV  Modify MEDICINA SEFDs and parameters per D. Shaffer.
+* 1995-05-18  NRV  MIAMI20 is uncooled.
+* 1995-05-03  NRV  Add MIAMI20 per M. Eubanks.
+* 1995-04-10  NRV  Hobart SEFD parameters per D. Shaffer.
+* 1995-02-16  NRV  SEFDs for NRAO20 per D. Shaffer.
+* 1995-01-09  NRV  Initial entry for NRAO20, copied from Kokee.
+* 1994-10-24  NRV  Ny Alesund SEFE elevation-dependence parameters per DBS
+* 1994-10-11  NRV  Change Ny Alesund name per C. Ma and M. Eubanks
+* 1994-07-19  NRV  NOTO will have its own terminal (soon?)
+* 1994-05-23  NRV  Change Crimea to 3000/2000 uncooled values (conservative)
+* 1994-04-11  NRV  Add MV3-LOW test entry for 0 deg elevation
+* 1994-01-27  NRV  Change VLBA to 14-pass tapes
+* 1993-11-19  NRV  Add SEFD parameters to all VLBA stations
+* 1993-10-29  NRV  Update IDs written on tape and read by correlator.
+* 1993-10-28  NRV  Urumqi terminal is 67, formerly at Seshan
+* 1993-09-21  NRV  Change Seshan to high density, VLBA
+* 1993-08-06  NRV  Add Mizsawa 10-m
+* 1993-07-21  NRV  Add Kokee SEFD parameters for elevation dependence
+* 1993-07-16  NRV  Adjust SEFD for Fortaleza, O'Higgins
+* 1993-07-14  NRV  Yellowknife has TVDS-3, Gilcreek has Moj-VLBA
+* 1993-06-23  NRV  Seshan high density postponed until late July
+* 1993-06-21  NRV  Modified Kokee SEFDs
+*                  All VLBA thin tape
+* 1993-06-04  NRV  Seshan now high density
+* 1993-06-03  NRV  Algonquin has TVDS-1 (03)
+*                  Fortaleza has OVRO_139 (01)
+*                  Noto, Ny Alesund have RICHMOND (66)
+* 1993-06-01  NRV  Added SEFDs for new stations per DBS
+* 1992-10-05  NRV  Added NRAO_851, made NRAO_140 HD
+* 1992-09-15  NRV  Added SEFD parameters for R&D stations
 *
 * NOTE: Multiple equipment lines may appear for the same antenna name,
 *       but any Mk3/4/VLBA equipment should be first, followed by any
