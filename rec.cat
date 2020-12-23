@@ -4,126 +4,123 @@
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
-* 2020Nov23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
-* 2020Oct13 JMG  Added in DSS26
-* 2020Jun09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
-* 2020Apr07 KLB  Added 32-16-12-2 for new 1Gbps AOV modes AOVSX16N0, AOVSX16N1, and AOVSX16W
-* 2020Apr07 KLB  PARKES had duplicate tracks in 32-16-1-2. Deleted second mode.
-* 2019Sep19 JMG. Put in  values for MACGO12M
-* 2019Aug25 JMG  Added Noto to 32-16-1-2
-* 2019Jun26 JMG  Added NYALE13S to  00-16-0-1
-* 2019Jun25 JMG  Added NYALE13S to  32-16-2-1 and(R1 mode)
-* 2018Aug10 JMG  In 01-16-0-1, ONSALA60, ORION5M and PARKES had duplicate tracks. Deleted second 
-* 2018Aug09 JMG. In 00-16-0-1,  ORION5M and PARKES had duplicate tracks. Deleted second. 
-* 2018Jul25 KLB. ONSALA60 had duplicate tracks in 00-16-0-1. Deleted second mode.
-* 2018Jul10 JMG. Added 32-4U-12L-1-2 to support 2GB-VLBA
-* 2018May05 JMG. ONSALA60 had duplicate tracks in 32-16-1-2. Deleted second mode.
-* 2018Feb05 JMG. Changed SESHAN track in 00-16-0-1
-* 2018Jan03 KLB. Added HART15M to 32-16-2-1
-* 2017Dec07 JMG. Fixed two tings where Wettzell  was 14U2L-2-1-B instead of 14U2L-1-2-B
-* 2017Dec06 JMG. Updated 32-16-3-1. AUST1GPBS-B-->14U2L-1-2-B,   Added some stations for INT3. 
-* 2017Dec06 JMG. Also updated to reflect WETTZELL going to Mark5B
-* 2017Dec04 JMG. in 32-16-1-2 changed HOBART26
-* 2017Nov02 JMG Added KOKEE, MEDICINA, NYALES20, ONSALA60, WETTZELL to Austral 1GB mode. 
-* 2017SEP26 JMG. Added in ONSA13SW, ONSA13NE to 00-16-0-1
-* 2017SEP19 JMG. Added in RAEGSMAR
-* 2017Sep19 JMG Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
-* 2017Sep08 JMG Added Austral 1GB mode. 
-* 2017Aug01 JMG. Added WETTZ13N to 32-16-2-1
-* 2017Jul06 JMG. 00-16-0-1: Changed track layout to: 14U2L-1-1-B for MEDICINA, METSAHOVI, ONSALA60, WETTZELL
-* 2017Jun22 JMG. Added Kashima11 to 32-16-1-2 for CONT11
-* 2017May25 JMG. In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
-* 2017Apr20 JMG. for 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
-* 2017Mar21 JMG. Added DSS34 and DSS36
-* 2017Jan18 KOL. Added Metsahov to 32-16-1-2 (CONT11 mode)
-* 2016Nov22 JMG. Added KUNMING to 32-16-1-2
-* 2016Nov21 JMG. Fixed error in WETTZ13N tracklayout. Was 8U-2-2-b (non-existent). Should be 8U-1-2-b
-* 2016Oct27 JMG. WETTZ13N track layout is changed to reflect BBC
-* 2016Oct21 JMG. Changed track layout of noto in  00-16-0-1 and 01-16-0-1 to reflect has MARK5B
-* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
-* 2016Jul20 JMG. Added ISHIOKA and WETTZ13N to 00-8U-0-2
-* 2016Apr13 JMG. Added RAEGYEB and WETTZ13S to 32-16-2-1
-* 2016Feb08 KOL. Changed PARKES64 to PARKES
-* 2016Feb08 KOL. Replaced TIGOPLTA with AGGO
-* 2016Feb08 KOL. Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
-* 2016Jan25 JMG. Added in KOKEE12M based on GGAO12M
-* 2015Sep23 JMG. Added ISHIOKA to            01-16-0-1
-* 2015Sep22 JMG. Added ISHIOKA to            32-16-1-2
-* 2015Aug10 JMG. Added WETTZ13N to        to 32-16-1-2 
-* 2015Jun30 JMG. Added RAEGYEB and SEJONG to 32-16-1-2
-* 2015Jun24 JMG. Added WETTZ13N, WETTZ13S to 01-16-0-1 
-* 2015Jun10 JMG. Synchronized with Australian
-* 2015May14 KOL. Added TIANMA65 to 32-16-2-1
-* 2015Apr22 JMG. Added PARKES to 32-16-1-2 
-* 2015 Mar15 Lucia: DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
-* 2015APR21 JMG. Removed YEBESDBC. This was a temporay station put in to test DBBC recording
-* 2015Feb25 JMG. Added RAEGYEB 
-* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
-* 2014Feb12 JMG. Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
-* 2014Nov06 JMG. Added DSS54 to 01-16-0-1
-* 2014Oct07 JMG. changed Kashima in 00-8U-2-2
-* 2014Oct03 JMG. Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
-* 2014Jul01 JMG. In 32-16-2-1 changed Kokee tracks to 14U2L-1-1-B  
-* 2014Jul01 JMG. Added ONSALA60 to 00-8U-0-2
-* 2014Jul01 JMG. Added WETTZ13N, WETTZ13S to 00-16-0-1
-* 2014Jun18 JMG. Makde TIANMA65  14U2L-1-1-B
-* 2014Jun12 JMG. Modified DSS13 for DVP. Added  14U2L-1-2-D which sort of works. 
-* 2014Jun03 JMG. Added WETTZ13N to 00-16-0-1
-* 2014Jun02 JMG. Wettzell, Warkworth had wrong track layout CONT14.
-* 2014May23 JMG. Added tianma65 to 00-16-0-1 (R1 sequence)
-* 2014May06 JMG. Modified CONT11 for CONT14
-* 2014MAr25 JMG. Added ONSALDBC=ONSALA60 with DBBC
-* 2014Jan16 JMG  Added HART15M to 00-8U-0-2
-* 2013Dec17 JMG. Added YEBESDBC=YEBES40M with DBC 
-* 2013Nov18 JMG. Added seveal stations to 32-16-1-2: Ap, Gc, Sv
-* 2013Oct11 JMG. Put in new  mode 32-16-1-2
-* 13Jul16 JMG.   Added MEDICINA to 32-16-1-2
-* 13Jun20 JMG.   Added HART15M and GGAO12M to 32-16-1-2
-* 13May06 JMG.   Changd name of GORF7102 to GGAO12M
-* 14APR10 JMG.   Added SEJONG to 00-16-0-1
-* 13MAR27 JMG. Added SEJONG to 32-8-4-1
-* 12Nov20 JMG. In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
-* 12Nov15 JMG. CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
-*                in group name 00-16-0-1 
-* 12Nov14 JMG. Changed Westford 00-8U-02 mode to Mark5B. 
-* 12Oct04 JMG. Many changes to support Mark5B.
-* 120518 JMG Added EFLSBERG to  32-8-4-1 (RDV mode) 
-* 120118 dbb Add JAXA station UCHINOUR.
-
+* 2020-11-23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
+* 2020-10-13 JMG  Added in DSS26
+* 2020-06-09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
+* 2020-04-07 KLB  Added 32-16-12-2 for new 1Gbps AOV modes AOVSX16N0, AOVSX16N1, and AOVSX16W
+* 2020-04-07 KLB  PARKES had duplicate tracks in 32-16-1-2. Deleted second mode.
+* 2019-09-19  JMG  Put in  values for MACGO12M
+* 2019-08-25  JMG  Added Noto to 32-16-1-2
+* 2019-06-26  JMG  Added NYALE13S to  00-16-0-1
+* 2019-06-25  JMG  Added NYALE13S to  32-16-2-1 and(R1 mode)
+* 2018-08-10  JMG  In 01-16-0-1, ONSALA60, ORION5M and PARKES had duplicate tracks. Deleted second 
+* 2018-08-09  JMG  In 00-16-0-1,  ORION5M and PARKES had duplicate tracks. Deleted second. 
+* 2018-07-25  KLB  ONSALA60 had duplicate tracks in 00-16-0-1. Deleted second mode.
+* 2018-07-10  JMG  Added 32-4U-12L-1-2 to support 2GB-VLBA
+* 2018-05-05  JMG  ONSALA60 had duplicate tracks in 32-16-1-2. Deleted second mode.
+* 2018-02-05  JMG  Changed SESHAN track in 00-16-0-1
+* 2018-01-03  KLB  Added HART15M to 32-16-2-1
+* 2017-12-07  JMG  Fixed two tings where Wettzell  was 14U2L-2-1-B instead of 14U2L-1-2-B
+* 2017-12-06  JMG  Updated 32-16-3-1. AUST1GPBS-B-->14U2L-1-2-B,   Added some stations for INT3. 
+* 2017-12-06  JMG  Also updated to reflect WETTZELL going to Mark5B
+* 2017-12-04  JMG  In 32-16-1-2 changed HOBART26
+* 2017-11-02  JMG  Added KOKEE, MEDICINA, NYALES20, ONSALA60, WETTZELL to Austral 1GB mode. 
+* 2017-09-26  JMG  Added in ONSA13SW, ONSA13NE to 00-16-0-1
+* 2017-09-19  JMG  Added in RAEGSMAR
+* 2017-09-19  JMG  Renamed AUstral rec.cat entry from 32-16-1-3 to 32-16-3-2 since VIEVS reads and uses last number. 
+* 2017-09-08  JMG  Added Austral 1GB mode. 
+* 2017-08-01  JMG  Added WETTZ13N to 32-16-2-1
+* 2017-07-06  JMG  00-16-0-1: Changed track layout to: 14U2L-1-1-B for MEDICINA, METSAHOVI, ONSALA60, WETTZELL
+* 2017-06-22  JMG  Added Kashima11 to 32-16-1-2 for CONT11
+* 2017-05-25  JMG  In 00-8U-0-2 changed MEDICINA, SHESHAN25, WETTZELL because they have gone to DBBC MARK5B
+* 2017-04-20  JMG  For 32-16-1-2  Changed SEJONG (14U2L-1-2-B --> 14U2L-1-2-J) 
+* 2017-03-21  JMG  Added DSS34 and DSS36
+* 2017-01-18  KLB  Added Metsahov to 32-16-1-2 (CONT11 mode)
+* 2016-11-22  JMG  Added KUNMING to 32-16-1-2
+* 2016-11-21  JMG  Fixed error in WETTZ13N tracklayout. Was 8U-2-2-b (non-existent). Should be 8U-1-2-b
+* 2016-10-27  JMG  WETTZ13N track layout is changed to reflect BBC
+* 2016-10-21  JMG  Changed track layout of noto in  00-16-0-1 and 01-16-0-1 to reflect has MARK5B
+* 2016-09-27  JMG  Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
+* 2016-07-20  JMG  Added ISHIOKA and WETTZ13N to 00-8U-0-2
+* 2016-04-13  JMG  Added RAEGYEB and WETTZ13S to 32-16-2-1
+* 2016-02-08  KLB  Changed PARKES64 to PARKES
+* 2016-02-08  KLB  Replaced TIGOPLTA with AGGO
+* 2016-02-08  KLB  Commented lines DSS54, MCMURDO, ONSALDBC, TAHITI, WETTDBBC
+* 2016-01-25  JMG  Added in KOKEE12M based on GGAO12M
+* 2015-09-23  JMG  Added ISHIOKA to            01-16-0-1
+* 2015-09-22  JMG  Added ISHIOKA to            32-16-1-2
+* 2015-08-10  JMG  Added WETTZ13N to        to 32-16-1-2 
+* 2015-06-30  JMG  Added RAEGYEB and SEJONG to 32-16-1-2
+* 2015-06-24  JMG  Added WETTZ13N, WETTZ13S to 01-16-0-1 
+* 2015-06-10  JMG  Synchronized with Australian
+* 2015-05-14  KLB  Added TIANMA65 to 32-16-2-1
+* 2015-04-22  JMG  Added PARKES to 32-16-1-2 
+* 2015-03-15 Lucia DVP-SX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
+* 2015-04-21  JMG  Removed YEBESDBC. This was a temporay station put in to test DBBC recording
+* 2015-02-25  JMG  Added RAEGYEB 
+* 2015-02-23  JMG  Added  ISHIOKA from jd1502 schedule
+* 2014-02-12  JMG  Added WETTDBBC to 00-16-0-1 (R1-R4 tracks) 
+* 2014-11-06  JMG  Added DSS54 to 01-16-0-1
+* 2014-10-07  JMG  Changed Kashima in 00-8U-2-2
+* 2014-10-03  JMG  Got rid of obsoleted modes that are no longer used. Further updates (using program) for Mark5B
+* 2014-07-01  JMG  In 32-16-2-1 changed Kokee tracks to 14U2L-1-1-B  
+* 2014-07-01  JMG  Added ONSALA60 to 00-8U-0-2
+* 2014-07-01  JMG  Added WETTZ13N, WETTZ13S to 00-16-0-1
+* 2014-06-18  JMG  Makde TIANMA65  14U2L-1-1-B
+* 2014-06-12  JMG  Modified DSS13 for DVP. Added  14U2L-1-2-D which sort of works. 
+* 2014-06-03  JMG  Added WETTZ13N to 00-16-0-1
+* 2014-06-02  JMG  Wettzell, Warkworth had wrong track layout CONT14.
+* 2014-05-23  JMG  Added tianma65 to 00-16-0-1 (R1 sequence)
+* 2014-05-06  JMG  Modified CONT11 for CONT14
+* 2014-03-25  JMG  Added ONSALDBC=ONSALA60 with DBBC
+* 2014-01-16  JMG  Added HART15M to 00-8U-0-2
+* 2013-12-17  JMG  Added YEBESDBC=YEBES40M with DBC 
+* 2013-11-18  JMG  Added seveal stations to 32-16-1-2: Ap, Gc, Sv
+* 2013-10-11  JMG  Put in new  mode 32-16-1-2
+* 2013-07-16  JMG  Added MEDICINA to 32-16-1-2
+* 2013-06-20  JMG  Added HART15M and GGAO12M to 32-16-1-2
+* 2013-05-06  JMG  Changd name of GORF7102 to GGAO12M
+* 2014-04-10  JMG  Added SEJONG to 00-16-0-1
+* 2013-03-27  JMG  Added SEJONG to 32-8-4-1
+* 2012-11-20  JMG  In 00-16-0-1 Changed westford to 14U2L-1-1-B (Mark5B)
+* 2012-11-15  JMG  CHICHI10, KASHIM11,KOGANEI, TSUKUB32, VERAMZSW changed to track-layout 14U2L-1-1-BJ
+*                  in group name 00-16-0-1 
+* 2012-11-14  JMG  Changed Westford 00-8U-02 mode to Mark5B. 
+* 2012-10-04  JMG  Many changes to support Mark5B.
+* 2012-05-18  JMG  Added EFLSBERG to  32-8-4-1 (RDV mode) 
+* 2012-01-18  DBB  Add JAXA station UCHINOUR.
+* 2011-07-11  DBB  Add KUNMING to 32-16-2-1 mode.
+* 2011-05-18  DBB  Add KASHIM11 to 32-16-2-1 mode.
+* 2011-03-07  JMG  Added FORTLEZA, HOBART12 to 32-8U-2-2
+* 2009-10-01  JMG  Changed Crimea mode. Got rid of most barrell rolling.
+* 2009-09-21  DBB  Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
+*                  purposes.
+* 2009-09-28  DBB  Add VERA stations Mizusawa and Ishigakijima.
+* 2009-09-14  JMG  Got rid of barrel rolling for RDV modes
+* 2009-09-09  JMG  Added new RDV mode for 2 -bit sampling.
+* 2008-09-26  JMG  Added Ohigins , Parkes, Syowa SESHAN25 to 32-16-2-2 
+* 2008-06-20  JMG  Removed YEBES, added YEBES40M 
+* 2008-06-09  JMG  Updated PARKES since now Mark5
+* 2008-06-09  JMG  Added AIRA, CHICHI10 SINTOTU3
+* 2008-05-12  JMG  Added Zelen to 64-16-2-2 
+* 2007-10-18  JMG  Added Zelen to 32-16-2-2
+* 2007-07-23  JMG  Added 32-16-2-2 for 512MB R&D mode.
+* 2007-02-20  JMG  Added BADARY to R4 mode
+* 2007-02-15  JMG  Added Matera, Medicina, Metshaovi to R&D Mode 64-16-2-2
+*                  Made Matera have two headstacks
+* 2006-12-20  JMG  Added Svetloe to new intensive
+* 2006-10-31  JMG  Boo! Happy halloween! Added SYOWA to 32-16-2-1 mode.
+*                  Put in 14 channel intensive
+* 2006-05-04  JMG  Name of "PARKES" was changed to PARKES64
+* 2006-05-01  JMG  Added 32-8-2-2 for DBE testing
+* 2006-01-17  JMG  Added Seshan to 28-14 (for R4)
+* 2005-12-01  NRV  Change 14-channel modes to use Mode C head positions.
+* 2005-10-15  NRV  Add documentation of fields. Add 14-channel modes.
+* 2005-10-14  NRV  Revised version with only the in-use modes.
 *
 * This catalog specifies all the details of the recording mode used
 * by each station: head positions, track assignments, recording 
 * format, and barrel roll.
-*
-* 051014 nrv Revised version with only the in-use modes.
-* 051015 nrv Add documentation of fields. Add 14-channel modes.
-* 051201 nrv Change 14-channel modes to use Mode C head positions.
-* 060117 JMG Added Seshan to 28-14 (for R4)
-* 060501 JMG Added 32-8-2-2 for DBE testing
-* 060504 JMG Name of "PARKES" was changed to PARKES64
-* 061031 JMG Boo! Happy halloween! Added SYOWA to 32-16-2-1 mode.
-*            Put in 14 channel intensive
-* 061220 JMG Added Svetloe to new intensive
-* 070215 JMG Added Matera, Medicina, Metshaovi to R&D Mode 64-16-2-2
-*            Made Matera have two headstacks
-* 070220 JMG Added BADARY to R4 mode
-* 070723 JMG Added 32-16-2-2 for 512MB R&D mode.
-* 071018 JMG Added Zelen to 32-16-2-2
-* 2008May12  JMG. Added Zelen to 64-16-2-2 
-* 2008Jun09 JMG.  Added AIRA, CHICHI10 SINTOTU3
-* 2008Jun09 JMG. updated PARKES since now Mark5
-* 2008Jun20 JMG. Removed YEBES, added YEBES40M 
-* 2008Sep26 JMG. Added Ohigins , Parkes, Syowa SESHAN25 to 32-16-2-2 
-* 2009Sep09 JMG. Added new RDV mode for 2 -bit sampling.
-* 2009Sep14 JMG. Got rid of barrel rolling for RDV modes
-* 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
-* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth for simulation
-*            purposes.
-* 2009Oct01  JMG. Changed Crimea mode. Got rid of most barrell rolling.
-* 2011Mar07  JMG Added FORTLEZA, HOBART12 to 32-8U-2-2
-* 110518 dbb Add KASHIM11 to 32-16-2-1 mode.
-* 110711 dbb Add KUNMING to 32-16-2-1 mode.
-
 *
 *******************************************************************
 * Fields:
