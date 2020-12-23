@@ -1,41 +1,53 @@
 * VERSION 2020Nov04_iGSFC
+* CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
-* Changes now with most recent at the top.
-* 2020Nov04 JMG. GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
-* 2020Nov04 JMG. Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. Added GEOSX32 which keeps old
-* 2020Jun02 JMG. Added AOVSX16N. This was used in apsg47
-* 2020Apr07 KLB. Added three 1Gbps recording modes AVSX16N0, AVSX16N1, both narrowband, and AOVSX16W wideband - the modes AVSX16N0 and AOVSX16W are derived from modes used in AOV sessions. AVSX16N1 differs from AVSX16N0 in the S-band frequency sequence, modified because of RFI at Hobart26.
-* 2019Sep26 JMG. Modified GEOSX Channel 7 8912.99-->8892.99. Reason is when using 16MHZ BW, Last two channels had overlap
-* 2019Jun04 JMG. Changed RDV S-band frequency sequences to 2232.75 2262.75 2372.75 2392.75 (from 2232.75 2262.75 2352.75 2372.75)
-* 2018Aug10 JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
-* 2018Jul10 JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
-* 2018Jan03 KLB. Added new sequence for narrowband 8MHz bw - CDP- XXN
-* 2015 Mar15 Lucia: DVP- XX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
-* 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
-* 2014Feb05 JMG  Changed LOIF sequence for RDV from VG_STD to VLBA_RV
-* 2014Jan16 JMG  Changed RDV frequency per email David Gordon 2014Jan15
-* 2013Nov13 JMG. Fixed GEOSX4F frequency which had a typo
+* Updates (most recent at the top):
+* 2020-11-04 JMG GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
+* 2020-11-04 JMG Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. 
+* 2020-11-02 JMG Added AOVSX16N. This was used in apsg47
+* 2020-04-07 KLB Added three 1Gbps recording modes AVSX16N0, AVSX16N1, both narrowband, 
+*                and AOVSX16W wideband - the modes AVSX16N0 and AOVSX16W are derived from *                modes used in AOV sessions. AVSX16N1 differs from AVSX16N0 in the 
+*                S-band frequency sequence, modified because of RFI at Hobart26.
+* 2019-09-26  JMG  Modified GEOSX Channel 7 8912.99-->8892.99. 
+*                  Reason is when using 16MHZ BW, Last two channels
+*                  had overlap
+* 2019-06-04  JMG  Changed RDV S-band frequency sequences to 2232.75
+*                  2262.75 2372.75 2392.75 (from 2232.75 2262.75
+*                  2352.75 2372.75)
+* 2018-08-10  JMG  Restored EUR2-SX which somehow had gone to 
+*                  'EUR2- XX'
+* 2018-07-10  JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
+* 2018-01-03  KLB  Added new sequence for narrowband 8MHz bw - 
+*                  CDP- XXN
+* 2015-03-15 Lucia DVP- XX recording added for DSS45 to be able to
+*                  contribute to AUSTRALs with 1-Gbps recording
+* 2015-02-23  JMG  Added K5-16KSP  = Japanese  jade mode 
+* 2014-02-05  JMG  Changed LOIF sequence for RDV from VG_STD to 
+*                  VLBA_RV
+* 2014-01-16  JMG  Changed RDV frequency per email David Gordon
+*                  2014Jan15
+* 2013-11-13  JMG  Fixed GEOSX4F frequency which had a typo
+* 2008-08-11  JMG  Commented out SX_SE8N
+* 2008-06-16  JMG  Modifed ZC in VGEOSX since is now MARK5B
+* 2008-06-09  JMG  Commented out SX_SE8 since seshan now has all BBCs
+* 2007-05-31  JMG  Added GEOSX4F for Arno 
+* 2007-02-27  JMG  Seshan had wrong frequency for S4 in R1 sequence
+* 2006-10-31  JMG  GEOSXR4 modified for Seshan.
+* 2006-10-16  JMG  Changed to make R1 S-band sequence same as R&D
+* 2006-05-11  JMG  ADDED K-ATNF for Australian Frequency test.
+* 2006-05-01  JMG  Added DBE- S4 for Digital Back End Test
+* 2005-11-29  NRV  Change SESHAN reference to SX_WIDE and SX_STD.
+* 2005-10-11  NRV  Add non-recording BBCs to RDV sequence VGEOSX.
+* 2005-10-07  NRV  Change 8-chan Seshan sequences to use BBC 1-8.
+* 2005-10-04  NRV  Update 8-channel Seshan sequences.
+* 2005-09-25  NRV  Update 8-channel Seshan sequences.
+* 2005-09-16  NRV  Add 8-chan X-band for IGRID RT demo, per M. Titus.
+* 2005-08-11  NRV  Add 8-channel Seshan to CDP- XX.
+* 2005-08-02  NRV  Add 8-channel Seshan to wideband.
+* 2005-07-09  NRV  Remove duplicate GEOSX sequences.
+* 2005-07-09  NRV  Add alternate BBC assignments for Zc in VG.
 *
-* 050709 nrv Add alternate BBC assignments for Zc in VG.
-* 050709 nrv Remove duplicate GEOSX sequences.
-* 050802 nrv Add 8-channel Seshan to wideband.
-* 050811 nrv Add 8-channel Seshan to CDP- XX.
-* 050916 nrv Add 8-chan X-band for IGRID RT demo, per M. Titus.
-* 050925 nrv Update 8-channel Seshan sequences.
-* 051004 nrv Update 8-channel Seshan sequences.
-* 051007 nrv Change 8-chan Seshan sequences to use BBC 1-8.
-* 051011 nrv Add non-recording BBCs to RDV sequence VGEOSX.
-* 051129 nrv Change SESHAN reference to SX_WIDE and SX_STD.
-* 060501 jmg Added DBE- S4 for Digital Back End Test
-* 060511 JMG ADDED K-ATNF for Australian Frequency test.
-* 061016 JMG Changed to make R1 S-band sequence same as R&D
-* 2006Oct31 JMG  GEOSXR4 modified for Seshan.
-* 2007Feb27 JMG. Seshan had wrong frequency for S4 in R1 sequence
-* 2007May31 JMG. Added GEOSX4F for Arno 
-* 2008Jun09 JMG. 'Commented out' SX_SE8 since seshan now has all BBCs
-* 2010.06.16 JMG.  Modifed ZC in VGEOSX since is now MARK5B
-! 2008Aug11  JMG. Commented out SX_SE8N
 *
 * First line:
 * Name   = 8-letter name for this sequence. All
