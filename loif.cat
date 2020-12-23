@@ -2,94 +2,94 @@
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
-* Updates now in reverse time order with newest at top.
-* 2020JUL14 JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez. 
-* 2020Jan03 JMG  Made new LO sequence NYS_STD for Nyalesund
-* 2019Aug27 JMG  Changed CDPVNOTO to reflect new LO for X band 
-* 2019Jan31 JMG. U and L sidebands were reversed for VG_2GB
-* 2018Aug06 JMG. Changed CDPA_WIDE LO entries for AGGO. 7680.1--> 7680.0 
-* 2018Jul03 JMG. Added CDPA_STD, CDPA_WIDE and CDPA_VG2 for AGGO
-* 2017Apr27 JMG. Removed second incorrect ODB_WIDE.  This has been in the catalogs for 4 years. 
-*        Since we use first entry of duplicates this did not cause a problem. 
-* 2017Dec04 JMG. Added DBBC_HO26 for Hobart LO settings
-* 2017Feb09 JMG. Changed LO naming for EFELSBERG per email from Uwe Back 2017Feb09. 
-* 2017Feb07 JMG. Removed YEB_STD (unused). Added MET_STD
-* 2016Oct10 JMG. Modified IRB_WIDE LO per Vladislavs
-* 2016Oct03 JMG. Added IRB_WIDE for IRBENE
-* 2016AUG23 JMG. Renamed SESH_WIDE to SESH_LO.  Got rid of CDPV_SEN, CDPV_SEX
-* 2016MAR30 JMG. Added SESH_WIDE for SESHAN26M with DBBC. 
-* 2015Jun29 JMG. Modified TWIN_WIDE and changed name to TWN_DBBC for WETZN and WETZS
-* 2015Jun10 JMG KLB synchronized with AUST catalog
-* 2015May29 JMG. Added CDP_STDK for Kunming. Identical to CDP_STDU accept 1N,2N go to A, B,C,D. Per email Fengchun
-* 2015Apr28 JMc  Added PKS_WIDE to support Parkes LOs
-* 2015Apr21 JMG. Modified LOs for YEBES. Changes made because of using firmware V105E at DBBC. (per Pablo). Removed unneeded YDC_WIDE. 
-* 2015Feb26 JMG. Added RAEG_WIDE for RAEG antennas
-* 2015Feb23 JMG. Put in LO settings for JADE sessions. 
-* 2015Feb19 JMG. Modifed KAS_STD per email Himwich, Sekiod 2015Feb15
-* 2015Feb10 JMG. Modified YDC_STD per email pablo.devicente@oan.es 2/10/15
-* 2015Feb09 JMG. Added YDC_STD for use in T2 schedules. 
-* 2014Dec10 JMg. Updated CDPVNOTO to reflect new LOs per P.Cassaro email 2014Nov27
-* 2014Dec10 JMG. Updated LOs for Koganei, Kashima11, Kashima34 per Ed Himwich. 
-* 2014Oct07 JMG. Fixed bug in ODB_WID8 for Onsala
-* 2014Oct01 JMG. Added ODB_STD for Onsala (Euro, T2) 
-* 2014Sep30 JMG. Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE (R1, R4)
-* 2014Jun12 JMG. Modified DSS13 for DVP
-* 2014May16  DBB Tianma 
-* 2014Feb06 JMG. Added VLBA_RV
-* 2013Jan16 JMG. Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
-* 2013Dec17 JMG. Added YDC_WIDE  for YEBESDBC=YEBES40M with DBBC
-* 2013Nov20 JMG. Added CDP_STDUW for Urmuqi and made IF3 LO 8600 for 5-8 per E. Himwich email. 
-* 2013Oct11 JMG. Added LO settings for Warkworth (previously used AUscope) and modified LO settings HART15M
-* 2013Oct10 JMG. Modified LO settings for AUSCope
-* 130917 dbb Add AIRA_WIDE for R1s per R. Kawabata.
-* 2013May17 JMG. Added new entries for Kashim11 (K4_KAS11) and Koganei (K4_KOG) for T2 and APSG
 *
-* 12Nov16 JMG Updated Urumqi LOs CDP_STDU to 8100 X, 2000 S
+* Updates (most recent at the top):
+* 2020-07-14  JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez.
+* 2020-01-03  JMG  Made new LO sequence NYS_STD for Nyalesund
+* 2019-08-27  JMG  Changed CDPVNOTO to reflect new LO for X band 
+* 2019-01-31  JMG  U and L sidebands were reversed for VG_2GB
+* 2018-08-06  JMG  Changed CDPA_WIDE LO entries for AGGO. 7680.1--> 7680.0 
+* 2018-07-03  JMG  Added CDPA_STD, CDPA_WIDE and CDPA_VG2 for AGGO
+* 2017-04-27  JMG  Removed second incorrect ODB_WIDE.  This has been in the catalogs for 4 years. 
+*                  Since we use first entry of duplicates this did not cause a problem. 
+* 2017-12-04  JMG  Added DBBC_HO26 for Hobart LO settings
+* 2017-02-09  JMG  Changed LO naming for EFELSBERG per email from Uwe Back 2017Feb09. 
+* 2017-02-07  JMG  Removed YEB_STD (unused). Added MET_STD
+* 2016-10-10  JMG  Modified IRB_WIDE LO per Vladislavs
+* 2016-10-03  JMG  Added IRB_WIDE for IRBENE
+* 2016-08-23  JMG  Renamed SESH_WIDE to SESH_LO.  Got rid of CDPV_SEN, CDPV_SEX
+* 2016-03-30  JMG  Added SESH_WIDE for SESHAN26M with DBBC. 
+* 2015-06-29  JMG  Modified TWIN_WIDE and changed name to TWN_DBBC for WETZN and WETZS
+* 2015-06-10  KLB  Synchronized with AUST catalog
+* 2015-05-29  JMG  Added CDP_STDK for Kunming. Identical to CDP_STDU accept 1N,2N go to A, B,C,D. Per email Fengchun
+* 2015-04-28  JMG  Added PKS_WIDE to support Parkes LOs
+* 2015-04-21  JMG  Modified LOs for YEBES. Changes made because of using firmware V105E at DBBC. (per Pablo). Removed unneeded YDC_WIDE. 
+* 2015-02-26  JMG  Added RAEG_WIDE for RAEG antennas
+* 2015-02-23  JMG  Put in LO settings for JADE sessions. 
+* 2015-02-19  JMG  Modifed KAS_STD per email Himwich, Sekiod 2015Feb15
+* 2015-02-10  JMG  Modified YDC_STD per email pablo.devicente@oan.es 2/10/15
+* 2015-02-09  JMG  Added YDC_STD for use in T2 schedules. 
+* 2014-12-10  JMG  Updated CDPVNOTO to reflect new LOs per P.Cassaro email 2014Nov27
+* 2014-12-10  JMG  Updated LOs for Koganei, Kashima11, Kashima34 per Ed Himwich. 
+* 2014-10-07  JMG  Fixed bug in ODB_WID8 for Onsala
+* 2014-10-01  JMG  Added ODB_STD for Onsala (Euro, T2) 
+* 2014-09-30  JMG  Modified to added ODB_WID8 for Onsalao (RDV settings). and ODB_WIDE (R1, R4)
+* 2014-06-12  JMG  Modified DSS13 for DVP
+* 2014-05-16  DBB  Added Tianma 
+* 2014-02-06  JMG  Added VLBA_RV
+* 2013-01-16  JMG  Modified LO settings for HART DBBC mode per email  Jonathan Quick 2014Jan14
+* 2013-12-17  JMG  Added YDC_WIDE  for YEBESDBC=YEBES40M with DBBC
+* 2013-11-20  JMG  Added CDP_STDUW for Urmuqi and made IF3 LO 8600 for 5-8 per E. Himwich email. 
+* 2013-10-11  JMG  Added LO settings for Warkworth (previously used AUscope) and modified LO settings HART15M
+* 2013-10-10  JMG  Modified LO settings for AUSCope
+* 2013-09-17  DBB  Add AIRA_WIDE for R1s per R. Kawabata.
+* 2013-05-17  JMG  Added new entries for Kashim11 (K4_KAS11) and Koganei (K4_KOG) for T2 and APSG
+* 2012-11-16  JMG  Updated Urumqi LOs CDP_STDU to 8100 X, 2000 S
+* 2009-09-22  JMG  Fixed bug in Tsukubas RDV sequence
+* 2008-10-15  JMG  Changed X-Band LO settings for YEBES from 8000 to 8100.
+* 2008-09-12  JMG  Removed CDP_XX3
+* 2008-09-10  JMG  Added YEB_WIDE for R4s
+* 2008-06-24  JMG  Added CDPV_SEN  Narrowband mode
+* 2007-12-20  JMG  Modified  CDPV_SE since now has 14 LOs
+* 2007-10-20  JMG  Changed Kashima 8080.1 to 8080 
+* 2007-10-18  JMG  Added KAS_WIDE for support for INT2
+* 2007-08-07  JMG  Kashima34 changed LOs to 7580, 1520.
+*                  Introduced KAS_STD & KAS_WID8 as replacements for CDP_STD, CDP_STD8
+* 2007-07-27  JMG  Changed ZC IFs for RDVs
+* 2006-11-08  JMG  Modified Kokee RDV sequence.
+* 2006-08-15  JMG  Modified LO settings used in RDVs to include unused BBCs
+* 2006-07-18  JMG  Modified CDP_VSE so that LO is 8100, not 8000
+* 2006-05-01  JMG  Added CDP_XX3 for DBE test
+* 2006-04-19  JMG  Modified CDP_SE8 LOif to 9100, SB L 
+* 2005-11-22  NRV  Add CDP_STDU for Urumqi new 8100 LO.
+* 2005-11-14  NRV  Remove SE8 setup and just use CDPV_SE8.
+* 2005-10-07  NRV  Change SE8 sequences to use BBCs 1-8.
+* 2005-09-30  NRV  Add CDP_SE8E for 8-channel Seshan. Europe.
+* 2005-09-16  NRV  Add CDP_XX for standard X-band.
+* 2005-08-11  NRV  Change to CDP_SE8C and 8W for different channel matches.
+* 2005-08-02  NRV  Add CDP_SES8 for 8-channel Seshan.
+* 2005-07-05  NRV  Add ZC8_STD and ZC8_WIDE for Zelenchukskaya 8-BBC.
+* 2005-03-22  NRV  Add CDPS_VG2 for Seshan non-std RDV.
+* 2004-10-06  NRV  Add K-band LO info per P. Charlot.
+* 2004-07-29  NRV  Add K4_WIDE.
+* 2004-07-29  NRV  Update K4_STD to fix S-band LO to 3000 (not 7600)
+* 2003-05-23  NRV  New FS release handles IF3 OK, so now CDP_STD for
+*                  narrow-band uses IF1 and IF3, CDP_STDN uses IF1 only.
+* 2003-03-17  NRV  Change CDP_STD back to using 1N only. With new FS
+*                  release, use 1N and 3N.
+* 2002-12-31  JMG  New CDP_STDN setup using all 1N for X-band. Change
+*                  CDP_STD to use 3N for upper X-band.
+* 2000-10-26  NRV  More C_STD setups.
+* 2000-10-16  NRV  Add C_STD setup.
+* 2000-09-18  NRV  Add CDPS_WID for Seshan non-std wide.
+* 1999-05-26  NRV  Reverse B<->A for RDVs.
+* 1999-04-26  NRV  Modify CDPV_SES LOs for Seshan.
+* 1999-01-15  NRV  Add CDPV_VG2 and NRAO_VG2
+* 1998-11-01  NRV  Add CDPV_SES for Seshan non-std S-band LO
+* 1998-03-26  NRV  Add TSU_STD and TSU_WIDE for Tsukuba
+* 1997-01-17  NRV  Add CDP_STDN for narrow-band receivers*
 *
-*
-* 970117 nrv Add CDP_STDN for narrow-band receivers
-* 980326 nrv Add TSU_STD and TSU_WIDE for Tsukuba
-* 981101 nrv Add CDPV_SES for Seshan non-std S-band LO
-* 990115 nrv Add CDPV_VG2 and NRAO_VG2
-* 990426 nrv Modify CDPV_SES LOs for Seshan.
-* 990526 nrv Reverse B<->A for RDVs.
-* 000918 nrv Add CDPS_WID for Seshan non-std wide.
-* 001016 nrv Add C_STD setup.
-* 001026 nrv More C_STD setups.
-* 021231 jmg New CDP_STDN setup using all 1N for X-band. Change
-*            CDP_STD to use 3N for upper X-band.
-* 030317 nrv Change CDP_STD back to using 1N only. With new FS
-*            release, use 1N and 3N.
-* 030523 nrv New FS release handles IF3 OK, so now CDP_STD for
-*            narrow-band uses IF1 and IF3, CDP_STDN uses IF1 only.
-* 040729 nrv Update K4_STD to fix S-band LO to 3000 (not 7600)
-* 040729 nrv Add K4_WIDE.
-* 041006 nrv Add K-band LO info per P. Charlot.
-* 050322 nrv Add CDPS_VG2 for Seshan non-std RDV.
-* 050705 nrv Add ZC8_STD and ZC8_WIDE for Zelenchukskaya 8-BBC.
-* 050802 nrv Add CDP_SES8 for 8-channel Seshan.
-* 050811 nrv Change to CDP_SE8C and 8W for different channel matches.
-* 050916 nrv Add CDP_XX for standard X-band.
-* 050930 nrv Add CDP_SE8E for 8-channel Seshan. Europe.
-* 051007 nrv Change SE8 sequences to use BBCs 1-8.
-* 051114 nrv Remove SE8 setup and just use CDPV_SE8.
-* 051122 nrv Add CDP_STDU for Urumqi new 8100 LO.
-* 060419 jmg Modified CDP_SE8 LOif to 9100, SB L 
-* 060501 JMG. Added CDP_XX3 for DBE test
-* 060718 JMG. Modified CDP_VSE so that LO is 8100, not 8000
-* 2006Aug   JMG. Modified LO settings used in RDVs to include unused BBCs
-* 2006Nov08 JMG.  Modified Kokee RDV sequence.
-* 2007Jul27 JMG  Changed ZC IFs for RDVs
-* 2007AUG07 JMG. Kashima34 changed LOs to 7580, 1520.
-*                Introduced KAS_STD & KAS_WID8 as replacements for CDP_STD, CDP_STD8
-* 2007Oct18 JMG  Added KAS_WIDE for support for INT2
-* 2007OCt20 JMG  Changed Kashima 8080.1 to 8080 
-* 2007Dec20 JMG  Modified  CDPV_SE since now has 14 LOs
-* 2008Jun24 JMG  Added CDPV_SEN  Narrowband mode
-* 2008Sep10 JMG  Added YEB_WIDE for R4s
-* 2008Sep12 JMG  removed CDP_XX3
-* 2008Oct15 JMG  Changed X-Band LO settings for YEBES from 8000 to 8100.
-* 2009Sep22 JMG. Fixed bug in Tsukubas RDV sequence
+
 *
 * LOIFname = referenced from the rx.cat file
 * VC/BBC = physical VC or BBC connected to this LO freq
