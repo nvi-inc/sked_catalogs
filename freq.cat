@@ -1,9 +1,15 @@
-* VERSION 2018_Aug09_iGSFC
+* VERSION 2020Nov04_iGSFC
 * FREQ.CAT - frequency sequences
 *
 * Changes now with most recent at the top.
-* 2018Aug10  JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
-* 2018Jul10  JMG Added 2GB VLBA mode= 32-4U-16U-1-2
+* 2020Nov04 JMG. GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
+* 2020Nov04 JMG. Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. Added GEOSX32 which keeps old
+* 2020Jun02 JMG. Added AOVSX16N. This was used in apsg47
+* 2020Apr07 KLB. Added three 1Gbps recording modes AVSX16N0, AVSX16N1, both narrowband, and AOVSX16W wideband - the modes AVSX16N0 and AOVSX16W are derived from modes used in AOV sessions. AVSX16N1 differs from AVSX16N0 in the S-band frequency sequence, modified because of RFI at Hobart26.
+* 2019Sep26 JMG. Modified GEOSX Channel 7 8912.99-->8892.99. Reason is when using 16MHZ BW, Last two channels had overlap
+* 2019Jun04 JMG. Changed RDV S-band frequency sequences to 2232.75 2262.75 2372.75 2392.75 (from 2232.75 2262.75 2352.75 2372.75)
+* 2018Aug10 JMG. Restored EUR2-SX which somehow had gone to 'EUR2- XX'
+* 2018Jul10 JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
 * 2018Jan03 KLB. Added new sequence for narrowband 8MHz bw - CDP- XXN
 * 2015 Mar15 Lucia: DVP- XX recording added for DSS45 to be able to contribute to the AUSTRALs with 1Gbps recording
 * 2015Feb23 JMG  Added K5-16KSP  = Japanese  jade mode 
@@ -538,8 +544,8 @@
 - X    R   8925.75  U   CH4     4    10000.0
 - S    R   2232.75  U   CH5     5    10000.0
 - S    R   2262.75  U   CH6     6    10000.0
-- S    R   2352.75  U   CH7     7    10000.0
-- S    R   2372.75  U   CH8     8    10000.0
+- S    R   2372.75  U   CH7     7    10000.0
+- S    R   2392.75  U   CH8     8    10000.0
 * S    R   2225.75  U   CH5     5    10000.0
 * S    R   2255.75  U   CH6     6    10000.0
 * S    R   2345.75  U   CH7     7    10000.0
@@ -559,8 +565,8 @@
 - S    R   2262.75  U   CH6    10    10000.0
 - S    R   2262.75  U   CHX   111    10000.0
 - S    R   2262.75  U   CHX   112    10000.0
-- S    R   2352.75  U   CH7    13    10000.0
-- S    R   2372.75  U   CH8    14    10000.0
+- S    R   2372.75  U   CH7    13    10000.0
+- S    R   2392.75  U   CH8    14    10000.0
 * VC assignments for ZELENCHK
  VGEOSX SX STD VG_ZC 
 - X    R   8365.75  U   CHX   101    10000.0
@@ -575,8 +581,8 @@
 - S    R   2262.75  U   CHX   110    10000.0
 - S    R   2262.75  U   CHX   111    10000.0
 - S    R   2262.75  U   CH6    12    10000.0
-- S    R   2352.75  U   CH7    13    10000.0
-- S    R   2372.75  U   CH8    14    10000.0
+- S    R   2372.75  U   CH7    13    10000.0
+- S    R   2392.75  U   CH8    14    10000.0
 * 
 * 16-Channel 2GB VGOS Mode
 *
@@ -717,7 +723,8 @@
 - S    R   2312.99  U   CH12    12   10000.0
 - S    R   2344.99  U   CH13    13   10000.0
 - S    R   2352.99  U   CH14    14   10000.0
-* New (16Oct2006) S-band sequence
+* New 2019Sep26. Channel 7 8912.99-->8892.99 
+* 2020Nov04.  Changed back. Better sidelobes. 
  GEOSX   SX STD SX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
 - X    R   8252.99  U   CH2     2    10000.0
@@ -749,7 +756,6 @@
 - S    R   2279.99  U   CH12    12   10000.0
 - S    R   2304.99  U   CH13    13   10000.0
 - S    R   2314.99  U   CH14    14   10000.0
-
 * New sequence  at Arnos Request (07May31)
 * Modifed 2013Nov13.  2312.99 was previously 2212.99
  GEOSX4F   SX STD SX_WIDE
@@ -793,7 +799,7 @@
 - S    R   2312.99  U   CH12    12   10000.0
 - S    R   2347.99  U   CH13    13   10000.0
 - S    R   2352.99  U   CH14    14   10000.0
-* raise S-band to avoid RFI at Tsukuba (like R1
+ raise S-band to avoid RFI at Tsukuba (like R1
 * which uses GEOSX4F)
  GEOSXK4 K4 STD SX_WIDE
 - X    R   8212.99  U   CH1     1    10000.0
@@ -818,6 +824,8 @@
 * S    R   2352.99  U   CH14    14   10000.0
 ********************************************************
 * Sequences for Gbit test, per J. Gipson.
+* Based on GEOSX
+* Channel 7 8912.99-->8892.99 
 * Avoids overlap of 16 MHz channels.
 ********************************************************
  GEOSX8N 8F STD SX_WIDE
@@ -827,7 +835,7 @@
 - X    R   8512.99  U   CH4     4    10000.0
 - X    R   8732.99  U   CH5     5    10000.0
 - X    R   8852.99  U   CH6     6    10000.0
-- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8892.99  U   CH7     7    10000.0
 - X    R   8932.99  U   CH8     8    10000.0
 - S    R   2225.99  U   CH9     9    10000.0
 - S    R   2245.99  U   CH10    10   10000.0
@@ -1210,4 +1218,77 @@
 - S    R   2268.99  U   CH12    12   10000.000 
 - S    R   2288.99  U   CH13    13   10000.000 
 - S    R   2293.99  U   CH14    14   10000.000 
+********************************************************
+* AOVSX16N
+*
+ AOVSX16N SX STD SX_STD
+- X    R   8213.00  U  CH1      1    10000.0
+- X    R   8245.00  U  CH2      2    10000.0
+- X    R   8261.00  U  CH3      3    10000.0
+- X    R   8405.00  U  CH4      4    10000.0
+- X    R   8437.00  U  CH5      5    10000.0
+- X    R   8469.00  U  CH6      6    10000.0
+- X    R   8485.00  U  CH7      7    10000.0
+- X    R   8565.00  U  CH8      8    10000.0
+- S    R   2201.00  U  CH9      9    10000.0
+- S    R   2233.00  U  CH10     10   10000.0
+- S    R   2249.00  U  CH11     11   10000.0
+- S    R   2265.00  U  CH12     12   10000.0
+- S    R   2281.00  U  CH13     13   10000.0
+- S    R   2297.00  U  CH14     14   10000.0
+* AVSX16N0.
+*
+ AVSX16N0 SX STD SX_STD
+- X    R   8213.99  U  CH1      1    10000.0
+- X    R   8233.99  U  CH2      2    10000.0
+- X    R   8253.99  U  CH3      3    10000.0
+- X    R   8333.99  U  CH4      4    10000.0
+- X    R   8413.99  U  CH5      5    10000.0
+- X    R   8513.99  U  CH6      6    10000.0
+- X    R   8533.99  U  CH7      7    10000.0
+- X    R   8573.99  U  CH8      8    10000.0
+- S    R   2223.99  U  CH9      9    10000.0
+- S    R   2243.99  U  CH10     10   10000.0
+- S    R   2263.99  U  CH11     11   10000.0
+- S    R   2293.99  U  CH12     12   10000.0
+- S    R   2343.99  U  CH13     13   10000.0
+- S    R   2363.99  U  CH14     14   10000.0
+********************************************************
+* AVSX16N1.
+*
+ AVSX16N1 SX STD SX_STD
+- X    R   8213.99  U  CH1      1    10000.0
+- X    R   8233.99  U  CH2      2    10000.0
+- X    R   8253.99  U  CH3      3    10000.0
+- X    R   8333.99  U  CH4      4    10000.0
+- X    R   8413.99  U  CH5      5    10000.0
+- X    R   8513.99  U  CH6      6    10000.0
+- X    R   8533.99  U  CH7      7    10000.0
+- X    R   8573.99  U  CH8      8    10000.0
+- S    R   2100.99  U  CH9      9    10000.0
+- S    R   2216.99  U  CH10     10   10000.0
+- S    R   2232.99  U  CH11     11   10000.0
+- S    R   2256.99  U  CH12     12   10000.0
+- S    R   2272.99  U  CH13     13   10000.0
+- S    R   2288.99  U  CH14     14   10000.0
+
+********************************************************
+* AOVSX16W.
+*
+ AOVSX16W SX STD SX_WIDE
+- X    R   8213.99  U  CH1      1    10000.0
+- X    R   8253.99  U  CH2      2    10000.0 
+- X    R   8353.99  U  CH3      3    10000.0 
+- X    R   8513.99  U  CH4      4    10000.0 
+- X    R   8733.99  U  CH5      5    10000.0 
+- X    R   8853.99  U  CH6      6    10000.0 
+- X    R   8873.99  U  CH7      7    10000.0 
+- X    R   8933.99  U  CH8      8    10000.0 
+- S    R   2200.99  U  CH9      9    10000.0 
+- S    R   2216.99  U  CH10     10   10000.0 
+- S    R   2232.99  U  CH11     11   10000.0 
+- S    R   2256.99  U  CH12     12   10000.0 
+- S    R   2272.99  U  CH13     13   10000.0 
+- S    R   2288.99  U  CH14     14   10000.0 
+
 ********************************************************
