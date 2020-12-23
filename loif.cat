@@ -1,8 +1,9 @@
-** VERSION 2020JAN03_iGFSC
+** VERSION 2020JUL14_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 * Updates now in reverse time order with newest at top.
+* 2020JUL14 JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez. 
 * 2020Jan03 JMG  Made new LO sequence NYS_STD for Nyalesund
 * 2019Aug27 JMG  Changed CDPVNOTO to reflect new LO for X band 
 * 2019Jan31 JMG. U and L sidebands were reversed for VG_2GB
@@ -341,7 +342,7 @@ SESH_LO
  -   12 B1     S   1530  U
  -   13 B1     S   1530  U
  -   14 B1     S   1530  U
- YDC_STD
+ YDC_WIDE
  -   1  A1     X   7650  U
  -   2  A1     X   7650  U
  -   3  A1     X   7650  U
@@ -350,6 +351,21 @@ SESH_LO
  -   6  B2     X   8100  U
  -   7  B2     X   8100  U
  -   8  B2     X   8100  U
+ -   9  C2     S   1530  U
+ -   10 C2     S   1530  U
+ -   11 C2     S   1530  U
+ -   12 C2     S   1530  U
+ -   13 D2     S   1530  U
+ -   14 D2     S   1530  U 
+ YDC_STD
+ -   1  A1     X   7650  U
+ -   2  A1     X   7650  U
+ -   3  A1     X   7650  U
+ -   4  A1     X   7650  U
+ -   5  B1     X   7650  U
+ -   6  B1     X   7650  U
+ -   7  B1     X   7650  U
+ -   8  B1     X   7650  U
  -   9  C2     S   1530  U
  -   10 C2     S   1530  U
  -   11 C2     S   1530  U
