@@ -1,75 +1,75 @@
 * VERSION 2020Oct29_iGSFC 
 * CATALOG mask.cat 
+*
 * MASK.CAT - station horizon/coordinate masks 
 * 
-* Now put in comments in reverse order 
-* 2020Oct29 JMG. NYALES13S was missing code which caused sked to crash.
-* 2020Sep11 JMG  Fixed bug in AGGO mask. Added last El value
-* 2020Aug04 JMG. Changed horizon mask of NYALE13S to 15 deg. Added in NYALES13N
-* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
-* 2019Sep19 JMH  Added in MACGO12M per email from  2019Sep12 Alex Burns. Used vt9259 as start
-* 2019Jul09 JMG. Also removed fractional numbers from NYALE13S
-* 2019Jul09 JMG. Updated with new mask for AGGO (per email Hayo 2019-May-14)
-* 2019Jun25 JMG. Added entry for NYALE13S
-* 2018Feb01 JMG. Updated with new mask for AGGO
-* 2017Sep25 JMG.  Added Onsa13NE and ONSA13SW mask information
-* 2017Jun26 JMG.  Changed so that WETTZELL has 5 degreees minimum
-* 2017Jun22 JMG.  Modified Wettz13s, WETTZ13N antenna mask to 5 deg. 
-* 2016Oct12 JMG.  Kokee12M mask 
-* 2016Jun22 KOL  Use same 2-letter codes than in the IVS file ns-codes.txt 
-* 2016Jun20 JMG.  Put in mask for KOKEE (kokee20M).
-* 2015Apr07 JMG.  Better Horizon mask for KOKEE12M. Used KT6091 schedule. 
-* 2015Jan25 JMG.  Put in KOKEE12M with 5 degree limit
-* 2015Sep10 JMG.  Modified HART15M based on email from J. Quick 2015Sep04. Used same mask for HARTRAO
-* 2015Sep10 JMG.  Also changed HARTRAO mask from Ht to Hh
-* 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
-* 2015Jan22 Added WETTZ13S
-* 2014Jun03 JMG added WETTZ13N telescope per email A. Muesken 
-* 2013OCT10  Added in Warkworth mask. From Stuart Weston email 2013Aug01
-* 2013Sep13  Changed HART15M mask code from HT to Ht
-* 2013May15  Changed name of GORF7102 to GGAO12M
-*
-* 930330 NRV New Kauai mask for 20-m obstruction
-* 930603 nrv Changed Kauai mask per TME
-* 930603 nrv Kludged extra blanks temporarily
-* 930615 nrv Add Crimea mask
-* 931015 nrv New Wettzell mask from DBS and AEN
-* 931119 nrv New horizon masks for all VLBA sites
-* 940905 nrv Ny Alesund
-* 941011 nrv Change Ny Alesund name
-* 941219 nrv New horizon masks for VLBA sites per DBS,
-*            with higher elevations to reduce tree and
-*            mountain effects.
-* 950203 nrv New Ny Alesund mask, measured at station.
-* 950203 nrv DSS65 mask per DBS from Tony Perea.
-* 950217 nrv Corrected Ny Alesund mask.
-* 950315 nrv Corrected DSS65 mask.
-* 950414 nrv Corrected Noto mask, per Vincenza.
-* 951003 nrv NRAO20 mask per F. Ghigo.
-* 960226 nrv Change to using line segments for all.
-*            Stations without graphical masks available
-*            have their step functions converted to line
-*            segments pending a better representation.
-* 960408 nrv New VLBA station horizon line segments, per D. Shaffer,
-*            which in many cases follow the 150 K line of Beaseley
-*            and Metcalf.
-* 960409 nrv Fairbanks mask checks OK per R. Strand.
-* 960409 nrv Santiago mask based on graph of horizon 
-* 960410 nrv NRAO20 mask based on values from F. Ghigo.
-* 960410 nrv DSS65 mask from D. Shaffer based on data from A. Perea
-*            and A. Rius.
-* 961212 nrv EFLSBERG mask from A. Mueskens.
-* 971210 nrv TIGO mask same as WETTZELL.
-* 000125 nrv Added CTVA mask at Penticton, per C. Klatt.
-* 020507 nrv Corrected EFLSBERG mask to remove extraneous "F".
-* 020514 nrv Add TIGO mask.
-* 2004Feb19 JMG Updated NyAlesund mask. Data from IVS web site.
-* 051004 dbb Add DSS65A mask based on data from G. Martinez.
-* 080605 dbb Add SINTOTU3 and CHICHI10 masks per S. Kurihara.
-* 090410 dbb Add BADARY mask per A. Melnikov.
-* 2012Sep19 JMG. Added Hobart12 mask per J. Lovell 
-* 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M) by duplicating HARTRAO entry.
-*
+* Updates (most recent at the top): 
+* 2020-10-29 JMG. NYALES13S was missing code which caused sked to crash.
+* 2020-09-11 JMG  Fixed bug in AGGO mask. Added last El value
+* 2020-08-04 JMG. Changed horizon mask of NYALE13S to 15 deg. Added in NYALES13N
+* 2020-06-17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+* 2019-09-19  JMG  Added in MACGO12M per email from  2019Sep12 Alex Burns. Used vt9259 as start
+* 2019-07-09  JMG  Also removed fractional numbers from NYALE13AS
+* 2019-07-09  JMG  Updated with new mask for AGGO (per email Hayo 2019-May-14)
+* 2019-06-25  JMG  Added entry for NYALE13S
+* 2018-02-01  JMG  Updated with new mask for AGGO
+* 2017-09-25  JMG  Added Onsa13NE and ONSA13SW mask information
+* 2017-06-26  JMG  Changed so that WETTZELL has 5 degreees minimum
+* 2017-06-22  JMG  Modified Wettz13s, WETTZ13N antenna mask to 5 deg. 
+* 2016-10-12  JMG  Kokee12M mask 
+* 2016-06-22  KLB  Use same 2-letter codes than in the IVS file ns-codes.txt 
+* 2016-06-20  JMG  Put in mask for KOKEE (kokee20M).
+* 2015-04-07  JMG  Better Horizon mask for KOKEE12M. Used KT6091 schedule. 
+* 2015-01-25  JMG  Put in KOKEE12M with 5 degree limit
+* 2015-09-10  JMG  Modified HART15M based on email from J. Quick 2015Sep04. Used same mask for HARTRAO
+* 2015-09-10  JMG  Also changed HARTRAO mask from Ht to Hh
+* 2015-02-12  JMG  Put in WETTDBBC = Wettzell DBBC
+* 2015-01-22  JMG  Added WETTZ13S
+* 2014-06-03  JMG  Added WETTZ13N telescope per email A. Muesken 
+* 2013-10-10  JMG  Added in Warkworth mask. From Stuart Weston email 2013Aug01
+* 2013-09-13  JMG  Changed HART15M mask code from HT to Ht
+* 2013-05-15  JMG  Changed name of GORF7102 to GGAO12M
+* 2012-09-25  DBB  Add 15-m antenna at Hartebeesthoek (HART15M) by duplicating HARTRAO entry.
+* 2012-09-19  JMG  Added Hobart12 mask per J. Lovell 
+* 2009-04-10  DBB  Add BADARY mask per A. Melnikov.
+* 2008-06-05  DBB  Add SINTOTU3 and CHICHI10 masks per S. Kurihara.
+* 2005-10-04  DBB  Add DSS65A mask based on data from G. Martinez.
+* 2004-02-19  JMG  Updated NyAlesund mask. Data from IVS web site.
+* 2002-05-14  NRV  Add TIGO mask.
+* 2002-05-07  NRV  Corrected EFLSBERG mask to remove extraneous "F".
+* 2000-01-25  NRV  Added CTVA mask at Penticton, per C. Klatt.
+* 1997-12-10  NRV  TIGO mask same as WETTZELL.
+* 1996-12-12  NRV  EFLSBERG mask from A. Mueskens.
+* 1996-04-10  NRV  DSS65 mask from D. Shaffer based on data from A. Perea
+*                  and A. Rius.
+* 1996-04-10  NRV  NRAO20 mask based on values from F. Ghigo.
+* 1996-04-09  NRV  Santiago mask based on graph of horizon 
+* 1996-04-09  NRV  Fairbanks mask checks OK per R. Strand.
+* 1996-04-08  NRV  New VLBA station horizon line segments, per D. Shaffer,
+*                  which in many cases follow the 150 K line of Beaseley
+*                  and Metcalf.
+* 1996-02-26  NRV  Change to using line segments for all.
+*                  Stations without graphical masks available
+*                  have their step functions converted to line
+*                  segments pending a better representation.
+* 1995-10-03  NRV  NRAO20 mask per F. Ghigo.
+* 1995-04-14  NRV  Corrected Noto mask, per Vincenza.
+* 1995-03-15  NRV  Corrected DSS65 mask.
+* 1995-02-17  NRV  Corrected Ny Alesund mask.
+* 1995-02-03  NRV  DSS65 mask per DBS from Tony Perea.
+* 1995-02-03  NRV  New Ny Alesund mask, measured at station.
+* 1994-12-19  NRV  New horizon masks for VLBA sites per DBS,
+*                  with higher elevations to reduce tree and
+*                  mountain effects.
+* 1994-10-11  NRV  Change Ny Alesund name
+* 1994-09-05  NRV  Ny Alesund
+* 1993-11-19  NRV  New horizon masks for all VLBA sites
+* 1993-10-15  NRV  New Wettzell mask from DBS and AEN
+* 1993-06-15  NRV  Add Crimea mask
+* 1993-06-03  NRV  Kludged extra blanks temporarily
+* 1993-06-03  NRV  Changed Kauai mask per TME
+* 1993-03-30  NRV  New Kauai mask for 20-m obstruction
+
 * Horizon masks are represented as either a series of line segments
 * or step functions that represent the horizon. For line segments, end 
 * points of the lines are entered as ordered pairs of az and el; there
