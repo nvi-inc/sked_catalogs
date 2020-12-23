@@ -1,5 +1,6 @@
-* VERSION 2020Nov04_iGSFC
+* VERSION 2020Nov23_iGSFC
 *
+* 2020Nov23 JMG Added 512Mbs T2 mode 
 * 2020Nov04 JMG Added GEOSX32.  Now have a different frequency mode for.
 * 2020Jun02 JMG Added AOVSX16N. This was used in apsg47
 * 2020Apr07 KLB Added 1Gb modes used for AOV sessions from Fengchun Shu: AOVSX16W, AVSX16N0, AVSX16N1 (AVSX16N1 is similar to AVSX16N0 but has a different S-band frequency sequence to accomodate RFI problems for stations like Hobart26 or Tianma65)
@@ -79,6 +80,7 @@
 256-16(OHIG)     EUR2-SX      4.0   8.0    32-16-2-2
 64-32(APSG)      CDP-SX       4.0   8.0    32-16-2-1 
 64-16(EU-T2)     EUR2-SX      4.0   8.0    01-16-0-1
+512-16(EU-T2)    EUR2-SX      8.0  16.0    32-16-1-2 
 256-8(RDV)       VGEOSX       8.0  16.0    00-8U-0-2
 512-16(RDV)      VGEOSX      16.0  32.0    00-8U-0-2
 512-16(CONT11)   GEOSX        8.0  16.0    32-16-1-2
