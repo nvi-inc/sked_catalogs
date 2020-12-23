@@ -1,9 +1,12 @@
 * VERSION 2020Nov16_iGSFC
-*
 * CATALOG position.cat
-* Added in DSS26. Data from JPL 
-* 2020Nov16 JMG. Modified Onsala twins per article about local -ties 
-* Positions updated by: Update_position_cat v2020Sep10  on September 10 
+*
+* POSITION.CAT - sked's site position catalog
+*
+* Updates (most recent at the top): 
+* 2020Nov16 JMG Added in DSS26. Data from JPL 
+* 2020Nov16 JMG Modified Onsala twins per article about local -ties 
+* 2020Sep10 JMG Positions updated by: Update_position_cat v2020Sep10  on September 10 
 *
 * If the Origin is 2020c then the epoch is 2021Jan01 and comes from GSFC solution 2020c
 *
