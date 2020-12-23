@@ -3,230 +3,221 @@
 * 
 * ANTENNA.CAT - antenna information 
 *  
-* ------ Please put change entries more recent first. ----
-* 2020Nov13 JMG. Changed equip code for  URUMQI
-* 2020Oct13 JMG. Added in DSS26. Info from JPL email. 
-* 2020Aug03 JMG. Added in NYALE13N. Based on 13S
-* 2020Jul14 JMG. Changed YEBES40M limits per email from Javier Garcia 7/24/2020
-* 2020Jul06 JMG. Changed MACGO12M slewing model based on email from M. Berbue. 
-* 2020Jun17 JMG. Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
-* 2020may26 JMG. Modified slewing models for Ws,Wn, K2, GA per 2020May12 email from Mario Berube
-* 2019Sep19 JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
-* 2019Jul23 JMG  Modified slew times and constants for Wettzell per email from Christian Plotz (2019Jul23)            
-* 2019Jun25 JMG  Added in NYAEL13S
-* 2019Apr29 JMG. Changed AGGOs wrap limits per email from Hayao. 
-* 2018Apr27 JMG. Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
-* 2018Jan09 JMG. Changed WETTZELL lower limit to 5 degrees. 
-* 2018Jan09 JMG. Modified Kokee's slew parameters. These changed after repair 
-* 2017Dec04 JMG. Changed Dec limits of HARTRAO per email from Jonathan Quick: (-88,45)-->(-83,45) 
-* 2017Nov15 JMG. Changed az limits of Wettzell twins
-* 2017Sep25 JMG. Added pointer to mask information. 
-* 2017SEP19 JMG. Added in RAEGSMAR
-* 2017Sep12 JMG. Changed 1-letter code of Hobart12 to "L"
-* 2017Aug24 JMG. Added information for ONSALA twins per Email rudiger 2017Aug23
-* 2017Apr20 JMG. Modified slewing of several antennas per email Mario Berube 2017Apr20
-*                FORTLEZA, HOBART, HART15M, KATH12M, KOKEE,MATERA, MEDICINA, NYALES20
-*                ONSALA60, SEJONG,SESHAN25,TSUKUB32,URUMQI,YARA12M,YEBES40M
-* 2017Mar21 JMG. Added DSS34 and DSS36
-* 2016Oct12 JMG. Modified wettz13S, Wettz13N antenna size. 
-* 2016Oct08 JMG. Modifed IRBENE el limits per V. Bezrokovs
-* 2016Sep27 JMG. Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
-* 2016Aug17 JMG. Changed ISHIOKA Az limits per email from Ryoji Kawabata
-* 2016Jul20 JMG. Moved AGGO to the top of the list. Previously in location occupied by TIGO. 
-* 2016Jun22 KOL  Use same 2-letter codes than in the IVS file ns-codes.txt 
-* 2016Apr07 JMG. Modified Seshan limits per email from BO XIA 3/31/16
-* 2016Jan25 JMG. Added KOKEE12M as K2
-* 2015nov12 dbb  Change lower el. limit from 6.0 to 7.0 for KASHIMA11 and 
-*                KOGANEI per Eiji Kawai.
-* 2015Sep17 dbb  Change lower el. limit from 5.0 to 5.5 for VERAMZSW per T. Jike.
-* 2015Sep10 JMG. Changed HARTRAO mask key from "HT" to "Hh" 
-* 2015Feb25 JMG. Added RAEGYEB 
-* 2015Feb23 JMG. Added  ISHIOKA from jd1502 schedule
-* 2015Feb12 JMG. Put in WETTDBBC = Wettzell DBBC
-* 2014Jan22 JMG. Changed antenna parameters for WETTZ13N, 13S to
-* 2014Dec10 JMG. Several changes:  GGAO12M lower=6.25; Hart15M upper=88; 
-* 2014Dec10 JMG. GGAO12M AZ=5 deg/sec, el=1.1 per WEH
-* 2014Nov06 JMG. Added DSS54 per email from Garcia Miro 2014Nov06
-* 2014Jul01 JMG. Modified az-el limits twin.
-* 2014Jun03 JMG. Added twin telescope per email from arno Muesken
-* 2014May16 dbb  Add TIANMA65 per Fenchun Shu.
-* 2014Mar25 JMG  Added ONSALDBC = ONSALA60 with DBBC
-* 2014Jan30 JMG  Added 3 seconds to HART15Ms slew parameters
-* 2013Dec17 JMG  Added YEBESDBC= YEBES40M but with DBBC
-* Restored from 2013 version. the 2013Nov20 had wrong slew speeds for GGAO
-* 2013Dec13 JMG. Modified AZ-el limits for Warkworth per email from Stuart. 2013-Nov-21
-* 2013OCT10 JMG. Modified Warkworth entry to reflect antenna mask
-* 2013Jul02 JMG. Fixed Yaragadees limits
-* 2012May01 JMG. Changed name of Goddard 12M from GORF7102 to GGAO12M
-* 2013Apr29 JMG. Added 5 seconds to both axis for Kokee due to repair
-* 2013Mar27 JMG. Added in Sejong
-* 2013Jan17 JMG. Added GGAO12M=GORF7102
-* 2012Nov05 JMG. Added Axis offset for HART15M using information from first solve solutions
-*
-*
-* NOTE: Use this file for schedules to be created for observations
-*       after March 1, 1990.  The nomenclature for XY antennas has
-*       been reversed in this file and in the SKED 3/90 version.
-*       Refer to the catalog documentation for more information.
-* Updates
-*  921022 NRV DSS15, 45, 65 slew rates increased, el limit lowered
-*  921027 NRV Add Brazil
-*  930122 NRV Change DSS slew rates to full 48 deg/min
-*  930224 NRV Change NATAL to FORTLEZA
-*  930428 NRV Add McMurdo
-*  930603 nrv Axis offset for Kokee
-*  930714 nrv Fairbanks has MO, Yellowknife has 36
-*             Lower limit for Fortaleza antenna is 5 degrees (software).
-*  930806 nrv Correct O'Higgins diameter to 9m
-*  930806 nrv Add Mizusawa 10-m
-*  931028 nrv Urumqi terminal is 67, formerly at Seshan. Seshan is "SH".
-*  931108 nrv Update terminal numbers to cross-ref correctly in equip.cat file.
-*  931117 nrv Lower el limits for MV3, set az limits for new trailer orientation.
-*  931119 nrv Add horizon mask pointers for VLBA sites
-*  931123 nrv Revised MV3 az and el limits
-*  940216 nrv Urumqi is using a K4 terminal in spring 94.
-*  940407 nrv Add MV3-LOW as a test (fake) antenna with 0 el limit
-*  940413 nrv Correct az cable limits for Crimea per Nesterov
-*  940519 nrv Corrected Crimea slew rates and limits
-*  940523 nrv Corrected Crimea el limits
-*  940624 nrv Change Crimea az limits by 2 degrees
-*  940729 nrv Change VLBA upper el limits to 88 degrees.
-*  940818 nrv Change az limits for Fortaleza, per JDW
-*  940829 nrv Reduce Bonn az slewing to 15 deg/min er message from Bonn
-2             and changed az cable limits per Kurt Standke
-*  941011 nrv Change lower az limit for Medicina per G. Maccaferri
-*  941011 nrv Change Ny Alesund name per C. Ma and M. Eubanks
-*  941219 nrv Initial Yebes data from P. Vicente
-*  941220 nrv Change Bonn az slewing back to 30 deg/min.
-*  950109 nrv NRAO20 initial entry, same as Kokee.
-*  950124 nrv Reduce DSS65 slewing rates.
-*  950217 nrv Reduce DSS45 el slew rate from 48 to 42 per P. Wolken.
-*  950413 nrv Change az, el limits for Kashima-26 per Y. Fukuzaki.
-*  950414 nrv Change Noto az slew from 48 to 43, add constants, per V. Tornatore.
-*  950421 nrv Update Ny Alesund az limits, per S. Rekkedal
-*  950503 nrv Add MIAMI20 per M. Eubanks.
-*  950703 nrv Change Kashima az limits and change constant to 0 per Y. Fukuzaki.
-*  951003 nrv Put in 10 sec constants for Yebes per P. Colomer.
-*  960125 nrv Add CAMBG32M antenna, info confirmed per P. Burgess.
-*  960217 nrv Change upper el limits for DSS15, 45, 65 to 88 deg from 90.
-*  961126 nrv Change az limits for Yebes per P. Vicente.
-*  961210 nrv Change "PO" links for stations with new 2-letter codes.
-*  961212 nrv Add mask link for Effelsberg, correct limits/rates per A. Mueskens.
-* 970324 nrv New limits for MV3 per C. Kodak, after limit stop repair.
-* 970325 nrv Revised slew rates and constants for Westford per B. Corey.
-* 970610 nrv Return DSS65 to fast slewing rate, azimuth has been fixed.
-* 970922 nrv Change NRAO20 upper el limit per GB ops and M. Eubanks.
-* 971021 nrv Change Algonquin to AZEL, revised limits, remove constants,
-*            per M. Berube.
-* 971205 nrv Added TIGO, copied from EUROP6 schedule.
-* 971216 nrv Correct the Matera az limits and constants per P. Colucci.
-* 980112 nrv Correct the HartRAO slewing rates and constants per J. Quick.
-* 980209 nrv Add 2-sec constant to Ny Alesund model.
-* 980326 nrv Add TSUKUB32 with parameters from Fukuzaki.
-* 980505 nrv Add TAHITI for simulations, copied from NRAO20.
-* 980807 nrv Correct the TIGO diameter.
-* 981113 nrv Change Crimea az limits per A. Volvach.
-* 981228 nrv Add SYOWA10 with parameters from Shibuya&Fukuzaki.
-* 990331 nrv Change TSUKUB32 az slew rate to 60 during rail repair.
-* 990716 nrv Change EFLSBERG az slew rate to 20 per A. Kraus & R. Porcas.
-* 991015 nrv Reduce DSS65 AZ slewing rate to 30 per P. Wolken/A. Perea.
-* 991109 nrv Change TSUKUB32 az slew rate back to 180 following rail repair.
-* 000113 nrv Add 10 sec constant for TSUKUB32 slewing.
-* 000125 nrv Add CTVA (Canadian Trans. VLBI Antenna) per C. Klatt.
-* 000131 nrv Add KASHIM11, KOGANEI, MIURA, TATEYAMA 11-m antennas per GSI.
-* 000131 nrv Modify KASHIM34 lower elevation limit to 7.0 per Y. Koyama.
-* 000202 nrv Change MATERA constant to 20 sec per P. Colucci.
-* 000204 nrv Change NYALES20 constant to 7 sec per NyAl team.
-* 000316 nrv Increase slewing constant to 14 sec for TSUKUB32 per S. Kurihara.
-* 000318 nrv Change TSUKUB32 az limits per S. Kurihara.
-* 000518 nrv Add DSS13 with info per C. Jacobs.
-* 000703 nrv Change Y-axis slew rate for Hobart during drive repairs.
-* 001003 nrv Change Syowa antenna name from SYOWA10 to SYOWA.
-* 001016 nrv Update TORUN, JODRELL2, WESTRBORK with info
-*            from P. Charlot sending sched dat files. Didn't change
-*            CAMBG32M info since it was already checked by P. Burgess.
-* 001029 nrv Fixed WSTRBORK HA limits to be +/-90.0.
-* 001211 nrv Change O'Higgins cable wrap to -90/270, one full wrap.
-* 010119 nrv Change DSS45 slew rate in elevation from 42 to 48 deg/min
-*            per George Martinez. Other DSS antennas unchanged.
-* 10508 nrv Add Parkes with info from A. Fey.
-2 010529 nrv Change TIGO position code to Tc (Concepcion).
-* 010807 nrv Add Metsahovi info from old .drg schedule.
-* 011002 nrv Add GBT per F. Ghigho.
-* 011024 nrv Add SVETLOE per info in IVS AR1999.
-* 011031 nrv Add ZELENCHK per info from WEH.
-* 011126 nrv Reduce DSS65 az slew speed to 15 deg/min per George Martinez.
-* 020408 nrv Corrected 2-letter code for DSS13 from 15 to 13.
-* 020417 nrv Reduce MATERA slewing rate per P. Colucci.
-* 021210 nrv Algonquin has NRAO20 equipment=106.
-* 030205 nrv Change diameter of Sv and Zc to 32 m.
-* 030303 nrv Modify Parkes info per J. Reynolds.
-* 030616 nrv Reduce Algonquin el rate to 5 deg/min per M. Berube.
-* 030702 nrv Update DSS43=TIDBIN64 slew rates and limits per A. Fey.
-* 031105 nrv Reduce SVETLOE slewing range per A. Mikhailov, E. Skurhina
-* 031117 nrv Commented out KASHIMA 26m because the antenna is dismantled.
-* 040224 nrv Change METSHOVI size to 13.7 m.
-* 040309 nrv Change METSHOVI (old mobile) to METSAHOV (astronomy antenna).
-* 040618 nrv Change limits for SESHAN per X. Huang.
-* 040628 nrv Change ARIES_9M (Yellowknife) limits and rates per M. Berube.
-* 040629 nrv Correct error in ARIES_9M upper el limit.
-* 041104 nrv Correct SVETLOE equipment to 116.
-* 041104 nrv Correct ZELENCHK equipment to 118.
-* 050303 nrv Add constants to ALGOPARK slewing per M. Berube.
-* 050321 nrv Change NYALES20 axis offset to 0.508 (same as NRAO20, KOKEE).
-* 050721 nrv Change WETTZELL cable limits per R. Kilger.
-* 050725 nrv Change SVETLOE and ZELENCHK az limits per A. Melnikov and A. Mikhailov.
-* 050921 dbb Add new station DSS65A at Madrid per Axel Nothnagel
-* 051007 dbb Correct SESHAN25 slew rates per Wang Guangli.
-* 051007 dbb Change WETTZELL cable limits per R. Kilger.
-* 051213 dbb Change DSS15 azimuth slew rate to 24.0 per Pamela Wolken.
-* 060510 dbb Add ATCA, CEDUNA, and MOPRA per S. Pogrebenko and C. Phillips.
-* 060524 dbb Change ALGOPARK azimuth slew rate from 24.4 to 20.0 per Mario Berube.
-* 060911 dbb Change NYALES20 first axis limit from 260 to 271 per Helge Digre.
-* 070117 JMG Modified Kok slew, off to 117, 9, and Nyal slew, off to 120, 9
-* 070220 JMG Added BADARY. Used same slew and limits as for ZELENCHUK
-* 070620 dbb Change Y-axis slew rate for Hobart back to 40 deg/min per O. Titov.
-* 070828 dbb Change slew time constants C1 and C2 from 30 to 36 sec for Hobart
-*            per E. Himwich and J. Gipson.
-* 080411 JMG Changed rate, constant for DSS13 to 10 and 48d/sec  and limits 271-719
-* 080521 dbb Change DSS15 azimuth slew rate to 48.0 per George Martinez.
-* 080604 dbb Add AIRA, CHICHI10, and SINTOTU3 (Japanese GARNET stations) based on
-*            JD0805 schedule.
-* 080610 dbb Change DSS65A azimuth slew speed to 24 deg/min (from 15 deg/min) and
-*            elevation slew speed to 24 deg/min (from 48 deg/min) per George Martinez.
-* 080617 dbb Add YEBES40M per P. de Vicente and P. Colomer. Comment out old YEBES
-*            to avoid confusion.
-* 08Oct22 JMG Modified YEBES40M az limits to 0-360.  
-* 08Oct31 JMG Modified YEBES40M az limits to -60-420.  
-* 090209 dbb Change DSS65A azimuth slew speed to 15 deg/min (from 24 deg/min) and
-*            elevation slew speed to 15 deg/min (from 24 deg/min) per George Martinez.
-* 090513 dbb Change DSS65A azimuth slew speed to 48 deg/min (from 15 deg/min) and
-*            elevation slew speed to 48 deg/min (from 15 deg/min) per George Martinez.
-* 090611 dbb Changed DSS43=TIDBIN64 CW limit to 759.8 (from 760.0) per Shinji Horiuchi.
-* 090611 dbb Changed DSS45 CW limit to 628.9 (from 630.0) per Shinji Horiuchi.
-* 090713 JMG Changed Badary so that pionts to horizon mask
-* 090921 dbb Add New Hobart, Katherine, Yarragadee, and Warkworth or simulation purposes.
-* 090925 JMG Updated GGAO (=ORION) limits
-* 090928 dbb Add VERA stations Mizusawa and Ishigakijima.
-* 091204 JMG Changed limits of DSS65A per 12/04/09 email from Esther Moll Moreno
-* 100114 JMG Change slew rates of DS15 to 48 deg/min and 45 deg/min per email George Martinez
-* 100811 dbb Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
-* 100811 dbb Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
-*            per Brett Reid.
-* 100812 DG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
-* 052411 JG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
-* 110706 dbb Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
-* 110711 dbb Add KUNMING per Fengchun Shu.
-* 110815 dbb Change TIGO Lim1 from (276 916) to (276 774) per Ed Himwich.
-* 110818 dbb Correct TIGO slew speeds per Hayo Hase.
-* 120118 dbb Add JAXA station UCHINOUR.
-* 120215 JMG Chaged limits of Effelsberg fom 30-480 to 34-490 per email Uwe Bach (11/21/2011)
-* 120816 JMG For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
-* 120925 dbb Add 15-m antenna at Hartebeesthoek (HART15M).
-* 130716 dbb Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
-* 140416 dbb Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
-* 140516 dbb Add TIANMA65 per Fengchun Shu.
-*    
+* Updates (most recent at the top): 
+* 2020-11-13 JMG Changed equip code for  URUMQI
+* 2020-10-13 JMG Added in DSS26. Info from JPL email. 
+* 2020-08-03 JMG Added in NYALE13N. Based on 13S
+* 2020-07-14 JMG Changed YEBES40M limits per email from Javier Garcia 7/24/2020
+* 2020-07-06 JMG Changed MACGO12M slewing model based on email from M. Berbue. 
+* 2020-06-17 JMG Changed MACGO12M two letter codes to "Mg" from "MG". MG broke some sked routines
+* 2020-05-26 JMG Modified slewing models for Ws,Wn, K2, GA per 2020May12 email from Mario Berube
+* 2019-09-19  JMG  Added in MACGO12M per email from  2019Sep10 Alex Burns haystack
+* 2019-07-23  JMG  Modified slew times and constants for Wettzell per email from Christian Plotz (2019Jul23)            
+* 2019-06-25  JMG  Added in NYAEL13S
+* 2019-04-29  JMG  Changed AGGOs wrap limits per email from Hayao. 
+* 2018-04-27  JMG  Fixed entries for Onsala twins per email R.Hass 4/26/18. Hass originally gave wrong info
+* 2018-01-09  JMG  Changed WETTZELL lower limit to 5 degrees. 
+* 2018-01-09  JMG  Modified Kokee's slew parameters. These changed after repair 
+* 2017-12-04  JMG  Changed Dec limits of HARTRAO per email from JQuick: (-88,45)-->(-83,45) 
+* 2017-11-15  JMG  Changed az limits of Wettzell twins
+* 2017-09-25  JMG  Added pointer to mask information. 
+* 2017-09-19  JMG  Added in RAEGSMAR
+* 2017-09-12  JMG  Changed 1-letter code of Hobart12 to "L"
+* 2017-08-24  JMG  Added information for ONSALA twins per Email rudiger 2017Aug23
+* 2017-04-20  JMG  Modified slewing of several antennas per email Mario Berube 2017Apr20
+*                  FORTLEZA, HOBART, HART15M, KATH12M, KOKEE,MATERA, MEDICINA, NYALES20
+*                  ONSALA60, SEJONG,SESHAN25,TSUKUB32,URUMQI,YARA12M,YEBES40M
+* 2017-03-21  JMG  Added DSS34 and DSS36
+* 2016-10-12  JMG  Modified wettz13S, Wettz13N antenna size. 
+* 2016-10-08  JMG  Modifed IRBENE el limits per V. Bezrokovs
+* 2016-09-27  JMG  Added IRBENE in Latvia per 2016Sep27 V. Bezrukovs
+* 2016-08-17  JMG  Changed ISHIOKA Az limits per email from Ryoji Kawabata
+* 2016-07-20  JMG  Moved AGGO to the top of the list. Previously in location occupied by TIGO. 
+* 2016-06-22  KLB  Use same 2-letter codes than in the IVS file ns-codes.txt 
+* 2016-04-07  JMG  Modified Seshan limits per email from BO XIA 3/31/16
+* 2016-01-25  JMG  Added KOKEE12M as K2
+* 2015-11-12  DBB  Change lower el. limit from 6.0 to 7.0 for KASHIMA11 and 
+*                  KOGANEI per Eiji Kawai.
+* 2015-09-17  DBB  Change lower el. limit from 5.0 to 5.5 for VERAMZSW per T. Jike.
+* 2015-09-10  JMG  Changed HARTRAO mask key from "HT" to "Hh" 
+* 2015-02-25  JMG  Added RAEGYEB 
+* 2015-02-23  JMG  Added  ISHIOKA from jd1502 schedule
+* 2015-02-12  JMG  Put in WETTDBBC = Wettzell DBBC
+* 2014-01-22  JMG  Changed antenna parameters for WETTZ13N, 13S to
+* 2014-12-10  JMG  Several changes:  GGAO12M lower=6.25; Hart15M upper=88; 
+* 2014-12-10  JMG  GGAO12M AZ=5 deg/sec, el=1.1 per WEH
+* 2014-11-06  JMG  Added DSS54 per email from Garcia Miro 2014Nov06
+* 2014-07-01  JMG  Modified az-el limits twin.
+* 2014-06-03  JMG  Added twin telescope per email from arno Muesken
+* 2014-05-16  DBB  Add TIANMA65 per Fengchun Shu.
+* 2014-04-16  DBB  Change upper wrap limit in azimuth from 540 to 720 for Warkworth.
+* 2014-03-25  JMG  Added ONSALDBC = ONSALA60 with DBBC
+* 2014-01-30  JMG  Added 3 seconds to HART15Ms slew parameters
+* 2013-12-17  JMG  Added YEBESDBC= YEBES40M but with DBBC
+*                  Restored from 2013 version. the 2013Nov20 had wrong slew speeds for GGAO
+* 2013-12-13  JMG  Modified AZ-el limits for Warkworth per email from Stuart. 2013-Nov-21
+* 2013-10-10  JMG  Modified Warkworth entry to reflect antenna mask
+* 2013-07-16  DBB  Add TIGOPLTA as the future home of TIGO at La Plata, Argentina.
+* 2013-07-02  JMG  Fixed Yaragadees limits
+* 2013-05-01  JMG  Changed name of Goddard 12M from GORF7102 to GGAO12M
+* 2013-04-29  JMG  Added 5 seconds to both axis for Kokee due to repair
+* 2013-03-27  JMG  Added in Sejong
+* 2013-01-17  JMG  Added GGAO12M=GORF7102
+* 2012-11-05  JMG  Added Axis offset for HART15M using information from first solve solutions
+* 2012-09-25  DBB  Add 15-m antenna at Hartebeesthoek (HART15M).
+* 2012-08-16  JMG  For Badary, Svetloe, Zelenchuk, RATE1 72-->60, C1 60-->40, Rate2 48-->30, C2 60-->40. (email elena 8/16/12) 
+* 2012-02-15  JMG  Chaged limits of Effelsberg fom 30-480 to 34-490 per email Uwe Bach (11/21/2011)
+* 2012-01-18  DBB  Add JAXA station UCHINOUR.
+* 2011-08-18  DBB  Correct TIGO slew speeds per Hayo Hase.
+* 2011-08-15  DBB  Change TIGO Lim1 from (276 916) to (276 774) per Ed Himwich.
+* 2011-07-11  DBB  Add KUNMING per Fengchun Shu.
+* 2011-07-06  DBB  Change slewing constant for HOBART12, KATH12M, and YARRA12M to 3 sec per Ed Himwich.
+* 2011-05-24  JMG  Updated wrap limits for Hobart, Katherine, Yarragadee, Warkworth
+* 2010-08-12  DGG  Updated axis offsets from 2010a.axo file. Changed 'PARKES64' to 'PARKES'. 
+* 2010-08-11  DBB  Change HOBART26 azimuth and elevation slew speeds to 39 deg/min (from 40 deg/min)
+*                  per Brett Reid.
+* 2010-08-11  DBB  Change DSS15 elevation slew speed to 39 deg/min (from 45 deg/min) per George Martinez.
+* 2010-01-14  JMG  Change slew rates of DS15 to 48 deg/min and 45 deg/min per email George Martinez
+* 2009-12-04  JMG  Changed limits of DSS65A per 12/04/09 email from Esther Moll Moreno
+* 2009-09-28  DBB  Add VERA stations Mizusawa and Ishigakijima.
+* 2009-09-25  JMG  Updated GGAO (=ORION) limits
+* 2009-09-21  DBB  Add New Hobart, Katherine, Yarragadee, and Warkworth or simulation purposes.
+* 2009-07-13  JMG  Changed Badary so that pionts to horizon mask
+* 2009-06-11  DBB  Changed DSS45 CW limit to 628.9 (from 630.0) per Shinji Horiuchi.
+* 2009-06-11  DBB  Changed DSS43=TIDBIN64 CW limit to 759.8 (from 760.0) per Shinji Horiuchi.
+* 2009-05-13  DBB  Change DSS65A azimuth slew speed to 48 deg/min (from 15 deg/min) and
+*                  elevation slew speed to 48 deg/min (from 15 deg/min) per George Martinez.
+* 2009-02-09  DBB  Change DSS65A azimuth slew speed to 15 deg/min (from 24 deg/min) and
+*                  elevation slew speed to 15 deg/min (from 24 deg/min) per George Martinez.
+* 2008-10-31  JMG  Modified YEBES40M az limits to -60-420.  
+* 2008-10-22  JMG  Modified YEBES40M az limits to 0-360.  
+* 2008-06-17  DBB  Add YEBES40M per P. de Vicente and P. Colomer. Comment out old YEBES
+*                  to avoid confusion.
+* 2008-06-10  DBB  Change DSS65A azimuth slew speed to 24 deg/min (from 15 deg/min) and
+*                  elevation slew speed to 24 deg/min (from 48 deg/min) per George Martinez.
+* 2008-06-04  DBB  Add AIRA, CHICHI10, and SINTOTU3 (Japanese GARNET stations) based on
+*                  JD0805 schedule.
+* 2008-05-21  DBB  Change DSS15 azimuth slew rate to 48.0 per George Martinez.
+* 2008-04-11  JMG  Changed rate, constant for DSS13 to 10 and 48d/sec  and limits 271-719
+* 2007-08-28  DBB  Change slew time constants C1 and C2 from 30 to 36 sec for Hobart
+*                  per E. Himwich and J. Gipson.
+* 2007-06-20  DBB  Change Y-axis slew rate for Hobart back to 40 deg/min per O. Titov.
+* 2007-02-20  JMG  Added BADARY. Used same slew and limits as for ZELENCHUK
+* 2007-01-17  JMG  Modified Kok slew, off to 117, 9, and Nyal slew, off to 120, 9
+* 2006-09-11  DBB  Change NYALES20 first axis limit from 260 to 271 per Helge Digre.
+* 2006-05-24  DBB  Change ALGOPARK azimuth slew rate from 24.4 to 20.0 per Mario Berube.
+* 2006-05-10  DBB  Add ATCA, CEDUNA, and MOPRA per S. Pogrebenko and C. Phillips.
+* 2005-12-13  DBB  Change DSS15 azimuth slew rate to 24.0 per Pamela Wolken.
+* 2005-10-07  DBB  Change WETTZELL cable limits per R. Kilger.
+* 2005-10-07  DBB  Correct SESHAN25 slew rates per Wang Guangli.
+* 2005-09-21  DBB  Add new station DSS65A at Madrid per Axel Nothnagel
+* 2005-07-25  NRV  Change SVETLOE and ZELENCHK az limits per A. Melnikov and A. Mikhailov.
+* 2005-07-21  NRV  Change WETTZELL cable limits per R. Kilger.
+* 2005-03-21  NRV  Change NYALES20 axis offset to 0.508 (same as NRAO20, KOKEE).
+* 2005-03-03  NRV  Add constants to ALGOPARK slewing per M. Berube.
+* 2004-11-04  NRV  Correct ZELENCHK equipment to 118.
+* 2004-11-04  NRV  Correct SVETLOE equipment to 116.
+* 2004-06-29  NRV  Correct error in ARIES_9M upper el limit.
+* 2004-06-28  NRV  Change ARIES_9M (Yellowknife) limits and rates per M. Berube.
+* 2004-06-18  NRV  Change limits for SESHAN per X. Huang.
+* 2004-03-09  NRV  Change METSHOVI (old mobile) to METSAHOV (astronomy antenna).
+* 2004-02-24  NRV  Change METSHOVI size to 13.7 m.
+* 2003-11-17  NRV  Commented out KASHIMA 26m because the antenna is dismantled.
+* 2003-11-05  NRV  Reduce SVETLOE slewing range per A. Mikhailov, E. Skurhina
+* 2003-07-02  NRV  Update DSS43=TIDBIN64 slew rates and limits per A. Fey.
+* 2003-06-16  NRV  Reduce Algonquin el rate to 5 deg/min per M. Berube.
+* 2003-03-03  NRV  Modify Parkes info per J. Reynolds.
+* 2003-02-05  NRV  Change diameter of Sv and Zc to 32 m.
+* 2002-12-10  NRV  Algonquin has NRAO20 equipment=106.
+* 2002-04-17  NRV  Reduce MATERA slewing rate per P. Colucci.
+* 2002-04-08  NRV  Corrected 2-letter code for DSS13 from 15 to 13.
+* 2001-11-26  NRV  Reduce DSS65 az slew speed to 15 deg/min per George Martinez.
+* 2001-10-31  NRV  Add ZELENCHK per info from WEH.
+* 2001-10-24  NRV  Add SVETLOE per info in IVS AR1999.
+* 2001-10-02  NRV  Add GBT per F. Ghigho.
+* 2001-08-07  NRV  Add Metsahovi info from old .drg schedule.
+* 2001-05-29  NRV  Change TIGO position code to Tc (Concepcion).
+* 2001-05-08  NRV  Add Parkes with info from A. Fey.
+* 2001-01-19  NRV  Change DSS45 slew rate in elevation from 42 to 48 deg/min
+*                  per George Martinez. Other DSS antennas unchanged.
+* 2000-12-11  NRV  Change O'Higgins cable wrap to -90/270, one full wrap.
+* 2000-10-29  NRV  Fixed WSTRBORK HA limits to be +/-90.0.
+* 2000-10-16  NRV  Update TORUN, JODRELL2, WESTRBORK with info
+*                  from P. Charlot sending sched dat files. Didn't change
+*                  CAMBG32M info since it was already checked by P. Burgess.
+* 2000-10-03  NRV  Change Syowa antenna name from SYOWA10 to SYOWA.
+* 2000-07-03  NRV  Change Y-axis slew rate for Hobart during drive repairs.
+* 2000-05-18  NRV  Add DSS13 with info per C. Jacobs.
+* 2000-03-18  NRV  Change TSUKUB32 az limits per S. Kurihara.
+* 2000-03-16  NRV  Increase slewing constant to 14 sec for TSUKUB32 per S. Kurihara.
+* 2000-02-04  NRV  Change NYALES20 constant to 7 sec per NyAl team.
+* 2000-02-02  NRV  Change MATERA constant to 20 sec per P. Colucci.
+* 2000-01-31  NRV  Modify KASHIM34 lower elevation limit to 7.0 per Y. Koyama.
+* 2000-01-31  NRV  Add KASHIM11, KOGANEI, MIURA, TATEYAMA 11-m antennas per GSI.
+* 2000-01-25  NRV  Add CTVA (Canadian Trans. VLBI Antenna) per C. Klatt.
+* 2000-01-13  NRV  Add 10 sec constant for TSUKUB32 slewing.
+* 1999-11-09  NRV  Change TSUKUB32 az slew rate back to 180 following rail repair.
+* 1999-10-15  NRV  Reduce DSS65 AZ slewing rate to 30 per P. Wolken/A. Perea.
+* 1999-07-16  NRV  Change EFLSBERG az slew rate to 20 per A. Kraus & R. Porcas.
+* 1999-03-31  NRV  Change TSUKUB32 az slew rate to 60 during rail repair.
+* 1998-12-28  NRV  Add SYOWA10 with parameters from Shibuya&Fukuzaki.
+* 1998-11-13  NRV  Change Crimea az limits per A. Volvach.
+* 1998-08-07  NRV  Correct the TIGO diameter.
+* 1998-05-05  NRV  Add TAHITI for simulations, copied from NRAO20.
+* 1998-03-26  NRV  Add TSUKUB32 with parameters from Fukuzaki.
+* 1998-02-09  NRV  Add 2-sec constant to Ny Alesund model.
+* 1998-01-12  NRV  Correct the HartRAO slewing rates and constants per J. Quick.
+* 1997-12-16  NRV  Correct the Matera az limits and constants per P. Colucci.
+* 1997-12-05  NRV  Added TIGO, copied from EUROP6 schedule.
+* 1997-10-21  NRV  Change Algonquin to AZEL, revised limits, remove constants,
+*                  per M. Berube.
+* 1997-09-22  NRV  Change NRAO20 upper el limit per GB ops and M. Eubanks.
+* 1997-06-10  NRV  Return DSS65 to fast slewing rate, azimuth has been fixed.
+* 1997-03-25  NRV  Revised slew rates and constants for Westford per B. Corey.
+* 1997-03-24  NRV  New limits for MV3 per C. Kodak, after limit stop repair.
+* 1996-12-12  NRV  Add mask link for Effelsberg, correct limits/rates per A. Mueskens.
+* 1996-12-10  NRV  Change "PO" links for stations with new 2-letter codes.
+* 1996-11-26  NRV  Change az limits for Yebes per P. Vicente.
+* 1996-02-17  NRV  Change upper el limits for DSS15, 45, 65 to 88 deg from 90.
+* 1996-01-25  NRV  Add CAMBG32M antenna, info confirmed per P. Burgess.
+* 1995-10-03  NRV  Put in 10 sec constants for Yebes per P. Colomer.
+* 1995-07-03  NRV  Change Kashima az limits and change constant to 0 per Y. Fukuzaki.
+* 1995-05-03  NRV  Add MIAMI20 per M. Eubanks.
+* 1995-04-21  NRV  Update Ny Alesund az limits, per S. Rekkedal
+* 1995-04-14  NRV  Change Noto az slew from 48 to 43, add constants, per V. Tornatore.
+* 1995-04-13  NRV  Change az, el limits for Kashima-26 per Y. Fukuzaki.
+* 1995-02-17  NRV  Reduce DSS45 el slew rate from 48 to 42 per P. Wolken.
+* 1995-01-24  NRV  Reduce DSS65 slewing rates.
+* 1995-01-09  NRV  NRAO20 initial entry, same as Kokee.
+* 1994-12-20  NRV  Change Bonn az slewing back to 30 deg/min.
+* 1994-12-19  NRV  Initial Yebes data from P. Vicente
+* 1994-10-11  NRV  Change Ny Alesund name per C. Ma and M. Eubanks
+* 1994-10-11  NRV  Change lower az limit for Medicina per G. Maccaferri
+* 1994-08-29  NRV  Reduce Bonn az slewing to 15 deg/min er message from Bonn
+*                  and changed az cable limits per Kurt Standke
+* 1994-08-18  NRV  Change az limits for Fortaleza, per JDW
+* 1994-07-29  NRV  Change VLBA upper el limits to 88 degrees.
+* 1994-06-24  NRV  Change Crimea az limits by 2 degrees
+* 1994-05-23  NRV  Corrected Crimea el limits
+* 1994-05-19  NRV  Corrected Crimea slew rates and limits
+* 1994-04-13  NRV  Correct az cable limits for Crimea per Nesterov
+* 1994-04-07  NRV  Add MV3-LOW as a test (fake) antenna with 0 el limit
+* 1994-02-16  NRV  Urumqi is using a K4 terminal in spring 94.
+* 1993-11-23  NRV  Revised MV3 az and el limits
+* 1993-11-19  NRV  Add horizon mask pointers for VLBA sites
+* 1993-11-17  NRV  Lower el limits for MV3, set az limits for new trailer orientation.
+* 1993-11-08  NRV  Update terminal numbers to cross-ref correctly in equip.cat file.
+* 1993-10-28  NRV  Urumqi terminal is 67, formerly at Seshan. Seshan is "SH".
+* 1993-08-06  NRV  Add Mizusawa 10-m
+* 1993-08-06  NRV  Correct O'Higgins diameter to 9m
+* 1993-07-14  NRV  Fairbanks has MO, Yellowknife has 36
+*                  Lower limit for Fortaleza antenna is 5 degrees (software).
+* 1993-06-03  NRV  Axis offset for Kokee
+* 1993-04-28  NRV  Add McMurdo
+* 1993-02-24  NRV  Change NATAL to FORTLEZA
+* 1993-01-22  NRV  Change DSS slew rates to full 48 deg/min
+* 1992-10-27  NRV  Add Brazil
+* 1992-10-22  NRV  DSS15, 45, 65 slew rates increased, el limit lowered
 * Note: Assume that acceleration/deceleration is constant A, and Slew is V, both in seconds. Then
 *       offset is V/A.  Example: V=4deg/sec,  A=2deg/s^2,  Offset is 2. 
 *            
