@@ -2,6 +2,10 @@
 * CATALOG hdpos.cat 
 * HDPOS.CAT - standard headstack positions
 *
+* Updates (most recent entry at the top):
+* 2005-12-04  JMG  Assumed update process.
+* 1999-08-01  NRV  Original version.
+*
 * Name = name of head position set referenced in HEAD.CAT
 * Pass = 1-9, A-Z.  Odd-numbered passes are forward, 
 * even-numbered passes are reverse.
