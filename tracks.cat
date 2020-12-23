@@ -1,25 +1,28 @@
 * VERSION 2018Jul10_iGSFC
 * CATALOG tracks.cat 
+* 
 * TRACKS.CAT - track assignments
 *
 * This catalog includes track assignments.
-* 2018Jul10    JMGipson  Added 4U12L-1-2 to support 2GB-VLBA (4Upper, 12L, 2bit) 
-* 2017Dec06    JMGipson. Added commment about AUST1GPBS-B which is same as 14UL-1-2-B
-* 2017Sep11    JMGipson. Fixed bug in AUST1GBPS
-* 2014Oct29    JMcCallum new track for AUSTRALs
-* 2014May22    JMGipson new track layout for VLBA
-* 2014May06    JMGipson Mark5B track layout for CONT14.
-* 2013Jul09    JMGipson. 
-* 2013Jul08    JMGipson. Modified track assignhment 14U2L-1-1-BS for SESHAN
+* 
+* Updates (most recent entries at the top):
+* 2018-07-10  JMG  Added 4U12L-1-2 to support 2GB-VLBA (4Upper, 12L, 2bit) 
+* 2017-12-06  JMG  Added commment about AUST1GPBS-B which is same as 14UL-1-2-B
+* 2017-09-11  JMG  Fixed bug in AUST1GBPS
+* 2014-10-29  JMC  New track for AUSTRALs [Jamie McCallum]
+* 2014-05-22  JMG  New track layout for VLBA
+* 2014-05-06  JMG  Mark5B track layout for CONT14.
+* 2013-07-09  JMG  
+* 2013-07-08  JMG  Modified track assignhment 14U2L-1-1-BS for SESHAN
+* 2012-11-07  JMG  Added Mark5b modes for R1/R4s (14U2L-1-1-B) an RDVS (8U-1-2-B)
+* 2009-09-09  JMG  Added 2-bit sampling for RDVs.
+* 2006-10-31  JMG  Added clone of mode  C for intensive
+*                  Added 14U2L-1-1 (for Ohig) which looks like mode C except for the 2 lower.
+* 2006-05-11  JMG  Added 2 track for ATN test.
+* 2005-12-05  NRV  Add 8-channel assignments for Seshan 8U-1-1S.
+* 2005-11-15  NRV  Add field documentation, add fanout and bits.
+* 2005-10-30  NRV  New version
 *
-* 051030 nrv   New version
-* 051115 nrv   Add field documentation, add fanout and bits.
-* 051205 nrv   Add 8-channel assignments for Seshan 8U-1-1S.
-* 060511 JMG   Added 2 track for ATN test.
-* 06Oct31 JMG  Added clone of mode  C for intensive
-*              Added 14U2L-1-1 (for Ohig) which looks like mode C except for the 2 lower.
-* 09Sep09 JMG Added 2-bit sampling for RDVs.
-* 12Sep07 JMG.  Added Mark5b modes for R1/R4s (14U2L-1-1-B) an RDVS (8U-1-2-B)
 *
 ************************************************************
 * Fields:
