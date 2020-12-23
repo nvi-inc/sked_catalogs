@@ -1,9 +1,11 @@
-* VERSION 2020Aug03_iGSFC 
+* VERSION 2020Nov13_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * ------ Please put change entries more recent first. ----
+* 2020Nov13 JMG. Changed equip code for  URUMQI
+* 2020Oct13 JMG. Added in DSS26. Info from JPL email. 
 * 2020Aug03 JMG. Added in NYALE13N. Based on 13S
 * 2020Jul14 JMG. Changed YEBES40M limits per email from Javier Garcia 7/24/2020
 * 2020Jul06 JMG. Changed MACGO12M slewing model based on email from M. Berbue. 
@@ -248,6 +250,7 @@
  C CTVA     AZEL   0.00000 150.0   5  -20.0  380.0   60.0   5  10.0  90.0   3.6 Sb CT  --
  D DSS13    AZEL   0.00000  48.0  10  271.0  719.0   48.0  10   7.0  89.0  34.0 13 68  --
  D DSS15    AZEL   0.00000  48.0  20  270.0  720.0   39.0  20   6.2  88.0  34.0 15 68  --
+ T DSS26    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 26 26  --
  T DSS34    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 34 34  --
  T DSS36    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 36 36  --
  T DSS45    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 45 39  --
@@ -349,7 +352,7 @@
  T TSUKUB32 AZEL   0.00000 194.0  14   10.0  710.0  190.0  16   5.0  88.0  32.0 Ts TS  --
  V UCHINOUR AZEL   0.00000 300.0   0  275.0  805.0  150.0   0   5.0  88.0  34.0 Uc Uc  Uc
 *U URUMQI   AZEL   0.00000  60.0   0  280.0  800.0   30.0   0   5.0  88.0  25.0 Ur K4  --
- U URUMQI   AZEL   0.00000  60.0   9  280.0  800.0   32.0   9   5.0  88.0  25.0 Ur K4  --
+ U URUMQI   AZEL   0.00000  60.0   9  280.0  800.0   32.0   9   5.0  88.0  25.0 Ur 67  --
  U USSURISK AZEL   4.00000  30.0 900  270.0  810.0   15.0 900   5.0  88.0  70.0 Us US  --
  S VERAISGK AZEL   0.00000 120.0   0  270.0  810.0  120.0   0   5.0  85.0  20.0 Vs Vs  Vs
  M VERAMZSW AZEL   0.00000 120.0   0  270.0  810.0  120.0   0   5.5  85.0  20.0 Vm Vm  Vm
