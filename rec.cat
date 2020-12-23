@@ -1,9 +1,10 @@
-* VERSION 2020Oct13_iGSFC 
+* VERSION 2020Nov23_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2020Nov23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
 * 2020Oct13 JMG  Added in DSS26
 * 2020Jun09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
 * 2020Apr07 KLB  Added 32-16-12-2 for new 1Gbps AOV modes AOVSX16N0, AOVSX16N1, and AOVSX16W
@@ -731,9 +732,11 @@
  32-16-1-2
  -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
  -       BADARY     MK3V-A      14U2L-1-2-B   Mk34
- -       DSS26      MK3V-A      14U2L-1-2    Mk34    
+ -       CRIMEA     MK3V-A      14U2L-1-2-B   Mk34 
+ -       DSS26      MK3V-A      14U2L-1-2     Mk34    
  -       DSS45      MK3V-A      14U2L-1-2     Mk34
  -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
+ -       EFLSBERG   MK3V-A      14U2L-1-2-B   Mk34  
  -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
  -       GGAO12M    MK3V-A      14U2L-1-2     Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-2     Mk34  
@@ -745,6 +748,7 @@
  -       KASHIM34   MK3V-A      14U2L-1-2-J  Mk34
  -       KASHIM11   MK3V-A      14U2L-1-2-J  Mk34
  -       KATH12M    MK3V-A      14U2L-1-2-B   Mk34
+ -       KOGANEI    MK3V-A      14U2L-1-2-J  Mk34
  -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34 
  -       KOKEE12M   MK3V-A      14U2L-1-2-B   Mk34
  -       KUNMING    MK3V-A      14U2L-1-2-B   Mk34  
@@ -754,7 +758,8 @@
  -       MEDICINA   MK3V-A      14U2L-1-2     Mk34 
  -       NOTO       MK3V-A      14U2L-1-2     Mk34   
  -       NYALES20   MK3V-A      14U2L-1-2-B   Mk34  
- -       NYALE13S   MK3V-A      14U2L-1-2     Mk34   
+ -       NYALE13S   MK3V-A      14U2L-1-2     Mk34 
+ -       OHIGGINS   MK3V-A      14U2L-1-2     Mk34  
  -       ONSA13NE   MK3V-A      14U2L-1-2     Mk34   
  -       ONSA13SW   MK3V-A      14U2L-1-2     Mk34   
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
@@ -766,11 +771,13 @@
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
  -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
  -       SESHAN25   MK3V-A      14U2L-1-2     Mk34  
+ -       SYOWA      MK3V-A      14U2L-1-2-J  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       VERAMZSW   MK3V-A      14U2L-1-2     Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  
  -       WETTZELL   MK3V-A      14U2L-1-2-B   Mk34  
