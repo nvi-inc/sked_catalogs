@@ -1,8 +1,10 @@
-* VERSION 2020Nov04_iGSFC
+* VERSION 2021Jan19_iGSFC
 * CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
-* Updates (most recent at the top):
+* Updates (most recent at the top)
+* 2021-01-19 JMG replaced rest of '- XX' by '-SX'
+* 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 * 2020-11-04 JMG GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
 * 2020-11-04 JMG Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. 
 * 2020-11-02 JMG Added AOVSX16N. This was used in apsg47
@@ -19,8 +21,8 @@
 *                  'EUR2- XX'
 * 2018-07-10  JMG  Added 2GB VLBA mode= 32-4U-16U-1-2
 * 2018-01-03  KLB  Added new sequence for narrowband 8MHz bw - 
-*                  CDP- XXN
-* 2015-03-15 Lucia DVP- XX recording added for DSS45 to be able to
+*                  CDP-SXN
+* 2015-03-15 Lucia DVP-SX recording added for DSS45 to be able to
 *                  contribute to AUSTRALs with 1-Gbps recording
 * 2015-02-23  JMG  Added K5-16KSP  = Japanese  jade mode 
 * 2014-02-05  JMG  Changed LOIF sequence for RDV from VG_STD to 
@@ -43,7 +45,7 @@
 * 2005-10-04  NRV  Update 8-channel Seshan sequences.
 * 2005-09-25  NRV  Update 8-channel Seshan sequences.
 * 2005-09-16  NRV  Add 8-chan X-band for IGRID RT demo, per M. Titus.
-* 2005-08-11  NRV  Add 8-channel Seshan to CDP- XX.
+* 2005-08-11  NRV  Add 8-channel Seshan to CDP-SX.
 * 2005-08-02  NRV  Add 8-channel Seshan to wideband.
 * 2005-07-09  NRV  Remove duplicate GEOSX sequences.
 * 2005-07-09  NRV  Add alternate BBC assignments for Zc in VG.
@@ -77,7 +79,7 @@
 ********************************************************
 * Standard CDP narrow-band sequence.
 * X 360 MHz, S 85 MHz.
- CDP- XX SX STD  SX_STD   
+ CDP-SX SX STD  SX_STD   
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -94,7 +96,7 @@
 - S    R   2302.99  U   CH14    14   10000.0
 * 2018Jan03
 * New narrowband sequence suitable for 8 MHz bw
- CDP- XXN SX STD SX_WIDE
+ CDP-SXN SX STD SX_WIDE
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8220.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
@@ -111,7 +113,7 @@
 - S    R   2365.99  U   CH14    14   10000.0
 * 8-Chan subset for Seshan, per B. Corey and JMG/DSM 10/05. 
 ! Commented out cause we don't need. 
-* CDP- XX SX SESH SX_SE8N  
+* CDP-SX SX SESH SX_SE8N  
 *- X    R   8220.99  U   CH2     1    10000.0
 *- X    R   8250.99  U   CH3     2    10000.0
 *- X    R   8310.99  U   CH4     3    10000.0
@@ -122,7 +124,7 @@
 & S    R   2292.99  U   CH13    8    10000.0
 * Switched set of standard CDP narrow-band 
 * sequence for VLBA.
-* CDP- XX SX SW  VLBA_STD
+* CDP-SX SX SW  VLBA_STD
 *- X    R   8210.99  U   CH1     1    10000.0  1,2
 *- X    R   8220.99  U   CH2     2    10000.0  1
 *- X    R   8250.99  U   CH3     1    10000.0  0
@@ -139,7 +141,7 @@
 *- S    R   2302.99  U   CH14    8    10000.0  1,2
 * Standard CDP narrow-band sequence, subset of 
 * 12 BBCs for Noto, 7 at X and 5 at S.
-*CDP- XX SX NOTO  NOTO_STD   
+*CDP-SX SX NOTO  NOTO_STD   
 * X    R   8210.99  U   CH1     1    10000.0
 * X    R   8220.99  U   CH2     2    10000.0
 * X    R   8250.99  U   CH3     3    10000.0
@@ -386,7 +388,7 @@
 - S    R   2292.99  U   CH14    14   10000.0
 * 8-chan subset for Seshan per B. Corey, 9/05
 * and JMG/DSM 10/05
- EUR2- XXo SX SESH  SX_SE8E  
+ EUR2-SXo SX SESH  SX_SE8E  
 - X    R   8220.99  U   CH2     1    10000.0
 - X    R   8250.99  U   CH3     2    10000.0
 - X    R   8310.99  U   CH4     3    10000.0
@@ -398,7 +400,7 @@
 * 8-chan subset for Seshan per B.Corey, unused channels indicated with
 * negative sky frequencies
 * Commented out by adding x at end of name
- EUR2- XXx SX SESH  SX_SE8  
+ EUR2-SXx SX SESH  SX_SE8  
 - X    R   -8210.99  U   CH1     9    10000.0
 - X    R    8220.99  U   CH2     1    10000.0
 - X    R    8250.99  U   CH3     2    10000.0
@@ -432,7 +434,7 @@
 - S    R   2292.99  U   CH13    13   10000.0
 - S    R   2297.99  U   CH14    14   10000.0
 * European SX Noto, 6 at X and 6 at S.
-*EUR- XX SX NOTO  NOTO_STD   
+*EUR-SX SX NOTO  NOTO_STD   
 * X    R   8210.99  U   CH1     1    10000.0
 * X    R   8220.99  U   CH2     2    10000.0
 * X    R   8310.99  U   CH4     4    10000.0
@@ -1031,7 +1033,7 @@
 - X    R   8404.99  U   CH14    14   10000.0
 *********************************************
 * DSN sequence for CRF experiments
- DSN- XX SX STD  SX_DSN   
+ DSN-SX SX STD  SX_DSN   
 - X    R   8215.24  U   CH1     1    10000.0
 - X    R   8226.76  U   CH2     2    10000.0
 - X    R   8237.77  U   CH3     3    10000.0
@@ -1047,7 +1049,7 @@
 - S    R   2280.23  U   CH13    13   10000.0
 - S    R   2297.76  U   CH14    14   10000.0
 ****************************************************
- MARS3- XX SX STD SX_STD
+ MARS3-SX SX STD SX_STD
 - X R  8212.99  U    CH1  1  10000.0 
 - X R  8222.99  U    CH2   2  10000.0
 - X R  8416.99  U    CH3   3  10000.0
@@ -1123,7 +1125,7 @@
 - S R 2304.99  U  CH16 16       1000.000 
 ********************************************************
 * K4 16-channel sequence taken from K4TIE2
- K4- XX K4 STD K4_STD
+ K4-SX K4 STD K4_STD
 - X R 8124.99  U   CH1 1        1000.000 
 - X R 8214.99  U   CH2 2        1000.000 
 - X R 8224.99  U   CH3 3        1000.000 
@@ -1198,7 +1200,7 @@
 - K    R  22328.  U   CH2     2    10000.0
 ***********************************************************
 * added for DSS45 to contribute in AUSTRALs 1Gbps 
-  DVP- XX SX STD  SX_STD
+  DVP-SX SX STD  SX_STD
 - X    R   8210.99  U   CH1     1    10000.0
 - X    R   8230.99  U   CH2     2    10000.0
 - X    R   8250.99  U   CH3     3    10000.0
