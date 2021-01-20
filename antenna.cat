@@ -1,9 +1,10 @@
-* VERSION 2020Dec2913_iGSFC 
+* VERSION 2021Jan15_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 * 2020-12-29 JMG Changed limits in KOKEE12M per email Ed Himwhich  AZ 182.5-722.3, El 1.1-88.2 
 * 2020-11-13 JMG Changed equip code for  URUMQI
 * 2020-10-13 JMG Added in DSS26. Info from JPL email. 
@@ -242,7 +243,7 @@
  C CTVA     AZEL   0.00000 150.0   5  -20.0  380.0   60.0   5  10.0  90.0   3.6 Sb CT  --
  D DSS13    AZEL   0.00000  48.0  10  271.0  719.0   48.0  10   7.0  89.0  34.0 13 68  --
  D DSS15    AZEL   0.00000  48.0  20  270.0  720.0   39.0  20   6.2  88.0  34.0 15 68  --
- T DSS26    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 26 26  --
+ T DSS26    AZEL   0.00000  48.0  20  270.0  720.0   48.0  20   6.2  88.0  34.0 26 26  --
  T DSS34    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 34 34  --
  T DSS36    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 36 36  --
  T DSS45    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 45 39  --
