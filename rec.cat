@@ -4,6 +4,7 @@
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 * 2020-11-23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
 * 2020-10-13 JMG  Added in DSS26
 * 2020-06-09 JMG  Added ONSA13ned onsa13SW WETTZ13S to 32-16-1-2
@@ -255,6 +256,7 @@
  -       NRAO20     MK3V-A       8U-2-2    VLBA 
  -       GBT_VLBA   MK3V-A       8U-2-2    VLBA 
  -       NYALES20   MK3V-A       8U-1-2-b   Mk34 
+ -       NYALE13S   MK3V-A       8U-1-2-b   Mk34 
  -       PARKES     MK3V-A       8U-1-2-b   Mk34 
  -       SESHAN25   MK3V-A       8U-1-2-b   Mk34 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
@@ -676,6 +678,8 @@
  -       ALGOPARK   MK4-A      14U2L-2-2  Mk34
  -       BADARY     MK4-A      14U2L-2-2  Mk34
  -       FORTLEZA   MK4-A      14U2L-2-2  Mk34
+ -       DSS13      MK4-A      14U2L-2-2   Mk34  
+ -       DSS26      MK4-A      14U2L-2-2   Mk34  
  -       GILCREEK   MK4-A      14U2L-2-2  Mk34
  -       HOBART12   MK4-A      14U2L-2-2  Mk34
  -       HOBART26   MK4-A      14U2L-2-2  Mk34
@@ -730,6 +734,7 @@
  -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
  -       BADARY     MK3V-A      14U2L-1-2-B   Mk34
  -       CRIMEA     MK3V-A      14U2L-1-2-B   Mk34 
+ -       DSS13     MK3V-A      14U2L-1-2     Mk34    
  -       DSS26      MK3V-A      14U2L-1-2     Mk34    
  -       DSS45      MK3V-A      14U2L-1-2     Mk34
  -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 

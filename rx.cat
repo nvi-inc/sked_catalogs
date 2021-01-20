@@ -3,6 +3,7 @@
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-01-19 JMG Added NYALE13S to VG_MK4
 * 2020-10-13 JMG Put in DSS26.
 * 2020-07-14 JMG Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. 
 *                LO settings different in two cases. 
@@ -444,12 +445,13 @@
  -       ORION_5M    CDP_WID8
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
- -       NYALES20    CDP_WID8 
+ -       NYALES20    ODB_WIDE
+ -       NYALE13S    ODB_WIDE
  -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8
- -       WARK12M    DBBC_AU
+ -       WARK12M     DBBC_AU
  -       AGGO        CDPA_VG2
 *-       SESHAN25    CDPS_VG2
 * Added 2010Dec23
@@ -563,7 +565,6 @@
  -       KOKEE       NRAO_WIDE
  -       MATERA      CDP_WIDE
  -       MEDICINA    CDP_WIDE
- -       NYALES20    CDP_WIDE
  -       NRAO20      NRAO_WIDE
  -       NYALES20    CDP_WIDE
  -       ORION_5M    CDP_WIDE
