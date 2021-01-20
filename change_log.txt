@@ -2,6 +2,14 @@ This file has a summary of changes to the sked catalogs. Arranged by catalog and
 This does not list updates to the flux catalog which occur ~monthly.
 This only lists recent changes.  For older changes look in the original catalog files.  
 
+-- Changes made in 2021
+
+antenna.cat: * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
+freq.cat:    * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
+freq.cat:    * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
+rec.cat:     * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
+rx.cat:      * 2021-01-19 JMG Added NYALE13S to VG_MK4
+
 ---Changes made in 2020------
 
 All CATALOGS:  Updates put in strictly reverse chronological order.  Uses new date format 2020-11-10
