@@ -9,7 +9,8 @@
 * 2020-11-04 JMG Changed GEOSX  Channel 7 back ot 8912.99. Reason better sidelobes. 
 * 2020-11-02 JMG Added AOVSX16N. This was used in apsg47
 * 2020-04-07 KLB Added three 1Gbps recording modes AVSX16N0, AVSX16N1, both narrowband, 
-*                and AOVSX16W wideband - the modes AVSX16N0 and AOVSX16W are derived from *                modes used in AOV sessions. AVSX16N1 differs from AVSX16N0 in the 
+*                and AOVSX16W wideband - the modes AVSX16N0 and AOVSX16W are derived from 
+*                modes used in AOV sessions. AVSX16N1 differs from AVSX16N0 in the 
 *                S-band frequency sequence, modified because of RFI at Hobart26.
 * 2019-09-26  JMG  Modified GEOSX Channel 7 8912.99-->8892.99. 
 *                  Reason is when using 16MHZ BW, Last two channels
