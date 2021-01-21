@@ -1,9 +1,10 @@
-* VERSION 2021Jan19_iGSFC 
+* VERSION 2021Jan21_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 * 2020-11-23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
 * 2020-10-13 JMG  Added in DSS26
@@ -242,7 +243,7 @@
  -       GILCREEK   MK3A-A       8U-2-2    VLBA  
  -       HARTRAO    MK3V-A       8U-1-2-b   Mk34 
  -       HART15M    MK3V-A       8U-1-2-b   Mk34 
- -       HOBART26   MK3V-A       8U-2-2     Mk34
+ -       HOBART26   MK3V-A       8U-1-2-b   Mk34
  -       HOBART12   MK3V-A       8U-1-2-b   Mk34
  -       ISHIOKA    MK3V-A       8U-2-2     Mk34 
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
@@ -309,7 +310,7 @@
  -       HARTRAO    MK3V-A      14U2L-2-1   Mk34  
  -       HART15M    MK3V-A      14U2L-2-1   Mk34
  -       HOBART12   MK3V-A      14U2L-2-1   Mk34
- -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1-B   Mk34
  -       KASHIM11   MK3A-A      14U2L-2-1   Mk34 
  -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
  -       KATH12M    MK3V-A      14U2L-2-1   Mk34
@@ -385,7 +386,7 @@
  -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
- -       HOBART26   MK3V-A      14U2L-2-1     Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1-B     Mk34
  -       IRBENE     MK3V-A      14U2L-1-1-B   Mk34  
  -       ISHIOKA    MK3V-A      14U2L-1-1-BJ  Mk34
  -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
@@ -466,7 +467,7 @@
  -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
- -       HOBART26   MK3V-A      14U2L-2-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1-B   Mk34
  -       ISHIOKA    MK3A-A      14U2L-1-1-BJ   Mk34 
  -       KASHIM11   MK3A-A      14U2L-1-1-BJ   Mk34 
  -       KASHIM34   MK3A-A      14U2L-2-1   Mk34 
@@ -537,7 +538,7 @@
  -       GOLDVENU   MK3V-A      14U2L-1-1   Mk34
  -       HARTRAO    MK3V-A      14U2L-1-1   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1   Mk34
- -       HOBART26   MK3V-A      14U2L-1-1   Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1-B   Mk34
  -       KASHIM34   MK3A-A      14U2L-1-1   Mk34
  -       KATH12M    MK3V-A      14U2L-1-1   Mk34
  -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
