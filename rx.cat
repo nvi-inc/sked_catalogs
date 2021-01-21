@@ -3,9 +3,10 @@
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
 * 2021-01-19 JMG Added NYALE13S to VG_MK4
 * 2020-10-13 JMG Put in DSS26.
-* 2020-07-14 JMG Changed YEBES repalced YDC_STD-->YDC_WIDE for wideband. 
+* 2020-07-14 JMG Changed YEBES replaced YDC_STD-->YDC_WIDE for wideband. 
 *                LO settings different in two cases. 
 * 2020-01-03  JMG  In SX_STD, SX_WIDE Changed freq sequnce for NYALE13S to NYS_STD
 * 2019-09-19  JMG  Put in  values for MACGO12M based on KOKEE12M
@@ -173,7 +174,7 @@
  -       HART15M     DBBC_HH
  -       HAYSTACK    CDP_STD
  -       HOBART12    DBBC_AU
- -       HOBART26    CDP_STD
+ -       HOBART26    DBBC_26
  -       ISHIOKA     CDP_STDN
  -       KASHIM34    KAS_STD
  -       KASHIM11    K4_KAS11
@@ -255,7 +256,7 @@
  -       WETTZELL    CDP_WIDE
  -       TSUKUB32    CDP_WIDE
  -       HARTRAO     CDP_WIDE
- -       HOBART26    CDP_WIDE
+ -       HOBART26    DBBC_26
  -       FORTLEZA    CDP_WIDE
  -       ORION_5M    CDP_WIDE
  -       KOKEE       CDP_WIDE
@@ -433,7 +434,7 @@
  -       HARTRAO     DBBC_HH
  -       HART15M     DBBC_HH
  -       KOKEE       NRAO_VG2
- -       HOBART26    CDP_WID8 
+ -       HOBART26    DBBC_26 
  -       HOBART12    DBBC_AU
  -       KATH12M     DBBC_AU
  -       ISHIOKA     KAS_WID8
@@ -446,14 +447,14 @@
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
  -       NYALES20    ODB_WIDE
- -       NYALE13S    ODB_WIDE
+ -       NYALE13S    NYS_STD
  -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8
  -       WARK12M     DBBC_AU
  -       AGGO        CDPA_VG2
-*-       SESHAN25    CDPS_VG2
+ -       SESHAN25    CDP_STDK
 * Added 2010Dec23
  -       SESHAN25    SESH_LO
  -       SVETLOE     CDP_WID8 
@@ -559,7 +560,7 @@
  -       GILCREEK    CDPV_WIDE
  -       HARTRAO     CDP_WIDE
  -       HOBART12    DBBC_AU
- -       HOBART26    CDP_WIDE
+ -       HOBART26    DBBC_26
  -       KASHIMA     KAS_STD
  -       KATH12M     CDP_WIDE
  -       KOKEE       NRAO_WIDE
