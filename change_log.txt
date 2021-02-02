@@ -6,10 +6,12 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 antenna.cat: * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
+equip.cat    * 2021-02-02 JMG Wetzell rec-->Flexbuff
+
 freq.cat:    * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
 freq.cat:    * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 
-
+rec.cat      * 2021-02-01 JMG  Changed Seshan25 track layouts because it is Mark5B
 rec.cat:     * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
 rec.cat:     * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 

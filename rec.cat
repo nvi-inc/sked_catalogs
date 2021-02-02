@@ -1,10 +1,11 @@
-* VERSION 2021Jan21_iGSFC 
+* VERSION 2021-02-01_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
-* 2021-02-01 JMG  Updated Seshan because uses MARK5B
+* 2021-02-02 JMG  Changed track for Seshan in 32-16-1-2 
+* 2021-02-01 JMG  Updated Seshan because uses MARK5B. 
 * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 * 2020-11-23 JMG  Added CRIMEA, EFLSBERG KOGANEI OHIGGINS SYOWA VERAMZSW to 32-16-1-2
@@ -737,7 +738,7 @@
  -       ALGOPARK   MK3V-A      14U2L-1-2     Mk34 
  -       BADARY     MK3V-A      14U2L-1-2-B   Mk34
  -       CRIMEA     MK3V-A      14U2L-1-2-B   Mk34 
- -       DSS13     MK3V-A      14U2L-1-2     Mk34    
+ -       DSS13     MK3V-A       14U2L-1-2     Mk34    
  -       DSS26      MK3V-A      14U2L-1-2     Mk34    
  -       DSS45      MK3V-A      14U2L-1-2     Mk34
  -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
@@ -775,7 +776,7 @@
  -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
  -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
- -       SESHAN25   MK3V-A      14U2L-1-1-B   Mk34  
+ -       SESHAN25   MK3V-A      14U2L-1-2-B   Mk34  
  -       SYOWA      MK3V-A      14U2L-1-2-J  Mk34
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
