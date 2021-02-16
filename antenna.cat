@@ -1,9 +1,10 @@
-* VERSION 2021Jan15_iGSFC 
+* VERSION 2021-02-16_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2021-02-16 JMG Changed YEBES40M el limits to 15-89 per email j.gonzelez (2020-02-16). Also changed mask. This is temp fix while working on gearbox
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 * 2020-12-29 JMG Changed limits in KOKEE12M per email Ed Himwhich  AZ 182.5-722.3, El 1.1-88.2 
 * 2020-11-13 JMG Changed equip code for  URUMQI
@@ -181,7 +182,9 @@
 * 1996-12-10  NRV  Change "PO" links for stations with new 2-letter codes.
 * 1996-11-26  NRV  Change az limits for Yebes per P. Vicente.
 * 1996-02-17  NRV  Change upper el limits for DSS15, 45, 65 to 88 deg from 90.
-* 1996-01-25  NRV  Add CAMBG32M antenna, info confirmed per P. Burgess.
+* 1
+
+996-01-25  NRV  Add CAMBG32M antenna, info confirmed per P. Burgess.
 * 1995-10-03  NRV  Put in 10 sec constants for Yebes per P. Colomer.
 * 1995-07-03  NRV  Change Kashima az limits and change constant to 0 per Y. Fukuzaki.
 * 1995-05-03  NRV  Add MIAMI20 per M. Eubanks.
@@ -359,5 +362,5 @@
 *Y YARRA12M AZEL   0.00000 300.0   3   90.0  630.0   75.0   3   5.0  88.0  12.0 Yg Yg  --
  Y YARRA12M AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Yg Yg  --
 *Y YEBES40M AZEL   2.00980  60.0  10  300.0  780.0   60.0  10   5.0  89.0  40.0 Ys 105 --
- Y YEBES40M AZEL   2.00980 120.0  16  -30.0  390.0   60.0  16   5.0  89.0  40.0 Ys 105 -- 
+ Y YEBES40M AZEL   2.00980 120.0  16  -30.0  390.0   60.0  16  15.0  89.0  40.0 Ys 105 -- 
  Z ZELENCHK AZEL   0.00000  60.0  40  278.0  802.0   30.0  40  12.0  80.0  32.0 Zc 118 --

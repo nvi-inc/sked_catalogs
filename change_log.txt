@@ -4,19 +4,28 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2021
 
-antenna.cat: * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
+antenna.cat: 
+* 2021-02-16 JMG Changed YEBES40M el limits to 15-89 per email j.gonzelez (2020-02-16). Also changed mask. This is temp fix while working on gearbox
+* 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
-equip.cat    * 2021-02-02 JMG Wetzell rec-->Flexbuff
+equip.cat   
+* 2021-02-02 JMG Wetzell rec-->Flexbuff
 
-freq.cat:    * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
-freq.cat:    * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
+freq.cat:  
+* 2021-01-19 JMG replaced rest of '- XX' by '-SX'
+* 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 
-rec.cat      * 2021-02-01 JMG  Changed Seshan25 track layouts because it is Mark5B
-rec.cat:     * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
-rec.cat:     * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
+mask.cat:
+* 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
 
-rx.cat:      * 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
-rx.cat:      * 2021-01-19 JMG Added NYALE13S to VG_MK4
+rec.cat   
+* 2021-02-01 JMG  Changed Seshan25 track layouts because it is Mark5B
+* 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
+* 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
+
+rx.cat:      
+* 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
+* 2021-01-19 JMG Added NYALE13S to VG_MK4
 
 ---Changes made in 2020------
 

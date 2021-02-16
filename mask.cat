@@ -1,9 +1,10 @@
-* VERSION 2020Oct29_iGSFC 
+* VERSION 2021-02-16_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
 * 2020-10-29 JMG. NYALES13S was missing code which caused sked to crash.
 * 2020-09-11 JMG  Fixed bug in AGGO mask. Added last El value
 * 2020-08-04 JMG. Changed horizon mask of NYALE13S to 15 deg. Added in NYALES13N
@@ -218,6 +219,7 @@
  - 122 7.5 125 8 139 5 150 8.5 159 8.5 164 9.5 182 7 192 9.5 200 9.5
  - 211 5.5 230 5.5 241 9.5 250 9.5 255 8.5 290 8.5 306 6 313 6.5
  - 323 5.5 327 5.5 338 9.5 350 8.5 360 9.5
+ H   YEBES40M Ys 0 15 360
 *H   SEST     SE 0     6     10    13    20    6     360              
 * SEST mask converted from step function.
  H  SEST Se  0 6  10 6 11 13  20 13  21 6  360 6
