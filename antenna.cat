@@ -1,9 +1,10 @@
-* VERSION 2021-02-16_iGSFC 
+* VERSION 2021-02-19_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2021-02-19 JMG Changed GGAO12M az, el offsets and rates: (5 293) (3 70) based on testing done by Petrov
 * 2021-02-16 JMG Changed YEBES40M el limits to 15-89 per email j.gonzelez (2020-02-16). Also changed mask. This is temp fix while working on gearbox
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 * 2020-12-29 JMG Changed limits in KOKEE12M per email Ed Himwhich  AZ 182.5-722.3, El 1.1-88.2 
@@ -255,7 +256,7 @@
  D FD-VLBA  AZEL   2.13100  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Fd FV  Fd
 *F FORTLEZA AZEL   0.00000  40.0   0  171.0  709.0   20.0   0   5.0  88.0  14.2 Ft 01  --
  F FORTLEZA AZEL   0.00000  48.0   7  171.0  709.0   20.0  10   5.0  88.0  14.2 Ft 01  --
- G GGAO12M  AZEL   0.00000 300.0   8  180.0  720.0   66.0   8   6.5  88.0  12.0 Gs Gs  Gs
+ G GGAO12M  AZEL   0.00000 293.0   5  180.0  720.0   70.0   3   6.5  88.0  12.0 Gs Gs  Gs
  A GILCREEK XYNS   7.28470  60.0   0  -86.0   86.0   60.0   0 -73.5  73.5  25.9 Gc 101 Gc
  D GOLDMARS AZEL   0.00000  12.0   0  136.0  672.0   12.0   0   6.0  88.0  64.0 14 68  --
  Q GOLDVENU AZEL   0.92520 120.0   0  270.0  810.0  120.0   0   6.0  88.0  26.0 Gv 16  --
