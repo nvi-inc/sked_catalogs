@@ -4,7 +4,7 @@
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top): 
-* 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas
+* 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas. Removed MADRID
 * 2021-02-02 JMG Changed Wettzell to flexbuff
 * 2020-11-04 JMG Fixed NYALE13N line. DAT name was NYALE13S. 
 * 2020-10-29 JMG Fixed bug where NYALES13S was in twice 
@@ -413,7 +413,6 @@
  KUNMING   103  KUNMING  1x56000   17640  X   600   S   500 VLBA5 Mark5B
  KP-VLBA    KV  KP-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
  LA-VLBA    LA  LA-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.259 3.259 X 1.0 0.934 0.0660  VLBA MARK5A
- MADRID64   69  DSS65       1      8820   X     0   S     0
  MARCUS    161  KASHIMA     1      8820   X 17000   S 12000
  MATERA    119  MATERA   2x56000  17640   X  1600   S  2200 Mark5 MARK5B
  MACGO12M   Mg  MACGO12M 2x56000  17640   X  3000   S  3000 RDBE MARK6
