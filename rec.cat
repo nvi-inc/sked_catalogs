@@ -1,9 +1,10 @@
-* VERSION 2021-02-01_iGSFC 
+* VERSION 2021-03-03_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-03-03 JMG  Put in DSS56
 * 2021-02-02 JMG  Changed track for Seshan in 32-16-1-2 
 * 2021-02-01 JMG  Updated Seshan because uses MARK5B. 
 * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
@@ -301,6 +302,7 @@
  -       DSS34      MK3V-A      14U2L-2-1   Mk34  
  -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS56      MK3V-A      14U2L-2-1   Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
  -       DSS13      MK3V-A      14U2L-2-1   Mk34  
@@ -376,7 +378,8 @@
  -       DSS26      MK3V-A      14U2L-2-1     Mk34  
  -       DSS34      MK3V-A      14U2L-2-1     Mk34  
  -       DSS36      MK3V-A      14U2L-2-1     Mk34  
- -       DSS45      MK3V-A      14U2L-2-1     Mk34  
+ -       DSS45      MK3V-A      14U2L-2-1     Mk34 
+ -       DSS56      MK3V-A      14U2L-2-1     Mk34  
  -       DSS65A     MK3V-A      14U2L-2-1     Mk34  
  -       DSS15      MK3V-A      14U2L-2-1     Mk34  
  -       DSS13      MK3V-A      14U2L-1-2-D   Mk34  
@@ -457,6 +460,7 @@
  -       DSS34      MK3V-A      14U2L-2-1   Mk34  
  -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS56      MK3V-A      14U2L-2-1     Mk34 
 *-       DSS54      MK3V-A      14U2L-2-1   Mk34 
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
@@ -531,6 +535,7 @@
  -       DSS34      MK3V-A      14U2L-2-1   Mk34  
  -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-1-1   Mk34  
+ -       DSS56      MK3V-A      14U2L-2-1     Mk34 
  -       DSS65A     MK3V-A      14U2L-1-1   Mk34  
  -       TIDBIN64   MK3V-A      14U2L-1-1   Mk34  
  -       DSS15      MK3V-A      14U2L-1-1   Mk34  
@@ -582,6 +587,7 @@
  -       DSS34      MK3V-A      14U2L-2-1   Mk34  
  -       DSS36      MK3V-A      14U2L-2-1   Mk34  
  -       DSS45      MK3V-A      14U2L-2-1   Mk34  
+ -       DSS56      MK3V-A      14U2L-2-1     Mk34 
  -       DSS65A     MK3V-A      14U2L-2-1   Mk34  
  -       TIDBIN64   MK3V-A      14U2L-2-1   Mk34  
  -       DSS15      MK3V-A      14U2L-2-1   Mk34  
@@ -682,8 +688,9 @@
  -       ALGOPARK   MK4-A      14U2L-2-2  Mk34
  -       BADARY     MK4-A      14U2L-2-2  Mk34
  -       FORTLEZA   MK4-A      14U2L-2-2  Mk34
- -       DSS13      MK4-A      14U2L-2-2   Mk34  
- -       DSS26      MK4-A      14U2L-2-2   Mk34  
+ -       DSS13      MK4-A      14U2L-2-2  Mk34  
+ -       DSS26      MK4-A      14U2L-2-2  Mk34  
+ -       DSS56      MK3-A      14U2L-2-2  Mk34 
  -       GILCREEK   MK4-A      14U2L-2-2  Mk34
  -       HOBART12   MK4-A      14U2L-2-2  Mk34
  -       HOBART26   MK4-A      14U2L-2-2  Mk34
@@ -693,7 +700,7 @@
  -       KOKEE      MK4-A      14U2L-2-2  Mk34
  -       MATERA     MK4-A      14U2L-2-2  Mk34
  -       MEDICINA   MK4-A      14U2L-2-2  Mk34
- -       METSAHOV   MK4-A      14U2L-2-2 VLBA
+ -       METSAHOV   MK4-A      14U2L-2-2  VLBA
  -       OHIGGINS   MK4-A      14U2L-2-2  Mk34
  -       ONSALA60   MK4-A      14U2L-2-2  Mk34
  -       ORION_5M   MK4-A      14U2L-2-2  Mk34
@@ -741,6 +748,7 @@
  -       DSS13     MK3V-A       14U2L-1-2     Mk34    
  -       DSS26      MK3V-A      14U2L-1-2     Mk34    
  -       DSS45      MK3V-A      14U2L-1-2     Mk34
+ -       DSS56      MK3V-A      14U2L-1-2     Mk34
  -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
  -       EFLSBERG   MK3V-A      14U2L-1-2-B   Mk34  
  -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
@@ -802,6 +810,7 @@
  -       BADARY     MK3V-A      14U2L-1-2-B   Mk34  
  -       DSS26      MK3V-A      14U2L-1-2     Mk34  
  -       DSS45      MK3V-A      14U2L-1-2     Mk34
+ -       DSS56      MK3V-A      14U2L-1-2     Mk34
  -       TIDBIN64   MK3V-A      14U2L-1-2     Mk34 
 * -       FORTLEZA   MK3V-A      14U2L-1-2     Mk34  
  -       FORTLEZA   MK3V-A      14U2L-2-2     Mk34  

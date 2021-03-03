@@ -1,8 +1,9 @@
-* VERSION 2021Jan19_iGFSC
+* VERSION 2021-03-03_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-03-03 JMG Added in DSS56
 * 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
 * 2021-01-19 JMG Added NYALE13S to VG_MK4
 * 2020-10-13 JMG Put in DSS26.
@@ -146,6 +147,7 @@
  -       DSS15       DSN_CRF  
  -       DSS26       DSN_CRF
  -       DSS45       DSN_CRF
+ -       DSS56       DSN_CRF
  -       TIDBIN64    DSN_CRF
  -       MEDICINA    CDP_CRF
  -       HARTRAO     CDP_CRF
@@ -164,6 +166,7 @@
  -       DSS34       DSN_STD  
  -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
+ -       DSS56       DSN_STD
  -       TIDBIN64    DSN_STD
 *-       DSS54       DSN_STD
  -       DSS65A      DSN_STD
@@ -275,6 +278,7 @@
  -       DSS34       DSN_STD  
  -       DSS36       DSN_STD  
  -       DSS45       DSN_STD
+ -       DSS56       DSN_STD
  -       TIDBIN64    DSN_STD
  -       EFLSBERG    EFL_STD
  -       FORTLEZA    CDP_WIDE
@@ -350,6 +354,7 @@
  -       DSS15       CDP_W16
  -       DSS26       DSN_W16
  -       DSS45       CDP_W16
+ -       DSS56       CDP_W16
  -       FORTLEZA    CDP_W16
  -       GILCREEK    CDPV_W16
  -       HARTRAO     CDP_W16

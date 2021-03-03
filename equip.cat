@@ -1,9 +1,10 @@
-* VERSION 2021-02-02_iGSFC
+* VERSION 2021-03-03_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top): 
+* 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas
 * 2021-02-02 JMG Changed Wettzell to flexbuff
 * 2020-11-04 JMG Fixed NYALE13N line. DAT name was NYALE13S. 
 * 2020-10-29 JMG Fixed bug where NYALES13S was in twice 
@@ -366,15 +367,16 @@
  CRIMEA     35  TVDS-2      1      8820   X  3000   S  2000 Mark5 MARK5B 
  CTVA       CT  S2-CTVA    SLP      361   X 71000   S 75000 none S2
  CEDUNA     Cd  CEDUNA      1       200   K  2500   K  2500 Mark4 MARK5A
- DSS13      68  DSS13    2x56000  17640   X   400   S   250 Mark4 MARK5A
- DSS14      68  DSS15       1      8820   X     0   S     0
- DSS15      68  DSS15    2x56000  17640   X   400   S   250 Mark4 MARK5A
+ DSS13      13  DSS13    2x56000  17640   X   400   S   250 Mark4 MARK5A
+ DSS14      14  DSS15       1      8820   X     0   S     0
+ DSS15      15  DSS15    2x56000  17640   X   400   S   250 Mark4 MARK5A
  DSS26      26  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
  DSS34      34  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
  DSS36      36  DSS36    2x56000  17640   X   185   S   200 Mark4 MARK5A
- DSS45      39  DSS45    2x56000  17640   X   185   S   200 Mark4 MARK5A
+ DSS45      45  DSS45    2x56000  17640   X   185   S   200 Mark4 MARK5A
+ DSS56      56  DSS56    2x56000  17640   X   185   S   200 Mark4 MARK5A
  TIDBIN64   39  DSS45    2x56000 17640   X   185   S   200 Mark4 MARK5A
- DSS65A     69  DSS65A   2x56000 17640   X   220   S   195 Mark4 MARK5A
+ DSS65A     65  DSS65A   2x56000 17640   X   220   S   195 Mark4 MARK5A
  DSS54      54  DSS54    2x56000 17640   X   220   S   195 Mark4 MARK5A
  EFLSBERG   06  EFLSBERG 1x56000   17640  X    40   S   100 DBBC_DDC FlexBuff
  EFLSBERG   06  EFLSBERG 1x56000   17640  C    20   C    20 VLBA5 MARK5B

@@ -1,12 +1,13 @@
-* VERSION 2020Nov16_iGSFC
+* VERSION 2021-03-03_iGSFC
 * CATALOG position.cat
 *
 * POSITION.CAT - sked's site position catalog
 *
 * Updates (most recent at the top): 
-* 2020Nov16 JMG Added in DSS26. Data from JPL 
-* 2020Nov16 JMG Modified Onsala twins per article about local -ties 
-* 2020Sep10 JMG Positions updated by: Update_position_cat v2020Sep10  on September 10 
+* 2021-03-03 JMG Added in DSS56 Data from JPL. 
+* 2020-10-16 JMG Added in DSS26. Data from JPL 
+* 2020-10-16 JMG Modified Onsala twins per article about local -ties 
+* 2020-09-10 JMG Positions updated by: Update_position_cat v2020Sep10  on September 10 
 *
 * If the Origin is 2020c then the epoch is 2021Jan01 and comes from GSFC solution 2020c
 *
@@ -44,6 +45,7 @@ Dm DEADMANL    -2336821.0675   -4732588.7959    3570331.0269   00000000  116.28 
 34 DSS34       -4461147.7730    2682439.2566   -3674392.2306   00000000  211.02  -35.40 2020c
 36 DSS36       -4461169.0891    2682814.6859   -3674083.0269   00000000  211.02  -35.40 2020c
 45 DSS45       -4460936.2547    2682765.6961   -3674380.1044   16426001  211.02  -35.40 2020c
+56 DSS56        4849421.679     -360549.659     4114646.987    00000000    4.25   40.43 JPL email 2020Oct13
 65 DSS65        4849336.4771    -360488.3388    4114749.1529   16658501    4.25   40.43 2020c
 6a DSS65A       4849339.4889    -360427.3542    4114750.9503   15678501    4.25   40.43 2020c
 Eb EFLSBERG     4033947.2023     486990.9122    4900431.1520   72037901  353.12   50.52 2020c
