@@ -4,6 +4,7 @@
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-03-03 JMG  Added  in NYALES13 to 01-16-0-1
 * 2021-03-03 JMG  Put in DSS56
 * 2021-02-02 JMG  Changed track for Seshan in 32-16-1-2 
 * 2021-02-01 JMG  Updated Seshan because uses MARK5B. 
@@ -488,6 +489,7 @@
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NYALE13S  MK3V-A      14U2L-1-1-B   Mk34  
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34
  -       ONSALA60   MK3V-A      14U2L-2-1   Mk34  
