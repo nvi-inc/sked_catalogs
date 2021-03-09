@@ -9,6 +9,8 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat   
+* 2021-03-09 JMG Changed Warkworth rec to Flexbuff
+* 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas. Removed MADRID
 * 2021-02-02 JMG Wetzell rec-->Flexbuff
 
 freq.cat:  
@@ -16,6 +18,7 @@ freq.cat:
 * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 
 mask.cat:
+* 2021-03-09 JMG New Mask for GGAO. This is PWL and better follows the mask
 * 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
 
 rec.cat   
