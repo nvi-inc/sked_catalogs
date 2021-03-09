@@ -1,9 +1,10 @@
-* VERSION 2021-03-03_iGSFC
+* VERSION 2021-03-09_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top): 
+* 2021-03-09 JMG Changed Warkworth to Flexbuff
 * 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas. Removed MADRID
 * 2021-02-02 JMG Changed Wettzell to flexbuff
 * 2020-11-04 JMG Fixed NYALE13N line. DAT name was NYALE13S. 
@@ -482,7 +483,7 @@
  VERAMZSW   Vm  MIZ20   2x56000 17640   X  4880   S 13160  K4-1 K5
  VLA        65  VLA         1      8820   X     0   S     0
 *WARK12M    Ww  WARK12M   2x56000  17640  X  3500   S  3500 Mark4 MARK5A
- WARK12M    Ww  WARK12M   2x56000  17640  X  4600   S  4200 DBBC_DDC MARK5B
+ WARK12M    Ww  WARK12M   2x56000  17640  X  4600   S  4200 DBBC_DDC Flexbuff
 *WESTERBK   11  WESTERBK    1      8820   X     0   S     0
  WSTRBORK   11  WSTRBORK  2x56000 17640   C    60   C    60 Mark4 MARK5A
  WSTRBORK   11  WSTRBORK  2x56000 17640   X    60   X    60 Mark4 MARK5A
