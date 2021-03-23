@@ -1,9 +1,10 @@
-* VERSION 2021-03-09_iGSFC 
+* VERSION 2021-03-23_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2021-03-23 JMG Replaced some 'tabs' in GGAO mask. Sked was not handling these well
 * 2021-03-09 JMG New Mask for GGAO. This is PWL and better follows the mask
 * 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
 * 2020-10-29 JMG. NYALES13S was missing code which caused sked to crash.
@@ -133,7 +134,7 @@
 * GGAO12M Mask.
 * H  GGAO12M Gs  0 6 15 5.5 58 3.5 90 4.5 130 3 154 28 162 33 167 36 172 40 212 36 222. 33 227 28 232 6 290  6 360
 * Switched to PWL.  This better follows radar mask
- H GGAO12M Gs 0	6 15 5.5 58 3.5	90 4.5 130 3 149 3 150 11 152 18 157 27 167 37 
+ H GGAO12M Gs 0 6 15 5.5 58 3.5 90 4.5 130 3 149 3 150 11 152 18 157 27 167 37 
  - 177 41 187 43 197 43 207 41 217 37 227 27 232 18 234 11 235 6 360 6
 * HartRAO. Was previously 7 degrees all the way. Added stuff that was above 7 based on HART15M mask.
  H  HARTRAO Hh  0 7  90 9.5 100 7 110 8 120 7 300 9 320 9.5 330 9  350 7 360 7                 
