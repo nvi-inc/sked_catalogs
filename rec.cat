@@ -188,7 +188,7 @@
  -       ALGOPARK   MK3V-A       8U-4-1    Mk34 
  -       BADARY     MK3V-A       8U-4-1    Mk34 
  -       EFLSBERG   MK3V-A       8U-4-1    Mk34 
- -       GILCREEK   MK3A-A       8U-4-1   VLBA 
+ -       GILCREEK   MK3A-A       8U-4-1    VLBA 
  -       HARTRAO    MK3V-A       8U-4-1    Mk34 
  -       HOBART26   MK3V-A       8U-4-1    Mk34 
  -       KASHIM34   MK3V-A       8U-4-1    Mk34 
@@ -198,8 +198,8 @@
  -       MATERA     MK3V-A       8U-4-1    Mk34 
  -       MEDICINA   MK3V-A       8U-4-1    Mk34 
  -       NOTO       MK3V-A       8U-4-1    Mk34 
- -       NRAO20     MK3V-A       8U-4-1   VLBA 
- -       GBT_VLBA   MK3V-A       8U-4-1   VLBA 
+ -       NRAO20     MK3V-A       8U-4-1    VLBA 
+ -       GBT_VLBA   MK3V-A       8U-4-1    VLBA 
  -       NYALES20   MK3V-A       8U-4-1    Mk34 
  -       PARKES     MK3V-A       8U-4-1    Mk34 
  -       SEJONG     MK3V-A       8U-4-1    Mk34 
@@ -392,7 +392,7 @@
  -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
- -       HOBART26   MK3V-A      14U2L-1-1-B     Mk34
+ -       HOBART26   MK3V-A      14U2L-1-1-B   Mk34
  -       IRBENE     MK3V-A      14U2L-1-1-B   Mk34  
  -       ISHIOKA    MK3V-A      14U2L-1-1-BJ  Mk34
  -       KASHIM11   MK3A-A      14U2L-1-1-BJ  Mk34 
@@ -400,14 +400,14 @@
  -       KATH12M    MK3V-A      14U2L-1-1-B   Mk34
  -       KOGANEI    MK3A-A      14U2L-1-1-BJ  Mk34 
  -       KOKEE      MK3V-A      14U2L-1-1-B   Mk34 
- -       KOKEE12M   MK3V-A      14U2L-1-1-B  Mk34  
+ -       KOKEE12M   MK3V-A      14U2L-1-1-B   Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34 
- -       MACGO12M   MK3V-A      14U2L-2-1   Mk34   
+ -       MACGO12M   MK3V-A      14U2L-2-1     Mk34   
  -       MEDICINA   MK3V-A      14U2L-1-1-B   Mk34  
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-1-1-B   Mk34 
- -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NRAO20     MK3V-A      14U2L-2-1     VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
  -       NYALE13S   MK3V-A      14U2L-2-1     MK34
  -       OHIGGINS   MK3V-A      14U2L-2-1     Mk34
