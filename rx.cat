@@ -1,8 +1,10 @@
-* VERSION 2021-03-03_iGFSC
+* VERSION 2021-04-30_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-04-30 JMG ODB_STD--> ODB_WIDE  (ODB_STD and ODB_WIDE were identical in loif.cat).
+* 2021-04-30 JMG Introduced NY_WIDE
 * 2021-03-03 JMG Added in DSS56
 * 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
 * 2021-01-19 JMG Added NYALE13S to VG_MK4
@@ -199,11 +201,11 @@
  -       FORTLEZA    CDP_STD
  -       NRAO85_3    NRAO_STD
  -       NRAO20      NRAO_STD
- -       NYALES20    ODB_STD 
+ -       NYALES20    NY_WIDE 
  -       NYALE13S    NYS_STD
  -       OHIGGINS    CDPV_STD
- -       ONSALA60    ODB_STD
-*-       ONSALDBC    ODB_STD
+ -       ONSALA60    ODB_WIDE
+*-       ONSALDBC    ODB_WIDE
  -       ORION_5M    CDP_STD
  -       OVRO_130    CDP_STD
  -       NOTO        CDPVNOTO 
@@ -308,7 +310,7 @@
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
- -       NYALES20    ODB_WIDE
+ -       NYALES20    NY_WIDE
  -       NYALE13S    NYS_STD
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
@@ -451,7 +453,7 @@
  -       ORION_5M    CDP_WID8
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
- -       NYALES20    ODB_WIDE
+ -       NYALES20    NY_WIDE
  -       NYALE13S    NYS_STD
  -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
@@ -572,7 +574,7 @@
  -       MATERA      CDP_WIDE
  -       MEDICINA    CDP_WIDE
  -       NRAO20      NRAO_WIDE
- -       NYALES20    CDP_WIDE
+ -       NYALES20    NY_WIDE
  -       ORION_5M    CDP_WIDE
  -       ONSALA60    CDP_WIDE
  -       SANTIA12    CDP_WIDE

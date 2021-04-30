@@ -1,9 +1,10 @@
-** VERSION 2020JUL14_iGFSC
+** VERSION 2021-04-30_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2021-04-30  JMG  Removed ODB_STD which was identical to ODB_WIDE. Introduced NY_WIDE
 * 2020-07-14  JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez.
 * 2020-01-03  JMG  Made new LO sequence NYS_STD for Nyalesund
 * 2019-08-27  JMG  Changed CDPVNOTO to reflect new LO for X band 
@@ -207,21 +208,6 @@ CDP_STDUW
  -   12 2N    S   2020  U
  -   13 2N    S   2020  U
  -   14 2N    S   2020  U
-ODB_STD
- -   1  A1     X   8080  U
- -   2  A1     X   8080  U
- -   3  A1     X   8080  U
- -   4  A1     X   8080  U
- -   5  B1     X   8080  U
- -   6  B1     X   8080  U
- -   7  B1     X   8080  U
- -   8  B1     X   8080  U
- -   9  C1     S   2020  U
- -   10 C1     S   2020  U
- -   11 C1     S   2020  U
- -   12 C1     S   2020  U
- -   13 D1     S   2020  U
- -   14 D1     S   2020  U
 NYS_STD
  -   1  A1     X   8080  U
  -   2  A1     X   8080  U
@@ -235,8 +221,8 @@ NYS_STD
  -   10 C1     S   1700  U
  -   11 C1     S   1700  U
  -   12 C1     S   1700  U
- -   13 D1     S   1700  U
- -   14 D1     S   1700  U
+ -   13 C1     S   1700  U
+ -   14 C1     S   1700  U
  KAS_STD
  -   1  1N    X   7580  U
  -   2  1N    X   7580  U
@@ -282,6 +268,21 @@ ODB_WIDE
  -   12 C1     S   2020  U
  -   13 D1     S   2020  U
  -   14 D1     S   2020  U
+NY_WIDE
+ -   1  A1     X   8080  U
+ -   2  A1     X   8080  U
+ -   3  A1     X   8080  U
+ -   4  A1     X   8080  U
+ -   5  B1     X   8080  U
+ -   6  B1     X   8080  U
+ -   7  B1     X   8080  U
+ -   8  B1     X   8080  U
+ -   9  C1     S   2020  U
+ -   10 C1     S   2020  U
+ -   11 C1     S   2020  U
+ -   12 C1     S   2020  U
+ -   13 C1     S   2020  U
+ -   14 C1     S   2020  U 
 RAEG_WIDE
  -   1  A1     X   8100  U
  -   2  A1     X   8100  U
