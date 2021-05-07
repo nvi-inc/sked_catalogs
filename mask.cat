@@ -1,9 +1,10 @@
-* VERSION 2021-03-23_iGSFC 
+* VERSION 2021-05-07_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2021-05-07 JMG Updated Sejong Mask to avoid RFI per email from Sang oh 2021-05-03. Mask out region 10-90 in Az, 0-40 in el. 
 * 2021-03-23 JMG Replaced some 'tabs' in GGAO mask. Sked was not handling these well
 * 2021-03-09 JMG New Mask for GGAO. This is PWL and better follows the mask
 * 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
@@ -219,15 +220,17 @@
  C  WIDE85_3 Gd  -46   70    0     85    86
  H ONSA13NE Oe 0 8 8 5 215 10 226 5 240 9 252 5 315 8 360
  H ONSA13SW Ow 0 5 34  10 46 5 259 18 283 5 342 7 360
- H  PIETOWN Pt  0    3 165    3 185  4.5 270  4.5 280    3 360    3 
- H  SANTIA12 St  0 9.5 10 8 22 9.5 45 9.5 52 11.5 71 11.5 72 12 85 12
+ H PIETOWN Pt  0    3 165    3 185  4.5 270  4.5 280    3 360    3 
+ H SANTIA12 St  0 9.5 10 8 22 9.5 45 9.5 52 11.5 71 11.5 72 12 85 12
  - 122 7.5 125 8 139 5 150 8.5 159 8.5 164 9.5 182 7 192 9.5 200 9.5
  - 211 5.5 230 5.5 241 9.5 250 9.5 255 8.5 290 8.5 306 6 313 6.5
  - 323 5.5 327 5.5 338 9.5 350 8.5 360 9.5
- H   YEBES40M Ys 0 15 360
-*H   SEST     SE 0     6     10    13    20    6     360              
+ H SEJONG Kv 0 3 10 40 90 3 360 
+ H YEBES40M Ys 0 15 360
+*H SEST     SE 0     6     10    13    20    6     360              
 * SEST mask converted from step function.
  H  SEST Se  0 6  10 6 11 13  20 13  21 6  360 6
+***************VLBA Masks*********************************************
 *H FD-VLBA  FV 0     5     25    3     35    2     60    6     75   
 *- 4     95    6     105   4     120   3     150   2     225  
 *- 4     245   6     285   2     300   5     325   6     335  

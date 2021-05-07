@@ -1,9 +1,10 @@
-* VERSION 2021-04-02_iGSFC 
+* VERSION 2021-05-07_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2021-05-07 JMG Added pointer to SEJONG horizon mask
 * 2021-04-02 JMG Modified slew constants for Oe/Ow per email from Bill Petrachenko on April 1. 
 * 2021-03-01 JMG Added in DSS56 per email from JPL. 
 * 2021-02-19 JMG Changed GGAO12M az, el offsets and rates: (5 293) (3 70) based on testing done by Petrov
@@ -337,7 +338,7 @@
  C SC-VLBA  AZEL   2.13370  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Sc SC  Sc
  J SINTOTU3 AZEL   0.00000  60.0   0   20.0  700.0   60.0   0   5.0  88.0   3.8 S3 S3  S3
 *S SEJONG   AZEL   0.00000 300.0   0   10.0  710.0  300.0   0   5.0  89.0  22.0 Kv Kv  --
- S SEJONG   AZEL   0.00000 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  --
+ S SEJONG   AZEL   0.00000 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  Kv
 *C SESHAN25 AZEL   0.00000  60.0   0  290.0  780.0   30.0   0   5.0  87.0  25.0 Sh 104 --
  C SESHAN25 AZEL   0.00000  56.0   9  290.0  780.0   30.0   9   5.0  87.0  25.0 Sh 104 --
  L SEST     SEST   0.00000  55.0   0  290.0  790.0   40.0   0   6.0  88.0  15.0 Se 70  Se
