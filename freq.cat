@@ -551,7 +551,8 @@
 * Formerly 0-2-11-14 now 0-3-12-14.
 * Raise S-band by 5 MHz to avoid RFI in 2320-2345 band.
 * JMG 2002Nov20. Raised 7MHz again
-* Added set-up values for non-recorded BBCs
+* Added set-up values for non-recorded BBCs for nonvVLBA stations.
+*   This is no longer needed for digital stations. 
  VGEOSX SX STD  VLBA_RV
 - X    R   8365.75  U   CH1     1    10000.0
 - X    R   8445.75  U   CH2     2    10000.0

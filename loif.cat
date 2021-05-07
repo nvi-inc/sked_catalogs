@@ -4,6 +4,7 @@
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2021-05-07  JMG  Added ISH_RDV for Ishioka RDV sessions. 
 * 2021-04-30  JMG  Removed ODB_STD which was identical to ODB_WIDE. Introduced NY_WIDE
 * 2020-07-14  JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez.
 * 2020-01-03  JMG  Made new LO sequence NYS_STD for Nyalesund
@@ -467,6 +468,15 @@ SESH_LO
  -  12  2N    S   1520    L 
  -  13  2N    S   1520    U
  -  14  2N    S   1520    U
+ISH_RV 
+ -  1  1N     X   7680    U
+ -  2  1N     X   7680    U
+ -  3  3N     X   8080    U
+ -  4  3N     X   8080    U
+ -  5  2N     S   1600    U
+ -  6  2N     S   1600    U
+ -  7  2N     S   1600    U
+ -  8  2N     S   1600    U 
  DSN_CRF
  -   1  1N    X   8100  U
  -   2  1N    X   8100  U

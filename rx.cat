@@ -3,6 +3,7 @@
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-05-07 JMG Point to new LO sequence for  Ishioka in ISH_RDV
 * 2021-04-30 JMG ODB_STD--> ODB_WIDE  (ODB_STD and ODB_WIDE were identical in loif.cat).
 * 2021-04-30 JMG Introduced NY_WIDE
 * 2021-03-03 JMG Added in DSS56
@@ -444,7 +445,6 @@
  -       HOBART26    DBBC_26 
  -       HOBART12    DBBC_AU
  -       KATH12M     DBBC_AU
- -       ISHIOKA     KAS_WID8
  -       KASHIM34    KAS_WID8
  -       MATERA      CDP_WID8
  -       NRAO20      NRAO_VG2
@@ -459,6 +459,7 @@
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8
+ -       WETTZELL    ODB_WID8
  -       WARK12M     DBBC_AU
  -       AGGO        CDPA_VG2
  -       SESHAN25    CDP_STDK
@@ -466,7 +467,6 @@
  -       SESHAN25    SESH_LO
  -       SVETLOE     CDP_WID8 
  -       WESTFORD    CDP_WID8 
- -       WETTZELL    ODB_WID8 
  -       URUMQI      CDP_WID8
  -       YARRA12M    CDPV_VG2 
  -       YEBES40M    CDP_WID8 
@@ -493,6 +493,7 @@
  -       OV-VLBA     VLBA_PW  
  -       PIETOWN     VLBA_PW  
  -       SC-VLBA     VLBA_PW  
+  * Moved some of the IVS Digital stations here. 
  VLBA_RV
  -       BR-VLBA     VLBA_RV
  -       FD-VLBA     VLBA_RV
@@ -504,6 +505,7 @@
  -       OV-VLBA     VLBA_RV
  -       PIETOWN     VLBA_RV
  -       SC-VLBA     VLBA_RV 
+ -       ISHIOKA     ISH_RV
  VLBA_STD
  -       BR-VLBA     VLBA_STD
  -       FD-VLBA     VLBA_STD
@@ -528,7 +530,6 @@
  -       PIETOWN     VLBA_WIDE
  -       SC-VLBA     VLBA_WIDE
  -       NRAO_140    NRAO8_WIDE
-
  -       ZELENCHK    ZC8_WIDE 
  VLBA_PH
  -       BR-VLBA     VLBA_STD
