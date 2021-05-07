@@ -1,9 +1,10 @@
-* VERSION 2021-03-03_iGSFC 
+* VERSION 2021-05-07_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-05-07 JMG  Changed RAEGSMAR to record two bit instead of 1-bit in  32-16-1-2.
 * 2021-03-03 JMG  Added  in NYALES13 to 01-16-0-1
 * 2021-03-03 JMG  Put in DSS56
 * 2021-02-02 JMG  Changed track for Seshan in 32-16-1-2 
@@ -781,9 +782,8 @@
  -       ONSALA60   MK3V-A      14U2L-1-2-B   Mk34  
 *-       ONSALDBC   MK3V-A      14U2L-1-2-B   Mk34  
  -       PARKES     MK3V-A      14U2L-1-2-B   Mk34  
-*-       PARKES64   MK3V-A      14U2L-1-2     Mk34   
- -       ORION_5M   MK3V-A      14U2L-2-1   Mk34  
- -       RAEGSMAR   MK3V-A      14U2L-1-1-B Mk34 
+ -       ORION_5M   MK3V-A      14U2L-2-1     Mk34  
+ -       RAEGSMAR   MK3V-A      14U2L-1-2-B   Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
  -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
  -       SESHAN25   MK3V-A      14U2L-1-2-B   Mk34  
