@@ -1,9 +1,10 @@
-** VERSION 2021-04-30_iGFSC
+** VERSION 2021-05-12_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2021-05-12  JMG  Modified last two entries for NYS_STD.  Were C1, should be D1
 * 2021-05-07  JMG  Added ISH_RDV for Ishioka RDV sessions. 
 * 2021-04-30  JMG  Removed ODB_STD which was identical to ODB_WIDE. Introduced NY_WIDE
 * 2020-07-14  JMG  Added YDC_STD renamed YDC_WIDE. New YDC_STD. Email J. Gonzalez.
@@ -222,8 +223,8 @@ NYS_STD
  -   10 C1     S   1700  U
  -   11 C1     S   1700  U
  -   12 C1     S   1700  U
- -   13 C1     S   1700  U
- -   14 C1     S   1700  U
+ -   13 D1     S   1700  U
+ -   14 D1     S   1700  U
  KAS_STD
  -   1  1N    X   7580  U
  -   2  1N    X   7580  U
