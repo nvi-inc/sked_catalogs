@@ -142,7 +142,6 @@
 * RXname   = referenced from the freq.cat file
 * Stn.Name = antenna name, as in antenna.cat
 * LOIFname = 8-char LO/IF setup name, found in the loif.cat file
-         
 *
 *RXname  Stn.Name    LOIFname
 *
@@ -493,7 +492,7 @@
  -       OV-VLBA     VLBA_PW  
  -       PIETOWN     VLBA_PW  
  -       SC-VLBA     VLBA_PW  
-  * Moved some of the IVS Digital stations here. 
+* Moved some of the IVS Digital stations here. 
  VLBA_RV
  -       BR-VLBA     VLBA_RV
  -       FD-VLBA     VLBA_RV
