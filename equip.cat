@@ -1,9 +1,10 @@
-* VERSION 2021-03-09_iGSFC
+* VERSION 2021-06-17_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top): 
+* 2021-06-17 JMG Changed DSN racks to DVP
 * 2021-03-09 JMG Changed Warkworth to Flexbuff
 * 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas. Removed MADRID
 * 2021-02-02 JMG Changed Wettzell to flexbuff
@@ -368,17 +369,17 @@
  CRIMEA     35  TVDS-2      1      8820   X  3000   S  2000 Mark5 MARK5B 
  CTVA       CT  S2-CTVA    SLP      361   X 71000   S 75000 none S2
  CEDUNA     Cd  CEDUNA      1       200   K  2500   K  2500 Mark4 MARK5A
- DSS13      13  DSS13    2x56000  17640   X   400   S   250 Mark4 MARK5A
- DSS14      14  DSS15       1      8820   X     0   S     0
- DSS15      15  DSS15    2x56000  17640   X   400   S   250 Mark4 MARK5A
- DSS26      26  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
- DSS34      34  DSS34    2x56000  17640   X   185   S   200 Mark4 MARK5A
- DSS36      36  DSS36    2x56000  17640   X   185   S   200 Mark4 MARK5A
- DSS45      45  DSS45    2x56000  17640   X   185   S   200 Mark4 MARK5A
- DSS56      56  DSS56    2x56000  17640   X   185   S   200 Mark4 MARK5A
- TIDBIN64   39  DSS45    2x56000 17640   X   185   S   200 Mark4 MARK5A
- DSS65A     65  DSS65A   2x56000 17640   X   220   S   195 Mark4 MARK5A
- DSS54      54  DSS54    2x56000 17640   X   220   S   195 Mark4 MARK5A
+ DSS13      13  DSS13    2x56000  17640   X   400   S   250 DVP   none
+ DSS14      14  DSS15       1      8820   X     0   S     0 DVP   none
+ DSS15      15  DSS15    2x56000  17640   X   400   S   250 DVP   none
+ DSS26      26  DSS34    2x56000  17640   X   185   S   200 DVP   none
+ DSS34      34  DSS34    2x56000  17640   X   185   S   200 DVP   none
+ DSS36      36  DSS36    2x56000  17640   X   185   S   200 DVP   none
+ DSS45      45  DSS45    2x56000  17640   X   185   S   200 DVP   none
+ DSS56      56  DSS56    2x56000  17640   X   185   S   200 DVP   none
+ TIDBIN64   39  DSS45    2x56000  17640   X   185   S   200 DVP   none
+ DSS65A     65  DSS65A   2x56000  17640   X   220   S   195 DVP   none 
+ DSS54      54  DSS54    2x56000  17640   X   220   S   195 DVP  none
  EFLSBERG   06  EFLSBERG 1x56000   17640  X    40   S   100 DBBC_DDC FlexBuff
  EFLSBERG   06  EFLSBERG 1x56000   17640  C    20   C    20 VLBA5 MARK5B
  FD-VLBA    FV  FD-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
