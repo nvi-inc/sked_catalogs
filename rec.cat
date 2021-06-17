@@ -1,9 +1,10 @@
-* VERSION 2021-05-07_iGSFC 
+* VERSION 2021-06-17_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2021-06-17 JMG  Added NYALES13S to 32-16-3-2
 * 2021-05-07 JMG  Modified ISHIOKAs settings in 00-80-0-2
 * 2021-05-07 JMG  Changed RAEGSMAR to record two bit instead of 1-bit in  32-16-1-2.
 * 2021-03-03 JMG  Added  in NYALES13 to 01-16-0-1
@@ -737,6 +738,7 @@
  -       KOKEE      MK3V-A      14U2L-1-2-B   Mk34
  -       MEDICINA   MK3V-A      14U2L-1-2-B   Mk34
  -       NYALES20   MK4-A       14U2L-1-2-B   Mk34
+ -       NYALE13S   MK4-A       14U2L-1-2-B   Mk34
  -       ONSALA60   MK4-A       14U2L-1-2-B   Mk34
  -       WETTZELL   MK4-A       14U2L-1-2-B   Mk34
  -       SESHAN25   MK3V-A      14U2L-1-2-B   Mk34  
