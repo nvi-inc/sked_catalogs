@@ -5,10 +5,19 @@ This only lists recent changes.  For older changes look in the original catalog 
 -- Changes made in 2021
 
 antenna.cat: 
+* 2021-08-18 JMG Restored YEBES cable wrap because it was fixed. See 2021-02-16 below
+* 2021-06-17 JMG Modified Ishioka El speed to 3 deg/sec per email from Haruka Ueshiba
+* 2021-05-21 JMG Changed OE/OW  limits to avoid slow regio per Email from Eskil
+* 2021-05-07 JMG Added pointer to SEJONG horizon mask
+* 2021-04-02 JMG Modified slew constants for Oe/Ow per email from Bill Petrachenko on April 1. 
+* 2021-03-01 JMG Added in DSS56 per email from JPL. 
+* 2021-02-19 JMG Changed GGAO12M az, el offsets and rates: (5 293) (3 70) based on testing done by Petrov
 * 2021-02-16 JMG Changed YEBES40M el limits to 15-89 per email j.gonzelez (2020-02-16). Also changed mask. This is temp fix while working on gearbox
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat   
+* 2021-09-02 JMG Changed SEFDs of Nyales
+* 2021-06-17 JMG Changed DSN racks to DVP
 * 2021-03-09 JMG Changed Warkworth rec to Flexbuff
 * 2021-03-03 JMG Added DSS56. Fixed some two-letter codes for DSN antennas. Removed MADRID
 * 2021-02-02 JMG Wetzell rec-->Flexbuff
@@ -17,16 +26,32 @@ freq.cat:
 * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
 * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 
+loif.cat 
+* 2021-09-15  JMG  New RDV sequence for Auscope antennas. RDV_AU
+* 2021-05-12  JMG  Modified last two entries for NYS_STD.  Were C1, should be D1
+* 2021-05-07  JMG  Added ISH_RDV for Ishioka RDV sessions. 
+* 2021-04-30  JMG  Removed ODB_STD which was identical to ODB_WIDE. Introduced NY_WIDE
+
 mask.cat:
+* 2021-03-23 JMG Replaced some 'tabs' in GGAO mask. Sked was not handling these well
 * 2021-03-09 JMG New Mask for GGAO. This is PWL and better follows the mask
 * 2021-02-16 JMG  Added YEBES40M mask 0 15 360.  This is temporary
+
+position.cat
+* 2021-03-03 JMG Added in DSS56 Data from JPL. 
 
 rec.cat   
 * 2021-02-01 JMG  Changed Seshan25 track layouts because it is Mark5B
 * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 
-rx.cat:      
+rx.cat:   
+* 2021-09-15 JMG New LO sequence for Auscope antennas in RDV
+* 2021-09-15 JMG Seshan25 appeared twice in VG_MK4 removed second entry
+* 2021-05-07 JMG Point to new LO sequence for  Ishioka in ISH_RDV
+* 2021-04-30 JMG ODB_STD--> ODB_WIDE  (ODB_STD and ODB_WIDE were identical in loif.cat).
+* 2021-04-30 JMG Introduced NY_WIDE
+* 2021-03-03 JMG Added in DSS56
 * 2021-01-21 JMG Updated HOBART26, NYALES13S, SESHAN26 LO sequences
 * 2021-01-19 JMG Added NYALE13S to VG_MK4
 
