@@ -1,9 +1,10 @@
-** VERSION 2021-05-12_iGFSC
+** VERSION 2021-09-15_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2021-09-15  JMG  New RDV sequence for Auscope antennas. RDV_AU
 * 2021-05-12  JMG  Modified last two entries for NYS_STD.  Were C1, should be D1
 * 2021-05-07  JMG  Added ISH_RDV for Ishioka RDV sessions. 
 * 2021-04-30  JMG  Removed ODB_STD which was identical to ODB_WIDE. Introduced NY_WIDE
@@ -617,6 +618,17 @@ DBBC_AU
  -   12  C2    S   1900    U
  -   13  D2    S   1900    U
  -   14  D2    S   1900    U
+*
+* New sequence for Auscope. 
+RDV_AU
+ -   3   A1    X   7600    U
+ -   4   A1    X   7600    U
+ -   5   B4    X   7600    U
+ -   6   B4    X   7600    U 
+ -   9   C2    S   1900    U
+ -   10  C2    S   1900    U
+ -   13  D2    S   1900    U
+ -   14  D2    S   1900    U 
 *
 * New sequence for Warkworth
 DBBC_WW

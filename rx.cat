@@ -1,8 +1,10 @@
-* VERSION 2021-04-30_iGFSC
+* VERSION 2021-09-15_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-09-15 JMG New LO sequence for Auscope antennas in RDV
+* 2021-09-15 JMG Seshan25 appeared twice in VG_MK4 removed second entry
 * 2021-05-07 JMG Point to new LO sequence for  Ishioka in ISH_RDV
 * 2021-04-30 JMG ODB_STD--> ODB_WIDE  (ODB_STD and ODB_WIDE were identical in loif.cat).
 * 2021-04-30 JMG Introduced NY_WIDE
@@ -442,8 +444,8 @@
  -       HART15M     DBBC_HH
  -       KOKEE       NRAO_VG2
  -       HOBART26    DBBC_26 
- -       HOBART12    DBBC_AU
- -       KATH12M     DBBC_AU
+ -       HOBART12    RDV_AU
+ -       KATH12M     RDV_AU
  -       KASHIM34    KAS_WID8
  -       MATERA      CDP_WID8
  -       NRAO20      NRAO_VG2
@@ -459,15 +461,14 @@
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8
  -       WETTZELL    ODB_WID8
- -       WARK12M     DBBC_AU
+ -       WARK12M     RDV_AU
  -       AGGO        CDPA_VG2
  -       SESHAN25    CDP_STDK
-* Added 2010Dec23
- -       SESHAN25    SESH_LO
  -       SVETLOE     CDP_WID8 
  -       WESTFORD    CDP_WID8 
  -       URUMQI      CDP_WID8
- -       YARRA12M    CDPV_VG2 
+* -       YARRA12M    CDPV_VG2 
+ -       YARRA12M    RDV_AU
  -       YEBES40M    CDP_WID8 
  VG_ZC
  VLBA_PN 
