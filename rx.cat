@@ -1,8 +1,9 @@
-* VERSION 2021-09-15_iGFSC
+* VERSION 2021-09-16_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2021-09-16 JMG Fixed remaining ODB_STD (see 2021-04-30) below
 * 2021-09-15 JMG New LO sequence for Auscope antennas in RDV
 * 2021-09-15 JMG Seshan25 appeared twice in VG_MK4 removed second entry
 * 2021-05-07 JMG Point to new LO sequence for  Ishioka in ISH_RDV
@@ -232,7 +233,7 @@
  -       VERAMZSW    JD_VSTD
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
- -       WETTZELL    ODB_STD
+ -       WETTZELL    ODB_WIDE
  -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU

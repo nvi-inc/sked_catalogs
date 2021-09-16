@@ -46,6 +46,7 @@ rec.cat
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 
 rx.cat:   
+* 2021-09-16 JMG Fixed remaining ODB_STD (see 2021-04-30) below
 * 2021-09-15 JMG New LO sequence for Auscope antennas in RDV
 * 2021-09-15 JMG Seshan25 appeared twice in VG_MK4 removed second entry
 * 2021-05-07 JMG Point to new LO sequence for  Ishioka in ISH_RDV
