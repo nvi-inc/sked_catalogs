@@ -1,10 +1,11 @@
 This file has a summary of changes to the sked catalogs. Arranged by catalog and date.
-This does not list updates to the flux catalog which occur ~monthly.
+This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files.  
 
 -- Changes made in 2021
 
 antenna.cat: 
+* 2021-10-29 JMG Restored Ishioka el slew to 6 because motors fixed. 
 * 2021-08-18 JMG Restored YEBES cable wrap because it was fixed. See 2021-02-16 below
 * 2021-06-17 JMG Modified Ishioka El speed to 3 deg/sec per email from Haruka Ueshiba
 * 2021-05-21 JMG Changed OE/OW  limits to avoid slow regio per Email from Eskil
@@ -16,6 +17,8 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat   
+* 2021-10-29 JMG NYALES20 cold. Changes x, S from 6000,3000 to 1000,1500
+* 2021-10-07 JMG NYALES20 warm. Changed X, S to 6000 3000
 * 2021-09-02 JMG Changed SEFDs of Nyales
 * 2021-06-17 JMG Changed DSN racks to DVP
 * 2021-03-09 JMG Changed Warkworth rec to Flexbuff
