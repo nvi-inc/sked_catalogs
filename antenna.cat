@@ -4,6 +4,7 @@
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2022-02-14 JMG Corrected Ishioka El slew rate to 360deg/m (was incorrectly 720 deg/m)
 * 2021-10-29 JMG Restored Ishioka el slew to 6 because motors fixed. 
 * 2021-08-18 JMG Restored YEBES cable wrap because it was fixed. See 2021-02-16 below
 * 2021-06-17 JMG Modified Ishioka El speed to 3 deg/sec per email from Haruka Ueshiba
@@ -278,7 +279,7 @@
  L HOBART12 AZEL   0.00000 300.0   9   90.0  630.0   75.0   9   5.0  88.0  12.0 Hb Hb  Hb
  H HOBART26 XYEW   8.19430  39.0  36  -82.0   82.0   39.0  36 -74.0  74.0  26.0 Ho 04  --
  I IRBENE   AZEL   0.0     168.0   3  -326.  326.0  126.0   3   3.0  89.0  32.0 Ir Ir  --
- I ISHIOKA  AZEL   0.00000 720.0  10  -70.0  430.0  720.0  10   5.0  89.0  13.2 Is Is  Is
+ I ISHIOKA  AZEL   0.00000 720.0  10  -70.0  430.0  360.0  10   5.0  89.0  13.2 Is Is  Is
  I ITAPETGA AZEL   0.00000  60.0   0  270.0  810.0   60.0   0   5.0  88.0  14.0 It --  --
  J JODRELL2 AZEL   0.45800  20.0   0  270.0  690.0   20.0   0   1.0  89.0  76.0 Jb 37  --
  O KASHIM34 AZEL   0.00000  45.0   0   90.0  630.0   40.0   0   7.0  88.0  34.0 Kb KB  --
