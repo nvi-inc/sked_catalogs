@@ -3,6 +3,7 @@
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2022-04-07 JMG Added RAEGSMAR to SX_STD per email M. Schartner
 * 2021-09-16 JMG Fixed remaining ODB_STD (see 2021-04-30) below
 * 2021-09-15 JMG New LO sequence for Auscope antennas in RDV
 * 2021-09-15 JMG Seshan25 appeared twice in VG_MK4 removed second entry
@@ -214,6 +215,7 @@
  -       NOTO        CDPVNOTO 
 *-       PARKES64    CDP_STDN
  -       PARKES      CDP_STD
+ -       RAEGESMAR   RAEG_WIDE
  -       SANTIA12    CDP_STD
  -       SEJONG      CDP_STDN
  -       SEST        CDP_STD
