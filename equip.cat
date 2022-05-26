@@ -1,9 +1,10 @@
-* VERSION 2021-11-04_iGSFC
+* VERSION 2022-05-26_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top): 
+* 2022-05-26 JMGipson. Kokee cold. return to nomial
 * 2022-05-19 JMG KOKEE is observing warm. Triple X-band double S-band
 * 2022-03-22 JMG WETTZELL is observing warm.  Triple X-band and double S-band
 * 2021-11-04 JMG Changed NYALES13 to X, S 3100, 7300.  Previously had X and S reversed
@@ -416,9 +417,9 @@
  KOGANEI    Kg  K4-KOGAN    1       200   X  5500   S  3000 K4-2 K5  
  KAUAI      35  TVDS-2      1      8820   X  5700   S  5300 X 1.0 0.959 0.0412 S 1.0 0.976 0.0239
 * Below is cold for KOKEE
-* KOKEE     102  KO-VLBA  2x56000  17640  X  2000   S   750 X 1.0 0.9453 0.0547 S 1.0 0.9695 0.0305 VLBA5 MARK5B
+ KOKEE     102  KO-VLBA  2x56000  17640  X  2000   S   750 X 1.0 0.9453 0.0547 S 1.0 0.9695 0.0305 VLBA5 MARK5B
 * Below is warm for KOKEE 
- KOKEE     102  KO-VLBA  2x56000  17640   X  6000   S   2250 X 1.0 0.9453 0.0547 S 1.0 0.9695 0.0305 VLBA5 MARK5B
+* KOKEE     102  KO-VLBA  2x56000  17640   X  6000   S   2250 X 1.0 0.9453 0.0547 S 1.0 0.9695 0.0305 VLBA5 MARK5B
  KOKEE12M    K2  KOKEE12M   2x56000  17640  X  3000   S  3000 RDBE MARK6
  KUNMING   103  KUNMING  1x56000   17640  X   600   S   500 VLBA5 Mark5B
  KP-VLBA    KV  KP-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A

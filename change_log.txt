@@ -21,6 +21,7 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
+* 2022-05-26 JMGipson. Kokee cold. return to nominal
 * 2022-05-19 JMG KOKEE is observing warm. Triple X-band double S-band
 * 2022-03-22 JMG WETTZELL is observing warm.  Triple X-band and double S-band 
 * 2021-11-04 JMG Changed NYALES13 to X, S 3100, 7300.  Previously had X and S reversed
