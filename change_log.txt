@@ -21,6 +21,8 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
+* 2022-06-08-JM Gipson. Wettzell is now cold.  
+* 2022-06-01 K. Baver. NYALES20 warm.  Changed X, S to 3000, 3000.
 * 2022-05-26 JMGipson. Kokee cold. return to nominal
 * 2022-05-19 JMG KOKEE is observing warm. Triple X-band double S-band
 * 2022-03-22 JMG WETTZELL is observing warm.  Triple X-band and double S-band 
