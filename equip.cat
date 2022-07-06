@@ -4,6 +4,7 @@
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2022-07-07 JM Gipson Nyales20 is cold Changed X, S to 1000 1500
 * 2022-06-08-JM Gipson. Wettzell is now cold.  
 * 2022-06-01 K. Baver. NYALES20 warm.  Changed X, S to 3000, 3000.
 * 2022-05-26 JMGipson. Kokee cold. return to nomial
@@ -451,7 +452,10 @@
  GBT_VLBA  100  NRAO_140 1x56000  17640   X    15   X    15 VLBA MARK5A
  NRAO20    106  NRAO20   1x56000  17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723 VLBA MARK5A
 *NRAO20    106  NRAO20      1     17640   X   900   S   600 X 1.0 0.9497 0.0503 S 1.0 0.9277 0.0723
- NYALES20   66  RICHMOND 2x56000  17640   X  3000   S  3000 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC_DDC MARK5B
+* Below is cold
+ NYALES20   66  RICHMOND 2x56000  17640   X  1000   S  1500 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC_DDC MARK5B
+* Below is warm 
+* NYALES20   66  RICHMOND 2x56000  17640   X  3000   S  3000 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC_DDC MARK5B
  NYALE13S   Ns  NYALE13S    1     17650   X  3100   S  7300 DBBC_DDC Flexbuff
  NYALE13N   Nn  NYALE13N    1     17650   X  1470   S  1950 DBBC_DDC Flexbuff
 *OHIGGINS   OH  OHIGVLBA    1      8820   X  6300   S 12400
