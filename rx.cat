@@ -1,8 +1,9 @@
-* VERSION 2021-09-16_iGFSC
+* VERSION 2022-08-10_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2022-08-10 JMG Added in NYALE13N to SX_WIDE
 * 2022-07-12 JMG Fixed typo. RAEGESMAR-->RAEGSMAR
 * 2022-04-07 JMG Added RAEGSMAR to SX_STD per email M. Schartner
 * 2021-09-16 JMG Fixed remaining ODB_STD (see 2021-04-30) below
@@ -318,6 +319,7 @@
  -       NRAO20      NRAO_WIDE
  -       NYALES20    NY_WIDE
  -       NYALE13S    NYS_STD
+  -      NYALE13N    NYS_STD
  -       OHIGGINS    CDPV_WIDE
  -       ONSALA60    ODB_WIDE
  -       ONSA13NE    RAEG_WIDE

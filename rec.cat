@@ -1,9 +1,10 @@
-* VERSION 2021-06-17_iGSFC 
+* VERSION 2022-08-10_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2022-08-10 JMG  Added NYALES13N to 00-16-0-1
 * 2021-06-17 JMG  Added NYALES13S to 32-16-3-2
 * 2021-05-07 JMG  Modified ISHIOKAs settings in 00-80-0-2
 * 2021-05-07 JMG  Changed RAEGSMAR to record two bit instead of 1-bit in  32-16-1-2.
@@ -412,6 +413,7 @@
  -       METSAHOV   MK3V-A      14U2L-1-1-B   Mk34 
  -       NRAO20     MK3V-A      14U2L-2-1     VLBA 16:1
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
+ -       NYALE13N   MK3V-A      14U2L-2-1     MK34
  -       NYALE13S   MK3V-A      14U2L-2-1     MK34
  -       OHIGGINS   MK3V-A      14U2L-2-1     Mk34
  -       ONSALA60   MK3V-A      14U2L-1-1-B   Mk34  
@@ -492,6 +494,7 @@
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  
  -       METSAHOV   MK3V-A      14U2L-2-1  VLBA 
  -       NRAO20     MK3V-A      14U2L-2-1  VLBA 16:1
+ -       NYALE13N  MK3V-A      14U2L-1-1-B   Mk34  
  -       NYALE13S  MK3V-A      14U2L-1-1-B   Mk34  
  -       NYALES20   MK3V-A      14U2L-1-1-B   Mk34  
  -       OHIGGINS   MK3V-A      14U2L-2-1   Mk34

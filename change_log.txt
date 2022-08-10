@@ -55,11 +55,19 @@ position.cat
 * 2021-03-03 JMG Added in DSS56 Data from JPL. 
 
 rec.cat   
+* 2022-08-10 JMG  Added NYALES13N to 00-16-0-1
+* 2021-06-17 JMG  Added NYALES13S to 32-16-3-2
+* 2021-05-07 JMG  Modified ISHIOKAs settings in 00-80-0-2
+* 2021-05-07 JMG  Changed RAEGSMAR to record two bit instead of 1-bit in  32-16-1-2.
+* 2021-03-03 JMG  Added  in NYALES13 to 01-16-0-1
+* 2021-03-03 JMG  Put in DSS56
+* 2021-02-02 JMG  Changed track for Seshan in 32-16-1-2 
 * 2021-02-01 JMG  Changed Seshan25 track layouts because it is Mark5B
 * 2021-01-21 JMG  Updated HOBART26 reflect DBBC_DDC
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 
 rx.cat:   
+* 2022-08-10 JMG Added in NYALE13N to SX_WIDE
 * 2022-07-12 JMG Fixed typo. RAEGESMAR-->RAEGSMAR
 * 2022-04-07 JMG Added RAEGSMAR to SX_STD per email M. Schartner
 * 2021-09-16 JMG Fixed remaining ODB_STD (see 2021-04-30) below
