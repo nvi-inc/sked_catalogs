@@ -21,7 +21,9 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
-
+* 2022-11-16 J Gipson. Changed RAEGSMAR to DBBC3_DDC MARK6. 
+* 2022-11-16 J. Gipson OE and OW to DBBC3_DDC FLEXBUFF
+* 2022-07-07 JM Gipson Nyales20 is cold Changed X, S to 1000 1500
 * 2022-06-08-JM Gipson. Wettzell is now cold.  
 * 2022-06-01 K. Baver. NYALES20 warm.  Changed X, S to 3000, 3000.
 * 2022-05-26 JMGipson. Kokee cold. return to nominal
