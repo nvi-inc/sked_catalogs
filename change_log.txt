@@ -21,6 +21,7 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
+* 2022-12-07 JMG. Changed RAGESMAR, OE, OW to DBBC_DDC because current sked does not recognize DBBC3_DDC
 * 2022-11-16 J Gipson. Changed RAEGSMAR to DBBC3_DDC MARK6. 
 * 2022-11-16 J. Gipson OE and OW to DBBC3_DDC FLEXBUFF
 * 2022-07-07 JM Gipson Nyales20 is cold Changed X, S to 1000 1500
