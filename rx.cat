@@ -3,6 +3,7 @@
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2022-12-15 JMG For SX_STD, chagned KOGANEI from KAS_WIDE->K4_KOG
 * 2022-08-10 JMG Added in NYALE13N to SX_WIDE
 * 2022-07-12 JMG Fixed typo. RAEGESMAR-->RAEGSMAR
 * 2022-04-07 JMG Added RAEGSMAR to SX_STD per email M. Schartner
@@ -303,7 +304,7 @@
  -       KASHIM34    KAS_WIDE
  -       KASHIM11    KAS_WIDE
  -       KATH12M     DBBC_AU
- -       KOGANEI     KAS_WIDE
+ -       KOGANEI     K4_KOG
  -       KOKEE       NRAO_WIDE
  -       KOKEE12M    CDP_WIDE
  -       KUNMING     CDP_WIDE 

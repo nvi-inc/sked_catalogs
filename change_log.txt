@@ -21,6 +21,7 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
+* 2022-12-15 JMG.  Changed SEFDs of IShioka because observing warm
 * 2022-12-07 JMG. Changed RAGESMAR, OE, OW to DBBC_DDC because current sked does not recognize DBBC3_DDC
 * 2022-11-16 J Gipson. Changed RAEGSMAR to DBBC3_DDC MARK6. 
 * 2022-11-16 J. Gipson OE and OW to DBBC3_DDC FLEXBUFF
@@ -70,6 +71,7 @@ rec.cat
 * 2021-01-19 JMG  Added NYALE13S to 00-8U-0-2
 
 rx.cat:   
+* 2022-12-15 JMG For SX_STD, chagned KOGANEI from KAS_WIDE->K4_KOG
 * 2022-08-10 JMG Added in NYALE13N to SX_WIDE
 * 2022-07-12 JMG Fixed typo. RAEGESMAR-->RAEGSMAR
 * 2022-04-07 JMG Added RAEGSMAR to SX_STD per email M. Schartner
