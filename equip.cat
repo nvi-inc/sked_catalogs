@@ -4,6 +4,7 @@
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2022-12-21 JMG.  Ishioka now observing cold
 * 2022-12-15 JMG.  Changed SEFDs of IShioka because observing warm
 * 2022-12-07 JMG. Changed RAGESMAR, OE, OW to DBBC_DDC because current sked does not recognize DBBC3_DDC
 * 2022-11-16 J Gipson. Changed RAEGSMAR to DBBC3_DDC MARK6. 
@@ -412,9 +413,9 @@
  HRAS_085   10  MV3_5M      1      8820   X  1450   S   900
  IRBENE     IR  IRBENE   2x56000  17640   X  800    S  800 DBBC_DDC MARK5B
 * Below is warm
-  ISHIOKA    Is  ISHIOKA     1      100    X  5850   S  3500 K4-2 K5 
+*  ISHIOKA    Is  ISHIOKA     1      100    X  5850   S  3500 K4-2 K5 
 * Below is cold
-* ISHIOKA    Is  ISHIOKA     1      100    X  1950   S  1750 K4-2 K5 
+ ISHIOKA    Is  ISHIOKA     1      100    X  1950   S  1750 K4-2 K5 
  JODRELL2   37  JODRELL2 2x56000  17640   C   320   C   320 Mark4 MARK5A
  *KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-2 K4-2
  KASHIM34   KB  KASHIM34    1      8820   X  1800   S  1000 K4-2 K5 

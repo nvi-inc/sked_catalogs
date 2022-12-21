@@ -21,6 +21,7 @@ antenna.cat:
 * 2021-01-15 JMG Changed cable wrp limits for DSS26 per email from JPL
 
 equip.cat  
+* 2022-12-21 JMG.  Ishioka now observing cold
 * 2022-12-15 JMG.  Changed SEFDs of IShioka because observing warm
 * 2022-12-07 JMG. Changed RAGESMAR, OE, OW to DBBC_DDC because current sked does not recognize DBBC3_DDC
 * 2022-11-16 J Gipson. Changed RAEGSMAR to DBBC3_DDC MARK6. 
