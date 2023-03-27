@@ -2,6 +2,12 @@ This file has a summary of changes to the sked catalogs. Arranged by catalog and
 This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files.  
 
+--Changes made in 2023 (excluding flux.cat) 
+
+rx.cat
+* 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
+
+
 -- Changes made in 2022
 antenna.cat:
 * 2022-02-14 JMG Corrected Ishioka El slew rate to 360deg/m (was incorrectly 720 deg/m)

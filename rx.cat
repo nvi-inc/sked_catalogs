@@ -1,8 +1,9 @@
-* VERSION 2022-08-10_iGFSC
+* VERSION 2023-03-27_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
 * 2022-12-15 JMG For SX_STD, chagned KOGANEI from KAS_WIDE->K4_KOG
 * 2022-08-10 JMG Added in NYALE13N to SX_WIDE
 * 2022-07-12 JMG Fixed typo. RAEGESMAR-->RAEGSMAR
@@ -208,7 +209,7 @@
  -       FORTLEZA    CDP_STD
  -       NRAO85_3    NRAO_STD
  -       NRAO20      NRAO_STD
- -       NYALES20    NY_WIDE 
+ -       NYALES20    ODB_WIDE
  -       NYALE13S    NYS_STD
  -       OHIGGINS    CDPV_STD
  -       ONSALA60    ODB_WIDE
@@ -318,7 +319,7 @@
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
- -       NYALES20    NY_WIDE
+ -       NYALES20    ODB_WIDE
  -       NYALE13S    NYS_STD
   -      NYALE13N    NYS_STD
  -       OHIGGINS    CDPV_WIDE
@@ -461,7 +462,7 @@
  -       ORION_5M    CDP_WID8
  -       MEDICINA    CDP_WID8 
  -       NOTO        CDPVNVG2
- -       NYALES20    NY_WIDE
+ -       NYALES20    ODB_WID8
  -       NYALE13S    NYS_STD
  -       PARKES      CDP_WID8 
  -       TSUKUB32    TSU_WID8
@@ -582,7 +583,7 @@
  -       MATERA      CDP_WIDE
  -       MEDICINA    CDP_WIDE
  -       NRAO20      NRAO_WIDE
- -       NYALES20    NY_WIDE
+ -       NYALES20    ODB_WIDE
  -       ORION_5M    CDP_WIDE
  -       ONSALA60    CDP_WIDE
  -       SANTIA12    CDP_WIDE
