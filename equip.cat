@@ -1,9 +1,10 @@
-* VERSION 2022-11-016_iGSFC
+* VERSION 2023-05-26_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2023-05-26 JMG.  Changed equipment at Ag and Ht to DBBC_DDC FlexBuff
 * 2022-12-21 JMG.  Ishioka now observing cold
 * 2022-12-15 JMG.  Changed SEFDs of IShioka because observing warm
 * 2022-12-07 JMG. Changed RAGESMAR, OE, OW to DBBC_DDC because current sked does not recognize DBBC3_DDC
@@ -368,7 +369,7 @@
 *
 *Antenna    ID  DAT_Name  Heads Tape_len  X  SEFD   S SEFD  SEFD param/Equip
 *                         den/spd ft/min     (Jy)      (Jy) 
- AGGO       70  TIGO      2x56000 17640   X 34000   S 16000 VLBA5 MARK5B
+ AGGO       70  TIGO      2x56000 17640   X 34000   S 16000 DBBC_DDC FlexBuff
  AIRA       Ai  AIRA      1x56000 80000   X 10300   S  7400 K4-1  K5 
  ALGOPARK  106  NRAO20   1x56000  17640   X   200   S   250 VLBA4 MARK5A
  ALGOPARK   AL  S2-ALGO    SLP      361   X   200   S   250 none S2
@@ -404,7 +405,7 @@
  GGAO12M    Gs  GGAO12M   2x56000  17640  X  3500   S  3000 RDBE MARK6
  GOLDVENU   16  DSS13       1      8820   X   500   S   350
  HARTRAO    34  TDVS-VX1 2x56000 17640   X  1500   S  1300 DBBC_DDC Mark5B
- HART15M    Ht  HART15M  2x56000 17640   X  1400   S  1050 DBBC_DDC MARK5B
+ HART15M    Ht  HART15M  2x56000 17640   X  1400   S  1050 DBBC_DDC FlexBuff
  HATCREEK   03  TVDS-1      1      8820   X   525   S   460
  HAYSTACK   00  HAYSTACK    1      8820   X  1050   S  6400
  HN-VLBA    HN  HN-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
