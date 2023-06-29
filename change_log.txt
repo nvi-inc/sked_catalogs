@@ -10,6 +10,9 @@ antenna.cat
 equip.cat
 * 2023-05-26 JMG.  Changed equipment at Ag and Ht to DBBC_DDC FlexBuff
 
+rec.cat
+* 2023-06-29 JMG. Added NYALES13N to 32-16-1-2
+
 rx.cat
 * 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
 
