@@ -1,9 +1,11 @@
-** VERSION 2021-09-15_iGFSC
+** VERSION 2023-11-17_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2023-11-17  JMG  Changed DBBC_26
+* 2023-11-17  JMG  Changed CDP_STDUW for Urumqi. This had been wrong for YEARS but station personnel had fixed. 
 * 2021-09-15  JMG  New RDV sequence for Auscope antennas. RDV_AU
 * 2021-05-12  JMG  Modified last two entries for NYS_STD.  Were C1, should be D1
 * 2021-05-07  JMG  Added ISH_RDV for Ishioka RDV sessions. 
@@ -166,21 +168,21 @@ JD_VSTD
  -   13  D    S   2000  U
  -   14  D    S   2000  U
 * Wideband for Urumqi
-CDP_STDUW
- -   1  1N    X   8100  U
- -   2  1N    X   8100  U
- -   3  1N    X   8100  U
- -   4  1N    X   8100  U
- -   5  3N    X   8600  U
- -   6  3N    X   8600  U
- -   7  3N    X   8600  U
- -   8  3N    X   8600  U
- -   9  2N    S   2000  U
- -   10 2N    S   2000  U
- -   11 2N    S   2000  U
- -   12 2N    S   2000  U
- -   13 2N    S   2000  U
- -   14 2N    S   2000  U
+ CDP_STDUW
+ -   1  A1    X   8100  U
+ -   2  A1    X   8100  U
+ -   3  A1    X   8100  U
+ -   4  A1    X   8100  U
+ -   5  B1    X   8100  U
+ -   6  B1    X   8100  U
+ -   7  B1    X   8100  U
+ -   8  B1    X   8100  U
+ -   9  C2    S   2000  U
+ -   10 C2    S   2000  U
+ -   11 C2    S   2000  U
+ -   12 C2    S   2000  U
+ -   13 D2    S   2000  U
+ -   14 D2    S   2000  U 
  CDP_CRF
  -   1  1N    X   8080  U
  -   2  1N    X   8080  U
@@ -669,16 +671,16 @@ DBBC_26
  -   2   A1    X   8080    U
  -   3   A1    X   8080    U
  -   4   A1    X   8080    U
- -   5   B4    X   8080    U
- -   6   B4    X   8080    U
- -   7   B4    X   8080    U
- -   8   B4    X   8080    U
- -   9   C2    S   2020    U
- -   10  C2    S   2020    U
- -   11  C2    S   2020    U
- -   12  C2    S   2020    U
- -   13  D2    S   2020    U
- -   14  D2    S   2020    U
+ -   5   B1    X   8080    U
+ -   6   B1    X   8080    U
+ -   7   B1    X   8080    U
+ -   8   B1    X   8080    U
+ -   9   C1    S   2020    U
+ -   10  C1    S   2020    U
+ -   11  C1    S   2020    U
+ -   12  C1    S   2020    U
+ -   13  D1    S   2020    U
+ -   14  D1    S   2020    U
 * New RDV sequence for Kokee. Unused channel indicated  by "L" in sideband.
  NRAO_VG2
  -   1   A    X   7600    L

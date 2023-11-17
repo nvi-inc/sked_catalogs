@@ -8,7 +8,11 @@ antenna.cat
 * 2023-04-18 JMG Changed RAEGSMAR limits from 300-780 to 0-420
 
 equip.cat
+* 2023-11-17 JMG  Changed AGGO, HART15M, MEDICINA, NYALE13S, NYALE13N, ONSALA60,WARKWORTH,WETTZELL to DBBC_DDC/Fila10g FlexBuff
 * 2023-05-26 JMG.  Changed equipment at Ag and Ht to DBBC_DDC FlexBuff
+
+loif.cat
+* 2023-11-17  JMG  Changed CDP_STDUW for Urumqi. This had been wrong for YEARS but station personnel had fixed. 
 
 rec.cat
 * 2023-06-29 JMG. Added NYALES13N to 32-16-1-2
