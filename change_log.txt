@@ -1,6 +1,13 @@
 This file has a summary of changes to the sked catalogs. Arranged by catalog and date.
 This does not list updates to the flux catalog which occur monthly.
-This only lists recent changes.  For older changes look in the original catalog files.  
+This only lists recent changes.  For older changes look in the original catalog files. 
+
+--Changes made in 2024 (excluding flux.cat)
+rec.cat
+* 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
+
+rx.cat
+* 2024-01-03 JMG Changed AGGO to ODB_WIDE.  
 
 --Changes made in 2023 (excluding flux.cat)
 

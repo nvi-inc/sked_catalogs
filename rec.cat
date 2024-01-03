@@ -1,9 +1,10 @@
-* VERSION 2023-06-29_iGSFC 
+* VERSION 2024-01-03_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 * 2023-06-29 JMG  Added NYALES13N to 32-16-1-2
 * 2022-08-10 JMG  Added NYALES13N to 00-16-0-1
 * 2021-06-17 JMG  Added NYALES13S to 32-16-3-2
@@ -801,6 +802,7 @@
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
+ -       URUMQI     MK3V-A      14U2L-1-2-B   Mk34  
  -       VERAMZSW   MK3V-A      14U2L-1-2     Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  

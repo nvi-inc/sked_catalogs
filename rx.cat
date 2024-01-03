@@ -1,8 +1,9 @@
-* VERSION 2023-03-27_iGFSC
+* VERSION 2024-01-03_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2024-01-03 JMG Changed AGGO to ODB_WIDE. 
 * 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
 * 2022-12-15 JMG For SX_STD, chagned KOGANEI from KAS_WIDE->K4_KOG
 * 2022-08-10 JMG Added in NYALE13N to SX_WIDE
@@ -162,6 +163,7 @@
  -       MEDICINA    CDP_CRF
  -       HARTRAO     CDP_CRF
  SX_STD
+ -       AGGO        ODB_WIDE
  -       AIRA        CDP_STDN 
  -       ALGOPARK    CDPV_STD
  -       ARIES_4M    CDP_STD
@@ -231,7 +233,6 @@
  -       TATEYAMA    CDP_STD
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_STD
- -       AGGO        CDPA_STD
  -       TSUKUB32    TSU_STD
  -       UCHINOUR    TSU_STD
  -       URUMQI      CDP_STDU
@@ -277,6 +278,7 @@
  -       GILCREEK    CDP_WIDE
  -       ONSALA60    CDP_WIDE 
  SX_WIDE
+ -       AGGO        ODB_WIDE
  -       AIRA        AIRA_WIDE
  -       ALGOPARK    CDPV_WIDE
  -       BADARY      CDP_STDN
@@ -342,8 +344,7 @@
  -       SVETLOE     CDP_STDN
 *-       TAHITI      CDP_WIDE
  -       TIANMA65    CDP_T6
- -       TIGO        CDPV_WIDE
- -       AGGO        CDPA_WIDE
+* -       TIGO        CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
  -       URUMQI      CDP_STDUW
