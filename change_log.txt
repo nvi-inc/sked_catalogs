@@ -3,6 +3,8 @@ This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files. 
 
 --Changes made in 2024 (excluding flux.cat)
+equp.cat
+* 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
 rec.cat
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 
