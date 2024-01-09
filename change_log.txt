@@ -4,7 +4,9 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 --Changes made in 2024 (excluding flux.cat)
 equp.cat
+* 2024-01-09 JMG. For 2024-01-05 forgot to comment out Wettz13S cold values
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
+
 rec.cat
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 

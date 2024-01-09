@@ -1,9 +1,10 @@
-* VERSION 2024-01-05_iGSFC
+* VERSION 2024-01-09_iGSFC
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2024-01-09 JMG. For 2024-01-05 forgot to comment out Wettz13S cold values
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
 * 2023-11-17 JMG  Changed AGGO, HART15M, MEDICINA, NYALE13S, NYALE13N, ONSALA60,WARKWORTH,WETTZELL to DBBC_DDC/Fila10g FlexBuff
 * 2023-07-24 JMG.  Changed Oh to DBBC_DDC Flexbuff 
