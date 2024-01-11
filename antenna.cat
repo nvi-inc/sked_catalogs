@@ -1,9 +1,10 @@
-* VERSION 2023-04-18_iGSFC 
+* VERSION 2024-01-11_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 * 2023-04-18 JMG Changed RAEGSMAR limits from 300-780 to 0-420
 * 2022-02-14 JMG Corrected Ishioka El slew rate to 360deg/m (was incorrectly 720 deg/m)
 * 2021-10-29 JMG Restored Ishioka el slew to 6 because motors fixed. 
@@ -347,11 +348,13 @@
 *S SEJONG   AZEL   0.00000 300.0   0   10.0  710.0  300.0   0   5.0  89.0  22.0 Kv Kv  --
  S SEJONG   AZEL   0.00000 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  Kv
 *C SESHAN25 AZEL   0.00000  60.0   0  290.0  780.0   30.0   0   5.0  87.0  25.0 Sh 104 --
+ C SESHAN13 AZEL   0.00000 720.0  10  -90.0  450.0  360.0   5   7.0  89.0  13.0 S6 S6  S6
  C SESHAN25 AZEL   0.00000  56.0   9  290.0  780.0   30.0   9   5.0  87.0  25.0 Sh 104 --
  L SEST     SEST   0.00000  55.0   0  290.0  790.0   40.0   0   6.0  88.0  15.0 Se 70  Se
  S SYOWA    AZEL   0.00000 360.0   0   90.0  630.0  360.0   0   0.0  90.0  10.0 Sy SY  --
  S SVETLOE  AZEL   0.00000  60.0  40  278.0  802.0   30.0  40  10.0  80.0  32.0 Sv 116 --
  Y TATEYAMA AZEL   0.00000 180.0   0   95.0  625.0  180.0   0   6.0  88.0  11.0 Ta Ty  --
+ T TIANMA13 AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  89.0  13.2 T1 T1  T1
  T TIANMA65 AZEL   0.00000  30.0   0  280.0  800.0   15.0   0   6.0  87.0  65.0 T6 109 --
  T TIDBIN64 AZEL   0.00000  15.0  12  230.0  759.8   15.0  12   6.0  86.0  64.0 Ti 39  --
  O TIGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Tc 70  Tc
@@ -360,6 +363,7 @@
  T TSUKUB32 AZEL   0.00000 194.0  14   10.0  710.0  190.0  16   5.0  88.0  32.0 Ts TS  --
  V UCHINOUR AZEL   0.00000 300.0   0  275.0  805.0  150.0   0   5.0  88.0  34.0 Uc Uc  Uc
 *U URUMQI   AZEL   0.00000  60.0   0  280.0  800.0   30.0   0   5.0  88.0  25.0 Ur K4  --
+ U URUMQI13 AZEL   0.00000 720.0  10  -90.0  450.0  360.0   5   7.0  89.0  13.0 Um Um  Um
  U URUMQI   AZEL   0.00000  60.0   9  280.0  800.0   32.0   9   5.0  88.0  25.0 Ur 67  --
  U USSURISK AZEL   4.00000  30.0 900  270.0  810.0   15.0 900   5.0  88.0  70.0 Us US  --
  S VERAISGK AZEL   0.00000 120.0   0  270.0  810.0  120.0   0   5.0  85.0  20.0 Vs Vs  Vs
