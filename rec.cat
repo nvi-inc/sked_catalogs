@@ -1,9 +1,10 @@
-* VERSION 2024-01-03_iGSFC 
+* VERSION 2024-01-17_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 to 00-16-0-1 and 32-16-1-2 per 2024-01-17 Fengchun
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 * 2023-06-29 JMG  Added NYALES13N to 32-16-1-2
 * 2022-08-10 JMG  Added NYALES13N to 00-16-0-1
@@ -427,6 +428,8 @@
  -       RAEGYEB    MK3V-A      14U2L-1-1-B   Mk34  
  -       SEJONG     MK3V-A      14U2L-1-1-BJ  Mk34
  -       SESHAN25   MK3V-A      14U2L-1-1-B   Mk34
+ -       SESHAN13   MK3V-A      14U2L-1-1-B   Mk34
+ -       TIANMA13   MK3V-A      14U2L-1-1-B   Mk34
  -       TIANMA65   MK3V-A      14U2L-1-1-B   Mk34
  -       SINTOTU3   MK3V-A      14U2L-2-1     Mk34
  -       SYOWA      MK3V-A      14U2L-2-1     Mk34
@@ -436,7 +439,8 @@
  -       AGGO       MK3V-A      14U2L-1-1-B   Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-1-BJ  Mk34
  -       UCHINOUR   MK3V-A      14U2L-2-1     Mk34
- -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34  
+ -       URUMQI     MK3V-A      14U2L-1-1-B   Mk34 
+ -       URUMQI13   MK3V-A      14U2L-1-1-B   Mk34 
  -       VERAISGK   MK3V-A      14U2L-2-1     Mk34
  -       VERAMZSW   MK3V-A      14U2L-1-1-BJ  Mk34
  -       WARK12M    MK3V-A      14U2L-1-1-B   Mk34
@@ -795,14 +799,17 @@
  -       RAEGSMAR   MK3V-A      14U2L-1-2-B   Mk34 
  -       RAEGYEB    MK3V-A      14U2L-1-2-B   Mk34
  -       SEJONG     MK3V-A      14U2L-1-2-J   Mk34    
+ -       SESHAN13   MK3V-A      14U2L-1-2-B   Mk34  
  -       SESHAN25   MK3V-A      14U2L-1-2-B   Mk34  
- -       SYOWA      MK3V-A      14U2L-1-2-J  Mk34
+ -       SYOWA      MK3V-A      14U2L-1-2-J   Mk34
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
+ -       TIANMA13   MK3V-A      14U2L-1-2-B   Mk34  
  -       TIANMA65   MK3V-A      14U2L-1-2     Mk34  
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
  -       URUMQI     MK3V-A      14U2L-1-2-B   Mk34  
+ -       URUMQI13   MK3V-A      14U2L-1-2-B   Mk34  
  -       VERAMZSW   MK3V-A      14U2L-1-2     Mk34
  -       WARK12M    MK3V-A      14U2L-1-2-B   Mk34
  -       WESTFORD   MK3V-A      14U2L-1-2-B   Mk34  

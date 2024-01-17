@@ -4,13 +4,17 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 --Changes made in 2024 (excluding flux.cat)
 equp.cat
+* 2024-01-17 JMG. Did not put in the '13' in URUMQI13
+* 2024-01-11 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 * 2024-01-09 JMG. For 2024-01-05 forgot to comment out Wettz13S cold values
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
 
 rec.cat
+* 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 
 rx.cat
+* 2024-01-17 JMG Added SESHAN13, TIANMA13, URUMQI13 to 00-16-0-1 and 32-16-1-2 per 2024-01-17 Fengchun
 * 2024-01-03 JMG Changed AGGO to ODB_WIDE.  
 
 --Changes made in 2023 (excluding flux.cat)

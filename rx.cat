@@ -1,8 +1,9 @@
-* VERSION 2024-01-03_iGFSC
+* VERSION 2024-01-17_iGFSC
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
 * 2024-01-03 JMG Changed AGGO to ODB_WIDE. 
 * 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
 * 2022-12-15 JMG For SX_STD, chagned KOGANEI from KAS_WIDE->K4_KOG
@@ -339,15 +340,18 @@
  -       SEJONG      TSU_WIDE
 * -       SESHAN25    CDPV_SE
  -       SESHAN25    SESH_LO
+ -       SESHAN13    CDP_STDK
  -       SINTOTU3    CDP_STDN 
  -       SYOWA       TSU_WIDE
  -       SVETLOE     CDP_STDN
 *-       TAHITI      CDP_WIDE
  -       TIANMA65    CDP_T6
+ -       TIANMA13    CDP_STDK
 * -       TIGO        CDPV_WIDE
  -       TSUKUB32    TSU_WIDE
  -       UCHINOUR    TSU_WIDE
  -       URUMQI      CDP_STDUW
+ -       URUMQI13    CDP_STDK
  -       VERAISGK    TSU_WIDE
  -       VERAMZSW    TSU_WIDE
  -       WARK12M     DBBC_WW
