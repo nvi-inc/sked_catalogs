@@ -1,9 +1,10 @@
-* VERSION 2024-01-11_iGSFC 
+* VERSION 2024-04-18_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2024-04-18 JMG Updated DSS36 per email from Matthias Scharter
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 * 2023-04-18 JMG Changed RAEGSMAR limits from 300-780 to 0-420
 * 2022-02-14 JMG Corrected Ishioka El slew rate to 360deg/m (was incorrectly 720 deg/m)
@@ -259,7 +260,7 @@
  D DSS15    AZEL   0.00000  48.0  20  270.0  720.0   39.0  20   6.2  88.0  34.0 15 15  --
  T DSS26    AZEL   0.00000  48.0  20  270.0  720.0   48.0  20   6.2  88.0  34.0 26 26  --
  T DSS34    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 34 34  --
- T DSS36    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 36 36  --
+ T DSS36    AZEL   0.00000  48.0  20  159.3  628.9   48.0  20   6.2  88.0  34.0 36 36  --
  T DSS45    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 45 45  --
  T DSS56    AZEL   0.00000  48.0  20  270.0  720.0   48.0  20   6.2  88.0  34.0 56 56  --
  M DSS65A   AZEL   0.00000  48.0  20  271.3  718.9   48.0  20   6.2  88.0  34.0 6a 69  6a
