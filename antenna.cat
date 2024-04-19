@@ -1,9 +1,10 @@
-* VERSION 2024-04-18_iGSFC 
+* VERSION 2024-04-19_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2024-04-19 JMG Updated wrap limits for DSS13, DSS26, DSS34, DSS36, DSS56 per George Martinez
 * 2024-04-18 JMG Updated DSS36 per email from Matthias Scharter
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 * 2023-04-18 JMG Changed RAEGSMAR limits from 300-780 to 0-420
@@ -256,13 +257,13 @@
  X CHLBOLTN AZEL   0.30600  60.0   0    0.0  360.0   60.0   0   5.0  88.0  25.0 Ch --  --
  C CRIMEA   AZEL   0.00000  54.0  30  339.0  740.0   36.0  35   3.0  85.0  22.0 Sm 35  Sm
  C CTVA     AZEL   0.00000 150.0   5  -20.0  380.0   60.0   5  10.0  90.0   3.6 Sb CT  --
- D DSS13    AZEL   0.00000  48.0  10  271.0  719.0   48.0  10   7.0  89.0  34.0 13 13  --
+ D DSS13    AZEL   0.00000  48.0  10  271.0  718.9   48.0  10   7.0  89.0  34.0 13 13  --
  D DSS15    AZEL   0.00000  48.0  20  270.0  720.0   39.0  20   6.2  88.0  34.0 15 15  --
- T DSS26    AZEL   0.00000  48.0  20  270.0  720.0   48.0  20   6.2  88.0  34.0 26 26  --
- T DSS34    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 34 34  --
- T DSS36    AZEL   0.00000  48.0  20  159.3  628.9   48.0  20   6.2  88.0  34.0 36 36  --
+ T DSS26    AZEL   0.00000  48.0  20  270.0  719.7   48.0  20   6.2  88.0  34.0 26 26  --
+ T DSS34    AZEL   0.00000  48.0  20  180.0  629.7   48.0  20   6.2  88.0  34.0 34 34  --
+ T DSS36    AZEL   0.00000  48.0  20  159.3  628.0   48.0  20   6.2  88.0  34.0 36 36  --
  T DSS45    AZEL   0.00000  48.0  20  180.0  628.9   48.0  20   6.2  88.0  34.0 45 45  --
- T DSS56    AZEL   0.00000  48.0  20  270.0  720.0   48.0  20   6.2  88.0  34.0 56 56  --
+ T DSS56    AZEL   0.00000  48.0  20  270.0  719.0   48.0  20   6.2  88.0  34.0 56 56  --
  M DSS65A   AZEL   0.00000  48.0  20  271.3  718.9   48.0  20   6.2  88.0  34.0 6a 69  6a
  B EFLSBERG AZEL   0.00000  20.0  10   34.0  490.0   15.0  10   8.0  89.0 100.0 Eb 06  Eb
  D FD-VLBA  AZEL   2.13100  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Fd FV  Fd

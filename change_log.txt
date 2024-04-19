@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 --Changes made in 2024 (excluding flux.cat)
 antenna.cat 
+* 2024-04-19 JMG Updated wrap limits for DSS13, DSS26, DSS34, DSS36, DSS56 per George Martinez
 * 2024-04-18 JMG Updated DSS36 per email from Matthias Scharter
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 
