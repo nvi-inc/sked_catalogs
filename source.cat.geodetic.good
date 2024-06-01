@@ -1,9 +1,14 @@
 *
-* VERSION 2020May30_iGSFC
+* VERSION 2024May28_iGSFC
 *
 * SOURCE.CAT.GEODETIC - geodetic source positions
 *
 * Updates (most recent entries at the top):
+* 2024-05-28  KDB  Added six sources that were observed in the VGOS-INT-S sessions
+*                  All have been observed in the past in R&D sessions
+*                  or in AUST, AOV, CRF, or T2 sessions.                
+*                  The source coordinates are from GSFC 2023a_mod.src 
+*                  from the GSFC 2023a csolve solution.
 * 2020-05-30  JMG  Added 37 new geodetic sources
 * 2013-09-23  JMG  Removed 6 special handling sources that were accidently added 2013-08-27.
 * 2013-08-27  KLB  Added 41 sources vetted in RD1302, RD1303, RD1304.
@@ -23,6 +28,13 @@
 * Modified by JMG 2010May28 to remove ICRF2 special handling sources.
 *
 *IAU-Name Common   hh mm  ss.ssss       sdd  mm ss.sssss   epoch  0.0 source
+*Six new sources added 2024May28.
+ 0123+257 $          1 26 42.792630      25 59  1.30017 2000.0 0.0 GSFC 2023a
+ 0812+367 $          8 15 25.944862      36 35 15.14878 2000.0 0.0 GSFC 2023a
+ 0917+449 $          9 20 58.458486      44 41 53.98502 2000.0 0.0 GSFC 2023a
+ 1502+106 $         15  4 24.979782      10 29 39.19857 2000.0 0.0 GSFC 2023a
+ 1821+107 $         18 24  2.855252      10 44 23.77404 2000.0 0.0 GSFC 2023a
+ 1823+568 $         18 24  7.068374      56 51  1.49082 2000.0 0.0 GSFC 2023a
 *37 new geodetic sources added 2020May30
  0235+164 $          2 38 38.930104      16 36 59.27455 2000.0 0.0 ICRF3 S/X								
  0354+231 $          3 57 21.60989       23 19 53.82518 2000.0 0.0 ICRF3 S/X								
