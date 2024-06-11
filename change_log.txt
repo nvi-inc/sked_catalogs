@@ -9,6 +9,7 @@ antenna.cat
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 
 equp.cat
+* 2024-06-11 JMG. Accidently commmented out Ns.  Put it back in
 * 2024-06-06 JMG. NS changed to warm. Changed recorder/rack at many sites
 * 2024-01-17 JMG. Did not put in the '13' in URUMQI13
 * 2024-01-11 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
