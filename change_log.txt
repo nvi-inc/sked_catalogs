@@ -4,17 +4,22 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 --Changes made in 2024 (excluding flux.cat)
 antenna.cat 
+* 2024-07-10 JMG Updated Kunming az slew rate.  60deg/min-->30deg/min per Email fengchun 2024-06-26
 * 2024-04-19 JMG Updated wrap limits for DSS13, DSS26, DSS34, DSS36, DSS56 per George Martinez
 * 2024-04-18 JMG Updated DSS36 per email from Matthias Scharter
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 
-equp.cat
+equip.cat
 * 2024-06-11 JMG. Accidently commmented out Ns.  Put it back in
 * 2024-06-06 JMG. NS changed to warm. Changed recorder/rack at many sites
 * 2024-01-17 JMG. Did not put in the '13' in URUMQI13
 * 2024-01-11 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 * 2024-01-09 JMG. For 2024-01-05 forgot to comment out Wettz13S cold values
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
+
+mask.cat
+* 2024-07-10 JMG Updated mask for NYALES13S, NYALES13N per email S. Espada July 5, 2024. Removed Ny. 
+* 2024-01-11 JMG Added SESHAN13, TIANMA13 per 2023-12-06 Fengchun
 
 rec.cat
 * 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
