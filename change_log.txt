@@ -18,6 +18,7 @@ equip.cat
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
 
 mask.cat
+* 2024-08-12 JMG Updated mask again.  Set limits for NYALES13S and NYALES13N to 15
 * 2024-07-10 JMG Updated mask for NYALES13S, NYALES13N per email S. Espada July 5, 2024. Removed Ny. 
 * 2024-01-11 JMG Added SESHAN13, TIANMA13 per 2023-12-06 Fengchun
 
