@@ -10,6 +10,7 @@ antenna.cat
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 
 equip.cat
+* 2024-09-23 JMG. Updated Matera SEFDs to run warm. 
 * 2024-06-11 JMG. Accidently commmented out Ns.  Put it back in
 * 2024-06-06 JMG. NS changed to warm. Changed recorder/rack at many sites
 * 2024-01-17 JMG. Did not put in the '13' in URUMQI13
