@@ -4,7 +4,7 @@
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
-* 2024-10-02 JMG Updated RAEGSMAR El slew rate reduced to 5.8/sec = 348/min
+* 2024-10-02 JMG Updated RAEGSMAR El slew rate reduced to 4/sec = 240/min
 * 2024-07-10 JMG Updated Kunming az slew rate.  60deg/min-->30deg/min per Email fengchun 2024-06-26
 * 2024-04-19 JMG Updated wrap limits for DSS13, DSS26, DSS34, DSS36, DSS56 per George Martinez
 * 2024-04-18 JMG Updated DSS36 per email from Matthias Scharter
@@ -343,8 +343,8 @@
  P PIETOWN  AZEL   2.13710  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Pt PT  Pt
  U QUABBIN  AZEL   0.00000  60.0   0  270.0  810.0   60.0   0   5.0  88.0  18.0 Qb --  --
 * R RAEGSMAR AZEL   0.00000 720.0   3  300.0  780.0  360.0   3   5.0  89.0  13.2 Sa Sa  --
-* El slew rate reduced to 5.8/sec = 348/min
-  R RAEGSMAR AZEL   0.00000 720.0   3    0.0  420.0  348.0   3   5.0  89.0  13.2 Sa Sa  --
+* El slew rate reduced to 4/sec = 240/min
+  R RAEGSMAR AZEL   0.00000 720.0   3    0.0  420.0 240.0   3   5.0  89.0  13.2 Sa Sa  --
 * R RAEGSMAR AZEL   0.00000 720.0   3    0.0  420.0  360.0   3   5.0  89.0  13.2 Sa Sa  --
  R RAEGYEB  AZEL   0.00000 720.0   3  300.0  780.0  360.0   3   5.0  89.0  13.2 Yj Yj  --
  R ROBLED32 HADC   6.70600  20.0   0 -100.0  100.0   20.0   0 -35.0  86.0  32.0 61 --  --
