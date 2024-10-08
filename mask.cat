@@ -1,9 +1,10 @@
-* VERSION 2024-08-12_iGSFC 
+* VERSION 2024-10-07_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2024-10-07 JMG  Added in Hart-13m. Per email J. Quick 2024-10-04
 * 2024-08-12 JMG Updated mask again.  Set limits for NYALES13S and NYALES13N to 15
 * 2024-07-10 JMG Updated mask for NYALES13S, NYALES13N per email S. Espada July 5, 2024. Removed Ny. 
 * 2024-01-11 JMG Added SESHAN13, TIANMA13 per 2023-12-06 Fengchun
@@ -145,6 +146,9 @@
 * Based on email from J.Quick 2015Sep09
  H  HART15M Ht  0 7 40 4.25 70 4.25 90 9.5 100 6 110 8 120 4 150 5 
  - 190 2 200 3 210 2 230 2 250 4.5 260 4.5 270 2 300 9 320 9.5 
+ - 330 9  350 7 360 7   
+ H  HART13M Hv  0 7 40 4.25 70 4.25 120 4 150 5 
+ - 190 2 200 3 210 2 230 2 250 4.5  260 4.5 270 2 300 9 320 9.5 
  - 330 9  350 7 360 7                                   
  C  HATCREEK Hc  -38.0 21.0  -35.0 28.4  -30.0 40.9  -25.0 51.8  -20.0
  - 60.8  -15.0 68.0  -10.0 73.5  -5.0  77.1  2.0   80.0  59.0 

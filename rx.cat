@@ -1,8 +1,9 @@
-* VERSION 2024-01-17_iGFSC
+* VERSION 2024-10-07_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2024-10-07 JMG  Added in HART13M to SX_WIDE Per email J. Quick 2024-10-04
 * 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
 * 2024-01-03 JMG Changed AGGO to ODB_WIDE. 
 * 2023-03-27 JMG Replaced NY_WIDE by ODB_WIDE because NY got a second DBBC
@@ -300,6 +301,7 @@
  -       GGAO12M     CDP_WIDE
  -       HARTRAO     DBBC_HH
  -       HART15M     DBBC_HH
+ -       HART13M     NYS_STD
  -       HAYSTACK    CDP_WIDE
  -       HOBART12    DBBC_AU
  -       HOBART26    DBBC_26
