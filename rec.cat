@@ -1,10 +1,10 @@
-* VERSION 2024-10-07_iGSFC 
+* VERSION 2024-10-17_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
-* 2024-10-07 JMG  Added in Hart-13 to 00-16-0-1 Per email J. Quick 2024-10-04
+* 2024-10-17 JMG  Added in HARTVGS to 00-16-0-1 Per email J. Quick 2024-10-04
 * 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 to 00-16-0-1 and 32-16-1-2 per 2024-01-17 Fengchun
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 * 2023-06-29 JMG  Added NYALES13N to 32-16-1-2
@@ -399,7 +399,7 @@
  -       GGAO12M    MK3V-A      14U2L-1-1-B   Mk34  
  -       HARTRAO    MK3V-A      14U2L-1-1-B   Mk34  
  -       HART15M    MK3V-A      14U2L-1-1-B   Mk34 
- -       HART13M    MK3V-A      14U2L-2-1     MK34 
+ -       HARTVGS    MK3V-A      14U2L-2-1     MK34 
  -       HOBART12   MK3V-A      14U2L-1-1-B   Mk34
  -       HOBART26   MK3V-A      14U2L-1-1-B   Mk34
  -       IRBENE     MK3V-A      14U2L-1-1-B   Mk34  

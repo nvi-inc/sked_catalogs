@@ -1,10 +1,10 @@
-* VERSION 2024-10-07_iGSFC 
+* VERSION 2024-10-17_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
-* 2024-10-07 JMG  Added in Hart-13m. Per email J. Quick 2024-10-04
+* 2024-10-17 JMG Added in HARTVGS Per email J. Quick 2024-10-04
 * 2024-10-02 JMG Updated RAEGSMAR El slew rate reduced to 4/sec = 240/min
 * 2024-07-10 JMG Updated Kunming az slew rate.  60deg/min-->30deg/min per Email fengchun 2024-06-26
 * 2024-04-19 JMG Updated wrap limits for DSS13, DSS26, DSS34, DSS36, DSS56 per George Martinez
@@ -279,7 +279,7 @@
  J HARTRAO  HADC   6.69220  24.0  45  -88.0   88.0   22.2  45 -83.0  45.0  26.0 Hh 34  Hh
 *J HART15M  AZEL   1.47000 120.0   3 -185.0  275.0   60.0   3   2.0  88.0  15.0 Ht Ht  Ht
  J HART15M  AZEL   1.47000 124.0   8 -185.0  275.0   60.0   8   2.0  88.0  15.0 Ht Ht  Ht 
- J HART13M  AZEL   0.00000 720.0   3  -270   270.0  360.0   3   0.0  90.0  13.2 Hv  Hv Hv  
+ J HARTVGS  AZEL   0.00000 720.0   3  -270   270.0  360.0   3   0.0  90.0  13.2 Hv  Hv Hv  
  H HATCREEK HADC   0.00000  13.0  40  -80.9   80.9   12.0  40 -38.0  85.0  26.0 Hc 03  Hc
  K HAYSTACK AZEL   0.00000 120.0   0    0.0  360.0  120.0   0   3.0  88.0  37.0 Hs 00  --
  H HN-VLBA  AZEL   2.13030  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Hn HN  Hn
