@@ -1,9 +1,10 @@
-* VERSION 2024-10-17_iGSFC 
+* VERSION 2024-10-21_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2024-10-21 JMG. Changed SEFDs of Wn to 2500 per email Christian Plotz 2024-10-21
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04
 * 2024-09-23 JMG. Updated Matera SEFDs to run warm. 
 * 2024-06-11 JMG. Accidently commented out Ns. Put it back in
@@ -539,7 +540,7 @@
  WETTZELL   33  WETTZELL  2x56000 17640   X   750   S  1115 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 DBBC_DDC/Fila10g  Flexbuff 
 * Below is warm
 * WETTZELL   33  WETTZELL  2x56000 17640   X   2350   S  2230 S 1.0 0.934 0.0660 X 1.0 0.948 0.0516 DBBC_DDC  Flexbuff 
- WETTZ13N   Wn  WETTZ13N  2x56000  17640  X  1400   S  1050 DBBC_DDC MARK5B
+ WETTZ13N   Wn  WETTZ13N  2x56000  17640  X  2500   S  2500 DBBC_DDC MARK5B
 * Below is cold
 * WETTZ13S   WS  WETTZ13S  2x56000  17640  X  1400   S  1050 DBBC_DDC MARK6
 * Below is warm
