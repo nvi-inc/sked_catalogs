@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 --Changes made in 2024 (excluding flux.cat)
 antenna.cat 
+* 2024-10-28 JMG Changed El limit of SESHAN25 per email Bo.Xia 2024-10-25
 * 2024-10-17 JMG Added in HARTVGS. Per email J. Quick 2024-10-04
 * 2024-10-02 JMG Updated RAEGSMAR El slew rate reduced to 4/sec = 240/min
 * 2024-07-10 JMG Updated Kunming az slew rate.  60deg/min-->30deg/min per Email fengchun 2024-06-26
