@@ -1,9 +1,10 @@
-* VERSION 2024-10-29_iGSFC 
+* VERSION 2024-10-30_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2024-10-30 JMG. MGO compressor fixed. Now observing cold. per email Chevo 2024-10-30
 * 2024-10-29 JMG. Changed SEFDs of MGO to 12000 9500 per email Chet Ruszcyk 2024-10-25
 * 2024-10-21 JMG. Changed SEFDs of Wn to 2500 per email Christian Plotz 2024-10-21
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04
@@ -455,8 +456,9 @@
 * Below is Warm.  X_new->X_old*3, S_new->S_old*2
  MATERA    119  MATERA   2x56000  17640   X  4800   S  4400 Mark5 MARK5B
 * Below is warm for MACGO12M. Based on email from Chet R.
- MACGO12M   Mg  MACGO12M 2x56000  17640   X  12000   S 9500 RDBE MARK6
-* MACGO12M   Mg  MACGO12M 2x56000  17640   X  3000   S  3000 RDBE MARK6
+* MACGO12M   Mg  MACGO12M 2x56000  17640   X  12000   S 9500 RDBE MARK6
+* Below is cold 
+ MACGO12M   Mg  MACGO12M 2x56000  17640   X  3000   S  3000 RDBE MARK6
  MEDICINA   38  MEDICINA 2x56000  17640   X  1100   S  1500 S 0.5 0.839 0.161 X 0.1 -1.26 2.26 DBBC_DDC/Fila10g  FlexBuff
  MEDICINA   38  MEDICINA 2x56000  17640  C   296    C   296 Mark4 MARK5A
  METSAHOV   MH  METSAHOV 2x56000  17640   X  6000   S  8000 DBBC_DDC  MARK5B

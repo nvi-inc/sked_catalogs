@@ -13,6 +13,7 @@ antenna.cat
 * 2024-01-11 JMG Added SESHAN13, TIANMA13, URUMQI13 per 2023-12-06 Fengchun
 
 equip.cat
+* 2024-10-30 JMG. MGO compressor fixed. Now observing cold. per email Chevo 2024-10-30
 * 2024-10-29 JMG. Changed SEFDs of MGO to 12000 9500 per email Chet Ruszcyk 2024-10-25
 * 2024-10-21 JMG. Changed SEFDs of Wn to 2500 per email Christian Plotz 2024-10-21
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04
