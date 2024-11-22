@@ -25,6 +25,9 @@ equip.cat
 * 2024-01-09 JMG. For 2024-01-05 forgot to comment out Wettz13S cold values
 * 2024-01-05 JMG. Changed SEFD of WETTZ13S to 3000, 3000
 
+freq.cat
+* 2024-11-22 JMG Changed freq sequence for VGEOSX per email David Gordon
+
 position.cat
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04. Fixed position. 
 
@@ -35,11 +38,13 @@ mask.cat
 * 2024-01-11 JMG Added SESHAN13, TIANMA13 per 2023-12-06 Fengchun
 
 rec.cat
+* 2024-11-22 JMG  Added NYALE13N to 00-8U-0-2
 * 2024-10-17 JMG  Added in Hart-13 to 00-16-0-1 Per email J. Quick 2024-10-04
 * 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
 * 2024-01-03 JMG  Happy new year! Added URUMQI to 32-16-1-2
 
 rx.cat
+* 2024-11-22 JMG Added SEJONG and NYALE13N to VG_MK4
 * 2024-10-17 JMG  Added in HART13M to SX_WIDE Per email J. Quick 2024-10-04
 * 2024-01-17 JMG Added SESHAN13, TIANMA13, URUMQI13 to 00-16-0-1 and 32-16-1-2 per 2024-01-17 Fengchun
 * 2024-01-03 JMG Changed AGGO to ODB_WIDE.  

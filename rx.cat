@@ -1,8 +1,9 @@
-* VERSION 2024-10-17_iGSFC 
+* VERSION 2024-11-22_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2024-11-22 JMG Added SEJONG and NYALE13N to VG_MK4
 * 2024-10-17 JMG  Added in HARTVGS to SX_WIDE Per email J. Quick 2024-10-04
 * 2024-01-17 JMG  Added SESHAN13, TIANMA13, URUMQI13 per 2024-01-17 Fengchun
 * 2024-01-03 JMG Changed AGGO to ODB_WIDE. 
@@ -471,7 +472,9 @@
  -       NOTO        CDPVNVG2
  -       NYALES20    ODB_WID8
  -       NYALE13S    NYS_STD
+ -       NYALE13N    NYS_STD
  -       PARKES      CDP_WID8 
+ -       SEJONG      TSU_WIDE
  -       TSUKUB32    TSU_WID8
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8

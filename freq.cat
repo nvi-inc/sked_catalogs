@@ -1,8 +1,9 @@
-* VERSION 2021Jan19_iGSFC
+* VERSION 2024-11-22_iGSFC
 * CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
 * Updates (most recent at the top)
+* 2024-11-22 JMG Changed freq sequence for VGEOSX per email David Gordon
 * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
 * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
 * 2020-11-04 JMG GEOSX8N based on GEOSX but no overlap when BW=32.  Channel 7 is 8892.99 
@@ -552,22 +553,24 @@
 * Raise S-band by 5 MHz to avoid RFI in 2320-2345 band.
 * JMG 2002Nov20. Raised 7MHz again
 * Added set-up values for non-recorded BBCs for nonvVLBA stations.
+* Changed freq sequence per email David Gordon 2024-11-21
 *   This is no longer needed for digital stations. 
  VGEOSX SX STD  VLBA_RV
 - X    R   8365.75  U   CH1     1    10000.0
 - X    R   8445.75  U   CH2     2    10000.0
 - X    R   8805.75  U   CH3     3    10000.0
 - X    R   8925.75  U   CH4     4    10000.0
-- S    R   2232.75  U   CH5     5    10000.0
-- S    R   2262.75  U   CH6     6    10000.0
-- S    R   2372.75  U   CH7     7    10000.0
-- S    R   2392.75  U   CH8     8    10000.0
+- S    R   2212.75  U   CH5     5    10000.0
+- S    R   2242.75  U   CH6     6    10000.0
+- S    R   2282.75  U   CH7     7    10000.0
+- S    R   2372.75  U   CH8     8    10000.0
 * S    R   2225.75  U   CH5     5    10000.0
 * S    R   2255.75  U   CH6     6    10000.0
 * S    R   2345.75  U   CH7     7    10000.0
 * S    R   2365.75  U   CH8     8    10000.0
 * VC assignments for non-VLBA stations
 * includes setups for non-recorded VCs
+* Changed freq sequence per email David Gordon 2024-11-21
  VGEOSX SX STD VG_MK4
 - X    R   8365.75  U   CHX   101    10000.0
 - X    R   8365.75  U   CHX   102    10000.0
@@ -577,12 +580,12 @@
 - X    R   8925.75  U   CH4     6    10000.0
 - X    R   8925.75  U   CHX   107    10000.0
 - X    R   8925.75  U   CHX   108    10000.0
-- S    R   2232.75  U   CH5     9    10000.0
-- S    R   2262.75  U   CH6    10    10000.0
-- S    R   2262.75  U   CHX   111    10000.0
-- S    R   2262.75  U   CHX   112    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
+- S    R   2212.75  U   CH5     9    10000.0
+- S    R   2242.75  U   CH6    10    10000.0
+- S    R   2242.75  U   CHX   111    10000.0
+- S    R   2242.75  U   CHX   112    10000.0
+- S    R   2282.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * VC assignments for ZELENCHK
  VGEOSX SX STD VG_ZC 
 - X    R   8365.75  U   CHX   101    10000.0
@@ -593,12 +596,12 @@
 - X    R   8925.75  U   CH4     6    10000.0
 - X    R   8925.75  U   CHX   107    10000.0
 - X    R   8925.75  U   CHX   108    10000.0
-- S    R   2232.75  U   CH5     9    10000.0
-- S    R   2262.75  U   CHX   110    10000.0
-- S    R   2262.75  U   CHX   111    10000.0
-- S    R   2262.75  U   CH6    12    10000.0
-- S    R   2372.75  U   CH7    13    10000.0
-- S    R   2392.75  U   CH8    14    10000.0
+- S    R   2212.75  U   CH5     9    10000.0
+- S    R   2242.75  U   CHX   110    10000.0
+- S    R   2242.75  U   CHX   111    10000.0
+- S    R   2242.75  U   CH6    12    10000.0
+- S    R   2282.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * 
 * 16-Channel 2GB VGOS Mode
 *
