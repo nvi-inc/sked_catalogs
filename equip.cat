@@ -1,9 +1,10 @@
-* VERSION 2024-10-30_iGSFC 
+* VERSION 2025-01-09_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
 * 2024-10-30 JMG. MGO compressor fixed. Now observing cold. per email Chevo 2024-10-30
 * 2024-10-29 JMG. Changed SEFDs of MGO to 12000 9500 per email Chet Ruszcyk 2024-10-25
 * 2024-10-21 JMG. Changed SEFDs of Wn to 2500 per email Christian Plotz 2024-10-21
@@ -382,7 +383,7 @@
 *
 *Antenna    ID  DAT_Name  Heads Tape_len  X  SEFD   S SEFD  SEFD param/Equip
 *                         den/spd ft/min     (Jy)      (Jy) 
- AGGO       70  TIGO      2x56000 17640   X 34000   S 16000 DBBC_DDC/Fila10g FlexBuff
+ AGGO       Ag  AGGO      2x56000 17640   X 34000   S 16000 DBBC_DDC/Fila10g FlexBuff
  AIRA       Ai  AIRA      1x56000 80000   X 10300   S  7400 K4-1  K5 
  ALGOPARK  106  NRAO20   1x56000  17640   X   200   S   250 VLBA4 MARK5A
  ALGOPARK   AL  S2-ALGO    SLP      361   X   200   S   250 none S2

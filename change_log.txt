@@ -2,6 +2,16 @@ This file has a summary of changes to the sked catalogs. Arranged by catalog and
 This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files. 
 
+-- Changes made in 2025 (excluidng flux.cat)
+antenna.cat 
+* 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
+
+equip.cat
+* 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
+
+rec.cat
+* 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
+
 --Changes made in 2024 (excluding flux.cat)
 antenna.cat 
 * 2024-10-28 JMG Changed El limit of SESHAN25 per email Bo.Xia 2024-10-25
