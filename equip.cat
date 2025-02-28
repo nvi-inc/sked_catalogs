@@ -1,9 +1,10 @@
-* VERSION 2025-01-09_iGSFC 
+* VERSION 2025-02-28_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-02-28 KDB. Changed WETTZ13S equipment from DBBC_DDC MARK6 to DBBC3_DDC Flexbuff per Alexander Neidhardt 2025-02-19 e-mail.
 * 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
 * 2024-10-30 JMG. MGO compressor fixed. Now observing cold. per email Chevo 2024-10-30
 * 2024-10-29 JMG. Changed SEFDs of MGO to 12000 9500 per email Chet Ruszcyk 2024-10-25
@@ -550,7 +551,7 @@
 * Below is cold
 * WETTZ13S   WS  WETTZ13S  2x56000  17640  X  1400   S  1050 DBBC_DDC MARK6
 * Below is warm
- WETTZ13S   WS  WETTZ13S  2x56000  17640  X  3000   S  3000 DBBC_DDC MARK6
+ WETTZ13S   WS  WETTZ13S  2x56000  17640  X  3000   S  3000 DBBC3_DDC Flexbuff
  YARRA12M   Yg  YARRA12M  2x56000  17640  X  5800   S  4300 DBBC_DDC MARK5B  
  YEBES40M  105  YEBES     1x56000 17640   X   250   S  1500 DBBC_DDC/Fila10g FlexBuff
  ZELENCHK  118  ZELENCHK  2x56000 17640   X   400   S   600 none MARK5B
