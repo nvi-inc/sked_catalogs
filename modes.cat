@@ -1,4 +1,4 @@
-* VERSION 2020Nov23_iGSFC
+* VERSION 2025Feb28_iGSFC
 * CATALOG modes.cat 
 *
 * MODES.CAT - observing modes
@@ -9,6 +9,7 @@
 * to the recording mode for each station.
 *
 * Updates (most recent entry at the top): 
+* 2025-02-28 KDB Create new 256-8(RV-INT) entry for RV Intensives.
 * 2020-11-23 JMG Added 512Mbs T2 mode 
 * 2020-11-04 JMG Added GEOSX32.  Now have a different frequency mode for.
 * 2020-06-02 JMG Added AOVSX16N. This was used in apsg47
@@ -90,6 +91,7 @@
 64-32(APSG)      CDP-SX       4.0   8.0    32-16-2-1 
 64-16(EU-T2)     EUR2-SX      4.0   8.0    01-16-0-1
 512-16(EU-T2)    EUR2-SX      8.0  16.0    32-16-1-2 
+256-8(RV-INT)    VG-INT       8.0  16.0    00-8U-0-2
 256-8(RDV)       VGEOSX       8.0  16.0    00-8U-0-2
 512-16(RDV)      VGEOSX      16.0  32.0    00-8U-0-2
 512-16(CONT11)   GEOSX        8.0  16.0    32-16-1-2

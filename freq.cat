@@ -1,8 +1,12 @@
-* VERSION 2024-11-22_iGSFC
+* VERSION 2025-02-28_iGSFC
 * CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
 * Updates (most recent at the top)
+* 2025-02-28 KDB The 2024-11-22 change was intended for 24-hour sessions,
+*                but Intensive RV sessions also use the VGEOSX set up.
+*                Now they will use a new set up, VG-INT, with the original
+*                VGEOSX frequencies.
 * 2024-11-22 JMG Changed freq sequence for VGEOSX per email David Gordon
 * 2021-01-19 JMG replaced rest of '- XX' by '-SX'
 * 2021-01-15 JMG Restored DVP-SX which had gone to 'DVP- XX'.  Also CDP-SXN
@@ -1311,3 +1315,41 @@
 - S    R   2288.99  U  CH14     14   10000.0 
 
 ********************************************************
+* VGEOSX was recently updated (2024-11-22) to change the S-band 
+* frequencies to handle RFI in 24-hour sessions.  
+* But the RV Intensive sessions also use VGEOSX, 
+* and David Gordon and Sara Hardin of USNO
+* have asked to have the old S-band frequencies restored for them.
+* So a copy of VGEOSX, VG-INT, but with the old S-band frequencies,
+* is being created for the RV Intensives.
+* K. Baver 2025-02-06.
+* VLBA stations:
+ VG-INT SX STD  VLBA_RV
+- X    R   8365.75  U   CH1     1    10000.0
+- X    R   8445.75  U   CH2     2    10000.0
+- X    R   8805.75  U   CH3     3    10000.0
+- X    R   8925.75  U   CH4     4    10000.0
+- S    R   2232.75  U   CH5     5    10000.0
+- S    R   2262.75  U   CH6     6    10000.0
+- S    R   2372.75  U   CH7     7    10000.0
+- S    R   2392.75  U   CH8     8    10000.0
+* VC assignments for non-VLBA stations, except for ZELENCHK, 
+* which is not expected to observe in the RV Intensives.
+* Includes setups for non-recorded VCs (values > 100). 
+ VG-INT SX STD VG_MK4
+- X    R   8365.75  U   CHX   101    10000.0
+- X    R   8365.75  U   CHX   102    10000.0
+- X    R   8365.75  U   CH1     3    10000.0
+- X    R   8445.75  U   CH2     4    10000.0
+- X    R   8805.75  U   CH3     5    10000.0
+- X    R   8925.75  U   CH4     6    10000.0
+- X    R   8925.75  U   CHX   107    10000.0
+- X    R   8925.75  U   CHX   108    10000.0
+- S    R   2232.75  U   CH5     9    10000.0
+- S    R   2262.75  U   CH6    10    10000.0
+- S    R   2262.75  U   CHX   111    10000.0
+- S    R   2262.75  U   CHX   112    10000.0
+- S    R   2372.75  U   CH7    13    10000.0
+- S    R   2392.75  U   CH8    14    10000.0
+********************************************************
+

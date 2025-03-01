@@ -10,6 +10,12 @@ equip.cat
 * 2025-02-28 KDB. Changed WETTZ13S equipment from DBBC_DDC MARK6 to DBBC3_DDC Flexbuff.
 * 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
 
+freq.cat
+* 2025-02-28 KDB Added VG-INT entry (variation of VGEOSX for RV Intensives).
+
+modes.cat
+* 2025-02-28 KDB Added 256-8(RV-INT) entry for RV Intensives.
+
 rec.cat
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
 
