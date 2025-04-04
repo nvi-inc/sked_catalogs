@@ -1,9 +1,10 @@
-* VERSION 2025-01-09_iGSFC 
+* VERSION 2025-04-04_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2025-04-04 KDB Changed KUNMING C1 and C2 values from 0 to 20.
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 * 2024-10-28 JMG Changed El limit of SESHAN25 per email Bo.Xia 2024-10-25
 * 2024-10-17 JMG Added in HARTVGS Per email J. Quick 2024-10-04
@@ -301,7 +302,7 @@
  K KOKEE    AZEL   0.51810 112.0  12  270.0  810.0  136.0  12   0.0  89.7  20.0 Kk 102 Kk
  C KOKEE12M AZEL   0.00000 720.0  10  182.5  722.3  360.0   6   1.1  88.2  12.0 K2 K2  K2
  K KITTPEAK AZEL   0.00000  14.0   0  270.0  690.0   14.0   0  12.0  88.0  12.0 Kt --  --
- K KUNMING  AZEL   0.00000  30.0   0  280.0  800.0   30.0   0   6.0  86.0  40.0 Km 103 --
+ K KUNMING  AZEL   0.00000  30.0  20  280.0  800.0   30.0  20   6.0  86.0  40.0 Km 103 --
  K KP-VLBA  AZEL   2.13130  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Kp KV  Kp
  G KOGANEI  AZEL   0.00000 180.0   0   95.0  625.0  180.0   0   7.0  88.0  11.0 Kg Kg  --
  W KWAJAL26 AZEL   0.00000 750.0   0    0.0  360.0  750.0   0   0.0  90.0  25.6 Kw --  --

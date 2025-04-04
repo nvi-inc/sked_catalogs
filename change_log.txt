@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2025 (excluidng flux.cat)
 antenna.cat 
+* 2025-04-04 KDB Changed KUNMING C1 and C2 values from 0 to 20.
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
 equip.cat
