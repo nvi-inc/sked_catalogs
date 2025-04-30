@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2025 (excluidng flux.cat)
 antenna.cat 
+* 2025-04-30 K. Baver Changed AGGO azimuth limits to -44 496, per C. Kristukat 2025-04-29 email.
 * 2025-04-04 KDB Changed KUNMING C1 and C2 values from 0 to 20.
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
@@ -16,6 +17,9 @@ freq.cat
 
 modes.cat
 * 2025-02-28 KDB Added 256-8(RV-INT) entry for RV Intensives.
+
+position.cat 
+* 2025-04-30 K. Baver  Updated HARTVGS coordinates, per H. Krasna 2025-04-23 email.
 
 rec.cat
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
