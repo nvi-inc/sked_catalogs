@@ -1,9 +1,10 @@
-* VERSION 2024-10-17_iGSFC 
+* VERSION 2025-05-16_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04
 * 2024-08-12 JMG Updated mask again.  Set limits for NYALES13S and NYALES13N to 15
 * 2024-07-10 JMG Updated mask for NYALES13S, NYALES13N per email S. Espada July 5, 2024. Removed Ny. 
@@ -147,9 +148,10 @@
  H  HART15M Ht  0 7 40 4.25 70 4.25 90 9.5 100 6 110 8 120 4 150 5 
  - 190 2 200 3 210 2 230 2 250 4.5 260 4.5 270 2 300 9 320 9.5 
  - 330 9  350 7 360 7   
- H  HARTVGS Hv  0 7 40 4.25 70 4.25 120 4 150 5 
- - 190 2 200 3 210 2 230 2 250 4.5  260 4.5 270 2 300 9 320 9.5 
- - 330 9  350 7 360 7                                   
+ H  HARTVGS Hv  0  7  5   8  25  7  35  6  50  7  60  8  75
+ - 10  85  11  105  9  110  8  115  7  130 6  135  5  165  4  180
+ - 3  215  2  230  4  245  5  260  3  265   4  270   6  280   8  285
+ - 9  295  10  320  9  350  8  360
  C  HATCREEK Hc  -38.0 21.0  -35.0 28.4  -30.0 40.9  -25.0 51.8  -20.0
  - 60.8  -15.0 68.0  -10.0 73.5  -5.0  77.1  2.0   80.0  59.0 
  - 76.3  65.0  72.4  70.0  68.6  75.0  64.8  80.0  61.0  85.0 

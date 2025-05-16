@@ -15,6 +15,9 @@ equip.cat
 freq.cat
 * 2025-02-28 KDB Added VG-INT entry (variation of VGEOSX for RV Intensives).
 
+mask.cat
+* 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
+
 modes.cat
 * 2025-02-28 KDB Added 256-8(RV-INT) entry for RV Intensives.
 
