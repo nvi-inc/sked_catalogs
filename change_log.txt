@@ -13,12 +13,14 @@ equip.cat
 * 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
 
 freq.cat
+* 2025-05-23 KDB Added GEOSX-R1 entry (variation of GEOSX for R1 sessions).
 * 2025-02-28 KDB Added VG-INT entry (variation of VGEOSX for RV Intensives).
 
 mask.cat
 * 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
 
 modes.cat
+* 2025-05-23 KDB Added 512-16(R1) entry for R1 sessions.
 * 2025-02-28 KDB Added 256-8(RV-INT) entry for RV Intensives.
 
 position.cat 

@@ -1,8 +1,11 @@
-* VERSION 2025-02-28_iGSFC
+* VERSION 2025-05-23_iGSFC
 * CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
 * Updates (most recent at the top)
+* 2025-05-23 KDB The R1 sessions' S-band frequencies are being changed.
+*                Add a new entry, GEOSX-R1, to allow this.
+*                The values come from a 2025-05-21 e-mail from L. Petrov.
 * 2025-02-28 KDB The 2024-11-22 change was intended for 24-hour sessions,
 *                but Intensive RV sessions also use the VGEOSX set up.
 *                Now they will use a new set up, VG-INT, with the original
@@ -763,6 +766,23 @@
 - S    R   2295.99  U   CH12    12   10000.0
 - S    R   2345.99  U   CH13    13   10000.0
 - S    R   2365.99  U   CH14    14   10000.0
+* 2025May23.  New S-band frequencies for R1 sessions from L. Petrov.
+*             The X-band frequencies are from the GEOSX entry.
+ GEOSX-R1   SX STD SX_WIDE
+- X    R   8212.99  U   CH1     1    10000.0
+- X    R   8252.99  U   CH2     2    10000.0
+- X    R   8352.99  U   CH3     3    10000.0
+- X    R   8512.99  U   CH4     4    10000.0
+- X    R   8732.99  U   CH5     5    10000.0
+- X    R   8852.99  U   CH6     6    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8932.99  U   CH8     8    10000.0
+- S    R   2215.99  U   CH9     9    10000.0
+- S    R   2223.99  U   CH10    10   10000.0
+- S    R   2255.99  U   CH11    11   10000.0
+- S    R   2279.99  U   CH12    12   10000.0
+- S    R   2351.99  U   CH13    13   10000.0
+- S    R   2359.99  U   CH14    14   10000.0
 * K5-16KSP mode from JADE schedules  2015Feb23
  K5-16KSP   SX STD SX_STD
 - X    R   8204.99  U   CH1     1    10000.0

@@ -1,4 +1,4 @@
-* VERSION 2025Feb28_iGSFC
+* VERSION 2025May23_iGSFC
 * CATALOG modes.cat 
 *
 * MODES.CAT - observing modes
@@ -9,6 +9,8 @@
 * to the recording mode for each station.
 *
 * Updates (most recent entry at the top): 
+* 2025-05-23 KDB Create new 512-16(R1) entry for R1 sessions for new S-band frequencies per 2025-05-21 L. Petrov e-mail.
+*                The entry is based on the 512-16(CONT11) entry.
 * 2025-02-28 KDB Create new 256-8(RV-INT) entry for RV Intensives.
 * 2020-11-23 JMG Added 512Mbs T2 mode 
 * 2020-11-04 JMG Added GEOSX32.  Now have a different frequency mode for.
@@ -83,6 +85,7 @@
 ***********************************************************************
 * STANDARD GEODETIC MODES IN CURRENT USE 2014
 256-16(R1-R4)    GEOSX        8.0  16.0    00-16-0-1
+512-16(R1)       GEOSX-R1     8.0  16.0    32-16-1-2
 128-16(JADE)     K5-16KSP     4.0   8.0    00-16-0-1 
 128-16(INT)      NEOS-WB      4.0   8.0    32-16-2-1 
 1024-16(AU)      GEOSX       16.0   32.0   32-16-3-2
