@@ -1,9 +1,10 @@
-* VERSION 2025-01-09_iGSFC 
+* VERSION 2025-06-05_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2025-06-05 JMG  Added MATERAVG.
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
 * 2024-11-22 JMG  Added NYALE13N to 00-8U-0-2
 * 2024-10-17 JMG  Added in HARTVGS to 00-16-0-1 Per email J. Quick 2024-10-04
@@ -415,6 +416,7 @@
  -       KOKEE12M   MK3V-A      14U2L-1-1-B   Mk34  
  -       KUNMING    MK3V-A      14U2L-1-1-B   Mk34
  -       MATERA     MK3V-A      14U2L-1-1-B   Mk34 
+ -       MATERAVG   MK3V-A      14U2L-1-1-B   Mk34 
  -       MACGO12M   MK3V-A      14U2L-2-1     Mk34   
  -       MEDICINA   MK3V-A      14U2L-1-1-B   Mk34  
  -       NOTO       MK3V-A      14U2L-1-1-B   Mk34  

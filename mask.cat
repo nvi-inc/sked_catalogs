@@ -1,9 +1,10 @@
-* VERSION 2025-05-16_iGSFC 
+* VERSION 2025-06-05_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2025-06-05 KDB  Add MATERAVG using information from L. Petrov from 2025-06-05 e-mail.
 * 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
 * 2024-10-17 JMG  Added in HARTVGS. Per email J. Quick 2024-10-04
 * 2024-08-12 JMG Updated mask again.  Set limits for NYALES13S and NYALES13N to 15
@@ -181,6 +182,7 @@
 *- 5     55    4     60    2     100   3     110   2     120  
 *- 1.5   190   3     195   1.5   210   0     285   2     320  
 *- 3     325   4     350   1.5   360                         
+ H MATERAVG  Mb  0 5 360
  H MACGO12M  Mg  0 5 70 6 75 7 80 8 85 9 95 8 105 6 145 7 150 8 155 9 165 10 185 8 190 7 195 5 360
 * Medicina no change
  H  MEDICINA Mc  .0    5.0   360.0  5.0

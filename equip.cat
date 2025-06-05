@@ -1,9 +1,10 @@
-* VERSION 2025-02-28_iGSFC 
+* VERSION 2025-06-05_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-06-05 KDB. Added MATERAVG  per D. Behrend 2025-05-27 e-mail.
 * 2025-02-28 KDB. Changed WETTZ13S equipment from DBBC_DDC MARK6 to DBBC3_DDC Flexbuff per Alexander Neidhardt 2025-02-19 e-mail.
 * 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
 * 2024-10-30 JMG. MGO compressor fixed. Now observing cold. per email Chevo 2024-10-30
@@ -457,6 +458,7 @@
 * MATERA    119  MATERA   2x56000  17640   X  1600   S  2200 Mark5 MARK5B
 * Below is Warm.  X_new->X_old*3, S_new->S_old*2
  MATERA    119  MATERA   2x56000  17640   X  4800   S  4400 Mark5 MARK5B
+ MATERAVG   Mb  MATERAVG 1x56000  17640   X  1600   S  1700 DBBC_DDC MARK6
 * Below is warm for MACGO12M. Based on email from Chet R.
 * MACGO12M   Mg  MACGO12M 2x56000  17640   X  12000   S 9500 RDBE MARK6
 * Below is cold 

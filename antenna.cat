@@ -1,9 +1,12 @@
-* VERSION 2025-04-30_iGSFC 
+* VERSION 2025-06-05_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2025-06-05 K. Baver Updated HARTVGS slew rates and settle times per L. Petrov 2025-06-04 e-mail.
+*                     The new values come from N. Habana (from the hv0001 experiment).
+* 2025-06-05 K. Baver Added MATERAVG per D. Behrend 2025-05-27 e-mail.
 * 2025-04-30 K. Baver Changed AGGO azimuth limits to -44 496, per C. Kristukat 2025-04-29 e-mail.
 * 2025-04-04 KDB Changed KUNMING C1 and C2 values from 0 to 20.
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
@@ -283,7 +286,7 @@
  J HARTRAO  HADC   6.69220  24.0  45  -88.0   88.0   22.2  45 -83.0  45.0  26.0 Hh 34  Hh
 *J HART15M  AZEL   1.47000 120.0   3 -185.0  275.0   60.0   3   2.0  88.0  15.0 Ht Ht  Ht
  J HART15M  AZEL   1.47000 124.0   8 -185.0  275.0   60.0   8   2.0  88.0  15.0 Ht Ht  Ht 
- J HARTVGS  AZEL   0.00000 720.0   3  -270   270.0  360.0   3   0.0  90.0  13.2 Hv  Hv Hv  
+ J HARTVGS  AZEL   0.00000 717.0   4  -270   270.0  361.2 3.7   0.0  90.0  13.2 Hv Hv  Hv  
  H HATCREEK HADC   0.00000  13.0  40  -80.9   80.9   12.0  40 -38.0  85.0  26.0 Hc 03  Hc
  K HAYSTACK AZEL   0.00000 120.0   0    0.0  360.0  120.0   0   3.0  88.0  37.0 Hs 00  --
  H HN-VLBA  AZEL   2.13030  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Hn HN  Hn
@@ -313,6 +316,7 @@
  N MARPOINT HADC   6.68770  25.0   0  -82.5   82.5   25.0   0 -40.0  88.0  25.9 Md 09  -- 
 *I MATERA   AZEL   0.00000  90.0  20  277.0  803.0  100.0  20   4.0  88.0  20.0 Ma 119 --
  I MATERA   AZEL   0.00000 105.0  33  277.0  803.0  139.0  33   4.0  88.0  20.0 Ma 119 --
+ I MATERAVG AZEL   0.00000 720.0   3    0.0  420.0  240.0   3   5.0  82.0  13.2 Mb Mb  --
  M MACGO12M AZEL   0.00000 720.0  11  180.0  720.0  360.0   9   6.5  88.0  12.0 Mg Mg   Mg
 *B MEDICINA AZEL   1.82760  48.0   0  270.0  810.0   30.0   0   5.0  88.5  32.0 Mc 38  Mc
  B MEDICINA AZEL   1.82760  48.0  10  270.0  810.0   30.0  10   5.0  88.5  32.0 Mc 38  Mc 
