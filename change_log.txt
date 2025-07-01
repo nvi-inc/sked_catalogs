@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2025 (excluidng flux.cat)
 antenna.cat 
+* 2025-07-01 K. Baver Reduced SESHAN25 azimuth slew rate to 30 degrees/minute per Bo Xia 2025-06-25 e-mail. 
 * 2025-06-13 K. Baver Updated MATERAVG azimuth range, settle times, elevation slew rate, and elevation maximum
 *                     per L. Petrov 2025-06-04 e-mail.
 * 2025-06-05 K. Baver Updated HARTVGS slew rates and settle times per L. Petrov 2025-06-04 e-mail.

@@ -1,9 +1,10 @@
-* VERSION 2025-06-13_iGSFC 
+* VERSION 2025-07-01_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2025-07-01 K. Baver Reduce SESHAN25 azimuth slew rate to 30 deg/min per Bo Xia 2025-06-25 e-mail.
 * 2025-06-13 K. Baver Correct MATERAVG elevation slew rate, settle values, elevation maximum, and
 *                     azimuth range to values from L. Petrov (2025-06-04 e-mail).
 * 2025-06-05 K. Baver Updated HARTVGS slew rates and settle times per L. Petrov 2025-06-04 e-mail.
@@ -367,7 +368,7 @@
  S SEJONG   AZEL   0.00000 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  Kv
 *C SESHAN25 AZEL   0.00000  60.0   0  290.0  780.0   30.0   0   5.0  87.0  25.0 Sh 104 --
  C SESHAN13 AZEL   0.00000 720.0  10  -90.0  450.0  360.0   5   7.0  89.0  13.0 S6 S6  S6
- C SESHAN25 AZEL   0.00000  56.0   9  290.0  780.0   30.0   9   7.0  87.0  25.0 Sh 104 --
+ C SESHAN25 AZEL   0.00000  30.0   9  290.0  780.0   30.0   9   7.0  87.0  25.0 Sh 104 --
  L SEST     SEST   0.00000  55.0   0  290.0  790.0   40.0   0   6.0  88.0  15.0 Se 70  Se
  S SYOWA    AZEL   0.00000 360.0   0   90.0  630.0  360.0   0   0.0  90.0  10.0 Sy SY  --
  S SVETLOE  AZEL   0.00000  60.0  40  278.0  802.0   30.0  40  10.0  80.0  32.0 Sv 116 --
