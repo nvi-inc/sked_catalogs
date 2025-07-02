@@ -14,6 +14,8 @@ antenna.cat
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
 equip.cat
+* 2025-07-02 JMG  Updated SEFDs for Gs, Hv, IS, K2, mg, Nn,NS, Oe,Ow, Sa, Wf, Yj. 
+*                Since sked only knows two bands   D-->X, A-->S. This should work for scheduling
 * 2025-06-05 KDB. Added MATERAVG equipment per D. Behrend 2025-05-27 e-mail.
 * 2025-02-28 KDB. Changed WETTZ13S equipment from DBBC_DDC MARK6 to DBBC3_DDC Flexbuff.
 * 2025-01-09 JMG. Changed AGGO equipment from from 70 to Ag and DAT from TIGO to AGGO 
