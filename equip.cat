@@ -1,9 +1,11 @@
-* VERSION 2025-07-02_iGSFC 
+* VERSION 2025-07-11_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-07-11 KDB  Changed ISHIOKA rack/recorder values from K4-2 K5 to DBBC3_DDC Flexbuff per A. Neidhardt 2025-07-09 e-mail
+*                 on behalf of S. Araki-san.
 * 2025-07-02 JMG  Updated SEFDs for Gs, Hv, IS, K2, mg, Nn,NS, Oe,Ow, Sa, Wf, Yj. 
 *                Since sked only knows two bands   D-->X, A-->S. This should work OK for scheduling
 * 2025-06-05 KDB. Added MATERAVG  per D. Behrend 2025-05-27 e-mail.
@@ -435,7 +437,7 @@
 * Below is warm
 *  ISHIOKA    Is  ISHIOKA     1      100   X  6900   S  4200 K4-2 K5 
 * Below is cold
- ISHIOKA    Is  ISHIOKA     1      100    X  2300   S  2200 K4-2 K5 
+ ISHIOKA    Is  ISHIOKA     1      100    X  2300   S  2200 DBBC3_DDC Flexbuff
  JODRELL2   37  JODRELL2 2x56000  17640   C   320   C   320 Mark4 MARK5A
  *KASHIM34   Kk  K4-KA34     1       200   X   550   S   430 K4-2 K4-2
  KASHIM34   KB  KASHIM34    1      8820   X  1800   S  1000 K4-2 K5 
