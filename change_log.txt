@@ -15,6 +15,7 @@ antenna.cat
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
 equip.cat
+* 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB Changed ISHIOKA rack/recorder values to DBBC3_DDC Flexbuff per S. Araki-san and A. Neidhardt.
 * 2025-07-02 JMG  Updated SEFDs for Gs, Hv, IS, K2, mg, Nn,NS, Oe,Ow, Sa, Wf, Yj. 
 *                Since sked only knows two bands   D-->X, A-->S. This should work for scheduling

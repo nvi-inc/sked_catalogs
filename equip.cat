@@ -1,9 +1,10 @@
-* VERSION 2025-07-11_iGSFC 
+* VERSION 2025-07-16_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB  Changed ISHIOKA rack/recorder values from K4-2 K5 to DBBC3_DDC Flexbuff per A. Neidhardt 2025-07-09 e-mail
 *                 on behalf of S. Araki-san.
 * 2025-07-02 JMG  Updated SEFDs for Gs, Hv, IS, K2, mg, Nn,NS, Oe,Ow, Sa, Wf, Yj. 
@@ -495,9 +496,9 @@
 * NYALES20   66  RICHMOND 2x56000  17640   X  3000   S  3000 S 1.0 0.979 0.021 X 1.0 0.962 0.038 DBBC_DDC MARK5B
  NYALE13N   Nn  NYALE13N    1     17650   X  2800   S  1900 DBBC_DDC/Fila10g Flexbuff 
 * Below is warm  3*X and 2*S
- NYALE13S   Ns  NYALE13S    1     17650   X  7200   S  6400 DBBC_DDC/Fila10g Flexbuff
+* NYALE13S   Ns  NYALE13S    1     17650   X  7200   S  6400 DBBC_DDC/Fila10g Flexbuff
 * Below is cold
-* NYALE13S   Ns  NYALE13S    1     17650  X  2400   S  3200 DBBC_DDC/Fila10g Flexbuff
+ NYALE13S   Ns  NYALE13S    1     17650  X  2400   S  3200 DBBC_DDC/Fila10g Flexbuff
 *OHIGGINS   OH  OHIGVLBA    1      8820   X  6300   S 12400
 *OHIGGINS  112  OHIGVLB4    1     17640   X 10000   S 18000 VLBA4 MARK5A
 *OHIGGINS  100  OHIGVLBA    1      8820   X 10000   S 18000 VLBA  MARK5A
