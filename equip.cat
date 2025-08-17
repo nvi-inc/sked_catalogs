@@ -1,9 +1,10 @@
-* VERSION 2025-07-16_iGSFC 
+* VERSION 2025-08-16_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB  Changed ISHIOKA rack/recorder values from K4-2 K5 to DBBC3_DDC Flexbuff per A. Neidhardt 2025-07-09 e-mail
 *                 on behalf of S. Araki-san.
@@ -463,7 +464,7 @@
 * MATERA    119  MATERA   2x56000  17640   X  1600   S  2200 Mark5 MARK5B
 * Below is Warm.  X_new->X_old*3, S_new->S_old*2
  MATERA    119  MATERA   2x56000  17640   X  4800   S  4400 Mark5 MARK5B
- MATERAVG   Mb  MATERAVG 1x56000  17640   X  1600   S  1700 DBBC_DDC MARK6
+ MATVGOS    Mb  MATVGOS  1x56000  17640   X  1600   S  1700 DBBC_DDC MARK6
 * Below is warm for MACGO12M. Based on email from Chet R.
 * MACGO12M   Mg  MACGO12M 2x56000  17640   X  12000   S 9500 RDBE MARK6
 * Below is cold 

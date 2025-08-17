@@ -1,9 +1,10 @@
-* VERSION 2025-07-02_iGSFC 
+* VERSION 2025-08-16_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2025-08-16 K. Baver  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-02 JMG  Modifed slew rate of Gs,Hb,Hv,IS,K2,Ke,MG,Nn,Ns,Oe,Ow,S6,Sa,T1,Um,Wf,Wn,Ws,Yj 
 *               based on analysis from Mario Berube
 * 2025-07-01 K. Baver Reduce SESHAN25 azimuth slew rate to 30 deg/min per Bo Xia 2025-06-25 e-mail.
@@ -319,7 +320,7 @@
  N MARPOINT HADC   6.68770  25.0   0  -82.5   82.5   25.0   0 -40.0  88.0  25.9 Md 09  -- 
 *I MATERA   AZEL   0.00000  90.0  20  277.0  803.0  100.0  20   4.0  88.0  20.0 Ma 119 --
  I MATERA   AZEL   0.00000 105.0  33  277.0  803.0  139.0  33   4.0  88.0  20.0 Ma 119 --
- I MATERAVG AZEL   0.00000 720.0   1  -90.0  450.0  360.0   1   5.0  88.0  13.2 Mb Mb  --
+ I MATVGOS  AZEL   0.00000 720.0   1  -90.0  450.0  360.0   1   5.0  88.0  13.2 Mb Mb  --
  M MACGO12M AZEL   0.00000 720.0  11  180.0  720.0  360.0   9   6.5  88.0  12.0 Mg Mg   Mg
 *B MEDICINA AZEL   1.82760  48.0   0  270.0  810.0   30.0   0   5.0  88.5  32.0 Mc 38  Mc
  B MEDICINA AZEL   1.82760  48.0  10  270.0  810.0   30.0  10   5.0  88.5  32.0 Mc 38  Mc 

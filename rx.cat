@@ -1,8 +1,9 @@
-* VERSION 2025-06-05_iGSFC 
+* VERSION 2025-08-16_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2025-08-16 KDB Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG Added MATERAVG.
 * 2024-11-22 JMG Added SEJONG and NYALE13N to VG_MK4
 * 2024-10-17 JMG  Added in HARTVGS to SX_WIDE Per email J. Quick 2024-10-04
@@ -318,7 +319,7 @@
  -       KUNMING     CDP_WIDE 
  -       KWAJAL26    CDP_WIDE 
  -       MATERA      CDP_WIDE
- -       MATERAVG    TWN_DBBC
+ -       MATVGOS     TWN_DBBC
  -       MACGO12M   CDP_WIDE
  -       METSAHOV    MET_STD
 *-       MCMURDO     CDP_WIDE

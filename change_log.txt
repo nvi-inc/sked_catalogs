@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2025 (excluidng flux.cat)
 antenna.cat 
+* 2025-08-16 KDB   Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-02 JMG.  Updated slew models for VGOS antennas
 * 2025-07-01 K. Baver Reduced SESHAN25 azimuth slew rate to 30 degrees/minute per Bo Xia 2025-06-25 e-mail. 
 * 2025-06-13 K. Baver Updated MATERAVG azimuth range, settle times, elevation slew rate, and elevation maximum
@@ -15,6 +16,7 @@ antenna.cat
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
 equip.cat
+* 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB Changed ISHIOKA rack/recorder values to DBBC3_DDC Flexbuff per S. Araki-san and A. Neidhardt.
 * 2025-07-02 JMG  Updated SEFDs for Gs, Hv, IS, K2, mg, Nn,NS, Oe,Ow, Sa, Wf, Yj. 
@@ -28,6 +30,7 @@ freq.cat
 * 2025-02-28 KDB Added VG-INT entry (variation of VGEOSX for RV Intensives).
 
 mask.cat
+* 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 KDB  Added MATERAVG values. Per L. Petrov 2025-06-04 e-mail.
 * 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
 
@@ -36,15 +39,18 @@ modes.cat
 * 2025-02-28 KDB Added 256-8(RV-INT) entry for RV Intensives.
 
 position.cat 
+* 2025-08-16 K. Baver  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-13 K. Baver  Corrected MATERAVG station position per L. Petrov 2025-06-04 e-mail.
 * 2025-06-05 K. Baver  Added MATERAVG coordinates, per D. Behrend 2025-05-27 e-mail.
 * 2025-04-30 K. Baver  Updated HARTVGS coordinates, per H. Krasna 2025-04-23 email.
 
 rec.cat
+* 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG  Added MATERAVG.
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
 
 rx.cat
+* 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG  Added MATERAVG.
 
 --Changes made in 2024 (excluding flux.cat)
