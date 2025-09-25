@@ -1,9 +1,11 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2025-09-24_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2025-09-24 K. Baver  Changed SEJONG antenna offset to match new value from Sangoh Yi and Jungho Cho 
+*                         given via Axel Nothnagel and Benedikt Soja.
 * 2025-08-16 K. Baver  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-02 JMG  Modifed slew rate of Gs,Hb,Hv,IS,K2,Ke,MG,Nn,Ns,Oe,Ow,S6,Sa,T1,Um,Wf,Wn,Ws,Yj 
 *               based on analysis from Mario Berube
@@ -366,7 +368,7 @@
  C SC-VLBA  AZEL   2.13370  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Sc SC  Sc
  J SINTOTU3 AZEL   0.00000  60.0   0   20.0  700.0   60.0   0   5.0  88.0   3.8 S3 S3  S3
 *S SEJONG   AZEL   0.00000 300.0   0   10.0  710.0  300.0   0   5.0  89.0  22.0 Kv Kv  --
- S SEJONG   AZEL   0.00000 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  Kv
+ S SEJONG   AZEL   0.00260 300.0  25   10.0  710.0  210.0  30   5.0  89.0  22.0 Kv Kv  Kv
 *C SESHAN25 AZEL   0.00000  60.0   0  290.0  780.0   30.0   0   5.0  87.0  25.0 Sh 104 --
  C SESHAN13 AZEL   0.00000 720.0  10  -90.0  450.0  360.0   5   7.0  89.0  13.0 S6 S6  S6
  C SESHAN25 AZEL   0.00000  30.0   9  290.0  780.0   30.0   9   7.0  87.0  25.0 Sh 104 --

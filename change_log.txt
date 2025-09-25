@@ -4,6 +4,8 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2025 (excluidng flux.cat)
 antenna.cat 
+* 2025-09-24 KDB   Changed SEJONG antenna offset to value from Sangoh Yi and Jungho Cho
+*                      given via Axel Nothnagel and Benedikt Soja.
 * 2025-08-16 KDB   Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-02 JMG.  Updated slew models for VGOS antennas
 * 2025-07-01 K. Baver Reduced SESHAN25 azimuth slew rate to 30 degrees/minute per Bo Xia 2025-06-25 e-mail. 
