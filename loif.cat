@@ -1,9 +1,10 @@
-** VERSION 2023-11-17_iGFSC
+** VERSION 2025-11-17_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2025-11-17  KDB  With advice from JMG, added KUN_WID8 LO settings for KUNMING.
 * 2023-11-17  JMG  Changed DBBC_26
 * 2023-11-17  JMG  Changed CDP_STDUW for Urumqi. This had been wrong for YEARS but station personnel had fixed. 
 * 2021-09-15  JMG  New RDV sequence for Auscope antennas. RDV_AU
@@ -1454,3 +1455,18 @@ PKS_WIDE
  -   12 2N    S   1900  U
  -   13 2N    S   1900  U
  -   14 2N    S   1900  U
+KUN_WID8
+ -   1  A    X   8100    L
+ -   2  A    X   8100    L
+ -   3  A    X   8100    U
+ -   4  A    X   8100    U
+ -   5  B    X   8100    U
+ -   6  B    X   8100    U
+ -   7  B    X   8100    L
+ -   8  B    X   8100    L
+ -   9  C    S   2000    U
+ -  10  C    S   2000    U
+ -  11  C    S   2000    L
+ -  12  C    S   2000    L
+ -  13  D    S   2000    U
+ -  14  D    S   2000    U

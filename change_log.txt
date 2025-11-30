@@ -18,6 +18,9 @@ antenna.cat
 * 2025-01-09 JMG Changed Equitment key for AGGO from 70 to Ag
 
 equip.cat
+* 2025-11-28 KDB  Changed URUMQI 67 line's rack to DBBC_DDC/Fila10g and its recorder to Flexbuff per Li Guanghui 2025-11-27 e-mail.
+*                 Also set the URUMQI K4 line to all of the URUMQI 67 line's values, because URUMQI's C-band settings
+*                 are now the same as its X- and S-band settings (Li Guanghui 2025-11-28 e-mail).
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB Changed ISHIOKA rack/recorder values to DBBC3_DDC Flexbuff per S. Araki-san and A. Neidhardt.
@@ -30,6 +33,9 @@ equip.cat
 freq.cat
 * 2025-05-23 KDB Added GEOSX-R1 entry (variation of GEOSX for R1 sessions).
 * 2025-02-28 KDB Added VG-INT entry (variation of VGEOSX for RV Intensives).
+
+loif.cat
+* 2025-11-17  KDB With advice from JMG, added KUN_WID8 LO settings for KUNMING.
 
 mask.cat
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
@@ -47,11 +53,16 @@ position.cat
 * 2025-04-30 K. Baver  Updated HARTVGS coordinates, per H. Krasna 2025-04-23 email.
 
 rec.cat
+* 2025-11-25 KDB  Added VERAMZSW to 32-16-12-2 mode using information from J. McCallum.
+* 2025-11-25 KDB  Added TIANMA65 entry to 00-8U-0-2 mode.
+* 2025-11-17 KDB  With advice from JMG, added KUNMING and SEJONG entries to 00-8U-0-2 mode.
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG  Added MATERAVG.
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
 
 rx.cat
+* 2025-11-25 KDB  Added TIANMA65 entry to VG_MK4 section.
+* 2025-11-17 KDB  With advice from JMG, added KUNMING entry to VG_MK4 section.
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG  Added MATERAVG.
 

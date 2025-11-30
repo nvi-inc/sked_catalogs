@@ -1,9 +1,12 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2025-11-28_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2025-11-28 KDB  Changed URUMQI 67 line's rack to DBBC_DDC/Fila10g and its recorder to Flexbuff per Li Guanghui 2025-11-27 e-mail.
+*                 Also set the URUMQI K4 line to all of the URUMQI 67 line's values, because URUMQI's C-band settings
+*                 are now the same as its X- and S-band settings (Li Guanghui 2025-11-28 e-mail).
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-07-16 JMG  Changed SEFDs of NYALE13S to reflect being cold. 
 * 2025-07-11 KDB  Changed ISHIOKA rack/recorder values from K4-2 K5 to DBBC3_DDC Flexbuff per A. Neidhardt 2025-07-09 e-mail
@@ -537,9 +540,12 @@
 *TSUKUB32   TS  TSUKUB32  1x56000 17640   X   300   S   300
  TSUKUB32  108  TSUKUB32  2x56000 17640   X   320   S   360 K4-2      K5 
  UCHINOUR   Uc  UCHINOUR     1      100   X   460   S  360  X 1.0 0.890 0.110 S 1.0 0.920 0.080 K4-1 K5
- URUMQI     67  URUMQI    1x56000 17640   X  1500   S  1500 DBBC_DDC MARK5B
+ URUMQI     67  URUMQI    1x56000 17640   X  1500   S  1500 DBBC_DDC/Fila10g Flexbuff
  URUMQI13   Um  URUMQI13  2x56000 17640   X  3000   S  3000 RDBE  MARK6
- URUMQI     K4  URUMQI      1       200   C   353   C   353 Mark5 MARK5B
+* The URUMQI K4 system is no longer in use.  
+* The URUMQI C-band settings are now the same as its X-band and S-band settings.
+* But the URUMQI K4 line will be kept for a while, with the updated settings. Karen Baver 2025-11-28.
+ URUMQI     K4  URUMQI    1x56000 17640   X  1500   S  1500 DBBC_DDC/Fila10g Flexbuff
  USSURISK   US  USSUVLBA    1      8820   X   100   S   100
  VERAISGK   Vs  ISGK    2x56000 17640   X  4880   S 13160  K4-1 K5
  VERAMZSW   Vm  MIZ20   2x56000 17640   X  4880   S 13160  K4-1 K5

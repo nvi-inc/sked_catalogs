@@ -1,9 +1,12 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2025-11-25_iGSFC 
 *
 * CATALOG rec.cat 
 * REC.CAT - recording modes 
 *
 * Put in updates in reverse order, newest at top
+* 2025-11-25 KDB  Added VERAMZSW to 32-16-12-2 mode using information from J. McCallum.
+* 2025-11-25 KDB  Added TIANMA65 to 00-8U-0-2 mode.
+* 2025-11-17 KDB  With advice from JMG, added KUNMING and SEJONG entries to 00-8U-0-2 mode.
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG  Added MATERAVG.
 * 2025-01-09 JMG  Changed AGGO in 32-16-1-2  (CONT11 mode used in R1/R4)
@@ -265,6 +268,7 @@
  -       KATH12M    MK3V-A       8U-1-2-b   Mk34
  -       KASHIM34   MK3V-A       8U-2-2     Mk34 
  -       KOKEE      MK3V-A       8U-1-2-b   Mk34 
+ -       KUNMING    MK3V-A       8U-1-2-b   Mk34
  -       ORION_5M   MK3V-A       8U-2-2     Mk34
  -       ONSALA60   MK3V-A       8U-1-2-b   Mk34 
  -       MATERA     MK3V-A       8U-1-2-b   Mk34 
@@ -276,8 +280,10 @@
  -       NYALE13S   MK3V-A       8U-1-2-b   Mk34 
  -       NYALE13N   MK3V-A       8U-1-2-b   Mk34 
  -       PARKES     MK3V-A       8U-1-2-b   Mk34 
+ -       SEJONG     MK3V-A       8U-1-2-b   Mk34
  -       SESHAN25   MK3V-A       8U-1-2-b   Mk34 
  -       SVETLOE    MK3V-A       8U-1-2-b   Mk34
+ -       TIANMA65   MK3V-A       8U-1-2-b   Mk34
  -       TIGO       MK3V-A       8U-1-2-b   Mk34 
  -       AGGO       MK3V-A       8U-1-2-b   Mk34 
  -       TSUKUB32   MK3V-A       8U-2-2     Mk34 
@@ -872,6 +878,7 @@
  -       SVETLOE    MK3V-A      14U2L-1-2     Mk34 
  -       TIANMA65   MK3V-A      14U2L-1-2-B   Mk34 
  -       TIGO       MK3V-A      14U2L-1-2     Mk34  
+ -       VERAMZSW   MK3V-A      14U2L-1-2     Mk34
  -       AGGO       MK3V-A      14U2L-1-2     Mk34  
  -       TSUKUB32   MK3V-A      14U2L-1-2-J   Mk34
  -       URUMQI     MK3V-A      14U2L-1-2-B   Mk34  

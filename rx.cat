@@ -1,8 +1,10 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2025-11-25_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2025-11-25 KDB Added TIANMA65 to VG_MK4 section.
+* 2025-11-17 KDB With advice from JMG, added KUNMING entry to VG_MK4 section.
 * 2025-08-16 KDB Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 JMG Added MATERAVG.
 * 2024-11-22 JMG Added SEJONG and NYALE13N to VG_MK4
@@ -479,6 +481,7 @@
  -       PARKES      CDP_WID8 
  -       SEJONG      TSU_WIDE
  -       TSUKUB32    TSU_WID8
+ -       TIANMA65    CDP_T6
  -       TIGO        CDPV_VG2
  -       WETTZ13N    ODB_WID8
  -       WETTZELL    ODB_WID8
@@ -491,6 +494,7 @@
 * -       YARRA12M    CDPV_VG2 
  -       YARRA12M    RDV_AU
  -       YEBES40M    CDP_WID8 
+ -       KUNMING     KUN_WID8
  VG_ZC
  VLBA_PN 
  -       BR-VLBA     VLBA_PN 
