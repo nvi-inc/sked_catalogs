@@ -1,8 +1,9 @@
-* VERSION 2025-11-25_iGSFC 
+* VERSION 2026-01-16_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
 * 2025-11-25 KDB Added TIANMA65 to VG_MK4 section.
 * 2025-11-17 KDB With advice from JMG, added KUNMING entry to VG_MK4 section.
 * 2025-08-16 KDB Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
@@ -493,7 +494,7 @@
  -       URUMQI      CDP_WID8
 * -       YARRA12M    CDPV_VG2 
  -       YARRA12M    RDV_AU
- -       YEBES40M    CDP_WID8 
+ -       YEBES40M    YDC_WID2 
  -       KUNMING     KUN_WID8
  VG_ZC
  VLBA_PN 

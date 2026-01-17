@@ -2,7 +2,14 @@ This file has a summary of changes to the sked catalogs. Arranged by catalog and
 This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files. 
 
--- Changes made in 2025 (excluidng flux.cat)
+-- Changes made in 2026 (excluding flux.cat)
+loif.cat
+ 2026-01-16  KDB Added YDC_WID2 section for YEBES40M with values provided by D. Gordon (1/5/2026 e-mail).
+
+rx.cat 
+* 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
+
+-- Changes made in 2025 (excluding flux.cat)
 antenna.cat 
 * 2025-09-24 KDB   Changed SEJONG antenna offset to value from Sangoh Yi and Jungho Cho
 *                      given via Axel Nothnagel and Benedikt Soja.

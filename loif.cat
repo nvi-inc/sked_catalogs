@@ -1,9 +1,10 @@
-** VERSION 2025-11-17_iGFSC
+** VERSION 2026-01-16_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2026-01-16  KDB  Added YDC_WID2 section for YEBES40M with values provided by D. Gordon (1/5/2026 e-mail).
 * 2025-11-17  KDB  With advice from JMG, added KUN_WID8 LO settings for KUNMING.
 * 2023-11-17  JMG  Changed DBBC_26
 * 2023-11-17  JMG  Changed CDP_STDUW for Urumqi. This had been wrong for YEARS but station personnel had fixed. 
@@ -362,6 +363,21 @@ SESH_LO
  -   10 C2     S   1530  U
  -   11 C2     S   1530  U
  -   12 C2     S   1530  U
+ -   13 D2     S   1530  U
+ -   14 D2     S   1530  U 
+ YDC_WID2
+ -   1  A1     X   7650  L
+ -   2  A1     X   7650  L
+ -   3  A1     X   7650  U
+ -   4  A1     X   7650  U
+ -   5  B2     X   8100  U
+ -   6  B2     X   8100  U
+ -   7  B2     X   8100  L
+ -   8  B2     X   8100  L
+ -   9  C2     S   1530  U
+ -   10 C2     S   1530  U
+ -   11 C2     S   1530  L
+ -   12 C2     S   1530  L
  -   13 D2     S   1530  U
  -   14 D2     S   1530  U 
  YDC_STD
