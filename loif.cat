@@ -1,9 +1,10 @@
-** VERSION 2026-01-16_iGFSC
+** VERSION 2026-01-20_iGFSC
 *
 * CATALOG loif.cat 
 * LOIF.CAT - setups for IF channel and LO assignments 
 *
 * Updates (most recent at the top):
+* 2026-01-20  KDB  Added AD2_8020 definition for MEDICINA geodetic S/X observing with values provided by D. Gordon (1/5/2026 e-mail) and G. Maccaferri (1/12/2026 e-mail).
 * 2026-01-16  KDB  Added YDC_WID2 section for YEBES40M with values provided by D. Gordon (1/5/2026 e-mail).
 * 2025-11-17  KDB  With advice from JMG, added KUN_WID8 LO settings for KUNMING.
 * 2023-11-17  JMG  Changed DBBC_26
@@ -1486,3 +1487,18 @@ KUN_WID8
  -  12  C    S   2000    L
  -  13  D    S   2000    U
  -  14  D    S   2000    U
+AD2_8020
+ -   1  A2   X   8080    L
+ -   2  A2   X   8080    L
+ -   3  A2   X   8080    U
+ -   4  A2   X   8080    U
+ -   5  B2   X   8080    U
+ -   6  B2   X   8080    U
+ -   7  B2   X   8080    L
+ -   8  B2   X   8080    L
+ -   9  C2   S   2020    U
+ -  10  C2   S   2020    U
+ -  11  C2   S   2020    L
+ -  12  C2   S   2020    L
+ -  13  D2   S   2020    U
+ -  14  D2   S   2020    U

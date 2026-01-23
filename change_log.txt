@@ -4,9 +4,12 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2026 (excluding flux.cat)
 loif.cat
- 2026-01-16  KDB Added YDC_WID2 section for YEBES40M with values provided by D. Gordon (1/5/2026 e-mail).
+* 2026-01-20  KDB Added AD2_8020 definition for MEDICINA with values provided by D. Gordon (1/5/2026 e-mail) 
+*                 and G. Maccaferri (1/12/2026 e-mail).
+* 2026-01-16  KDB Added YDC_WID2 section for YEBES40M with values provided by D. Gordon (1/5/2026 e-mail).
 
 rx.cat 
+* 2026-01-20 KDB Changed six MEDICINA loif.cat pointers for all gedoetic session types to new AD2_8020 pointer.
 * 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
 
 -- Changes made in 2025 (excluding flux.cat)

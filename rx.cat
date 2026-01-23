@@ -1,8 +1,9 @@
-* VERSION 2026-01-16_iGSFC 
+* VERSION 2026-01-20_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2026-01-20 KDB Changed six MEDICINA loif.cat pointers for geodetic sessions to new AD2_8020 loif pointer.
 * 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
 * 2025-11-25 KDB Added TIANMA65 to VG_MK4 section.
 * 2025-11-17 KDB With advice from JMG, added KUNMING entry to VG_MK4 section.
@@ -168,7 +169,7 @@
  -       DSS45       DSN_CRF
  -       DSS56       DSN_CRF
  -       TIDBIN64    DSN_CRF
- -       MEDICINA    CDP_CRF
+ -       MEDICINA    AD2_8020
  -       HARTRAO     CDP_CRF
  SX_STD
  -       AGGO        ODB_WIDE
@@ -210,7 +211,7 @@
  -       MARCUS      CDP_STDN
  -       MATERA      CDP_STD
 *-       MCMURDO     CDP_STD
- -       MEDICINA    CDP_STD
+ -       MEDICINA    AD2_8020
  -       METSAHOV    MET_STD
  -       MIAMI20     CDP_STD    
  -       MIURA       CDP_STD
@@ -327,7 +328,7 @@
  -       METSAHOV    MET_STD
 *-       MCMURDO     CDP_WIDE
  -       MIAMI20     CDP_WIDE   
- -       MEDICINA    ODB_WIDE
+ -       MEDICINA    AD2_8020
  -       NOTO        CDPVNOTO
  -       NRAO85_3    NRAO_WIDE
  -       NRAO20      NRAO_WIDE
@@ -389,7 +390,7 @@
  -       KOKEE       NRAO_W16
 * -       KASHIMA     CDP_W16 
  -       MATERA      CDP_W16
- -       MEDICINA    CDP_W16
+ -       MEDICINA    AD2_8020
  -       MIAMI20     CDP_W16   
  -       NRAO85_3    NRAO_W16
  -       NRAO20      NRAO_W16
@@ -474,7 +475,7 @@
  -       ONSALA60    ODB_WID8
 *-       ONSALDBC    ODB_WID8
  -       ORION_5M    CDP_WID8
- -       MEDICINA    CDP_WID8 
+ -       MEDICINA    AD2_8020 
  -       NOTO        CDPVNVG2
  -       NYALES20    ODB_WID8
  -       NYALE13S    NYS_STD
@@ -599,7 +600,7 @@
  -       KATH12M     CDP_WIDE
  -       KOKEE       NRAO_WIDE
  -       MATERA      CDP_WIDE
- -       MEDICINA    CDP_WIDE
+ -       MEDICINA    AD2_8020
  -       NRAO20      NRAO_WIDE
  -       NYALES20    ODB_WIDE
  -       ORION_5M    CDP_WIDE
