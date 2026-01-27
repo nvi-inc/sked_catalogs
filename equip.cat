@@ -1,9 +1,10 @@
-* VERSION 2025-11-28_iGSFC 
+* VERSION 2026-01-26_iGSFC 
 * CATALOG equip.cat    
 *
 * EQUIP.CAT - station equipment
 *
 * Updates (most recent at the top):
+* 2026-01-26 KDB  Changed FORTLEZA SEFDs for warm observing (changed them from (X-band) 5000 to 15000 Jy and from (S-band) 5000 to 10000 Jy.
 * 2025-11-28 KDB  Changed URUMQI 67 line's rack to DBBC_DDC/Fila10g and its recorder to Flexbuff per Li Guanghui 2025-11-27 e-mail.
 *                 Also set the URUMQI K4 line to all of the URUMQI 67 line's values, because URUMQI's C-band settings
 *                 are now the same as its X- and S-band settings (Li Guanghui 2025-11-28 e-mail).
@@ -424,8 +425,8 @@
  EFLSBERG   06  EFLSBERG 1x56000   17640  X    40   S   100 DBBC_DDC FlexBuff
  EFLSBERG   06  EFLSBERG 1x56000   17640  C    20   C    20 VLBA5 MARK5B
  FD-VLBA    FV  FD-VLBA  1x56000 2x17640  X   500   S   400 S 0.1 -2.087 3.087 X 0.5 0.731 0.269 VLBA MARK5A
-* Below is when running cold:
- FORTLEZA   01  OVRO_130  2x56000   8820   X  5000   S  5000 Mark4 MARK5A
+* cold: FORTLEZA   01  OVRO_130  2x56000   8820   X 5000   S 5000 Mark4 MARK5A
+ FORTLEZA   01  OVRO_130  2x56000   8820   X 15000   S 10000 Mark4 MARK5A
  GILCREEK  101  MOJ-VLBA 1x56000  17640   X   750   S   800 X 1.0 0.954 0.0464 S 1.0 0.974 0.0263 VLBA4 MARK5A
  GGAO12M    Gs  GGAO12M   2x56000  17640  X  2800   S  2100 RDBE MARK6
  GOLDVENU   16  DSS13       1      8820   X   500   S   350

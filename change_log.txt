@@ -3,6 +3,9 @@ This does not list updates to the flux catalog which occur monthly.
 This only lists recent changes.  For older changes look in the original catalog files. 
 
 -- Changes made in 2026 (excluding flux.cat)
+equip.cat
+* 2026-01-26 KDB  Changed FORTLEZA SEFDs for warm observing (changed them from (X-band) 5000 to 15000 Jy and (S-band) 5000 to 10000 Jy.
+
 loif.cat
 * 2026-01-20  KDB Added AD2_8020 definition for MEDICINA with values provided by D. Gordon (1/5/2026 e-mail) 
 *                 and G. Maccaferri (1/12/2026 e-mail).
