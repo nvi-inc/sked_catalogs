@@ -1,9 +1,11 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2026-03-06_iGSFC 
 * CATALOG position.cat
 *
 * POSITION.CAT - sked's site position catalog
 *
 * Updates (most recent at the top): 
+* 2026-03-06 K. Baver  Added FORTZA12 (with information from D. Mondal/D. Hoak (2026-03-04 e-mail)
+*                      and J. Dorman (2026-02-12 e-mail)).
 * 2025-08-16 K. Baver  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-13 K. Baver  Correct MATERAVG coordinates to values from L. Petrov (2025-06-04 e-mail)
 * 2025-06-05 K. Baver  Added MATERAVG coordinates, per D. Behrend 2025-05-27 e-mail..
@@ -59,6 +61,7 @@ El ELY         -2077236.7856   -4486712.5824    4018753.3918   00000000  114.84 
 Fd FD-VLBA     -1324009.4181   -5332181.9632    3231962.3481   76139801  103.94   30.64 2020c
 Fl FLAGSTAF    -1923993.2112   -4850854.8303    3658589.2775   00000000  111.63   35.21 2020c
 Ft FORTLEZA     4985370.0007   -3955020.4290    -428471.9804   72974801   38.43   -3.88 2020c
+Fz FORTZA12     4985334.7911   -3955073.3815    -428429.4768   00000000   38.43   -3.88 e-mails
 Fo FORT_ORD    -2697027.6759   -4354392.4139    3788078.4770   00000000  121.77   36.67 2020c
 Fs FORTORDS    -2699841.1732   -4359126.1925    3781051.8279   72415304  121.77   36.59 2020c
 H7 FTD_7900    -1324228.3225   -5332063.0556    3232022.9090   79005301  103.95   30.64 2020c

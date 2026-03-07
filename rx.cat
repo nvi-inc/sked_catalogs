@@ -1,8 +1,9 @@
-* VERSION 2026-01-20_iGSFC 
+* VERSION 2026-03-06_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2026-03-06 KDB Added FORTZA12 to SX_WIDE section.
 * 2026-01-20 KDB Changed six MEDICINA loif.cat pointers for geodetic sessions to new AD2_8020 loif pointer.
 * 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
 * 2025-11-25 KDB Added TIANMA65 to VG_MK4 section.
@@ -304,6 +305,7 @@
  -       TIDBIN64    DSN_STD
  -       EFLSBERG    EFL_STD
  -       FORTLEZA    CDP_WIDE
+ -       FORTZA12    CDP_WIDE
  -       GILCREEK    CDPV_WIDE
  -       GGAO12M     CDP_WIDE
  -       HARTRAO     DBBC_HH

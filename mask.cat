@@ -1,9 +1,10 @@
-* VERSION 2025-08-16_iGSFC 
+* VERSION 2026-03-06_iGSFC 
 * CATALOG mask.cat 
 *
 * MASK.CAT - station horizon/coordinate masks 
 * 
 * Updates (most recent at the top): 
+* 2026-03-06 KDB  Added FORTZA12 (with values from N. Habana, 2026-02-10 e-mail).
 * 2025-08-16 KDB  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
 * 2025-06-05 KDB  Add MATERAVG using information from L. Petrov from 2025-06-05 e-mail.
 * 2025-05-16 KDB  Replaced HARTVGS values. Per email J. Quick 2025-05-15
@@ -130,6 +131,7 @@
 * - 160 10 190 12 250 12 270 13 290 15 340 10 350 11 360 13
  H  EFLSBERG Eb  0 13 20 15 30 18 40 19 60 18 80 15 130 15 150 12
   - 160 10 190 12 250 12 270 13 290 15 340 10 350 11 360 
+ H  FORTZA12 Fz  0.0 7.0 45.0 8.0 80.0 13.0 109.0 13.0 122.0 16.0 150.0 5.0 182.0 15.0 214.0 14.0 350.0 7.0 360.0 7.0
 *H GILCREEK AL .0    10.0  35.0  6.0   95.0  8.0   115.0 10.0  130.0
 *- 12.0  195.0 8.0   220.0 5.0   295.0 7.0   310.0 10.0  330.0
 *- 11.0  360.0                                                

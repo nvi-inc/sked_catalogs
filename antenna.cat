@@ -1,9 +1,10 @@
-* VERSION 2025-09-24_iGSFC 
+* VERSION 2026-03-06_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2026-03-06 K. Baver  Added FORTZA12 information from N. Habana (2026-02-10 e-mail).
 * 2025-09-24 K. Baver  Changed SEJONG antenna offset to match new value from Sangoh Yi and Jungho Cho 
 *                         given via Axel Nothnagel and Benedikt Soja.
 * 2025-08-16 K. Baver  Changed MATERAVG to MATVGOS to match the new name in ns_codes.txt.
@@ -287,6 +288,7 @@
  D FD-VLBA  AZEL   2.13100  90.0   0  270.0  810.0   30.0   0   2.3  88.0  25.0 Fd FV  Fd
 *F FORTLEZA AZEL   0.00000  40.0   0  171.0  709.0   20.0   0   5.0  88.0  14.2 Ft 01  --
  F FORTLEZA AZEL   0.00000  48.0   7  171.0  709.0   20.0  10   5.0  88.0  14.2 Ft 01  --
+ F FORTZA12 AZEL   0.00000 720.0   1  -90.0  450.0  360.0   1   5.0  88.0  12.0 Fz Fz  Fz
  G GGAO12M  AZEL   0.00000 300.0   8  180.0  720.0   70.0   5   6.5  88.0  12.0 Gs Gs  Gs
  A GILCREEK XYNS   7.28470  60.0   0  -86.0   86.0   60.0   0 -73.5  73.5  25.9 Gc 101 Gc
  D GOLDMARS AZEL   0.00000  12.0   0  136.0  672.0   12.0   0   6.0  88.0  64.0 14 68  --
