@@ -1,9 +1,10 @@
-* VERSION 2026-03-06_iGSFC 
+* VERSION 2026-03-24_iGSFC 
 * CATALOG antenna.cat  
 * 
 * ANTENNA.CAT - antenna information 
 *  
 * Updates (most recent at the top): 
+* 2026-03-24 K. Baver  Change TIANMA65 elevation limit from 6 to 10 degrees (per Bo Xia, 2026-03-20 e-mail).
 * 2026-03-06 K. Baver  Added FORTZA12 information from N. Habana (2026-02-10 e-mail).
 * 2025-09-24 K. Baver  Changed SEJONG antenna offset to match new value from Sangoh Yi and Jungho Cho 
 *                         given via Axel Nothnagel and Benedikt Soja.
@@ -379,7 +380,7 @@
  S SVETLOE  AZEL   0.00000  60.0  40  278.0  802.0   30.0  40  10.0  80.0  32.0 Sv 116 --
  Y TATEYAMA AZEL   0.00000 180.0   0   95.0  625.0  180.0   0   6.0  88.0  11.0 Ta Ty  --
  T TIANMA13 AZEL   0.00000 720.0   0  -90.0  450.0  360.0   0   5.0  89.0  13.2 T1 T1  T1
- T TIANMA65 AZEL   0.00000  30.0   0  280.0  800.0   15.0   0   6.0  87.0  65.0 T6 109 --
+ T TIANMA65 AZEL   0.00000  30.0   0  280.0  800.0   15.0   0  10.0  87.0  65.0 T6 109 --
  T TIDBIN64 AZEL   0.00000  15.0  12  230.0  759.8   15.0  12   6.0  86.0  64.0 Ti 39  --
  O TIGO     AZEL   0.00000 360.0   0  276.0  774.0  180.0   0   0.0  90.0   6.0 Tc 70  Tc
  Z TORUN    AZEL   0.00000  22.0  15  280.0  800.0   12.5  15   3.0  88.0  14.0 Tr Tr  --

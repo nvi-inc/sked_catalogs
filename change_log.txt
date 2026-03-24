@@ -4,6 +4,7 @@ This only lists recent changes.  For older changes look in the original catalog 
 
 -- Changes made in 2026 (excluding flux.cat)
 antenna.cat
+* 2026-03-24 KDB  Changed TIANMA65 elevation limit from 6 to 10 degrees (Bo Xia, 2026-03-20 e-mail).
 * 2026-03-06 KDB  Added FORTZA12.
 
 equip.cat
