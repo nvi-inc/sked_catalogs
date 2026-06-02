@@ -1,4 +1,4 @@
-* VERSION 2025May23_iGSFC
+* VERSION 2026May28_iGSFC
 * CATALOG modes.cat 
 *
 * MODES.CAT - observing modes
@@ -9,6 +9,18 @@
 * to the recording mode for each station.
 *
 * Updates (most recent entry at the top): 
+* 2026-05-28 KDB WETTZ13N will now use LO values of 8080 for S/X observing. 
+*                But two S/X session types (IVS-INT-03 and T2P) that will be observed with
+*                WETTZ13N use the GEOSX frequency group, 
+*                which is also used by some VGOS session types. 
+*                So a parallel GEOSX frequency group, GEOSX-80, has been added to freq.cat,
+*                and two new modes, based on the modes used by the INT03 and T2P sessions,
+*                will be defined to use the new GEOSX-80 frequency group
+*                from freq.cat, which will be identical to the GEOSX group, 
+*                except that it will have two sections, for WETTZ13N and one for other antennas..
+*                The new modes will be:
+*                  1024-16(AU-WN), which will be based on the 1024-16(AU) mode (for INT03)
+*                  512-16(C11-WN), which will be based on the 512-16(CONT11) mode (for T2P).
 * 2025-05-23 KDB Create new 512-16(R1) entry for R1 sessions for new S-band frequencies per 2025-05-21 L. Petrov e-mail.
 *                The entry is based on the 512-16(CONT11) entry.
 * 2025-02-28 KDB Create new 256-8(RV-INT) entry for RV Intensives.
@@ -119,6 +131,8 @@
 512-16(Charlot)  VGEOSX_C     8.0  16.0    32-16-1-2
 DBE_TEST         DBE-X4      16.0  32.0    32-4U+4L-2-2
 K_ATNF           K_ATNF      32.   64.0    32-2-1-1
+512-16(C11-WN)   GEOSX-80     8.0  16.0    32-16-1-2
+1024-16(AU-WN)   GEOSX-80    16.0   32.0   32-16-3-2
 ***********************************************************************
 * mode used in VIE_SCHED
 *1024-16(AU)      GEOSX      16.0   32.0   32-16-1-2

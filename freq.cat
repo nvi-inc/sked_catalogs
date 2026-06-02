@@ -1,8 +1,20 @@
-* VERSION 2025-05-23_iGSFC
+* VERSION 2026-05-28_iGSFC
 * CATALOG freq.cat
 * FREQ.CAT - frequency sequences
 *
 * Updates (most recent at the top)
+* 2026-05-28 KDB WETTZ13N will now use X-band LO values of 8080 instead of 7580 for S/X observing only. 
+*                The LO settings will be accessed through new rx.cat entries, SX_7580 and SX_8080.
+*                Freq.cat in turn will access SX_8080 through spun off EUR2-SX, GEOSX-R1,
+* 
+*                and VG_MK4 sections and will access SX_7580 through a spun off GEOSX section.  
+*                Also, GEOSX will be spun off in freq.cat to create 
+*                two GEOSX-80 sections to be used for scheduling t2p and IVS-INT-03 sessions
+*                that observe with WETTZ13N.  This is necessary because these session types
+*                use the GEOSX frequency group, but this group is also used for VGOS oserving,
+*                which will not be changed for WETTZ13N.  So the new GEOSX-80 path will be
+*                needed for GEOSX WETTZ13N S/X observing, while the old GEOSX path will be
+*                used for GEOSX WETTZ13N VGOS observing.
 * 2025-05-23 KDB The R1 sessions' S-band frequencies are being changed.
 *                Add a new entry, GEOSX-R1, to allow this.
 *                The values come from a 2025-05-21 e-mail from L. Petrov.
@@ -395,6 +407,23 @@
 - S    R   2267.99  U   CH12    12   10000.0
 - S    R   2287.99  U   CH13    13   10000.0
 - S    R   2292.99  U   CH14    14   10000.0
+* 2026 May 28: New version of EUR2-SX section made for WETTZ13N,
+* which now will use X-band LO values of 8080 for S/X observing.
+ EUR2-SX SX STD  SX_8080
+- X    R   8210.99  U   CH1     1    10000.0
+- X    R   8220.99  U   CH2     2    10000.0
+- X    R   8250.99  U   CH3     3    10000.0
+- X    R   8310.99  U   CH4     4    10000.0
+- X    R   8420.99  U   CH5     5    10000.0
+- X    R   8500.99  U   CH6     6    10000.0
+- X    R   8550.99  U   CH7     7    10000.0
+- X    R   8570.99  U   CH8     8    10000.0
+- S    R   2212.99  U   CH9     9    10000.0
+- S    R   2227.99  U   CH10    10   10000.0
+- S    R   2237.99  U   CH11    11   10000.0
+- S    R   2267.99  U   CH12    12   10000.0
+- S    R   2287.99  U   CH13    13   10000.0
+- S    R   2292.99  U   CH14    14   10000.0
 * 8-chan subset for Seshan per B. Corey, 9/05
 * and JMG/DSM 10/05
  EUR2-SXo SX SESH  SX_SE8E  
@@ -609,6 +638,24 @@
 - S    R   2242.75  U   CH6    12    10000.0
 - S    R   2282.75  U   CH7    13    10000.0
 - S    R   2372.75  U   CH8    14    10000.0
+* 2026 May 28: VC assignments for WETTZ13N
+* which will use X-band LO values of 8080
+* for S/X observing.
+ VGEOSX SX STD SX_8080
+- X    R   8365.75  U   CHX   101    10000.0
+- X    R   8365.75  U   CHX   102    10000.0
+- X    R   8365.75  U   CH1     3    10000.0
+- X    R   8445.75  U   CH2     4    10000.0
+- X    R   8805.75  U   CH3     5    10000.0
+- X    R   8925.75  U   CH4     6    10000.0
+- X    R   8925.75  U   CHX   107    10000.0
+- X    R   8925.75  U   CHX   108    10000.0
+- S    R   2212.75  U   CH5     9    10000.0
+- S    R   2242.75  U   CH6    10    10000.0
+- S    R   2242.75  U   CHX   111    10000.0
+- S    R   2242.75  U   CHX   112    10000.0
+- S    R   2282.75  U   CH7    13    10000.0
+- S    R   2372.75  U   CH8    14    10000.0
 * 
 * 16-Channel 2GB VGOS Mode
 *
@@ -766,6 +813,22 @@
 - S    R   2295.99  U   CH12    12   10000.0
 - S    R   2345.99  U   CH13    13   10000.0
 - S    R   2365.99  U   CH14    14   10000.0
+* 2026 May 28  Add so that WETTZ13N can be scheduled with old X-band 7580 LO values for VGOS.
+ GEOSX   SX STD SX_7580
+- X    R   8212.99  U   CH1     1    10000.0
+- X    R   8252.99  U   CH2     2    10000.0
+- X    R   8352.99  U   CH3     3    10000.0
+- X    R   8512.99  U   CH4     4    10000.0
+- X    R   8732.99  U   CH5     5    10000.0
+- X    R   8852.99  U   CH6     6    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8932.99  U   CH8     8    10000.0
+- S    R   2225.99  U   CH9     9    10000.0
+- S    R   2245.99  U   CH10    10   10000.0
+- S    R   2265.99  U   CH11    11   10000.0
+- S    R   2295.99  U   CH12    12   10000.0
+- S    R   2345.99  U   CH13    13   10000.0
+- S    R   2365.99  U   CH14    14   10000.0
 * 2025May23.  New S-band frequencies for R1 sessions from L. Petrov.
 *             The X-band frequencies are from the GEOSX entry.
  GEOSX-R1   SX STD SX_WIDE
@@ -783,6 +846,61 @@
 - S    R   2279.99  U   CH12    12   10000.0
 - S    R   2351.99  U   CH13    13   10000.0
 - S    R   2359.99  U   CH14    14   10000.0
+* 2026May28 New variation of GEOSX-R1 made for WETTZ13N,
+* which will now use X-band LO values of 8080 for S/X observing.
+ GEOSX-R1   SX STD SX_8080
+- X    R   8212.99  U   CH1     1    10000.0
+- X    R   8252.99  U   CH2     2    10000.0
+- X    R   8352.99  U   CH3     3    10000.0
+- X    R   8512.99  U   CH4     4    10000.0
+- X    R   8732.99  U   CH5     5    10000.0
+- X    R   8852.99  U   CH6     6    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8932.99  U   CH8     8    10000.0
+- S    R   2215.99  U   CH9     9    10000.0
+- S    R   2223.99  U   CH10    10   10000.0
+- S    R   2255.99  U   CH11    11   10000.0
+- S    R   2279.99  U   CH12    12   10000.0
+- S    R   2351.99  U   CH13    13   10000.0
+- S    R   2359.99  U   CH14    14   10000.0
+* 2026May28 WETTZ13N will now be scheduled with X-band LO values of 8080 
+*           for S/X observing.  But the LO values are not changing 
+*           for WETTZ13N VGOS observing, and two S/X session types 
+*           and several VGOS session types that are observed by WETTZ13N 
+*           use the GEOSX frequency group. So the GEOSX frequency group
+*           must be split in two.  So a new version of the GEOSX section,
+*           GEOSX-80, has been created, with two variations,
+*           one for WETTZ13N and one for other antennas.
+ GEOSX-80   SX STD SX_WIDE
+- X    R   8212.99  U   CH1     1    10000.0
+- X    R   8252.99  U   CH2     2    10000.0
+- X    R   8352.99  U   CH3     3    10000.0
+- X    R   8512.99  U   CH4     4    10000.0
+- X    R   8732.99  U   CH5     5    10000.0
+- X    R   8852.99  U   CH6     6    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8932.99  U   CH8     8    10000.0
+- S    R   2225.99  U   CH9     9    10000.0
+- S    R   2245.99  U   CH10    10   10000.0
+- S    R   2265.99  U   CH11    11   10000.0
+- S    R   2295.99  U   CH12    12   10000.0
+- S    R   2345.99  U   CH13    13   10000.0
+- S    R   2365.99  U   CH14    14   10000.0
+ GEOSX-80   SX STD SX_8080
+- X    R   8212.99  U   CH1     1    10000.0
+- X    R   8252.99  U   CH2     2    10000.0
+- X    R   8352.99  U   CH3     3    10000.0
+- X    R   8512.99  U   CH4     4    10000.0
+- X    R   8732.99  U   CH5     5    10000.0
+- X    R   8852.99  U   CH6     6    10000.0
+- X    R   8912.99  U   CH7     7    10000.0
+- X    R   8932.99  U   CH8     8    10000.0
+- S    R   2225.99  U   CH9     9    10000.0
+- S    R   2245.99  U   CH10    10   10000.0
+- S    R   2265.99  U   CH11    11   10000.0
+- S    R   2295.99  U   CH12    12   10000.0
+- S    R   2345.99  U   CH13    13   10000.0
+- S    R   2365.99  U   CH14    14   10000.0
 * K5-16KSP mode from JADE schedules  2015Feb23
  K5-16KSP   SX STD SX_STD
 - X    R   8204.99  U   CH1     1    10000.0

@@ -11,6 +11,14 @@ equip.cat
 * 2026-03-06 KDB  Added FORTZA12.
 * 2026-01-26 KDB  Changed FORTLEZA SEFDs for warm observing (changed them from (X-band) 5000 to 15000 Jy and (S-band) 5000 to 10000 Jy.
 
+freq.cat 
+* 2026-05-28 KDB Made updates so that WETTZ13N can now be scheduled with LO values of 8080 for S/X observing.
+*                The LO values will not change for WETTZ13N VGOS observing, 
+*                  so added the GEOSX-8080 group as a parallel group to the GEOSX group, 
+*                  which is currently used for both S/X observing and VGOS observing.
+*                Also added copies of the EUR2-SX, GEOSX-R1, and VGEOSX groups that will use 
+*                  a new rx.cat pointer, SX_8080, that will use the new WETTZ13N LOs.
+
 loif.cat
 * 2026-01-20  KDB Added AD2_8020 definition for MEDICINA with values provided by D. Gordon (1/5/2026 e-mail) 
 *                 and G. Maccaferri (1/12/2026 e-mail).
@@ -19,6 +27,11 @@ loif.cat
 mask.cat
 * 2026-03-06  KDB Added FORTZA12.
 
+modes.cat 
+* 2026-05-28 KDB Added two new modes, 1024-16(AU-WN) and 512-16(C11-WN), 
+*                so that WETTZ13N can now be scheduled with LO values of 8080 in S/X observing 
+*                for the IVS-INT-3 and T2P sessions, respectively.
+
 position.cat 
 * 2026-03-06  KDB Added FORTZA12.
 
@@ -26,6 +39,8 @@ rec.cat
 * 2026-03-06  KDB Added FORTZA12.
 
 rx.cat 
+* 2026-05-28 KDB Added SX_8080 group so that WETTZ13N can now be scheduled with LO values of 8080
+*                for S/X observing.
 * 2026-03-06 KDB Added FORTZA12.
 * 2026-01-20 KDB Changed six MEDICINA loif.cat pointers for all gedoetic session types to new AD2_8020 pointer.
 * 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.

@@ -1,8 +1,14 @@
-* VERSION 2026-03-06_iGSFC 
+* VERSION 2026-05-28_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2026-05-28 KDB WETTZ13N will now use X-band LO values of 8080 instead of 7580,
+*                but only for S/X observing. So the WETTZ13N pointers must be split into 
+*                two rx.cat entries, SX_8080 for S/X observing and SX_7580 for VGOS observing,
+*                and WETTZ13N must be removed from previous entries to avoid duplicate
+*                representation for a single session type.
+*                S/X observing will also use a configuration that exclusively selects the upper side band.
 * 2026-03-06 KDB Added FORTZA12 to SX_WIDE section.
 * 2026-01-20 KDB Changed six MEDICINA loif.cat pointers for geodetic sessions to new AD2_8020 loif pointer.
 * 2026-01-16 KDB Changed YEBES40M loif.cat pointer in VG_MK4 section from CDP_WID8 to new YDC_WID2 pointer.
@@ -251,7 +257,6 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    ODB_WIDE
- -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_STD
@@ -370,11 +375,14 @@
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    ODB_WIDE
 *-       WETTDBBC    ODB_WIDE
- -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_WIDE
  -       ZELENCHK    CDP_STDN
+ SX_7580
+ -       WETTZ13N    TWN_DBBC
+ SX_8080
+ -       WETTZ13N    ODB_WIDE
 * CORE modes testing
  SX_W16
  -       ALGOPARK    CDPV_W16
@@ -487,7 +495,6 @@
  -       TSUKUB32    TSU_WID8
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_VG2
- -       WETTZ13N    ODB_WID8
  -       WETTZELL    ODB_WID8
  -       WARK12M     RDV_AU
  -       AGGO        CDPA_VG2
