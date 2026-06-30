@@ -1,8 +1,15 @@
-* VERSION 2026-05-28_iGSFC 
+* VERSION 2026-06-03_iGSFC 
 * CATALOG rx.cat 
 * RX.CAT - station receiver setups
 *
 * Updates (most recent entries at the top):
+* 2026-06-03 KDB The 2026-05-28 change apparently does not work for viesched++,
+*                apparently due to having multiple freq.cat entries with the same group name.
+*                So rx.cat and freq.cat are being revised to remove the multiple group names for WETTZ13N.
+*                WETTZ13N will be returned to its previous rx groups, 
+*                but with appropriate modifications to the WETTZ13N lines,
+*                and the SX_8080 group will become a copy of the SX_WIDE group, 
+*                but with a modified WETTZ13N line.
 * 2026-05-28 KDB WETTZ13N will now use X-band LO values of 8080 instead of 7580,
 *                but only for S/X observing. So the WETTZ13N pointers must be split into 
 *                two rx.cat entries, SX_8080 for S/X observing and SX_7580 for VGOS observing,
@@ -257,6 +264,7 @@
  -       WARK12M     DBBC_WW
  -       WESTFORD    CDP_STD
  -       WETTZELL    ODB_WIDE
+ -       WETTZ13N    ODB_WIDE
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_STD
@@ -375,14 +383,99 @@
  -       WESTFORD    CDP_WIDE
  -       WETTZELL    ODB_WIDE
 *-       WETTDBBC    ODB_WIDE
+ -       WETTZ13N    TWN_DBBC
  -       WETTZ13S    TWN_DBBC
  -       YARRA12M    DBBC_AU
  -       YEBES40M    YDC_WIDE
  -       ZELENCHK    CDP_STDN
- SX_7580
- -       WETTZ13N    TWN_DBBC
  SX_8080
+ -       AGGO        ODB_WIDE
+ -       AIRA        AIRA_WIDE
+ -       ALGOPARK    CDPV_WIDE
+ -       BADARY      CDP_STDN
+ -       ARIES_4M    CDP_WIDE
+ -       ARIES_9M    CDP_WIDE
+ -       CHICHI10    KAS_WIDE
+ -       CTVA        CDP_WIDE
+ -       CRIMEA      CDP_WIDE
+ -       DSS26       DSN_STD
+ -       DSS34       DSN_STD  
+ -       DSS36       DSN_STD  
+ -       DSS45       DSN_STD
+ -       DSS56       DSN_STD
+ -       TIDBIN64    DSN_STD
+ -       EFLSBERG    EFL_STD
+ -       FORTLEZA    CDP_WIDE
+ -       FORTZA12    CDP_WIDE
+ -       GILCREEK    CDPV_WIDE
+ -       GGAO12M     CDP_WIDE
+ -       HARTRAO     DBBC_HH
+ -       HART15M     DBBC_HH
+ -       HARTVGS     NYS_STD
+ -       HAYSTACK    CDP_WIDE
+ -       HOBART12    DBBC_AU
+ -       HOBART26    DBBC_26
+ -       IRBENE      IRB_WIDE
+ -       ISHIOKA     KAS_WIDE
+ -       KASHIM34    KAS_WIDE
+ -       KASHIM11    KAS_WIDE
+ -       KATH12M     DBBC_AU
+ -       KOGANEI     K4_KOG
+ -       KOKEE       NRAO_WIDE
+ -       KOKEE12M    CDP_WIDE
+ -       KUNMING     CDP_WIDE 
+ -       KWAJAL26    CDP_WIDE 
+ -       MATERA      CDP_WIDE
+ -       MATVGOS     TWN_DBBC
+ -       MACGO12M   CDP_WIDE
+ -       METSAHOV    MET_STD
+*-       MCMURDO     CDP_WIDE
+ -       MIAMI20     CDP_WIDE   
+ -       MEDICINA    AD2_8020
+ -       NOTO        CDPVNOTO
+ -       NRAO85_3    NRAO_WIDE
+ -       NRAO20      NRAO_WIDE
+ -       NYALES20    ODB_WIDE
+ -       NYALE13S    NYS_STD
+  -      NYALE13N    NYS_STD
+ -       OHIGGINS    CDPV_WIDE
+ -       ONSALA60    ODB_WIDE
+ -       ONSA13NE    RAEG_WIDE
+ -       ONSA13SW    RAEG_WIDE 
+*-       ONSALDBC    ODB_WIDE
+ -       ORION_5M    CDP_WIDE
+ -       OVRO_130    CDP_WIDE
+ -       PARKES      PKS_WIDE
+ -       RAEGSMAR    RAEG_WIDE 
+ -       RAEGYEB     RAEG_WIDE 
+ -       SANTIA12    CDP_WIDE
+ -       SEST        CDP_WIDE
+ -       SEJONG      TSU_WIDE
+* -       SESHAN25    CDPV_SE
+ -       SESHAN25    SESH_LO
+ -       SESHAN13    CDP_STDK
+ -       SINTOTU3    CDP_STDN 
+ -       SYOWA       TSU_WIDE
+ -       SVETLOE     CDP_STDN
+*-       TAHITI      CDP_WIDE
+ -       TIANMA65    CDP_T6
+ -       TIANMA13    CDP_STDK
+* -       TIGO        CDPV_WIDE
+ -       TSUKUB32    TSU_WIDE
+ -       UCHINOUR    TSU_WIDE
+ -       URUMQI      CDP_STDUW
+ -       URUMQI13    CDP_STDK
+ -       VERAISGK    TSU_WIDE
+ -       VERAMZSW    TSU_WIDE
+ -       WARK12M     DBBC_WW
+ -       WESTFORD    CDP_WIDE
+ -       WETTZELL    ODB_WIDE
+*-       WETTDBBC    ODB_WIDE
  -       WETTZ13N    ODB_WIDE
+ -       WETTZ13S    TWN_DBBC
+ -       YARRA12M    DBBC_AU
+ -       YEBES40M    YDC_WIDE
+ -       ZELENCHK    CDP_STDN
 * CORE modes testing
  SX_W16
  -       ALGOPARK    CDPV_W16
@@ -495,6 +588,7 @@
  -       TSUKUB32    TSU_WID8
  -       TIANMA65    CDP_T6
  -       TIGO        CDPV_VG2
+ -       WETTZ13N    ODB_WIDE
  -       WETTZELL    ODB_WID8
  -       WARK12M     RDV_AU
  -       AGGO        CDPA_VG2

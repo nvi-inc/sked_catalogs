@@ -8,10 +8,16 @@ antenna.cat
 * 2026-03-06 KDB  Added FORTZA12.
 
 equip.cat
+* 2026-06-29 KDB  Updated WETTZ13N rack and recorder values to DBBC3_DDC and Flexbuff as requested by A. Neidhardt and S. Hardin.
 * 2026-03-06 KDB  Added FORTZA12.
 * 2026-01-26 KDB  Changed FORTLEZA SEFDs for warm observing (changed them from (X-band) 5000 to 15000 Jy and (S-band) 5000 to 10000 Jy.
 
 freq.cat 
+* 2026-06-03 KDB The 2026-05-28 update apparently did not work for viesched++, apparently because it used 
+*                multiple groups with the same name.  The update is being changed to avoid multiple groups 
+*                with the same name.
+*                Also the GEOSX-8080 group is being replaced with GEOSX80A (for T2P sessions) and GEOSX80B (for INT03 sessions)
+*                because the two session types need different frequencies for channel 7.
 * 2026-05-28 KDB Made updates so that WETTZ13N can now be scheduled with LO values of 8080 for S/X observing.
 *                The LO values will not change for WETTZ13N VGOS observing, 
 *                  so added the GEOSX-8080 group as a parallel group to the GEOSX group, 
@@ -28,6 +34,8 @@ mask.cat
 * 2026-03-06  KDB Added FORTZA12.
 
 modes.cat 
+* 2026-06-03 References to the frequency catalog GEOSX-8080 group are being replaced with references to 
+*            GEOSX80A (for T2P sessions) and GEOSX80B (for INT03 sessions).
 * 2026-05-28 KDB Added two new modes, 1024-16(AU-WN) and 512-16(C11-WN), 
 *                so that WETTZ13N can now be scheduled with LO values of 8080 in S/X observing 
 *                for the IVS-INT-3 and T2P sessions, respectively.
@@ -39,6 +47,9 @@ rec.cat
 * 2026-03-06  KDB Added FORTZA12.
 
 rx.cat 
+* 2026-06-03 KDB The 2026-05-28 update apparently did not work for viesched++, apparently because it used 
+*                multiple groups with the same name.  The update is being changed to avoid multiple groups 
+*                with the same name.
 * 2026-05-28 KDB Added SX_8080 group so that WETTZ13N can now be scheduled with LO values of 8080
 *                for S/X observing.
 * 2026-03-06 KDB Added FORTZA12.

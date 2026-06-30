@@ -1,4 +1,4 @@
-* VERSION 2026May28_iGSFC
+* VERSION 2026Jun03_iGSFC
 * CATALOG modes.cat 
 *
 * MODES.CAT - observing modes
@@ -9,6 +9,11 @@
 * to the recording mode for each station.
 *
 * Updates (most recent entry at the top): 
+* 2026-06-03 KDB The two new modes from 2026-05-28 both were set up to use the new freq.cat group
+*                GEOSX-80. But the two modes have a different frequency for channel 7.
+*                So the two new modes will now use the following different frequency groups:
+*                  512-16(C11-WN) (for T2P):   GEOSX80A
+*                  1024-16(AU-WN) (for INT03): GEOSX80B
 * 2026-05-28 KDB WETTZ13N will now use LO values of 8080 for S/X observing. 
 *                But two S/X session types (IVS-INT-03 and T2P) that will be observed with
 *                WETTZ13N use the GEOSX frequency group, 
@@ -131,8 +136,8 @@
 512-16(Charlot)  VGEOSX_C     8.0  16.0    32-16-1-2
 DBE_TEST         DBE-X4      16.0  32.0    32-4U+4L-2-2
 K_ATNF           K_ATNF      32.   64.0    32-2-1-1
-512-16(C11-WN)   GEOSX-80     8.0  16.0    32-16-1-2
-1024-16(AU-WN)   GEOSX-80    16.0   32.0   32-16-3-2
+512-16(C11-WN)   GEOSX80A     8.0  16.0    32-16-1-2
+1024-16(AU-WN)   GEOSX80B    16.0   32.0   32-16-3-2
 ***********************************************************************
 * mode used in VIE_SCHED
 *1024-16(AU)      GEOSX      16.0   32.0   32-16-1-2
